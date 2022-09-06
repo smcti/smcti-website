@@ -1,0 +1,2 @@
+# smcti
+SMCTI website
