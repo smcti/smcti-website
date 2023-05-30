@@ -1,0 +1,46 @@
+{
+    "pt": [
+        {
+            "name": "Início",
+            "path": "/"
+        },
+        {
+            "name": "Secretaria",
+            "path": "/secretaria"
+        },
+        {
+            "name": "Incubadora",
+            "path": "/incubadora"
+        },
+        {
+            "name": "Parque Tecnológico",
+            "path": "/parque"
+        },
+        {
+            "name": "Contato",
+            "path": "/contact"
+        }
+    ],
+    "en": [
+        {
+            "name": "Home",
+            "path": "/"
+        },
+        {
+            "name": "Secretary",
+            "path": "/secretaria"
+        },
+        {
+            "name": "Incubator",
+            "path": "/incubadora"
+        },
+        {
+            "name": "Technology park",
+            "path": "/parque"
+        },
+        {
+            "name": "Contact",
+            "path": "/contato"
+        }
+    ]
+}
