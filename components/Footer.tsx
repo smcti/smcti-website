@@ -1,6 +1,10 @@
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className="mt-auto">
+        <p>a</p>
+        <p>b</p>
+        <p>c</p>
+    </footer>
   )
 }
 

@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   mode: 'jit',
   purge: [
@@ -33,6 +34,23 @@ module.exports = {
           900: '#111D35',
           950: '#0A1220'
         },
+        'zircon': { 
+          DEFAULT: '#F5F9FF', 
+          50: '#F5F9FF', 
+          100: '#DCEAFF', 
+          200: '#A9CDFF', 
+          300: '#76B1FF', 
+          400: '#4397FF', 
+          500: '#107EFF', 
+          600: '#0068DC', 
+          700: '#0052A9', 
+          800: '#003B76', 
+          900: '#002243', 
+          950: '#001529' 
+        },
+      },
+      fontFamily: {
+        'poppins': ['poppins', 'sans-serif']
       }
     },
   },

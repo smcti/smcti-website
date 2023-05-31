@@ -10,9 +10,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className='flex flex-col min-h-[100dvh]'>
         <Nav></Nav>
-        <main>{children}</main>
+        <main className='bg-zircon-50 font-poppins'>{children}</main>
         <Footer></Footer>
       </body>
     </html>

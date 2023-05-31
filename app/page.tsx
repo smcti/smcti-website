@@ -1,4 +1,7 @@
-import React from 'react'
+import ParqTec from '@components/home/ParqTec';
+import Results from '@components/home/Results';
+import Labs from '@components/home/Labs';
+import Itecpb from '@components/home/Itecpb';
 
 export const metadata = {
     title: 'Home',
@@ -7,7 +10,12 @@ export const metadata = {
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+        <ParqTec />
+        <Results />
+        <Labs />
+        <Itecpb />
+    </>
   )
 }
 
