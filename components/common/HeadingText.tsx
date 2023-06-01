@@ -2,7 +2,7 @@ const HeadingText = (props: any) => {
   return (
     <div className="flex flex-col gap-4">
         <span className={`flex items-center gap-4 text-xs text-gray-500 ${props.reverse ? 'flex-row-reverse' : 'flex-row'}
-          after:block after:w-32 after:h-[1px] after:bg-cello-300`}>
+          after:block after:w-32 after:h-[1px] after:bg-cyan-400`}>
             {props.super}
           </span>
           <h2 className='

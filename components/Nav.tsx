@@ -11,7 +11,13 @@ const handleDropdown = () => {
         dialog.close();
         return;
     }
-    
+    dialog.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+            console.log('a')
+            dialog.removeEventListener
+            dialog.close();
+        }
+    });
     dialog.show();
 }
 

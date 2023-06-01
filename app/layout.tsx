@@ -3,6 +3,17 @@ import '@styles/globals.css';
 import Nav from "@/components/Nav"
 import Footer from "@/components/Footer"
 
+export const metadata = {
+  icons: [
+    {
+      rel: 'icon',
+      type: 'image/png',
+      url: '/assets/icons/brasao.png'
+      // media: '(prefers-color-scheme: dark)'
+    }
+  ]
+}
+
 export default function RootLayout({
   children,
 }: {

@@ -1,6 +1,12 @@
+import HeadingText from "@components/common/HeadingText"
+
 const Labs = () => {
   return (
-    <div>Labs</div>
+    <section>
+      <div>
+        <HeadingText title='Laboratórios de pesquisa e inovação' super='Desenvolvimento e inovação' />
+      </div>
+    </section>
   )
 }
 
