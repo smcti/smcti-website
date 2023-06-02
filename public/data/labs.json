@@ -1,0 +1,23 @@
+[
+    {
+        "lab": "Impressão 3d",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "link": "/departamentos/3d",
+        "icon": "<BsBoxes />",
+        "rel": "hello 1"
+    },
+    {
+        "lab": "Robótica",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "link": "/departamentos/robotica",
+        "icon": "<BsRobot />",
+        "rel": "hello 2"
+    },
+    {
+        "lab": "Pesquisa e Desenvolvimento",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "link": "/departamentos/dev",
+        "icon": "<BsCodeSquare />",
+        "rel": "hello 3"
+    }
+]

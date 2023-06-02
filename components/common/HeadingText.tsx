@@ -5,9 +5,8 @@ const HeadingText = (props: any) => {
           after:block after:w-32 after:h-[1px] after:bg-cyan-400`}>
             {props.super}
           </span>
-          <h2 className='
-            text-right font-black text-gray-800 text-2xl
-            sm:text-5xl'>{props.title}</h2>
+          <h2 className={`font-black text-gray-800 text-2xl
+            sm:text-5xl ${props.reverse ? 'text-right' : 'text-left'}`}>{props.title}</h2>
     </div>
   )
 }
