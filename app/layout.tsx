@@ -8,7 +8,7 @@ export const metadata = {
     {
       rel: 'icon',
       type: 'image/png',
-      url: '/assets/icons/brasao.png'
+      url: '/assets/icons/brasao.png',
       // media: '(prefers-color-scheme: dark)'
     }
   ]

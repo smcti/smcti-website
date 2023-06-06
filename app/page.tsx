@@ -2,6 +2,8 @@ import ParqTec from '@components/home/ParqTec';
 import Results from '@components/home/Results';
 import Labs from '@components/home/Labs';
 import Itecpb from '@components/home/Itecpb';
+import Booking from '@components/home/Booking';
+import Hero from '@components/home/Hero';
 
 export const metadata = {
     title: 'Home',
@@ -11,10 +13,12 @@ export const metadata = {
 const Home = () => {
   return (
     <>
-        <ParqTec />
-        <Results />
-        <Labs />
-        <Itecpb />
+      <Hero />
+      <ParqTec />
+      <Results />
+      <Labs />
+      <Itecpb />
+      <Booking />
     </>
   )
 }

@@ -33,7 +33,7 @@ const Nav = () => {
             {/* Desktop Navigation */}
             <ul className='md:flex hidden flex-row gap-4 items-center'>
                 {
-                    Object.values(navItems.pt).map((item, index) => (
+                    Object.values(navItems).map((item, index) => (
                         <li 
                             key={index}
                             className='h-fit text-white
@@ -53,7 +53,7 @@ const Nav = () => {
                 id='dropdownMenu'>
                     <ul className='flex flex-col gap-4 items-end'>
                         {
-                            Object.values(navItems.pt).map((item, index) => (
+                            Object.values(navItems).map((item, index) => (
                                 <li 
                                     key={index}
                                     className='h-fit text-gray-700 

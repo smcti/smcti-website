@@ -1,0 +1,21 @@
+[
+    {
+        "title": "Coworking",
+        "href": "/agenda/coworking",
+        "iframe": "<!-- Google Calendar Appointment Scheduling begin -->\n<iframe src=\"https://calendar.google.com/calendar/appointments/schedules/AcZssZ0LYfK-4GY4OJMbjIoE0ghBgbIp64PUfort_ja2xPaKgYTZMt37ckUcF80xPb2KJ22n-Oz7fGUm?gv=true\" style=\"border: 0\" width=\"100%\" height=\"100%\" frameborder=\"0\"></iframe>\n<!-- end Google Calendar Appointment Scheduling -->"
+    },
+    {
+        "title": "Hall superior",
+        "href": "/agenda/hall-superior",
+        "iframe": "<!-- Google Calendar Appointment Scheduling begin -->\n<iframe src=\"https://calendar.google.com/calendar/appointments/schedules/AcZssZ2XampEc2sWNHvEcR0EgQke6siix2tcQzuNUfOsjS8u-JZQsFezMcXqSkPuGb128OuQtVX06zGu?gv=true\" style=\"border: 0\" width=\"100%\" height=\"100%\" frameborder=\"0\"></iframe>\n<!-- end Google Calendar Appointment Scheduling -->"
+    },
+    {
+        "title": "Sala de reunioes",
+        "href": "/agenda/sala-de-reunioes",
+        "iframe": "<!-- Google Calendar Appointment Scheduling begin -->\n<iframe src=\"https://calendar.google.com/calendar/appointments/schedules/AcZssZ2OiAjGkLt6Ia7spPvRvFqSFwNcjzVIPmmmAxvnxBrSgjsQOPOAzeIykUWNDVbQQ-xFNEPg7IZ4?gv=true\" style=\"border: 0\" width=\"100%\" height=\"100%\" frameborder=\"0\"></iframe>\n<!-- end Google Calendar Appointment Scheduling -->"
+    },    
+    {
+        "title": "Visitas",
+        "href": "/agenda/visitas"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Prefeitura de Pato Branco",
+        "path": "https://patobranco.pr.gov.br/"
+    },
+    {
+        "name": "Câmara dos vereadores",
+        "path": "https://www.patobranco.pr.leg.br/"
+    },
+    {
+        "name": "Portal da transparência",
+        "path": "http://pronimtb.patobranco.pr.gov.br:8087/pronimtb/index.html"
+    },
+    {
+        "name": "Conselhos municipais",
+        "path": "https://conselhos.patobranco.pr.gov.br/"
+    },
+    {
+        "name": "Central de atendimento",
+        "path": "https://patobranco.1doc.com.br/b.php?pg=o/wp"
+    }
+]
