@@ -11,4 +11,30 @@
     .section-default {
         @apply max-w-6xl my-0 mx-auto p-4 sm:px-8;
     }
+
+    .glass {
+        background: rgba(255, 255, 255, 0.25);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.4px);
+        -webkit-backdrop-filter: blur(3.4px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    .fieldset {
+        @apply p-4 border rounded-lg bg-white;
+
+        :is(input, textarea, button) {
+            @apply border rounded-sm px-4 py-1 mb-4;
+        }
+
+        :is(textarea) {
+            @apply h-full w-full;
+        }
+
+        :is(label):after {
+            content: ' *';
+            @apply text-red-400;
+        }
+    }
 }

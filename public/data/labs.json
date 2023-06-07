@@ -1,21 +1,21 @@
 [
     {
         "lab": "Impressão 3d",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "desc": "Utilizamos a tecnologia de impressão 3D para materializar nossas ideias. Nossos laboratórios oferecem soluções avançadas de prototipagem rápida e produção personalizada. Transformando conceitos em realidade com precisão e eficiência.",
         "link": "/departamentos/3d",
         "icon": "<BsBoxes />",
         "rel": "hello 1"
     },
     {
         "lab": "Robótica",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "desc": "Preparando Multiplicadores! Nossos laboratórios são dedicados à formação de educadores que irão ensinar robótica aos alunos das escolas. Desenvolvendo habilidades em programação, construção de robôs e estratégias de ensino.",
         "link": "/departamentos/robotica",
         "icon": "<BsRobot />",
         "rel": "hello 2"
     },
     {
         "lab": "Pesquisa e Desenvolvimento",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "desc": "Nossos laboratórios de pesquisa e desenvolvimento são focados em avanços em software e hardware. Estamos constantemente explorando novas fronteiras da tecnologia, buscando soluções inovadoras e criativas para solucionar os problemas dos nossos cidadãos.",
         "link": "/departamentos/dev",
         "icon": "<BsCodeSquare />",
         "rel": "hello 3"

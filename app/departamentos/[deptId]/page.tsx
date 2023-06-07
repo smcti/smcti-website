@@ -1,4 +1,4 @@
-const page = ({ params, searchParams }) => {
+const page = ({ params, searchParams }: { params: any, searchParams: any }) => {
   return (
     <div>{params.deptId}</div>
   )

@@ -22,8 +22,6 @@ const Footer = () => {
           <div className='order-1 flex flex-col gap-8
             md:order-2 md:flex-row w-full justify-between'>
             {Object.values(footerData).map((item, index) => {
-              console.log(item);
-
               return <div key={index} className='flex flex-col gap-4'>
                 <h3 className='text-2xl font-black'>{Object.keys(footerData)[index]}</h3>
                 {Object.values(item).map((subItem, subIndex) => {

@@ -39,7 +39,7 @@ const Labs = () => {
                     { renderIcon(iconList[index]) }
                   </div>
                   <h3 className="text-gray-900 text-lg font-black">{ item.lab }</h3>
-                  <p className='text-justify text-gray-600'>{ item.desc }</p>
+                  <p className='text-justify text-gray-600 hyphens-auto'>{ item.desc }</p>
                 </div>
               )
             }) 

@@ -7,7 +7,7 @@ import Hero from '@components/home/Hero';
 
 export const metadata = {
     title: 'Home',
-    description: 'Página inicial do website da Secretaria Municipal de Ciência, Tecnologia e Inovação',
+    description: 'Página inicial do website da Secretaria Municipal de Ciência, Tecnologia e Inovação'
 }
 
 const Home = () => {

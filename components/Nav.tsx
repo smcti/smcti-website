@@ -5,25 +5,14 @@ import {AiOutlineMenu} from 'react-icons/ai'
 
 
 const handleDropdown = () => {
-    const dialog: HTMLElement = document.getElementById('dropdownMenu');
+    const dialog: HTMLElement | null = document.getElementById('dropdownMenu');
 
-    if (dialog.open) {
-        dialog.close();
-        return;
-    }
-    dialog.addEventListener('keydown', (event) => {
-        if (event.key === 'Escape') {
-            console.log('a')
-            dialog.removeEventListener
-            dialog.close();
-        }
-    });
-    dialog.show();
+    dialog?.classList.toggle('hidden');
 }
 
 const Nav = () => {
   return (
-    <nav className='w-full bg-cello-800'>
+    <nav className='w-full bg-cello-800 z-10'>
         <div className='flex flex-row justify-between max-w-6xl mx-auto my-0 h-16 py-2 px-4 sm:px-8'>
             <div className='h12 pt-[5px]'>
                 <img className='h-full' 
@@ -48,8 +37,8 @@ const Nav = () => {
                 className='md:hidden burguer-menu text-white
                 hover:cursor-pointer'
                 onClick={handleDropdown}/>
-            <dialog 
-                className='absolute top-16 left-auto right-0 m-0'
+            <div 
+                className='absolute top-16 left-auto right-0 m-0 hidden z-40 bg-white p-4'
                 id='dropdownMenu'>
                     <ul className='flex flex-col gap-4 items-end'>
                         {
@@ -63,7 +52,7 @@ const Nav = () => {
                             ))
                         }
                     </ul>   
-                </dialog>
+                </div>
         </div>
     </nav>
   )
