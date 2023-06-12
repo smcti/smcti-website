@@ -1,7 +1,6 @@
 import HeadingText from "@components/common/HeadingText"
 import Button from "@components/common/Button"
 import { AiOutlineFilePdf } from 'react-icons/ai';
-import { BiLinkExternal } from 'react-icons/bi';
 
 const page = () => {
   return (
@@ -51,9 +50,9 @@ const page = () => {
           <HeadingText title="Regimentos e documentos" super="Clique e baixe" />
           <hr />
           <div className="flex flex-col gap-4">
-            <a className="flex flex-row gap-4 text-cyan-700 underline" href="/assets/docs/Decreto-ITECPB-2022.pdf" download><AiOutlineFilePdf />Regimento da ITECPB</a>
-            <a className="flex flex-row gap-4 text-cyan-700 underline" href="/assets/docs/UFM_2023_DECRETO_N_9_410.pdf" download><AiOutlineFilePdf />Valor da UFM</a>
-            <a className="flex flex-row gap-4 text-cyan-700 underline" href="/assets/docs/MODELO-ACORDO-DE-CONFIDENCIALIDADE-PARA-BANCA-2.docx" download><AiOutlineFilePdf />Modelo Acordo de Confidencialidade</a>
+            <a className="link" href="/assets/docs/Decreto-ITECPB-2022.pdf" download><AiOutlineFilePdf />Regimento da ITECPB</a>
+            <a className="link" href="/assets/docs/UFM_2023_DECRETO_N_9_410.pdf" download><AiOutlineFilePdf />Valor da UFM</a>
+            <a className="link" href="/assets/docs/MODELO-ACORDO-DE-CONFIDENCIALIDADE-PARA-BANCA-2.docx" download><AiOutlineFilePdf />Modelo Acordo de Confidencialidade</a>
           </div>
         </div>
       </section>

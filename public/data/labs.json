@@ -1,23 +1,79 @@
-[
-    {
+{
+    "3d": {
         "lab": "Impressão 3d",
         "desc": "Utilizamos a tecnologia de impressão 3D para materializar nossas ideias. Nossos laboratórios oferecem soluções avançadas de prototipagem rápida e produção personalizada. Transformando conceitos em realidade com precisão e eficiência.",
         "link": "/departamentos/3d",
         "icon": "<BsBoxes />",
-        "rel": "hello 1"
+        "rel": "hello 1",
+        "complete": [
+            {
+                "title": "Como é feita a impressão 3d?",
+                "super": "Descubra",
+                "content": [
+                    "A impressão 3D, também conhecida como fabricação aditiva, é um processo de produção que cria objetos tridimensionais a partir de um modelo digital. Ao contrário dos métodos tradicionais de fabricação que envolvem a remoção de material (como esculpir ou fresar) ou a moldagem e fundição, a impressão 3D constrói o objeto camada por camada, adicionando material sequencialmente.",
+                    "O processo de impressão 3D geralmente começa com a criação de um modelo digital em um software de modelagem 3D. Esse modelo é então fatiado em várias camadas finas, e os dados resultantes são enviados para uma impressora 3D. A impressora 3D lê os dados do arquivo fatiado e começa a construir o objeto camada por camada, fundindo ou solidificando o material de acordo com o tipo de tecnologia de impressão 3D utilizada.",
+                    "Existem várias tecnologias de impressão 3D disponíveis, cada uma com suas próprias características e materiais compatíveis. Alguns dos métodos mais comuns incluem a impressão por deposição de material fundido (FDM), estereolitografia (SLA), sinterização seletiva a laser (SLS) e impressão por jato de tinta (MJM).",
+                    "A impressão 3D tem uma ampla gama de aplicações em diversos setores, como prototipagem rápida, fabricação de peças personalizadas, produção de produtos finais, odontologia, medicina, arquitetura, design de produtos e muito mais. Ela oferece vantagens como a capacidade de criar geometrias complexas, a personalização em massa e a redução de desperdício de material em comparação com os métodos de fabricação tradicionais."
+                ]
+            }
+        ]
     },
-    {
+    "robotica": {
         "lab": "Robótica",
         "desc": "Preparando Multiplicadores! Nossos laboratórios são dedicados à formação de educadores que irão ensinar robótica aos alunos das escolas. Desenvolvendo habilidades em programação, construção de robôs e estratégias de ensino.",
         "link": "/departamentos/robotica",
+        "id": "robotica",
         "icon": "<BsRobot />",
-        "rel": "hello 2"
+        "rel": "hello 2",
+        "complete": [
+            {
+                "title": "O que é robótica",
+                "super": "Descubra",
+                "content": [
+                    "A robótica é uma área da tecnologia que se dedica ao design, construção, operação e uso de robôs. Um robô é um dispositivo programável e multifuncional que pode ser utilizado para executar tarefas de forma autônoma ou com auxílio humano. A robótica combina conhecimentos de engenharia, ciência da computação, eletrônica e outras disciplinas para criar sistemas robóticos capazes de realizar diversas atividades.",
+                    "Os robôs podem ser encontrados em uma ampla variedade de setores e aplicações, desde linhas de produção industriais até exploração espacial, cirurgias médicas, automação residencial, educação, entretenimento e muito mais. Eles podem ser controlados remotamente, programados para seguir instruções específicas ou até mesmo tomar decisões com base em dados e algoritmos.",
+                    "Além de sua utilidade prática, a robótica também desempenha um papel importante no avanço da ciência e da tecnologia. Ela permite explorar novos conceitos, desenvolver novas soluções para problemas complexos e impulsionar a inovação em diversas áreas.",
+                    "Em resumo, a robótica é a área que estuda e desenvolve robôs, explorando sua aplicação em diferentes setores e contribuindo para o progresso tecnológico e científico."
+                ]
+            }
+        ]
     },
-    {
+    "dev": {
         "lab": "Pesquisa e Desenvolvimento",
         "desc": "Nossos laboratórios de pesquisa e desenvolvimento são focados em avanços em software e hardware. Estamos constantemente explorando novas fronteiras da tecnologia, buscando soluções inovadoras e criativas para solucionar os problemas dos nossos cidadãos.",
         "link": "/departamentos/dev",
+        "id": "dev",
         "icon": "<BsCodeSquare />",
-        "rel": "hello 3"
+        "rel": "hello 3",
+        "complete": [
+            {
+                "title": "O que é desenvolvimento de software",
+                "super": "Descubra",
+                "content": [
+                    "O desenvolvimento de software é um processo complexo e crucial na era da tecnologia. Ele envolve a criação e implementação de programas de computador e sistemas de software que atendam às necessidades e requisitos dos usuários. O desenvolvimento de software é impulsionado pela demanda por soluções tecnológicas inovadoras, desde aplicativos móveis e sistemas web até software empresarial e sistemas de gerenciamento de banco de dados.",
+                    "Uma das etapas fundamentais do desenvolvimento de software é a análise de requisitos, em que os desenvolvedores trabalham em estreita colaboração com os clientes para entender suas necessidades e objetivos. Com base nesses requisitos, é feito o design do software, que inclui a definição da arquitetura, estrutura e interfaces do sistema.",
+                    "A codificação é outra etapa essencial, em que os desenvolvedores traduzem o design em código de programação. Eles utilizam diversas linguagens de programação e frameworks para implementar a lógica do software e criar funcionalidades específicas. Durante esse processo, é importante seguir boas práticas de codificação para garantir a qualidade e a manutenibilidade do software.",
+                    "Após a codificação, o software passa por uma fase de testes rigorosos. Isso inclui testes de unidade, integração e sistema, onde os desenvolvedores verificam se o software funciona corretamente, identificam e corrigem quaisquer erros ou bugs e garantem sua estabilidade e segurança.",
+                    "Uma vez que o software tenha passado por todos os testes e atenda aos requisitos do cliente, ele está pronto para ser implantado em ambiente de produção. Isso envolve a instalação, configuração e integração do software em sistemas existentes, garantindo seu bom funcionamento e desempenho.",
+                    "Após a implantação, o desenvolvimento de software não termina. É necessário realizar a manutenção contínua do software, que envolve a correção de bugs, atualizações de segurança, melhorias de desempenho e implementação de novos recursos conforme necessário. A manutenção do software é fundamental para garantir sua longevidade e adaptabilidade às necessidades em constante evolução dos usuários.",
+                    "Em resumo, o desenvolvimento de software abrange várias etapas, desde a análise de requisitos até a implantação e manutenção contínua. É um processo colaborativo e iterativo, que requer habilidades técnicas, criatividade e atenção aos detalhes para criar soluções de software eficientes e funcionais."
+                ]
+            },
+            {
+                "title": "Desenvolvimento de sistemas embarcados",
+                "super": "Conheça",
+                "content": [
+                    "O desenvolvimento de sistemas embarcados é um processo essencial na criação de dispositivos eletrônicos especializados e integrados. Os sistemas embarcados são projetados para desempenhar funções específicas dentro de um dispositivo, como controle de hardware, coleta de dados, processamento de sinais ou interação com o ambiente externo.",
+                    "Ao contrário do desenvolvimento de software convencional, o desenvolvimento de sistemas embarcados envolve a combinação de hardware e software em uma única unidade integrada. Isso significa que os desenvolvedores precisam considerar os requisitos de hardware, como microcontroladores, processadores, sensores e atuadores, juntamente com o software que será executado nesses dispositivos.",
+                    "Uma etapa crucial no desenvolvimento de sistemas embarcados é o design do hardware. Isso envolve a seleção dos componentes adequados para atender aos requisitos do sistema, o layout de placas de circuito impresso (PCBs), a integração de sensores e atuadores e a definição de interfaces de comunicação.",
+                    "Após o design do hardware, os desenvolvedores passam para a etapa de desenvolvimento de software embarcado. Eles utilizam linguagens de programação de baixo nível, como C ou Assembly, para escrever o código que será executado diretamente no processador do sistema embarcado. Esse código é responsável por controlar o hardware, processar dados, lidar com entradas e saídas, e executar as funções específicas do dispositivo.",
+                    "Durante o desenvolvimento de sistemas embarcados, é importante considerar restrições de recursos, como memória limitada, capacidade de processamento e consumo de energia. Os desenvolvedores precisam otimizar o código e os algoritmos para garantir o desempenho eficiente e a eficácia do sistema.",
+                    "Além disso, os sistemas embarcados muitas vezes são projetados para operar em tempo real, o que significa que eles precisam responder a eventos e estímulos externos em tempo hábil. Portanto, os desenvolvedores também devem levar em conta a latência e a sincronização do sistema para garantir seu correto funcionamento.",
+                    "Uma vez que o software embarcado tenha sido desenvolvido, ele é integrado ao hardware e passa por testes rigorosos. Esses testes incluem verificações de funcionalidade, estabilidade e desempenho, bem como testes de integração com outros componentes do sistema.",
+                    "O desenvolvimento de sistemas embarcados é um processo desafiador, que requer um bom entendimento de eletrônica, programação de baixo nível e conhecimentos específicos de hardware. É uma área essencial para a criação de dispositivos inteligentes, automação industrial, sistemas de controle e uma ampla gama de aplicações em setores como automotivo, saúde, aeroespacial e muitos outros."
+
+                ]
+            }
+        ]
     }
-]
+}

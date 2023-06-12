@@ -1,7 +1,7 @@
 'use client'
 import HeaderLoading from './HeaderLoading';
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 
 const Hero = () => {
   const [data, setData]: [data: any, setData: any]  = useState(null);
@@ -34,15 +34,34 @@ const Hero = () => {
     getWeather();
   }, []);
 
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+    useEffect(() => {
+      if (videoRef.current) {
+        videoRef.current.play();
+      }
+    }, []);
+
   if (loading) {
     return <HeaderLoading />; // Render a loading state while data is being fetched
   }
+  // const heroVid = document.getElementById('heroVid') as HTMLVideoElement | null;
 
   return (
     <header>
         <div className="relative z-0 h-[100dvh] -mt-16 overflow-hidden flex flex-col items-center">
             <div className='absolute w-full h-full bg-cello-900  top-0 left-0 z-10 opacity-70'></div>
-            <iframe src="https://player.vimeo.com/video/733797633?h=1f62ec9502&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;loop=1&amp;autoplay=1&amp;background=1&amp;app_id=58479" allow="autoplay; fullscreen; picture-in-picture" className="top-0 left-0 min-w-[1920px] h-full scale-150 transform-gpu" title="homepage_smcti"></iframe>
+            <video
+              ref={videoRef}
+              id='heroVid'
+              className='top-0 left-0 min-w-[1920px] h-full scale-150 transform-gpu'
+              muted
+              loop
+              autoPlay
+            >
+              <source src='/assets/videos/homepage_smcti-vimeo-733797633-hls-fastly_skyfire_sep-3248.mp4' type="video/mp4" />
+            </video>
+
             <div className='absolute w-full h-full top-0 left-0 z-10'>
                 <div className="section-default w-full h-full flex flex-col justify-end items-end ">
                     <div className="w-full relative top-[-10%] left-0">

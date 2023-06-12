@@ -15,7 +15,9 @@ const page = ({ params, searchParams }: { params: any, searchParams: any }) => {
             )
           } else if (item.title.toLowerCase().replace(/ /g,'-') == params.agendaId) {
             return (
-              <>{params.agendaId}</>
+              <div className='h-[90dvh] flex items-center text-center'>
+                <p className='w-full text-5xl sm:text-7xl font-black text-gray-700'>Em breve...</p>
+              </div>
             )
           }
         })

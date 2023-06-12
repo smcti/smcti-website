@@ -21,6 +21,10 @@
         border: 1px solid rgba(255, 255, 255, 0.18);
     }
 
+    .link {
+        @apply flex flex-row items-center gap-4 underline text-cyan-600;
+    }
+
     .fieldset {
         @apply p-4 border rounded-lg bg-white;
 

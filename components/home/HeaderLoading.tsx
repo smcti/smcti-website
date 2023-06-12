@@ -2,8 +2,9 @@ const HeaderLoading = () => {
   return (
     <div className="relative z-0 h-[100dvh] -mt-16 overflow-hidden flex flex-col items-center">
             <div className='absolute w-full h-full bg-cello-900  top-0 left-0 z-10 opacity-70'></div>
+            <img src="/assets/images/coverHeroSmcti.webp" alt="Secretaria de Ciencia, tecnologia e inovação vista de cima" className="top-0 left-0 min-w-[1920px] h-full scale-100 transform-gpu"/>
             <div className='absolute w-full h-full top-0 left-0 z-10'>
-                <div className="section-default w-full h-full flex flex-col justify-end items-end ">
+                <div className="section-default w-full h-full flex flex-col justify-end items-end">
                     <div className="w-full relative top-[-10%] left-0">
                         <h1 className="text-zircon font-black lg:text-8xl md:text-7xl sm:text-5xl text-3xl md:text-left text-center">Parque<br />Tecnológico de<br />Pato Branco</h1>
                     </div>
