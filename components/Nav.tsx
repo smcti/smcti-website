@@ -40,19 +40,19 @@ const Nav = () => {
             <div 
                 className='absolute top-16 left-auto right-0 m-0 hidden z-40 bg-white p-4'
                 id='dropdownMenu'>
-                    <ul className='flex flex-col gap-4 items-end'>
-                        {
-                            Object.values(navItems).map((item, index) => (
-                                <li 
-                                    key={index}
-                                    className='h-fit text-gray-700 
-                                    hover:text-gray-600'>
-                                        <a href={item.path}>{item.name}</a>
-                                </li>
-                            ))
-                        }
-                    </ul>   
-                </div>
+                <ul className='flex flex-col gap-4 items-end'>
+                    {
+                        Object.values(navItems).map((item, index) => (
+                            <li 
+                                key={index}
+                                className='h-fit text-gray-700 
+                                hover:text-gray-600'>
+                                    <a href={item.path}>{item.name}</a>
+                            </li>
+                        ))
+                    }
+                </ul>   
+            </div>
         </div>
     </nav>
   )
