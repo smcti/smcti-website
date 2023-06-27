@@ -1,0 +1,74 @@
+[
+    {
+        "title": "ASTRONOMIA",
+        "objetivos": "Impulsionar o desenvolvimento científico e tecnológico da região na área do ensino de Astronomia e Ciências Afins e ainda propiciar um espaço voltado às demais atividades culturais para a comunidade local e regional em geral.",
+        "beneficios": "Os espaços de Ciências têm a versatilidade, a flexibilidade e as possibilidades de promover e consolidar uma cultura científica desde a informação até o conhecimento, pois pode provocar a curiosidade com exposições, sessões audiovisuais, experiências e descobertas, além de proporcionar cursos de formações rápidas e/ou regulares, para professores, alunos e a comunidade em geral.",
+        "publico": "Serão considerados os beneficiários diretos: 83 mil munícipes de Pato Branco, sendo eles alunos de todos os níveis, professores, pesquisadores e a comunidade em geral. Serão considerados os beneficiários indiretos: munícipes das cidades da região sudoeste do Paraná e Oeste de Santa Catarina.",
+        "responsavel": "Alberto Andretta"
+    },
+    {
+        "title": "CENTRO DE CIDADANIA",
+        "super": "Sobre",
+        "objetivos": "Promover a inclusão digital de todos os cidadãos visando a transformação digital e inserção em ambientes tecnológicos, por meio da disponibilidade de espaços para acesso online aos serviços públicos, aprendizagem digital e discussão de temas referentes à cidadania.",
+        "beneficios": "Propiciar oportunidades de crescimento e desenvolvimento às pessoas, por meio da inclusão social e digital, estimulando a cidadania, que trará mais dignidade e sentimento de pertencimento a uma comunidade, estimulando o engajamento dos cidadãos em projetos tecnológicos, sociais, educacionais, profissionais.",
+        "publico": "Todos os cidadãos que não tenham acesso aos serviços públicos, por falta de equipamentos, internet, etc e pessoas que desejem aulas de aprendizagem digital e tecnológica.",
+        "responsavel": "Kátia Bertol"
+    },
+    {
+        "title": "CONTROLADORA DE LED PARA SEMÁFORO",
+        "objetivos": "Melhorar a visualização dos semáforos para os munícipes, visando evitar eventuais acidentes e modernização do município.",
+        "beneficios": "Desenvolvimento da tecnologia dentro do serviço público, barateando os custos para a obtenção dessa tecnologia, e aumento na segurança.",
+        "publico": "Todos os Munícipes",
+        "responsavel": "Felipe Cattani, Satil Pereira"
+    },
+    {
+        "title": "DESTINO TURÍSTICO INTELIGENTE - DTI",
+        "objetivos": "Criar uma rota turística tecnológica, conectando e apresentando os principais agentes de TI do município, oferecendo experiências memoráveis, com o intuito de fortalecer a imagem de Pato Branco como Capital Tecnológica e Inovadora e buscando destaque no cenário nacional e internacional.",
+        "beneficios": "Apresentar a estrutura do Parque Tecnológico, bem como as empresas instaladas, dando notoriedade ao ambiente de inovação, pesquisa e desenvolvimento e consequentemente atrair investimentos e empresas que incrementem o ecossistema local de inovação e a cidade de Pato Branco.",
+        "publico": "Cidadãos, turistas, empresas, escolas.",
+        "responsavel": "Kátia Bertol e Pedro Bortot"
+    },
+    {
+        "title": "LUMINÁRIAS INTELIGENTES 5G + LAB 5G",
+        "objetivos": "Potencializar o desenvolvimento tecnológico, social e econômico do município por meio de luminárias inteligentes. As luminárias integram antenas para comunicação 5G, câmeras com reconhecimento facial, Wi-fi e telegestão da iluminação pública. A fim de utilizar as tecnologias integradas de forma eficiente, foi escolhida a região central, no entorno da praça Presidente Vargas, em que se tem uma grande aglomeração de pessoas diariamente.",
+        "beneficios": "O projeto possibilita uma vantagem competitiva para empresas locais e regionais ao desenvolverem tecnologias que utilizem a rede, visto que o 5G está disponível apenas em capitais e grandes centros urbanos.",
+        "publico": "Empresas com interesse no desenvolvimento de tecnologias que utilizem a comunicação 5G.",
+        "responsavel": "Marcos Colla, Kátia Bertol"
+    },
+    {
+        "title": "PATO 360",
+        "objetivos": "Melhorar o serviço de segurança pública ao empregar câmeras de videomonitoramento controladas pelo 3º BPM.",
+        "beneficios": "O trabalho conjunto entre a Prefeitura e os órgãos de segurança possibilita o mapeamento de todo o município a fim de monitorar locais estratégicos de segurança, garantindo o controle remoto, pelo 3º Batalhão de Polícia Militar, nas entradas/saídas do município e em locais de grande aglomeração de pessoas.",
+        "publico": "Todos os cidadãos.",
+        "responsavel": "Marcos Colla, Pedro Bortot"
+    },
+    {
+        "title": "PROGRAMA CIDADE INTELIGENTE",
+        "objetivos": "Objetiva colocar o cidadão no centro do seu propósito, onde as tecnologias da informação e comunicação (TICs) poderão apoiar a vida sustentável, equilibrando seu desenvolvimento social, econômico e ambiental; engajando e incentivando seus cidadãos a participarem da vida pública e também cocriar futuros urbanos que atendam às necessidades e aspirações para si e para as futuras gerações, promovendo mais oportunidades de crescimento, pessoais e profissionais, incrementando também o desenvolvimento das empresas da cidade e região.",
+        "beneficios": "Existem projetos elaborados para a infraestrutura social e tecnológica da cidade pela própria SMCTI e também em parceria com as outras secretarias municipais. Nestes projetos estão sendo consideradas as dimensões de uma cidade inteligente que são: Economia, Segurança, Saúde, Educação, Tecnologia e Inovação, Empreendedorismo, Urbanismo, Governança, Mobilidade, Meio Ambiente, dessa forma a cidade se desenvolverá de forma mais assertiva, com otimização de recursos e com melhoria na vida das pessoas que nela vivem.",
+        "publico": "Município de Pato Branco",
+        "responsavel": "Kátia Bertol"
+    },
+    {
+        "title": "PUIMAT",
+        "super": "Sobre",
+        "objetivos": "Preparar a cidade para receber os modais de alta tecnologia existentes através de um planejamento eficiente que orienta de maneira organizada a estruturação da cidade para receber os futuros player dos mais diversos segmentos",
+        "beneficios": "O PUIMAT Pato Branco será uma ferramenta para o município produzir legislação e marketing para fazer um trabalho de atração de investimentos e tecnologias de alta performance, estimulando a instalação de empresas que promovam o desenvolvimento estruturado da cidade para tecnologias futuras.",
+        "publico": "Cidadãos, ICTs, empresas que desejam desenvolver e testar novas tecnologias em modais aéreos e terrestres.",
+        "responsavel": "Marcos Colla, Kátia Bertol, Pedro Bortot"
+    },
+    {
+        "title": "QUALIFICA PATO BRANCO",
+        "objetivos": "Fornecer aos munícipes uma plataforma de cursos gratuitos, fomentando a capacitação de mão de obra qualificada para o município. Em parceria com entidades como SEBRAE, SENAC, Agência do Trabalho e a Secretaria de Desenvolvimento Econômico.",
+        "beneficios": "Gerar mão de obra qualificada para fomentar a economia do município.",
+        "publico": "Todos os Munícipes",
+        "responsavel": "Felipe Cattani, Luiz Kramer, Satil Pereira"
+    },
+    {
+        "title": "ROBÓTICA",
+        "objetivos": "O Programa de Fomento à Pesquisa e Desenvolvimento Tecnológico em Robótica tem como objetivo capacitar profissionais multiplicadores nas áreas de Tecnologia da Informação e Comunicação (TIC), com ênfase em Robótica Educacional. Além disso, o programa busca promover a realização de eventos e competições que incentivem a integração desta área de conhecimento no ensino público de maneira inclusiva.",
+        "beneficios": "Qualificação dos educadores, a inclusão digital, o estímulo à curiosidade e criatividade, fortalecimento da relação entre a educação e o setor produtivo, e o desenvolvimento de habilidades interpessoais e comportamentais melhorando a qualidade do ensino público.",
+        "publico": "Professores e profissionais da educação que atuam na rede pública municipal dos 15 municípios do Núcleo Regional de Educação de Pato Branco.",
+        "responsavel": "Felipe Cattani, Rovani Krindges"
+    }
+]
