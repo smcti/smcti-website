@@ -29,6 +29,14 @@
         "responsavel": "Kátia Bertol e Pedro Bortot"
     },
     {
+        "title": "FORMULARIO COMTUR",
+        "objetivos": "O objetivo desta sondagem é identificar o perfil e, principalmente, compreender facilidades ou dificuldades do público em geral das regiões Sudoeste do Paraná e Oeste de Santa Catarina quando necessita se deslocar para centros microrregionais e grandes centros como Curitiba, Florianópolis e São Paulo.",
+        "beneficios": "Permite ao Conselho Municipal de Turismo (COMTUR) de Pato Branco/PR obter informações valiosas sobre o perfil do público das regiões Sudoeste do Paraná e Oeste de Santa Catarina, bem como identificar facilidades e dificuldades enfrentadas por eles ao se deslocarem para centros microrregionais e grandes centros.",
+        "publico": "Todos os Munícipes",
+        "link":"https://comtur.patobranco.tec.br",
+        "responsavel": "Felipe Catani, Satil Pereira, Luiz Kramer"
+    },
+    {
         "title": "LUMINÁRIAS INTELIGENTES 5G + LAB 5G",
         "objetivos": "Potencializar o desenvolvimento tecnológico, social e econômico do município por meio de luminárias inteligentes. As luminárias integram antenas para comunicação 5G, câmeras com reconhecimento facial, Wi-fi e telegestão da iluminação pública. A fim de utilizar as tecnologias integradas de forma eficiente, foi escolhida a região central, no entorno da praça Presidente Vargas, em que se tem uma grande aglomeração de pessoas diariamente.",
         "beneficios": "O projeto possibilita uma vantagem competitiva para empresas locais e regionais ao desenvolverem tecnologias que utilizem a rede, visto que o 5G está disponível apenas em capitais e grandes centros urbanos.",
@@ -41,6 +49,13 @@
         "beneficios": "O trabalho conjunto entre a Prefeitura e os órgãos de segurança possibilita o mapeamento de todo o município a fim de monitorar locais estratégicos de segurança, garantindo o controle remoto, pelo 3º Batalhão de Polícia Militar, nas entradas/saídas do município e em locais de grande aglomeração de pessoas.",
         "publico": "Todos os cidadãos.",
         "responsavel": "Marcos Colla, Pedro Bortot"
+    },
+    {
+        "title": "PLATAFORMA FESTIVAL GASTRONÔMICO",
+        "objetivos": "Fornecer informações abrangentes sobre o Festival Gastronômico de Pato Branco, apresentando datas, horários, localização e atrações, assim como destacar os restaurantes participantes do evento. O site será uma fonte centralizada de informações para os visitantes, permitindo que planejem sua participação de maneira eficiente e conheçam as especialidades culinárias oferecidas pelos estabelecimentos locais.",
+        "beneficios": "Promover a cultura e a culinária local, destacando ingredientes regionais, pratos típicos e a tradição gastronômica de Pato Branco, a fim de valorizar a identidade local e proporcionar uma experiência autêntica aos participantes do festival.",
+        "publico": "Todos os Munícipes",
+        "responsavel": "Felipe Catani, Satil Pereira, Luiz Kramer"
     },
     {
         "title": "PROGRAMA CIDADE INTELIGENTE",
@@ -62,6 +77,7 @@
         "objetivos": "Fornecer aos munícipes uma plataforma de cursos gratuitos, fomentando a capacitação de mão de obra qualificada para o município. Em parceria com entidades como SEBRAE, SENAC, Agência do Trabalho e a Secretaria de Desenvolvimento Econômico.",
         "beneficios": "Gerar mão de obra qualificada para fomentar a economia do município.",
         "publico": "Todos os Munícipes",
+        "link": "https://qualificapb.com.br",
         "responsavel": "Felipe Cattani, Luiz Kramer, Satil Pereira"
     },
     {
@@ -70,5 +86,12 @@
         "beneficios": "Qualificação dos educadores, a inclusão digital, o estímulo à curiosidade e criatividade, fortalecimento da relação entre a educação e o setor produtivo, e o desenvolvimento de habilidades interpessoais e comportamentais melhorando a qualidade do ensino público.",
         "publico": "Professores e profissionais da educação que atuam na rede pública municipal dos 15 municípios do Núcleo Regional de Educação de Pato Branco.",
         "responsavel": "Felipe Cattani, Rovani Krindges"
+    },
+    {
+        "title": "SITE SMCTI",
+        "objetivos": "Divulgação de programas e projetos, promoção do ecossistema de inovação, estímulo à formação científica e tecnológica, acesso à informação.",
+        "beneficios": "O site oficial de uma Secretaria de Ciência, Tecnologia e Inovação oferece uma série de benefícios, incluindo a democratização do acesso à informação, a promoção da cultura científica e tecnológica, o fortalecimento do ecossistema de inovação, a facilitação da interação entre os atores do setor, o estímulo ao empreendedorismo e à geração de conhecimento, além do aumento da transparência e da participação da sociedade nas políticas públicas relacionadas à ciência, tecnologia e inovação.",
+        "publico": "Todos os Munícipes",
+        "responsavel": "Felipe Catani, Satil Pereira, Luiz Kramer"
     }
 ]

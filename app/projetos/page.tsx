@@ -12,7 +12,7 @@ const Projetos = () => {
         <div className="section-default">
             {Object.values(projects).map((item, index) => (
                 <div key={index} className='text-justify flex text-gray-700 flex-col my-32 gap-8'>
-                    <HeadingText title={item.title}/>
+                    <HeadingText title={item.title} />
                     <div className='flex flex-col gap-4 mb-8'>
                         <div>
                             <h2 className='text-xl text-gray-800'>Objetivos</h2>
@@ -26,6 +26,14 @@ const Projetos = () => {
                             <h2 className='text-xl text-gray-800'>Público alvo</h2>
                             <p>{item.publico}</p>
                         </div>
+
+                        {item.link ?  
+                        <p>
+                           Acesso em: <a href={item.link} target='_blank' className='text-cyan-700 underline'>{item.link}</a>
+                        </p>
+                        :""} 
+                       
+
                         <p>Responsável: {item.responsavel}</p>
                     </div>
                 </div>
