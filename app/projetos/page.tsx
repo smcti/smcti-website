@@ -1,6 +1,6 @@
 import projects from '@public/data/projects.json'
 import HeadingText from "@components/common/HeadingText"
-
+import { BsCloudDownload } from "react-icons/bs";
 
 export const metadata = {
     title: 'Home',
@@ -26,6 +26,12 @@ const Projetos = () => {
                             <h2 className='text-xl text-gray-800'>Público alvo</h2>
                             <p>{item.publico}</p>
                         </div>
+
+                        {item.file ?  
+                        <p className='flex flex-row gap-2 items-center'  >
+                           O Projeto: <BsCloudDownload className='text-cyan-700'/>  <a target='_blank' href={item.file} className='text-cyan-700 underline'> {item.title}</a>
+                        </p>
+                        :""} 
 
                         {item.link ?  
                         <p>
