@@ -1,5 +1,5 @@
 import HeadingText from "@components/common/HeadingText"
-import { AiOutlineFilePdf } from 'react-icons/ai';
+import { AiOutlineFilePdf, AiOutlineFundProjectionScreen} from 'react-icons/ai';
 import { BiLinkExternal } from 'react-icons/bi';
 import Timeline from "@components/secretaria/Timeline";
 
@@ -15,6 +15,7 @@ const page = () => {
             <p>E, dentre as principais incumbências da SMCTI, está a administração do Parque Tecnológico  e da Incubadora Tecnológica de Pato Branco.</p>
             <hr />
             <a className="flex flex-row items-center gap-4 text-cyan-600 underline" href="/assets/docs/3999-Cria-Secretaria-de-Esporte-e-Secretaria-de-Ciencia-e-Tecnologia.pdf" download><AiOutlineFilePdf />Lei Municipal Nº 3.999 de 21 de Março de 2013</a>
+            <a className="flex flex-row items-center gap-4 text-cyan-600 underline" href="/projetos"><AiOutlineFundProjectionScreen/> Projetos SMCTI</a>
           </div>
         </div>
       </section>
