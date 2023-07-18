@@ -5,7 +5,17 @@
     },
     {
         "name": "Secretaria",
-        "path": "/secretaria"
+        "path": "/secretaria",
+        "dropdown":[
+            {
+                "name":"Sobre",
+                "path":"/secretaria"
+            },
+            {
+                "name":"Projetos",
+                "path":"/projetos"
+            }
+        ]
     },
     {
         "name": "Incubadora",
