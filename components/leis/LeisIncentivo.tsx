@@ -25,7 +25,7 @@ const LeisIncentivo = () => {
                         <div className='flex flex-col gap-4 border p-4 rounded-lg bg-white'>
                             <span>{date.toLocaleDateString('pt-BR', options)}</span>
                             <h3 className='font-black text-lg'>{item.title}</h3>
-                            <p>{item.body}</p>
+                            <p className='text-justify hyphens-auto'>{item.body}</p>
                             <hr />
                             <a className='flex flex-row items-center gap-4 text-cyan-600' href={item.doc}
                                 target={'_blank'}
