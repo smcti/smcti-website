@@ -16,7 +16,7 @@ const results: ResultsData = resultsJson;
 
 
 const Results = () => {
-  let ano = 2021;
+  let ano = 2022;
 
   return (
     <section className="bg-cello text-zircon-50 py-32">
