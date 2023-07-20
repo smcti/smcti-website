@@ -32,11 +32,11 @@ const Nav = () => {
                                                     <AiOutlineCaretDown />
                                                 </span>
                                             </Menu.Button>
-                                            <Menu.Items className={'flex flex-col absolute bg-cello w-fit min-w-full pr-2 shadow-[-8px_0_0_0_rgb(30,53,96,1)] rounded-b-sm'}>
+                                            <Menu.Items className={'flex flex-col absolute w-fit py-2 shadow bg-white min-w-full rounded-lg'}>
                                                 {item.dropdown.map((dropdownItem, dropdownIndex) => (
                                                     <Menu.Item key={dropdownIndex}>
                                                         {({ active }) => (
-                                                            <a href={dropdownItem.path} className="py-2 hover:text-gray-300 whitespace-nowrap" >{dropdownItem.name}</a>
+                                                            <a href={dropdownItem.path} className="p-1 border-y rounded-sm text-gray-900 bg-white hover:bg-gray-200  whitespace-nowrap" >{dropdownItem.name}</a>
                                                         )}
                                                     </Menu.Item>
                                                 ))}
