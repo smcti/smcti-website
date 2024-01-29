@@ -13,12 +13,12 @@ const RegDocs: RegDoc[] = [
   {
     name: "Edital de Chamada 01.2023",
     path: "/assets/docs/Edital de Chamada 01.2023.nova propostadocx.pdf",
-    date: moment("2023-08-11").toDate(),
+    date: moment("2023-11-08").toDate(),
   },
   {
     name: "Edital de Seleção 01.2023",
     path: "/assets/docs/1. Edital de Seleção 01.2023.nova propostadocx.pdf",
-    date: moment("2023-08-11").toDate(),
+    date: moment("2023-11-08").toDate(),
   },
   {
     name: "Modelo Acordo de Confidencialidade",
