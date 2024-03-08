@@ -1,32 +1,46 @@
 [
-    {
-        "date": "2005:11:10",
-        "title": "LEI ESTADUAL Nº 14.895",
-        "body": "Dispõe sobre tratamento tributário em relação ao ICMS aos estabelecimentos industriais de produtos eletroeletrônicos, de telecomunicação e de informática, em favor de empresas localizadas em Foz do Iguaçu.",
-        "doc": "/assets/docs/leis_inovacao/14895.pdf"
-    },
-    {
-        "date": "2022:07:07",
-        "title": "LEI Nº 5.942",
-        "body": "Cria a Política, o Sistema, o Plano e o Fundo Municipal de Ciência, Tecnologia e Inovação do Município de Pato Branco e dá outras providências.",
-        "doc": "/assets/docs/leis_inovacao/5.942.pdf"
-    },
-    {
-        "date": "2022:12:16",
-        "title": "Decreto N° 9.414 - Programa Sandbox",
-        "body": "Regulamenta, no âmbito do Município de Pato Branco, a instituição de ambientes experimentais de inovação científica, tecnológica e empreendedora, denominado “Programa Sandbox”.",
-        "doc": "/assets/docs/leis_inovacao/decreto_16_12_2022.pdf"
-    },
-    {
-        "date": "2022:09:08",
-        "title": "LEI Nº 5.983 - Programa ForTech",
-        "body": "Institui no Município de Pato Branco o 'Programa ForTech' e dá outras providências.",
-        "doc": "/assets/docs/leis_inovacao/5.983.pdf"
-    },
-    {
-        "date": "2023:05:26",
-        "title": "LEI Nº 6.100",
-        "body": "Dispõe sobre as normas para a implantação e compartilhamento de infraestrutura de suporte e de telecomunicações",
-        "doc": "/assets/docs/leis_inovacao/6.100.pdf"
-    }   
+  {
+    "date": "2005:11:10",
+    "title": "LEI ESTADUAL Nº 14.895",
+    "body": "Dispõe sobre tratamento tributário em relação ao ICMS aos estabelecimentos industriais de produtos eletroeletrônicos, de telecomunicação e de informática, em favor de empresas localizadas em Foz do Iguaçu.",
+    "doc": "/assets/docs/leis_inovacao/14895.pdf",
+    "atualizada": "LEI ESTADUAL Nº 21.341"
+  },
+  {
+    "date": "2022:12:23",
+    "title": "LEI ESTADUAL Nº 21.341",
+    "body": "Altera dispositivos da Lei nº 14.895, de 9 de novembro de 2005, que dispõe sobre tratamento tributário em relação ao ICMS aos estabelecimentos industriais de produtos eletroeletrônicos, de telecomunicação e de informática, em favor de empresas localizadas em Foz do Iguaçu.",
+    "doc": "/assets/docs/leis_inovacao/21341.pdf"
+  },
+  {
+    "date": "2022:07:07",
+    "title": "LEI Nº 5.942",
+    "body": "Cria a Política, o Sistema, o Plano e o Fundo Municipal de Ciência, Tecnologia e Inovação do Município de Pato Branco e dá outras providências.",
+    "doc": "/assets/docs/leis_inovacao/5.942.pdf"
+  },
+  {
+    "date": "2022:12:16",
+    "title": "Decreto N° 9.414 - Programa Sandbox",
+    "body": "Regulamenta, no âmbito do Município de Pato Branco, a instituição de ambientes experimentais de inovação científica, tecnológica e empreendedora, denominado “Programa Sandbox”.",
+    "doc": "/assets/docs/leis_inovacao/decreto_16_12_2022.pdf"
+  },
+  {
+    "date": "2022:09:08",
+    "title": "LEI Nº 5.983 - Programa ForTech",
+    "body": "Institui no Município de Pato Branco o 'Programa ForTech' e dá outras providências.",
+    "doc": "/assets/docs/leis_inovacao/5.983.pdf"
+  },
+  {
+    "date": "2023:05:26",
+    "title": "LEI Nº 6.100",
+    "body": "Dispõe sobre as normas para a implantação e compartilhamento de infraestrutura de suporte e de telecomunicações",
+    "doc": "/assets/docs/leis_inovacao/6.100.pdf",
+    "regulamentada": "Decreto Nº 9.814"
+  },
+  {
+    "date": "2024:02:14",
+    "title": "Decreto Nº 9.814",
+    "body": "Regulamenta a Lei Municipal nº 6.100, de 26 de maio de 2023, que dispõe sobre as normas para a implantação e compartilhamento de infraestrutura de suporte e de telecomunicações no Município de Pato Branco. ",
+    "doc": "/assets/docs/leis_inovacao/Decreto_9814_de_2024_Regulamenta_a_lei_6100.pdf"
+  }
 ]

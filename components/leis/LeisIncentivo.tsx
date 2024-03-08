@@ -32,6 +32,16 @@ const LeisIncentivo = () => {
                                 download={item.doc ? true : false }>
                                 {item.doc ? <AiOutlineFilePdf /> : <BiLinkExternal /> }
                                 {item.doc ? 'Baixe o doc' : 'Acesse a página' }</a>
+                                {
+                                    item.atualizada && (
+                                        <div className='text-red-500'>Alterações em vigor: {item.atualizada}</div>
+                                    )
+                                }
+                                {
+                                    item.regulamentada && (
+                                        <div className='text-blue-500'>Regulamentação: {item.regulamentada}</div>
+                                    )
+                                }
                         </div>
                     </div>
                 )

@@ -153,8 +153,8 @@ const page = () => {
                 <a className='link' href={doc.path} download>
                   <AiOutlineFilePdf />
                   <span className='text-sm'>
-                    {doc.name} -{" "}
-                    {moment(doc.date).format("DD/MM/YYYY")}
+                    {doc.name}
+                    {/* {moment(doc.date).format("DD/MM/YYYY")} */}
                   </span>
                 </a>
               </div>
