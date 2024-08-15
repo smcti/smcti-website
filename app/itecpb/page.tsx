@@ -36,18 +36,23 @@ const RegDocs: RegDoc[] = [
     date: moment("2024-15-08").toDate(),
   },
   {
-    name: "Anexo II: Avaliação Comite Técnico",
+    name: "Anexo I: Formulário de Inscrição",
+    path: "/assets/docs/Anexo_I_Ficha_de_inscricao.docx",
+    date: moment("2024-15-08").toDate(),
+  },
+  {
+    name: "Anexo II:Formulário de Avaliação Comite Técnico",
     path: "/assets/docs/Anexo_II_Avaliacao_comite_tecnico.docx",
+    date: moment("2024-15-08").toDate(),
+  },
+  {
+    name: "Anexo III: Formulário de Avaliação Banca",
+    path: "/assets/docs/Anexo_III_Avaliacao_Banca.pdf",
     date: moment("2024-15-08").toDate(),
   },
   {
     name: "Anexo  IV: Declaração Proponente",
     path: "assets/docs/Anexo_IV_Declaracao_proponente.docx",
-    date: moment("2024-15-08").toDate(),
-  },
-  {
-    name: "Anexo I: Ficha de Inscrição",
-    path: "/assets/docs/Anexo_I_Ficha_de_inscricao.docx",
     date: moment("2024-15-08").toDate(),
   },
 ];
