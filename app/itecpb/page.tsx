@@ -55,6 +55,11 @@ const RegDocs: RegDoc[] = [
     path: "assets/docs/Anexo_IV_Declaracao_proponente.docx",
     date: moment("2024-15-08").toDate(),
   },
+  {
+    name: "Resultados das Inscrições Recebidas",
+    path: "assets/docs/Edital_de_Seleção_01-2024_Inscriações_Homologadas.pdf",
+    date: moment("2024-19-08").toDate(),
+  }
 ];
 
 const page = () => {
