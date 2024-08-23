@@ -59,7 +59,12 @@ const RegDocs: RegDoc[] = [
     name: "Resultados das Inscrições Recebidas",
     path: "assets/docs/Edital_de_Seleção_01-2024_Inscriações_Homologadas.pdf",
     date: moment("2024-19-08").toDate(),
-  }
+  },
+  {
+    name: "Convocação para banca pública",
+    path: "assets/docs/Copia_de_Convocacao_dos_inscritos_para_a_banca_docx_signed.pdf",
+    date: moment("2024-15-08").toDate(),
+  },
 ];
 
 const page = () => {
