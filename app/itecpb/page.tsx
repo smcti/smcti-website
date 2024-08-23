@@ -63,7 +63,7 @@ const RegDocs: RegDoc[] = [
   {
     name: "Convocação para banca pública",
     path: "assets/docs/Copia_de_Convocacao_dos_inscritos_para_a_banca_docx_signed.pdf",
-    date: moment("2024-15-08").toDate(),
+    date: moment("2024-23-08").toDate(),
   },
 ];
 
