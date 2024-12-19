@@ -65,6 +65,16 @@ const RegDocs: RegDoc[] = [
     path: "assets/docs/Copia_de_Convocacao_dos_inscritos_para_a_banca_docx_signed.pdf",
     date: moment("2024-23-08").toDate(),
   },
+  {
+    name: "Restultado da Banca - Proponentes Pre-Incubação",
+    path: "assets/docs/Restultado_da_Banca-Proponentes_Pre-Incubação.pdf",
+    date: moment("2024-19-12").toDate(),
+  },
+  {
+    name: "Resultado das Inscrições Homologadas - Proponentes Pre-Incubação",
+    path: "assets/docs/Resultado_das_Inscrições_Homologadas_etapa01.pdf",
+    date: moment("2024-19-12").toDate(),
+  },
 ];
 
 const page = () => {
