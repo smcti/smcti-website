@@ -66,14 +66,14 @@ const RegDocs: RegDoc[] = [
     date: moment("2024-23-08").toDate(),
   },
   {
-    name: "Restultado da Banca - Proponentes Pre-Incubação",
-    path: "assets/docs/Restultado_da_Banca-Proponentes_Pre-Incubação.pdf",
-    date: moment("2024-19-12").toDate(),
-  },
-  {
     name: "Resultado das Inscrições Homologadas - Proponentes Pre-Incubação",
     path: "assets/docs/Resultado_das_Inscrições_Homologadas_etapa01.pdf",
     date: moment("2024-19-12").toDate(),
+  },
+  {
+    name: "Restultado da Banca - Proponentes Pre-Incubação",
+    path: "assets/docs/Restultado_da_Banca-Proponentes_Pre-Incubação.pdf",
+    date: moment("2025-29-01").toDate(),
   },
 ];
 
