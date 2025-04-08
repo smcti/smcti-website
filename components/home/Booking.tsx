@@ -7,9 +7,11 @@ import { FaUsers } from "react-icons/fa";
 import { FaUserFriends } from "react-icons/fa";
 import { GiTheater } from "react-icons/gi";
 import { FaBus } from "react-icons/fa";
+import { MdOutlinePeople } from "react-icons/md";
+
 
 const Booking = () => {
-  const iconList = [FaUsers, FaUserFriends, GiTheater, FaBus];
+  const iconList = [FaUsers, FaUserFriends, GiTheater, MdOutlinePeople];
 
   const renderIcon = (icon: any) => {
     const Icon = icon;
