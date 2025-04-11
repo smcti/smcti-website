@@ -22,6 +22,10 @@
         ]
     },
     {
+        "name": "Cursos",
+        "path": "/cursos"
+    },
+    {
         "name": "Incubadora",
         "path": "/itecpb"
     },
