@@ -14,7 +14,7 @@ const page = () => {
         <div className="section-default flex lg:flex-row flex-col gap-8">
           <img
             src="/assets/images/defesa_rede.png"
-            alt="teste"
+            alt="curso"
             className="lg:w-1/2 rounded-xl"
           />
           <div className="grid grid-cols-1 text-black gap-4 lg:w-1/2 text-center">
@@ -142,7 +142,65 @@ const page = () => {
               isNotOpen={true}
               redirectUrl=""
             />
+            <CourseCard
+              image="/assets/images/htmlcss.png"
+              title="HTML E CSS"
+              description="Desenvolver habilidades fundamentais, entender como a web é construída e visualizar-se
+               em uma carreira na área de desenvolvimento front-end. Compreender como as páginas ganham estrutura 
+               com HTML, estilo com CSS e como essas linguagens dão vida a sites modernos e acessíveis."
+              duration="60 horas"
+              isNotOpen={true}
+              redirectUrl=""
+            />
+            <CourseCard
+              image="/assets/images/javascript.png"
+              title="JAVASCRIPT"
+              description="Aprender a dar interatividade às páginas da web, entender como os sites respondem a 
+              ações dos usuários e imaginar-se criando experiências dinâmicas no navegador. Compreender como o 
+              JavaScript manipula elementos, processa dados e torna a web mais inteligente, fluida e conectada."
+              duration="60 horas"
+              isNotOpen={true}
+              redirectUrl=""
+            />
           </div>
+        </div>
+        <div className="bg-gray-400 mx-16 h-[1px] "></div>
+        <div className="grid lg:grid-cols-7 grid-cols-2 w-full p-2 justify-items-center justify-center items-center ">
+          <img
+            src="./assets/images/logos/smcti.png"
+            className="h-12"
+            alt="logo parceiro"
+          />
+          <img
+            src="./assets/images/logos/parque.png"
+            className="h-24"
+            alt="logo parceiro"
+          />
+          <img
+            src="./assets/images/logos/brasil digital.png"
+            className="h-24"
+            alt="logo parceiro"
+          />
+          <img
+            src="./assets/images/logos/cisco.png"
+            className="h-24"
+            alt="logo parceiro"
+          />
+          <img
+            src="./assets/images/logos/cyberseguranca.png"
+            className="h-24"
+            alt="logo parceiro"
+          />
+          <img
+            src="./assets/images/logos/dainf.png"
+            className="h-12"
+            alt="logo parceiro"
+          />
+          <img
+            src="./assets/images/logos/utfpr.png"
+            className="h-20"
+            alt="logo parceiro"
+          />
         </div>
       </div>
     </>
