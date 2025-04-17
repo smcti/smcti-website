@@ -1,7 +1,8 @@
 "use client";
 
 import CourseCard from "@components/common/CourseCard";
-import Link from "@node_modules/next/link";
+import PartnerFooter from "@components/common/PartnerFooter";
+import Link from "next/link";
 
 const page = () => {
   const handleClick = () => {
@@ -11,7 +12,7 @@ const page = () => {
   return (
     <>
       <div className="my-32 flex flex-col h-full bg-zircon-50 gap-8 text-gray-700">
-        <div className="section-default flex lg:flex-row flex-col gap-8">
+        <div className="section-default shadow rounded-lg flex lg:flex-row flex-col gap-8">
           <img
             src="/assets/images/defesa_rede.png"
             alt="curso"
@@ -27,9 +28,12 @@ const page = () => {
               curso aborda maneiras de monitorar sua rede e como avaliar alertas
               de segurança.
             </p>
-            <Link href={"cursos/1"} className="justify-self-end underline">
+            <Link href={`/cursos/1`} className="justify-self-end underline">
               Saiba mais
             </Link>
+            <p className="text-start">
+              <strong>Parceiros: SMCTI, UTFPR e CISCO</strong>
+            </p>
             <button
               onClick={handleClick}
               className="mt-auto flex bg-cello rounded-lg text-white justify-center w-full hover:border-black border-2 hover:bg-white hover:text-black hover:shadow-sm hover:shadow-white p-2 h-fit"
@@ -42,86 +46,115 @@ const page = () => {
       <div className="mt-32 flex flex-col h-full bg-cello gap-8 text-white">
         <div className="section-default flex-col text-start justify-start gap-8">
           <p className="m-2 w-full text-2xl font-bold">Disponíveis:</p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 ">
             <CourseCard
+              id="2"
               image="/assets/images/iot.png"
-              title="INTRODUÇÃO À IOT E À TRANSFORMAÇÃO DIGITAL"
+              title="INTRODUÇÃO À IOT E À TRANSFORMAÇÃO DIGITAL - Online"
               description="Aprender como a Internet das Coisas (IoT) e a transformação digital
               criam valor ao conectar objetos físicos cotidianos ao mundo digital,
               baseando-se em sua programação, dados massivos e análise, automação e
               segurança."
+              partner="SMCTI e UTFPR"
               duration="6 horas"
               isNotOpen={false}
               redirectUrl="https://forms.gle/9qyVDuSUVzPy95n59"
             />
             <CourseCard
+              id="3"
               image="/assets/images/data_science.png"
-              title="INTRODUÇÃO À CIÊNCIA DE DADOS"
+              title="INTRODUÇÃO À CIÊNCIA DE DADOS - Online"
               description="Explorar conceitos fundamentais de dados e compreender o valor da alfabetização 
               em dados, das visualizações e dos projetos de dados exploratórios."
+              partner="SMCTI, UTFPR e CISCO"
               duration="6 horas"
               isNotOpen={false}
               redirectUrl="https://forms.gle/GaSQdX1s11Hvk9Xs9"
             />
             <CourseCard
+              id="4"
               image="/assets/images/cybersecurity.png"
-              title="INTRODUÇÃO À CIBERSEGURANÇA"
+              title="INTRODUÇÃO À CIBERSEGURANÇA - Online"
               description="Introduzir a segurança cibernética, explorando formas de se manter seguro online, 
               os diferentes tipos de malware e ataques, as medidas usadas pelas organizações para mitigar os 
               ataques e investigando oportunidades profissionais."
+              partner="SMCTI, UTFPR e CISCO"
               duration="6 horas"
               isNotOpen={false}
               redirectUrl="https://forms.gle/fS869P4zJxFwfWUq5"
             />
             <CourseCard
+              id="5"
               image="/assets/images/hardware.png"
-              title="FUNDAMENTOS DO HARDWARE DE COMPUTADOR"
+              title="FUNDAMENTOS DO HARDWARE DE COMPUTADOR - Online"
               description="Fundamentos do Hardware do Computador explora os fundamentos de computadores e 
               dispositivos móveis, os componentes que os compõem, como eles funcionam e ferramentas e técnicas 
               básicas de solução de problemas."
+              partner="SMCTI, UTFPR e CISCO"
               duration="6 horas"
               isNotOpen={false}
               redirectUrl="https://forms.gle/ZVqLZdkUB9sEWbwp8"
             />
             <CourseCard
-              image="/assets/images/skillbuild.png"
-              title="FUNDAMENTOS DE IA COM IBM SKILLSBUILD"
+              id="6"
+              image="/assets/images/ai.png"
+              title="FUNDAMENTOS DE IA COM IBM SKILLSBUILD - Online"
               description="A inteligência artificial está transformando o futuro do trabalho e oferece a chance 
               de aprender sobre seu impacto e explorar carreiras na área. O conteúdo aborda a história da IA, 
               suas aplicações, como ela entende linguagem e imagens, e como aprende com redes neurais. Também 
-              inclui práticas com o IBM Watson Studio, ética em IA e orientações para atuar no mercado em expansão"
+              inclui práticas com o IBM Watson Studio, ética em IA e orientações para atuar no mercado em expansão."
               duration="10 horas"
+              partner="SMCTI, UTFPR e CISCO"
               isNotOpen={false}
               redirectUrl="https://forms.gle/StcnBZTqieoVLccM9"
             />
             <CourseCard
+              id="7"
               image="/assets/images/empreendedorismo.png"
-              title="DESCOBRINDO O EMPREENDEDORISMO"
-              description="A inteligência artificial está transformando o futuro do trabalho e oferece a chance 
-              de aprender sobre seu impacto e explorar carreiras na área. O conteúdo aborda a história da IA, 
-              suas aplicações, como ela entende linguagem e imagens, e como aprende com redes neurais. Também 
-              inclui práticas com o IBM Watson Studio, ética em IA e orientações para atuar no mercado em expansão"
+              title="DESCOBRINDO O EMPREENDEDORISMO - Online"
+              description="Você já sonhou em abrir seu próprio negócio? Embarcar nessa jornada pode parecer desafiador,
+               mas com o suporte certo pode se transformar em uma aventura gratificante. Descobrir o empreendedorismo é
+                o primeiro passo nesta emocionante jornada."
               duration="30 horas"
+              partner="SMCTI, UTFPR e CISCO"
               isNotOpen={false}
               redirectUrl="https://forms.gle/pt4ZuVUEHjfB6qqz7"
             />
             <CourseCard
-              image="/assets/images/python.png"
-              title="FUNDAMENTOS DE PYTHON I"
-              description="Desenvolver habilidades para realizar tarefas de codificação relacionadas com 
-              os elementos essenciais da programação na linguagem Python.Conhecer os conceitos universais 
-              da programação de computadores, a sintaxe e a semântica da linguagem."
+              id="8"
+              image="/assets/images/robotica.jpg"
+              title="Introdução à Robótica Móvel com Arduino - Presencial"
+              description="O curso oferece uma introdução à robótica móvel, abordando teoria e prática da locomoção
+               autônoma em robôs seguidores de linha e lutadores de sumô. Os alunos aprenderão eletrônica básica, 
+               microcontroladores e programação, desenvolvendo projetos com Arduino até a construção e programação 
+               desses robôs."
               duration="30 horas"
+              partner="SMCTI e UTFPR"
               isNotOpen={false}
               redirectUrl="https://docs.google.com/forms/d/e/1FAIpQLSenls6R2LXZGcnzsed_PeBaATM9ikwi27RFX9bdeZ7AnYBtXQ/viewform?usp=sharing"
             />
             <CourseCard
+              id="9"
               image="/assets/images/python.png"
-              title="FUNDAMENTOS DE PYTHON II"
+              title="FUNDAMENTOS DE PYTHON I - Online"
               description="Desenvolver habilidades para realizar tarefas de codificação relacionadas com 
               os elementos essenciais da programação na linguagem Python.Conhecer os conceitos universais 
               da programação de computadores, a sintaxe e a semântica da linguagem."
+              duration="30 horas"
+              partner="SMCTI, UTFPR e CISCO"
+              isNotOpen={false}
+              redirectUrl="https://docs.google.com/forms/d/e/1FAIpQLSenls6R2LXZGcnzsed_PeBaATM9ikwi27RFX9bdeZ7AnYBtXQ/viewform?usp=sharing"
+            />
+            <CourseCard
+              id="10"
+              image="/assets/images/python.png"
+              title="FUNDAMENTOS DE PYTHON II - Online"
+              description="Desenvolver habilidades para realizar tarefas de codificação
+              relacionadas com os elementos essenciais da programação na
+              linguagem Python. Conhecer os conceitos universais da programação
+              de computadores, a sintaxe e a semântica da linguagem."
               duration="40 horas"
+              partner="SMCTI, UTFPR e CISCO"
               isNotOpen={false}
               redirectUrl="https://docs.google.com/forms/d/e/1FAIpQLSeYcAHROHBZqhEP95y2oESPXOCMaLgjKCv7eIdEGBKj8mDu5Q/viewform?usp=sharing"
             />
@@ -133,75 +166,32 @@ const page = () => {
           <p className="m-2 w-full text-2xl font-bold">Indisponíveis:</p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3">
             <CourseCard
-              image="/assets/images/ai.png"
-              title="FUNDAMENTOS DE INTELIGENCIA  ARTIFICIAL"
-              description="Desenvolver o conhecimento, compreender o que a IA pode significar para seu futuro
-               e visualizar-se em uma carreira impulsionada pela IA. Compreender como a IA entende a linguagem, 
-               interpreta imagens e aprende utilizando redes neurais modeladas a partir do cérebro humano."
-              duration="10 horas"
-              isNotOpen={true}
-              redirectUrl=""
-            />
-            <CourseCard
+              id="11"
               image="/assets/images/htmlcss.png"
-              title="HTML E CSS"
+              title="HTML E CSS - Presencial"
               description="Desenvolver habilidades fundamentais, entender como a web é construída e visualizar-se
                em uma carreira na área de desenvolvimento front-end. Compreender como as páginas ganham estrutura 
                com HTML, estilo com CSS e como essas linguagens dão vida a sites modernos e acessíveis."
               duration="60 horas"
+              partner="SMCTI e SENAC"
               isNotOpen={true}
               redirectUrl=""
             />
             <CourseCard
+              id="12"
               image="/assets/images/javascript.png"
-              title="JAVASCRIPT"
+              title="JAVASCRIPT - Presencial"
               description="Aprender a dar interatividade às páginas da web, entender como os sites respondem a 
               ações dos usuários e imaginar-se criando experiências dinâmicas no navegador. Compreender como o 
               JavaScript manipula elementos, processa dados e torna a web mais inteligente, fluida e conectada."
               duration="60 horas"
+              partner="SMCTI e SENAC"
               isNotOpen={true}
               redirectUrl=""
             />
           </div>
         </div>
-        <div className="bg-gray-400 mx-16 h-[1px] "></div>
-        <div className="grid lg:grid-cols-7 grid-cols-2 w-full p-2 justify-items-center justify-center items-center ">
-          <img
-            src="./assets/images/logos/smcti.png"
-            className="h-12"
-            alt="logo parceiro"
-          />
-          <img
-            src="./assets/images/logos/parque.png"
-            className="h-24"
-            alt="logo parceiro"
-          />
-          <img
-            src="./assets/images/logos/brasil digital.png"
-            className="h-24"
-            alt="logo parceiro"
-          />
-          <img
-            src="./assets/images/logos/cisco.png"
-            className="h-24"
-            alt="logo parceiro"
-          />
-          <img
-            src="./assets/images/logos/cyberseguranca.png"
-            className="h-24"
-            alt="logo parceiro"
-          />
-          <img
-            src="./assets/images/logos/dainf.png"
-            className="h-12"
-            alt="logo parceiro"
-          />
-          <img
-            src="./assets/images/logos/utfpr.png"
-            className="h-20"
-            alt="logo parceiro"
-          />
-        </div>
+        <PartnerFooter />
       </div>
     </>
   );
