@@ -38,9 +38,6 @@ const Projetos = () => {
                            Acesso em: <a href={item.link} target='_blank' className='text-cyan-700 underline'>{item.link}</a>
                         </p>
                         :""} 
-                       
-
-                        <p>Responsável: {item.responsavel}</p>
                     </div>
                 </div>
             ))
