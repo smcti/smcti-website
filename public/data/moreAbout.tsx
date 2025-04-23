@@ -376,7 +376,7 @@ export const moreAbout = [
           o Ensino Médio
           <br />
           <u>Disponibilização do curso:</u> Duração de 8 encontros de 4h, aos
-          sábados.
+          sábados na UTFPR. (10/05, 17/05, 24/05, 31/05, 07/06, 14/06, 28/06, 05/07) <strong>no horário das 8h às 12h</strong>
           <br />
         </p>
       </>
@@ -413,8 +413,7 @@ export const moreAbout = [
           <br />
           <u> Pré-requisitos:</u> Nenhum
           <br />
-          <u>Disponibilização do curso:</u> Self-Paced (Estude por conta
-          própria), Guiada pelo instrutor
+          <u>Disponibilização do curso:</u> Presencial. Oferecido na UTFPR nas datas: 10/05, 17/05, 24/05, 31/05, 07/06, 14/06, 28/06, 05/07 <strong>no horário das 8h às 12h</strong>
           <br />
           <u>Destaques dos componentes de aprendizagem:</u>
         </p>
@@ -424,10 +423,6 @@ export const moreAbout = [
           <li> 1 projeto final </li>
           <li> 1 teste final</li>
         </ul>
-        <p>
-          <u>Certificação alinhada:</u> PCEP: Certified Certificação de
-          programador Python de nível básico
-        </p>
       </>
     ),
   },
