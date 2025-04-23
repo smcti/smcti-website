@@ -5,48 +5,87 @@ import PartnerFooter from "@components/common/PartnerFooter";
 import Link from "next/link";
 
 const page = () => {
-  const handleClick = () => {
-    window.location.href = "https://forms.gle/MiGhD86S1zYai6gJ8";
-  };
 
   return (
     <>
       <div className="my-32 flex flex-col h-full bg-zircon-50 gap-8 text-gray-700">
         <div className="section-default shadow rounded-lg flex lg:flex-row flex-col gap-8">
           <img
-            src="/assets/images/defesa_rede.png"
-            alt="curso"
-            className="lg:w-1/2 rounded-xl"
+            src="/assets/images/robotica.jpg"
+            alt="imagemCurso"
+            className="w-full sm:h-[450px] h-96  rounded-xl overflow-hidden object-cover"
           />
           <div className="grid grid-cols-1 text-black gap-4 lg:w-1/2 text-center">
             <p className="text-3xl">
-              DEFESA DE REDE - ANALISTA DE CIBERSEGURANÇA JÚNIOR
+              Introdução à Robótica Móvel com Arduino - Presencial
             </p>
             <p className="text-justify">
-              Nesse curso você irá obter o conhecimento básico que você usará no
-              local de trabalho como Analista de Cibersegurança Júnior. Este
-              curso aborda maneiras de monitorar sua rede e como avaliar alertas
-              de segurança.
+              O curso oferece uma introdução à robótica móvel, abordando teoria
+              e prática da locomoção autônoma em robôs seguidores de linha e
+              lutadores de sumô. Os alunos aprenderão eletrônica básica,
+              microcontroladores e programação, desenvolvendo projetos com
+              Arduino até a construção e programação desses robôs.
             </p>
-            <Link href={`/cursos/1`} className="justify-self-end underline">
+            <Link href={`/cursos/8`} className="justify-self-end underline">
               Saiba mais
             </Link>
             <p className="text-start">
-              <strong>Parceiros: SMCTI, UTFPR e CISCO</strong>
+              <strong>Parceiros: SMCTI e UTFPR</strong>
             </p>
             <button
-              onClick={handleClick}
+              onClick={() => { window.location.href = "https://forms.gle/VhQH1S7BLX1GYu879"; }}
               className="mt-auto flex bg-cello rounded-lg text-white justify-center w-full hover:border-black border-2 hover:bg-white hover:text-black hover:shadow-sm hover:shadow-white p-2 h-fit"
             >
               Inscrever-se
             </button>
           </div>
         </div>
+        <div className="section-default shadow rounded-lg flex lg:flex-row flex-col gap-8">
+          <div className="grid grid-cols-1 text-black gap-4 lg:w-1/2 text-center">
+            <p className="text-3xl">FUNDAMENTOS DE PYTHON I - Presencial</p>
+            <p className="text-justify">
+              Desenvolver habilidades para realizar tarefas de codificação
+              relacionadas com os elementos essenciais da programação na
+              linguagem Python.Conhecer os conceitos universais da programação
+              de computadores, a sintaxe e a semântica da linguagem.
+            </p>
+            <Link href={`/cursos/9`} className="justify-self-end underline">
+              Saiba mais
+            </Link>
+            <p className="text-start">
+              <strong>Parceiros: SMCTI e UTFPR</strong>
+            </p>
+            <button
+              onClick={() => { window.location.href = "https://forms.gle/gmTsrEvDsg6BzPVd8"; }}
+              className="mt-auto flex bg-cello rounded-lg text-white justify-center w-full hover:border-black border-2 hover:bg-white hover:text-black hover:shadow-sm hover:shadow-white p-2 h-fit"
+            >
+              Inscrever-se
+            </button>
+          </div>
+          <img
+            src="/assets/images/python.png"
+            alt="imagemCurso"
+            className="w-full sm:h-[450px] h-96  rounded-xl overflow-hidden object-cover"
+          />
+        </div>
       </div>
       <div className="mt-32 flex flex-col h-full bg-cello gap-8 text-white">
         <div className="section-default flex-col text-start justify-start gap-8">
           <p className="m-2 w-full text-2xl font-bold">Disponíveis:</p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 ">
+            <CourseCard
+              id="1"
+              image="/assets/images/defesa_rede.png"
+              title="DEFESA DE REDE - ANALISTA DE CIBERSEGURANÇA JÚNIOR - Online"
+              description="Nesse curso você irá obter o conhecimento básico que você usará no
+              local de trabalho como Analista de Cibersegurança Júnior. Este
+              curso aborda maneiras de monitorar sua rede e como avaliar alertas
+              de segurança."
+              partner="SMCTI, UTFPR e CISCO"
+              duration="27 horas"
+              isNotOpen={false}
+              redirectUrl="https://forms.gle/MiGhD86S1zYai6gJ8"
+            />
             <CourseCard
               id="2"
               image="/assets/images/iot.png"
@@ -120,31 +159,13 @@ const page = () => {
               isNotOpen={false}
               redirectUrl="https://forms.gle/pt4ZuVUEHjfB6qqz7"
             />
-            <CourseCard
-              id="8"
-              image="/assets/images/robotica.jpg"
-              title="Introdução à Robótica Móvel com Arduino - Presencial"
-              description="O curso oferece uma introdução à robótica móvel, abordando teoria e prática da locomoção
-               autônoma em robôs seguidores de linha e lutadores de sumô. Os alunos aprenderão eletrônica básica, 
-               microcontroladores e programação, desenvolvendo projetos com Arduino até a construção e programação 
-               desses robôs."
-              duration="30 horas"
-              partner="SMCTI e UTFPR"
-              isNotOpen={false}
-              redirectUrl="https://docs.google.com/forms/d/e/1FAIpQLSenls6R2LXZGcnzsed_PeBaATM9ikwi27RFX9bdeZ7AnYBtXQ/viewform?usp=sharing"
-            />
-            <CourseCard
-              id="9"
-              image="/assets/images/python.png"
-              title="FUNDAMENTOS DE PYTHON I - Online"
-              description="Desenvolver habilidades para realizar tarefas de codificação relacionadas com 
-              os elementos essenciais da programação na linguagem Python.Conhecer os conceitos universais 
-              da programação de computadores, a sintaxe e a semântica da linguagem."
-              duration="30 horas"
-              partner="SMCTI, UTFPR e CISCO"
-              isNotOpen={false}
-              redirectUrl="https://docs.google.com/forms/d/e/1FAIpQLSenls6R2LXZGcnzsed_PeBaATM9ikwi27RFX9bdeZ7AnYBtXQ/viewform?usp=sharing"
-            />
+          </div>
+        </div>
+      </div>
+      <div className="mt-32 flex flex-col h-full bg-zirco-50 gap-8 text-black">
+        <div className="section-default flex-col text-start justify-start gap-8">
+          <p className="m-2 w-full text-2xl font-bold">Indisponíveis:</p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3">
             <CourseCard
               id="10"
               image="/assets/images/python.png"
@@ -155,16 +176,9 @@ const page = () => {
               de computadores, a sintaxe e a semântica da linguagem."
               duration="40 horas"
               partner="SMCTI, UTFPR e CISCO"
-              isNotOpen={false}
-              redirectUrl="https://docs.google.com/forms/d/e/1FAIpQLSeYcAHROHBZqhEP95y2oESPXOCMaLgjKCv7eIdEGBKj8mDu5Q/viewform?usp=sharing"
+              isNotOpen={true}
+              redirectUrl=""
             />
-          </div>
-        </div>
-      </div>
-      <div className="mt-32 flex flex-col h-full bg-zirco-50 gap-8 text-black">
-        <div className="section-default flex-col text-start justify-start gap-8">
-          <p className="m-2 w-full text-2xl font-bold">Indisponíveis:</p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3">
             <CourseCard
               id="11"
               image="/assets/images/htmlcss.png"
