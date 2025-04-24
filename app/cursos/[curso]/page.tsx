@@ -34,7 +34,7 @@ const CoursePage = () => {
         </div>
       </div>
       <div className="section-default flex flex-col gap-4 mt-4 text-justify">
-        {course.id === "8" ? (
+        {course.id === "8" || course.id === "9" ? (
           <>
             <p>
               <strong>IMPORTANTE:</strong> No último dia do curso, os alunos
