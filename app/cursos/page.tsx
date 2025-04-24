@@ -13,7 +13,7 @@ const page = () => {
           <img
             src="/assets/images/robotica.jpg"
             alt="imagemCurso"
-            className="w-full sm:h-[450px] h-96  rounded-xl overflow-hidden object-cover"
+            className="w-full sm:h-[500px] h-96  rounded-xl overflow-hidden object-cover"
           />
           <div className="grid grid-cols-1 text-black gap-4 lg:w-1/2 text-center">
             <p className="text-3xl">
@@ -24,8 +24,9 @@ const page = () => {
               e prática da locomoção autônoma em robôs seguidores de linha e
               lutadores de sumô. Os alunos aprenderão eletrônica básica,
               microcontroladores e programação, desenvolvendo projetos com
-              Arduino até a construção e programação desses robôs.
+              Arduino até a construção e programação desses robôs. <br />
             </p>
+            <strong>Vagas Limitadas</strong>
             <Link href={`/cursos/8`} className="justify-self-end underline">
               Saiba mais
             </Link>
@@ -49,6 +50,7 @@ const page = () => {
               linguagem Python.Conhecer os conceitos universais da programação
               de computadores, a sintaxe e a semântica da linguagem.
             </p>
+            <strong>Vagas Limitadas</strong>
             <Link href={`/cursos/9`} className="justify-self-end underline">
               Saiba mais
             </Link>
@@ -65,7 +67,7 @@ const page = () => {
           <img
             src="/assets/images/python.png"
             alt="imagemCurso"
-            className="w-full sm:h-[450px] h-96  rounded-xl overflow-hidden object-cover"
+            className="w-full sm:h-[450px] h-80  rounded-xl overflow-hidden object-cover"
           />
         </div>
       </div>

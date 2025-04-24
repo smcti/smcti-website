@@ -44,8 +44,9 @@ export const moreAbout = [
     description: (
       <>
         <p>
-          <u>Público-alvo:</u> Estudantes do ensino técnico, médio ou universitário, profissionais de TI
-          ou pessoas em transição de carreira <br />
+          <u>Público-alvo:</u> Estudantes do ensino técnico, médio ou
+          universitário, profissionais de TI ou pessoas em transição de carreira{" "}
+          <br />
           <u>Tempo estimado para conclusão:</u> 27 horas (3 semanas)
           <br />
           <u> Pré-requisitos:</u> Nenhum
@@ -53,11 +54,12 @@ export const moreAbout = [
           <u>Disponibilização do curso:</u> Self-Paced (Estude por conta
           própria)
           <br />
-          <u>Requisitos técnicos:</u> Computador (mínimo i3, 4GB RAM, 27GB HD) e internet de 5Mb
+          <u>Requisitos técnicos:</u> Computador (mínimo i3, 4GB RAM, 27GB HD) e
+          internet de 5Mb
           <br />
           <u>Destaques dos componentes de aprendizagem:</u>
         </p>
-        <ul className="list-disc list-inside">
+        <ul className="list-disc list-inside px-4">
           <li> 11 módulos</li>
           <li> 29 atividades de laboratório prático </li>
           <li> Verificações de conhecimento e testes de módulo</li>
@@ -102,7 +104,7 @@ export const moreAbout = [
           <br />
           <u>Destaques dos componentes de aprendizagem:</u>
         </p>
-        <ul className="list-disc list-inside">
+        <ul className="list-disc list-inside px-4">
           <li> 6 módulos</li>
           <li> 16 atividades de laboratório prático </li>
           <li> 7 atividades do Cisco Packet Tracer</li>
@@ -146,7 +148,7 @@ export const moreAbout = [
           <br />
           <u>Destaques dos componentes de aprendizagem:</u>
         </p>
-        <ul className="list-disc list-inside">
+        <ul className="list-disc list-inside px-4">
           <li> 4 módulos</li>
           <li> 5 atividades de laboratório prático </li>
           <li> 1 widget de tabela dinâmica interativa</li>
@@ -194,7 +196,7 @@ export const moreAbout = [
           <br />
           <u>Destaques dos componentes de aprendizagem:</u>
         </p>
-        <ul className="list-disc list-inside">
+        <ul className="list-disc list-inside px-4">
           <li> 5 módulos</li>
           <li> 7 atividades de laboratório prático </li>
           <li> Atividades interativas</li>
@@ -242,7 +244,7 @@ export const moreAbout = [
           <br />
           <u>Destaques dos componentes de aprendizagem:</u>
         </p>
-        <ul className="list-disc list-inside">
+        <ul className="list-disc list-inside px-4">
           <li> 3 módulos</li>
           <li> Verificações de conhecimento e testes de módulo</li>
           <li> Exame final</li>
@@ -287,7 +289,7 @@ export const moreAbout = [
           <br />
           <u>Destaques dos componentes de aprendizagem:</u>
         </p>
-        <ul className="list-disc list-inside">
+        <ul className="list-disc list-inside px-4">
           <li> 7 módulos</li>
           <li> Verificações de conhecimento e testes de módulo</li>
           <li> Exame final</li>
@@ -332,7 +334,7 @@ export const moreAbout = [
           <br />
           <u>Destaques dos componentes de aprendizagem:</u>
         </p>
-        <ul className="list-disc list-inside">
+        <ul className="list-disc list-inside px-4">
           <li> 15 módulos</li>
           <li> Verificações de conhecimento e testes de módulo</li>
           <li> Exame final</li>
@@ -367,18 +369,29 @@ export const moreAbout = [
     ),
     description: (
       <>
-        <p>
-          <u>Público-alvo:</u> Alunos do ensino médio e universitários
-          <br />
-          <u>Tempo estimado para conclusão:</u> 30 horas
-          <br />
-          <u> Pré-requisitos:</u> Alunos que estão cursando ou que já concluíram
-          o Ensino Médio
-          <br />
-          <u>Disponibilização do curso:</u> Duração de 8 encontros de 4h, aos
-          sábados na UTFPR. (10/05, 17/05, 24/05, 31/05, 07/06, 14/06, 28/06, 05/07) <strong>no horário das 8h às 12h</strong>
-          <br />
+      <p>
+        <u>Público-alvo:</u> Alunos do ensino médio de escolas públicas
+        municipais e da região; alunos de ensino medio de escolas particulares;
+        profissionais procurando realocação no mercado de trabalho;
+        <br />
+        <u>Tempo estimado para conclusão:</u> 30 horas
+        <br />
+        <u> Pré-requisitos:</u> Alunos que estão cursando ou que já concluíram o
+        Ensino Médio
+        <br />
+        <u>Disponibilização do curso:</u> Duração de 8 encontros de 4h, aos
+        sábados na UTFPR. (10/05, 17/05, 24/05, 31/05, 07/06, 14/06, 28/06,
+        05/07) <strong>no horário das 8h às 12h</strong>
+        <br />
         </p>
+        <u>Critérios de seleção:</u>A seleção dos participantes será realizada
+        com base nos seguintes critérios de prioridade:
+        <ol className="list-decimal px-4">
+          <li>Estudantes de escolas públicas municipais e estaduais; </li>
+          <li>Estudantes de escolas públicas da região;</li>
+          <li>Estudantes de escolas particulares;</li>
+          <li>Profissionais em busca de recolocação no mercado de trabalho.</li>
+        </ol>
       </>
     ),
   },
@@ -413,16 +426,26 @@ export const moreAbout = [
           <br />
           <u> Pré-requisitos:</u> Nenhum
           <br />
-          <u>Disponibilização do curso:</u> Presencial. Oferecido na UTFPR nas datas: 10/05, 17/05, 24/05, 31/05, 07/06, 14/06, 28/06, 05/07 <strong>no horário das 8h às 12h</strong>
+          <u>Disponibilização do curso:</u> Presencial. Oferecido na UTFPR nas
+          datas: 10/05, 17/05, 24/05, 31/05, 07/06, 14/06, 28/06, 05/07{" "}
+          <strong>no horário das 8h às 12h</strong>
           <br />
           <u>Destaques dos componentes de aprendizagem:</u>
         </p>
-        <ul className="list-disc list-inside">
+        <ul className="list-disc list-inside px-4">
           <li> 4 módulos</li>
           <li> Atividades interativas e questionários</li>
           <li> 1 projeto final </li>
           <li> 1 teste final</li>
         </ul>
+        <u>Critérios de seleção:</u>A seleção dos participantes será realizada
+        com base nos seguintes critérios de prioridade:
+        <ol className="list-decimal px-4">
+          <li>Estudantes de escolas públicas municipais e estaduais; </li>
+          <li>Estudantes de escolas públicas da região;</li>
+          <li>Estudantes de escolas particulares;</li>
+          <li>Profissionais em busca de recolocação no mercado de trabalho.</li>
+        </ol>
       </>
     ),
   },
@@ -463,7 +486,7 @@ export const moreAbout = [
           <br />
           <u>Destaques dos componentes de aprendizagem:</u>
         </p>
-        <ul className="list-disc list-inside">
+        <ul className="list-disc list-inside px-4">
           <li> 4 módulos</li>
           <li> Atividades interativas e questionários</li>
           <li> 1 projeto final </li>
