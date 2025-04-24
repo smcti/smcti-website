@@ -386,11 +386,11 @@ export const moreAbout = [
         </p>
         <u>Critérios de seleção:</u>A seleção dos participantes será realizada
         com base nos seguintes critérios de prioridade:
-        <ol className="list-decimal px-4">
-          <li>Estudantes de escolas públicas municipais e estaduais; </li>
-          <li>Estudantes de escolas públicas da região;</li>
-          <li>Estudantes de escolas particulares;</li>
-          <li>Profissionais em busca de recolocação no mercado de trabalho.</li>
+        <ol>
+          <li>1. Estudantes de escolas públicas municipais e também estaduais; </li>
+          <li>2. Estudantes de escolas públicas da região;</li>
+          <li>3. Estudantes de escolas particulares;</li>
+          <li>4. Profissionais em busca de recolocação no mercado de trabalho.</li>
         </ol>
       </>
     ),
@@ -440,11 +440,11 @@ export const moreAbout = [
         </ul>
         <u>Critérios de seleção:</u>A seleção dos participantes será realizada
         com base nos seguintes critérios de prioridade:
-        <ol className="list-decimal px-4">
-          <li>Estudantes de escolas públicas municipais e estaduais; </li>
-          <li>Estudantes de escolas públicas da região;</li>
-          <li>Estudantes de escolas particulares;</li>
-          <li>Profissionais em busca de recolocação no mercado de trabalho.</li>
+        <ol>
+          <li>1. Estudantes de escolas públicas municipais e estaduais;</li>
+          <li>2. Estudantes de escolas públicas da região;</li>
+          <li>3. Estudantes de escolas particulares;</li>
+          <li>4. Profissionais em busca de recolocação no mercado de trabalho.</li>
         </ol>
       </>
     ),
