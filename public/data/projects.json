@@ -20,12 +20,6 @@
         "publico": "Todos os cidadãos que não tenham acesso aos serviços públicos, por falta de equipamentos, internet, etc e pessoas que desejem aulas de aprendizagem digital e tecnológica."
     },
     {
-        "title": "CONTROLADORA DE LED PARA SEMÁFORO",
-        "objetivos": "Melhorar a visualização dos semáforos para os munícipes, visando evitar eventuais acidentes e modernização do município.",
-        "beneficios": "Desenvolvimento da tecnologia dentro do serviço público, barateando os custos para a obtenção dessa tecnologia, e aumento na segurança.",
-        "publico": "Todos os Munícipes"
-    },
-    {
         "title": "DESTINO TURÍSTICO INTELIGENTE - DTI",
         "objetivos": "Criar uma rota turística tecnológica, conectando e apresentando os principais agentes de TI do município, oferecendo experiências memoráveis, com o intuito de fortalecer a imagem de Pato Branco como Capital Tecnológica e Inovadora e buscando destaque no cenário nacional e internacional.",
         "beneficios": "Apresentar a estrutura do Parque Tecnológico, bem como as empresas instaladas, dando notoriedade ao ambiente de inovação, pesquisa e desenvolvimento e consequentemente atrair investimentos e empresas que incrementem o ecossistema local de inovação e a cidade de Pato Branco.",
@@ -49,26 +43,6 @@
         "objetivos": "Melhorar o serviço de segurança pública ao empregar câmeras de videomonitoramento controladas pelo 3º BPM.",
         "beneficios": "O trabalho conjunto entre a Prefeitura e os órgãos de segurança possibilita o mapeamento de todo o município a fim de monitorar locais estratégicos de segurança, garantindo o controle remoto, pelo 3º Batalhão de Polícia Militar, nas entradas/saídas do município e em locais de grande aglomeração de pessoas.",
         "publico": "Todos os cidadãos."
-    },
-    {
-        "title": "PLATAFORMA FESTIVAL GASTRONÔMICO",
-        "objetivos": "Fornecer informações abrangentes sobre o Festival Gastronômico de Pato Branco, apresentando datas, horários, localização e atrações, assim como destacar os restaurantes participantes do evento. O site será uma fonte centralizada de informações para os visitantes, permitindo que planejem sua participação de maneira eficiente e conheçam as especialidades culinárias oferecidas pelos estabelecimentos locais.",
-        "beneficios": "Promover a cultura e a culinária local, destacando ingredientes regionais, pratos típicos e a tradição gastronômica de Pato Branco, a fim de valorizar a identidade local e proporcionar uma experiência autêntica aos participantes do festival.",
-        "publico": "Todos os Munícipes"
-    },
-    {
-        "title": "PUIMAT",
-        "super": "Sobre",
-        "objetivos": "Preparar a cidade para receber os modais de alta tecnologia existentes através de um planejamento eficiente que orienta de maneira organizada a estruturação da cidade para receber os futuros player dos mais diversos segmentos",
-        "beneficios": "O PUIMAT Pato Branco será uma ferramenta para o município produzir legislação e marketing para fazer um trabalho de atração de investimentos e tecnologias de alta performance, estimulando a instalação de empresas que promovam o desenvolvimento estruturado da cidade para tecnologias futuras.",
-        "publico": "Cidadãos, ICTs, empresas que desejam desenvolver e testar novas tecnologias em modais aéreos e terrestres."
-    },
-    {
-        "title": "QUALIFICA PATO BRANCO",
-        "objetivos": "Fornecer aos munícipes uma plataforma de cursos gratuitos, fomentando a capacitação de mão de obra qualificada para o município. Em parceria com entidades como SEBRAE, SENAC, Agência do Trabalho e a Secretaria de Desenvolvimento Econômico.",
-        "beneficios": "Gerar mão de obra qualificada para fomentar a economia do município.",
-        "publico": "Todos os Munícipes",
-        "link": "https://qualificapb.com.br"
     },
     {
         "title": "ROBÓTICA",
