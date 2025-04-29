@@ -7,6 +7,11 @@ const nextConfig = {
             destination: '/patotec',
             permanent: true,
           },
+          {
+            source: '/cursos/:curso',
+            destination: '/patotec/:curso',
+            permanent: true,
+          },
         ];
       },
 }
