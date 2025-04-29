@@ -30,7 +30,7 @@ const page = () => {
               Saiba mais
             </Link>
             <p className="text-start">
-              <strong>Parceiros: SMCTI e UTFPR</strong>
+              <strong>Parceiros: SMCTI e da INFI-UTFPRPB</strong>
             </p>
             <button
               onClick={() => {
@@ -56,7 +56,7 @@ const page = () => {
               Saiba mais
             </Link>
             <p className="text-start">
-              <strong>Parceiros: SMCTI e UTFPR</strong>
+              <strong>Parceiros: SMCTI e da INFI-UTFPRPB</strong>
             </p>
             <button
               onClick={() => {
