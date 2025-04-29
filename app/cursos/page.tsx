@@ -5,7 +5,6 @@ import PartnerFooter from "@components/common/PartnerFooter";
 import Link from "next/link";
 
 const page = () => {
-
   return (
     <>
       <div className="my-32 flex flex-col h-full bg-zircon-50 gap-8 text-gray-700">
@@ -34,7 +33,9 @@ const page = () => {
               <strong>Parceiros: SMCTI e UTFPR</strong>
             </p>
             <button
-              onClick={() => { window.location.href = "https://forms.gle/VhQH1S7BLX1GYu879"; }}
+              onClick={() => {
+                window.location.href = "https://forms.gle/VhQH1S7BLX1GYu879";
+              }}
               className="mt-auto flex bg-cello rounded-lg text-white justify-center w-full hover:border-black border-2 hover:bg-white hover:text-black hover:shadow-sm hover:shadow-white p-2 h-fit"
             >
               Inscrever-se
@@ -58,7 +59,9 @@ const page = () => {
               <strong>Parceiros: SMCTI e UTFPR</strong>
             </p>
             <button
-              onClick={() => { window.location.href = "https://forms.gle/gmTsrEvDsg6BzPVd8"; }}
+              onClick={() => {
+                window.location.href = "https://forms.gle/gmTsrEvDsg6BzPVd8";
+              }}
               className="mt-auto flex bg-cello rounded-lg text-white justify-center w-full hover:border-black border-2 hover:bg-white hover:text-black hover:shadow-sm hover:shadow-white p-2 h-fit"
             >
               Inscrever-se
@@ -69,6 +72,39 @@ const page = () => {
             alt="imagemCurso"
             className="w-full sm:h-[450px] h-80  rounded-xl overflow-hidden object-cover"
           />
+        </div>
+        <div className="section-default shadow rounded-lg flex lg:flex-row flex-col gap-8">
+          <img
+            src="/assets/images/eletronica.png"
+            alt="imagemCurso"
+            className="w-full sm:h-[500px] h-96  rounded-xl overflow-hidden object-cover"
+          />
+          <div className="grid grid-cols-1 text-black gap-4 lg:w-1/2 text-center">
+            <p className="text-3xl">
+              Aperfeiçoamento em Eletrônica Básica - Presencial
+            </p>
+            <p className="text-justify">
+              O aperfeiçoamento em eletrônica básica envolve o domínio de
+              conceitos fundamentais como resistores, capacitores, transistores
+              e circuitos integrados, além da prática com instrumentos como
+              multímetros, soldadores e placas de circuito. <br />
+            </p>
+            <strong>Vagas Limitadas</strong>
+            <Link href={`/cursos/11`} className="justify-self-end underline">
+              Saiba mais
+            </Link>
+            <p className="text-start">
+              <strong>Parceiros: SMCTI e SENAI</strong>
+            </p>
+            <button
+              onClick={() => {
+                window.location.href = "https://forms.gle/FGJ7fv8v4bQiZNqVA";
+              }}
+              className="mt-auto flex bg-cello rounded-lg text-white justify-center w-full hover:border-black border-2 hover:bg-white hover:text-black hover:shadow-sm hover:shadow-white p-2 h-fit"
+            >
+              Inscrever-se
+            </button>
+          </div>
         </div>
       </div>
       <div className="mt-32 flex flex-col h-full bg-cello gap-8 text-white">
