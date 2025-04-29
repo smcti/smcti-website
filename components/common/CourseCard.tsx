@@ -43,7 +43,7 @@ const CourseCard = (props: CourseCardProps) => {
         </p>
       </div>
       <div className="flex underline justify-end mt-4">
-        <Link href={`/cursos/${props.id}`}>Saiba mais</Link>
+        <Link href={`/patotec/${props.id}`}>Saiba mais</Link>
       </div>
       <div className="mt-auto">
         <p className="mt-2 font-bold">Parceiros: {props.partner} </p>

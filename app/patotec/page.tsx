@@ -26,11 +26,11 @@ const page = () => {
               Arduino até a construção e programação desses robôs. <br />
             </p>
             <strong>Vagas Limitadas</strong>
-            <Link href={`/cursos/8`} className="justify-self-end underline">
+            <Link href={`/patotec/8`} className="justify-self-end underline">
               Saiba mais
             </Link>
             <p className="text-start">
-              <strong>Parceiros: SMCTI e UTFPR</strong>
+              <strong>Parceiros: SMCTI e da INFI-UTFPRPB</strong>
             </p>
             <button
               onClick={() => {
@@ -52,11 +52,11 @@ const page = () => {
               de computadores, a sintaxe e a semântica da linguagem.
             </p>
             <strong>Vagas Limitadas</strong>
-            <Link href={`/cursos/9`} className="justify-self-end underline">
+            <Link href={`/patotec/9`} className="justify-self-end underline">
               Saiba mais
             </Link>
             <p className="text-start">
-              <strong>Parceiros: SMCTI e UTFPR</strong>
+              <strong>Parceiros: SMCTI e da INFI-UTFPRPB</strong>
             </p>
             <button
               onClick={() => {
@@ -90,7 +90,7 @@ const page = () => {
               multímetros, soldadores e placas de circuito. <br />
             </p>
             <strong>Vagas Limitadas</strong>
-            <Link href={`/cursos/11`} className="justify-self-end underline">
+            <Link href={`/patotec/11`} className="justify-self-end underline">
               Saiba mais
             </Link>
             <p className="text-start">
