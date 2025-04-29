@@ -369,28 +369,33 @@ export const moreAbout = [
     ),
     description: (
       <>
-      <p>
-        <u>Público-alvo:</u> Alunos do ensino médio de escolas públicas
-        municipais e da região; alunos de ensino medio de escolas particulares;
-        profissionais procurando realocação no mercado de trabalho;
-        <br />
-        <u>Tempo estimado para conclusão:</u> 30 horas
-        <br />
-        <u> Pré-requisitos:</u> Alunos que estão cursando ou que já concluíram o
-        Ensino Médio
-        <br />
-        <u>Disponibilização do curso:</u> Duração de 8 encontros de 4h, aos
-        sábados na UTFPR. (10/05, 17/05, 24/05, 31/05, 07/06, 14/06, 28/06,
-        05/07) <strong>no horário das 8h às 12h</strong>
-        <br />
+        <p>
+          <u>Público-alvo:</u> Alunos do ensino médio de escolas públicas
+          municipais e da região; alunos de ensino medio de escolas
+          particulares; profissionais procurando realocação no mercado de
+          trabalho;
+          <br />
+          <u>Tempo estimado para conclusão:</u> 30 horas
+          <br />
+          <u> Pré-requisitos:</u> Alunos que estão cursando ou que já concluíram
+          o Ensino Médio
+          <br />
+          <u>Disponibilização do curso:</u> Duração de 8 encontros de 4h, aos
+          sábados na UTFPR. (10/05, 17/05, 24/05, 31/05, 07/06, 14/06, 28/06,
+          05/07) <strong>no horário das 8h às 12h</strong>
+          <br />
         </p>
         <u>Critérios de seleção:</u>A seleção dos participantes será realizada
         com base nos seguintes critérios de prioridade:
         <ol>
-          <li>1. Estudantes de escolas públicas municipais e também estaduais; </li>
+          <li>
+            1. Estudantes de escolas públicas municipais e também estaduais;{" "}
+          </li>
           <li>2. Estudantes de escolas públicas da região;</li>
           <li>3. Estudantes de escolas particulares;</li>
-          <li>4. Profissionais em busca de recolocação no mercado de trabalho.</li>
+          <li>
+            4. Profissionais em busca de recolocação no mercado de trabalho.
+          </li>
         </ol>
       </>
     ),
@@ -444,7 +449,9 @@ export const moreAbout = [
           <li>1. Estudantes de escolas públicas municipais e estaduais;</li>
           <li>2. Estudantes de escolas públicas da região;</li>
           <li>3. Estudantes de escolas particulares;</li>
-          <li>4. Profissionais em busca de recolocação no mercado de trabalho.</li>
+          <li>
+            4. Profissionais em busca de recolocação no mercado de trabalho.
+          </li>
         </ol>
       </>
     ),
@@ -493,6 +500,48 @@ export const moreAbout = [
           <li> 1 teste final</li>
           <li> Certificação PCAP</li>
         </ul>
+      </>
+    ),
+  },
+  {
+    id: "11",
+    title: "Aperfeiçoamento em Eletrônica Básica",
+    benefits: (
+      <>
+        O aperfeiçoamento em eletrônica básica envolve o domínio de conceitos
+        fundamentais como resistores, capacitores, transistores e circuitos
+        integrados, além da prática com instrumentos como multímetros,
+        soldadores e placas de circuito. <br />
+        <ul>
+          <li>
+            ✓Maior empregabilidade: habilidades em eletrônica são requisitadas
+            em diversas áreas técnicas
+          </li>
+          <li>
+            ✓Autonomia técnica: capacidade de montar, reparar ou modificar
+            circuitos por conta própria
+          </li>
+          <li>
+            ✓Base sólida para áreas avançadas: essencial para estudar eletrônica
+            digital, automação, IoT, robótica e sistemas embarcados
+          </li>
+        </ul>
+      </>
+    ),
+    description: (
+      <>
+        <p>
+          <u>Público-alvo:</u> Alunos do ensino médio, universitários e o
+          público em geral <br />
+          <u>Tempo estimado para conclusão:</u> 120 horas
+          <br />
+          <u> Pré-requisitos:</u> Noção básica de eletrônica
+          <br />
+          <u>Disponibilização do curso:</u> Presencial. O curso será realizado
+          de 19 de maio a 4 de julho, às segundas, quartas e sextas-feiras, das
+          18h30 às 22h30, na unidade do SENAI Pato Branco.
+          <br />
+        </p>
       </>
     ),
   },
