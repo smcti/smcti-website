@@ -30,7 +30,7 @@ const page = () => {
               Saiba mais
             </Link>
             <p className="text-start">
-              <strong>Parceiros: SMCTI e da INFI-UTFPRPB</strong>
+              <strong>Parceiros: SMCTI e do DAINF/UTFPR-PB</strong>
             </p>
             <button
               onClick={() => {
@@ -56,7 +56,7 @@ const page = () => {
               Saiba mais
             </Link>
             <p className="text-start">
-              <strong>Parceiros: SMCTI e da INFI-UTFPRPB</strong>
+              <strong>Parceiros: SMCTI e do DAINF/UTFPR-PB</strong>
             </p>
             <button
               onClick={() => {
@@ -132,7 +132,7 @@ const page = () => {
               criam valor ao conectar objetos físicos cotidianos ao mundo digital,
               baseando-se em sua programação, dados massivos e análise, automação e
               segurança."
-              partner="SMCTI e UTFPR"
+              partner="SMCTI, UTFPR e CISCO"
               duration="6 horas"
               isNotOpen={false}
               redirectUrl="https://forms.gle/9qyVDuSUVzPy95n59"
