@@ -26,7 +26,7 @@ const page = () => {
               Arduino até a construção e programação desses robôs. <br />
             </p>
             <strong>Vagas Limitadas</strong>
-            <Link href={`/patotec/8`} className="justify-self-end underline">
+            <Link href={`/patotech/8`} className="justify-self-end underline">
               Saiba mais
             </Link>
             <p className="text-start">
@@ -34,7 +34,7 @@ const page = () => {
             </p>
             <button
               onClick={() => {
-                window.location.href = "https://forms.gle/VhQH1S7BLX1GYu879";
+                window.open("https://forms.gle/VhQH1S7BLX1GYu879", "_blank");
               }}
               className="mt-auto flex bg-cello rounded-lg text-white justify-center w-full hover:border-black border-2 hover:bg-white hover:text-black hover:shadow-sm hover:shadow-white p-2 h-fit"
             >
@@ -52,7 +52,7 @@ const page = () => {
               de computadores, a sintaxe e a semântica da linguagem.
             </p>
             <strong>Vagas Limitadas</strong>
-            <Link href={`/patotec/9`} className="justify-self-end underline">
+            <Link href={`/patotech/9`} className="justify-self-end underline">
               Saiba mais
             </Link>
             <p className="text-start">
@@ -60,7 +60,7 @@ const page = () => {
             </p>
             <button
               onClick={() => {
-                window.location.href = "https://forms.gle/gmTsrEvDsg6BzPVd8";
+                window.open("https://forms.gle/gmTsrEvDsg6BzPVd8", "_blank");
               }}
               className="mt-auto flex bg-cello rounded-lg text-white justify-center w-full hover:border-black border-2 hover:bg-white hover:text-black hover:shadow-sm hover:shadow-white p-2 h-fit"
             >
@@ -90,7 +90,7 @@ const page = () => {
               multímetros, soldadores e placas de circuito. <br />
             </p>
             <strong>Vagas Limitadas</strong>
-            <Link href={`/patotec/11`} className="justify-self-end underline">
+            <Link href={`/patotech/11`} className="justify-self-end underline">
               Saiba mais
             </Link>
             <p className="text-start">
@@ -98,7 +98,7 @@ const page = () => {
             </p>
             <button
               onClick={() => {
-                window.location.href = "https://forms.gle/FGJ7fv8v4bQiZNqVA";
+                window.open("https://forms.gle/FGJ7fv8v4bQiZNqVA", "_blank");
               }}
               className="mt-auto flex bg-cello rounded-lg text-white justify-center w-full hover:border-black border-2 hover:bg-white hover:text-black hover:shadow-sm hover:shadow-white p-2 h-fit"
             >
@@ -218,7 +218,7 @@ const page = () => {
               redirectUrl=""
             />
             <CourseCard
-              id="11"
+              id="12"
               image="/assets/images/htmlcss.png"
               title="HTML E CSS - Presencial"
               description="Desenvolver habilidades fundamentais, entender como a web é construída e visualizar-se
