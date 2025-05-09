@@ -3,6 +3,7 @@
 import { useParams } from "next/navigation";
 import { moreAbout } from "@/public/data/moreAbout";
 import PartnerFooter from "@components/common/PartnerFooter";
+import { useRouter } from "@/node_modules/next/navigation";
 
 const CoursePage = () => {
   const params = useParams();
@@ -11,6 +12,8 @@ const CoursePage = () => {
   const course = moreAbout.find((c) => c.id === id);
 
   if (!course) return <p>Curso não encontrado.</p>;
+
+  const router = useRouter();
 
   return (
     <>
@@ -37,13 +40,12 @@ const CoursePage = () => {
         {course.id === "8" || course.id === "9" || course.id === "11" ? (
           <>
             {course.id === "8" ? (
-              
-                <p>
-                  <strong>IMPORTANTE:</strong> No último dia do curso, os alunos
-                  participarão de uma competição entre os Robôs Seguidores de
-                  Linha que desenvolveram ao longo das aulas. Os três primeiros
-                  colocados serão premiados com troféus.
-                </p>
+              <p>
+                <strong>IMPORTANTE:</strong> No último dia do curso, os alunos
+                participarão de uma competição entre os Robôs Seguidores de
+                Linha que desenvolveram ao longo das aulas. Os três primeiros
+                colocados serão premiados com troféus.
+              </p>
             ) : (
               <></>
             )}
@@ -70,6 +72,12 @@ const CoursePage = () => {
             </p>
           </>
         )}
+        <button
+          onClick={() => router.push("/patotech")}
+          className="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300"
+        >
+          Voltar
+        </button>
       </div>
       <PartnerFooter />
     </>

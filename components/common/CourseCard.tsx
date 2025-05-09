@@ -13,11 +13,11 @@ interface CourseCardProps {
 
 const CourseCard = (props: CourseCardProps) => {
   const handleClick = () => {
-    window.location.href = props.redirectUrl;
+    window.open(props.redirectUrl, "_blank");
   };
 
   return (
-    <div className="m-2 h-full flex flex-col justify-between p-2 rounded-xl shadow  ">
+    <div className="m-2 h-full flex flex-col justify-between p-2 rounded-xl shadow">
       <div>
         <img
           src={props.image}
@@ -43,7 +43,7 @@ const CourseCard = (props: CourseCardProps) => {
         </p>
       </div>
       <div className="flex underline justify-end mt-4">
-        <Link href={`/patotec/${props.id}`}>Saiba mais</Link>
+        <Link href={`/patotech/${props.id}`}>Saiba mais</Link>
       </div>
       <div className="mt-auto">
         <p className="mt-2 font-bold">Parceiros: {props.partner} </p>

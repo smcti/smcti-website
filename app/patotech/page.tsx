@@ -26,7 +26,7 @@ const page = () => {
               Arduino até a construção e programação desses robôs. <br />
             </p>
             <strong>Vagas Limitadas</strong>
-            <Link href={`/patotec/8`} className="justify-self-end underline">
+            <Link href={`/patotech/8`} className="justify-self-end underline">
               Saiba mais
             </Link>
             <p className="text-start">
@@ -34,44 +34,13 @@ const page = () => {
             </p>
             <button
               onClick={() => {
-                window.location.href = "https://forms.gle/VhQH1S7BLX1GYu879";
+                window.open("https://forms.gle/VhQH1S7BLX1GYu879", "_blank");
               }}
               className="mt-auto flex bg-cello rounded-lg text-white justify-center w-full hover:border-black border-2 hover:bg-white hover:text-black hover:shadow-sm hover:shadow-white p-2 h-fit"
             >
               Inscrever-se
             </button>
           </div>
-        </div>
-        <div className="section-default shadow rounded-lg flex lg:flex-row flex-col gap-8">
-          <div className="grid grid-cols-1 text-black gap-4 lg:w-1/2 text-center">
-            <p className="text-3xl">FUNDAMENTOS DE PYTHON I - Presencial</p>
-            <p className="text-justify">
-              Desenvolver habilidades para realizar tarefas de codificação
-              relacionadas com os elementos essenciais da programação na
-              linguagem Python.Conhecer os conceitos universais da programação
-              de computadores, a sintaxe e a semântica da linguagem.
-            </p>
-            <strong>Vagas Limitadas</strong>
-            <Link href={`/patotec/9`} className="justify-self-end underline">
-              Saiba mais
-            </Link>
-            <p className="text-start">
-              <strong>Parceiros: SMCTI e do DAINF/UTFPR-PB</strong>
-            </p>
-            <button
-              onClick={() => {
-                window.location.href = "https://forms.gle/gmTsrEvDsg6BzPVd8";
-              }}
-              className="mt-auto flex bg-cello rounded-lg text-white justify-center w-full hover:border-black border-2 hover:bg-white hover:text-black hover:shadow-sm hover:shadow-white p-2 h-fit"
-            >
-              Inscrever-se
-            </button>
-          </div>
-          <img
-            src="/assets/images/python.png"
-            alt="imagemCurso"
-            className="w-full sm:h-[450px] h-80  rounded-xl overflow-hidden object-cover"
-          />
         </div>
         <div className="section-default shadow rounded-lg flex lg:flex-row flex-col gap-8">
           <img
@@ -90,7 +59,7 @@ const page = () => {
               multímetros, soldadores e placas de circuito. <br />
             </p>
             <strong>Vagas Limitadas</strong>
-            <Link href={`/patotec/11`} className="justify-self-end underline">
+            <Link href={`/patotech/11`} className="justify-self-end underline">
               Saiba mais
             </Link>
             <p className="text-start">
@@ -98,7 +67,7 @@ const page = () => {
             </p>
             <button
               onClick={() => {
-                window.location.href = "https://forms.gle/FGJ7fv8v4bQiZNqVA";
+                window.open("https://forms.gle/FGJ7fv8v4bQiZNqVA", "_blank");
               }}
               className="mt-auto flex bg-cello rounded-lg text-white justify-center w-full hover:border-black border-2 hover:bg-white hover:text-black hover:shadow-sm hover:shadow-white p-2 h-fit"
             >
@@ -205,6 +174,19 @@ const page = () => {
           <p className="m-2 w-full text-2xl font-bold">Indisponíveis:</p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3">
             <CourseCard
+              id="9"
+              image="/assets/images/python.png"
+              title="FUNDAMENTOS DE PYTHON I - Presencial"
+              description="Desenvolver habilidades para realizar tarefas de codificação
+              relacionadas com os elementos essenciais da programação na
+              linguagem Python. Conhecer os conceitos universais da programação
+              de computadores, a sintaxe e a semântica da linguagem."
+              duration="30 horas"
+              partner="SMCTI e do DAINF/UTFPR-PB"
+              isNotOpen={true}
+              redirectUrl=""
+            />
+            <CourseCard
               id="10"
               image="/assets/images/python.png"
               title="FUNDAMENTOS DE PYTHON II - Online"
@@ -218,7 +200,7 @@ const page = () => {
               redirectUrl=""
             />
             <CourseCard
-              id="11"
+              id="12"
               image="/assets/images/htmlcss.png"
               title="HTML E CSS - Presencial"
               description="Desenvolver habilidades fundamentais, entender como a web é construída e visualizar-se
