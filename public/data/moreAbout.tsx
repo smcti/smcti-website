@@ -381,7 +381,7 @@ export const moreAbout = [
           o Ensino Médio
           <br />
           <u>Disponibilização do curso:</u> Duração de 8 encontros de 4h, aos
-          sábados na UTFPR. (17/05, 24/05, 31/05, 07/06, 14/06, 28/06, 05/07) <strong>no horário das 8h às 12h</strong>
+          sábados na UTFPR. (17/05, 24/05, 31/05, 07/06, 14/06, 28/06, 05/07, 12/07) <strong>no horário das 8h às 12h</strong>
           <br />
         </p>
         <u>Critérios de seleção:</u>A seleção dos participantes será realizada

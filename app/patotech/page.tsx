@@ -36,7 +36,7 @@ const page = () => {
               onClick={() => {
                 window.open("https://forms.gle/VhQH1S7BLX1GYu879", "_blank");
               }}
-              className="mt-auto flex bg-cello rounded-lg text-white justify-center w-full hover:border-black border-2 hover:bg-white hover:text-black hover:shadow-sm hover:shadow-white p-2 h-fit"
+              className="mt-auto flex bg-cello rounded-lg text-white justify-center w-full hover:border-black border-2 hover:bg-zircon-50 hover:text-black hover:shadow-sm hover:shadow-white p-2 h-fit"
             >
               Inscrever-se
             </button>
@@ -69,7 +69,7 @@ const page = () => {
               onClick={() => {
                 window.open("https://forms.gle/FGJ7fv8v4bQiZNqVA", "_blank");
               }}
-              className="mt-auto flex bg-cello rounded-lg text-white justify-center w-full hover:border-black border-2 hover:bg-white hover:text-black hover:shadow-sm hover:shadow-white p-2 h-fit"
+              className="mt-auto flex bg-cello rounded-lg text-white justify-center w-full hover:border-black border-2 hover:bg-zircon-50 hover:text-black hover:shadow-sm hover:shadow-white p-2 h-fit"
             >
               Inscrever-se
             </button>
