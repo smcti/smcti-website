@@ -54,7 +54,7 @@ const CourseCard = (props: CourseCardProps) => {
             className={`flex mt-4 rounded-lg ${
               props.isNotOpen
                 ? "bg-cello text-white"
-                : "border-white text-white hover:bg-white hover:text-black hover:translate-y-[-1px]"
+                : "border-white text-white hover:bg-zircon-50 hover:text-black hover:translate-y-[-1px]"
             } border border-white justify-center w-full p-2`}
             onClick={handleClick}
           >

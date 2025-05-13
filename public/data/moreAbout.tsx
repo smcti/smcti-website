@@ -381,7 +381,8 @@ export const moreAbout = [
           o Ensino Médio
           <br />
           <u>Disponibilização do curso:</u> Duração de 8 encontros de 4h, aos
-          sábados na UTFPR. (17/05, 24/05, 31/05, 07/06, 14/06, 28/06, 05/07) <strong>no horário das 8h às 12h</strong>
+          sábados na UTFPR. (17/05, 24/05, 31/05, 07/06, 14/06, 28/06, 05/07,
+          12/07) <strong>no horário das 8h às 12h</strong>
           <br />
         </p>
         <u>Critérios de seleção:</u>A seleção dos participantes será realizada
@@ -539,6 +540,31 @@ export const moreAbout = [
           <u>Disponibilização do curso:</u> Presencial. O curso será realizado
           de 19 de maio a 4 de julho, às segundas, quartas e sextas-feiras, das
           18h30 às 22h30, na unidade do SENAI Pato Branco.
+          <br />
+        </p>
+      </>
+    ),
+  },
+  {
+    id: "12",
+    title: "Curso de Aplicação de Inteligência Artificial para Negócios",
+    benefits: (
+      <>
+        Oportunizar aos participantes conhecimentos relacionados a aplicação da
+        inteligência artificial em empresas. <br />
+      </>
+    ),
+    description: (
+      <>
+        <p>
+          <u>Público-alvo:</u> Alunos do ensino fundamental, médio,
+          universitários e o público em geral <br />
+          <u> Pré-requisitos:</u> Idade mínima de 16 anos, 5º ano do Ensino
+          Fundamental
+          <br />
+          <u>Disponibilização do curso:</u> Presencial. 22/05 a 05/06 (mediante
+          fechamento de turma), às Terças e Quintas das 18h às 21h no Parque
+          Tecnológico - Rua Lídio Oltramari 1628, Fraron.
           <br />
         </p>
       </>
