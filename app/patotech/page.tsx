@@ -26,9 +26,10 @@ const page = () => {
           image="/assets/images/cursos/ia_negocios.jpg"
           title="Curso de Aplicação de Inteligência Artificial para Negócios - Presencial"
           description="Oportunizar aos participantes conhecimentos relacionados a
-           aplicação da inteligência artificial em empresas."
+           aplicação da inteligência artificial em empresas.
+           Palavra-chave: PARCERIAPATOBRANCO"
           partners="SMCTI e SENAC"
-          link="https://forms.gle/v8pahb87izBui9V17"
+          link="https://www.pr.senac.br/cursos/?uep=9&tc=202500102"
         />
         <CourseHeader
           id="11"
