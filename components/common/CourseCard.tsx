@@ -1,6 +1,7 @@
 import Link from "@node_modules/next/link";
 
 interface CourseCardProps {
+  key: number;
   id: string;
   partner: string;
   title: string;
@@ -17,7 +18,7 @@ const CourseCard = (props: CourseCardProps) => {
   };
 
   return (
-    <div className="m-2 h-full flex flex-col justify-between p-2 rounded-xl shadow">
+    <div key={props.key} className="m-2 h-full flex flex-col justify-between p-2 rounded-xl shadow-md">
       <div>
         <img
           src={props.image}
