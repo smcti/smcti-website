@@ -10,25 +10,14 @@ const page = () => {
     <>
       <div className="my-32 flex flex-col h-full bg-zircon-50 gap-8 text-gray-700">
         <CourseHeader
-          id="8"
-          image="/assets/images/cursos/robotica.jpg"
-          title="Introdução à Robótica Móvel com Arduino - Presencial"
-          description="O curso oferece uma introdução à robótica móvel, abordando teoria
-              e prática da locomoção autônoma em robôs seguidores de linha e
-              lutadores de sumô. Os alunos aprenderão eletrônica básica,
-              microcontroladores e programação, desenvolvendo projetos com
-              Arduino até a construção e programação desses robôs."
-          partners="SMCTI e do DAINF/UTFPR-PB"
-          link="https://forms.gle/VhQH1S7BLX1GYu879"
-        />
-        <CourseHeader
           id="12"
           image="/assets/images/cursos/ia_negocios.jpg"
           title="Curso de Aplicação de Inteligência Artificial para Negócios - Presencial"
           description="Oportunizar aos participantes conhecimentos relacionados a
-           aplicação da inteligência artificial em empresas."
+           aplicação da inteligência artificial em empresas.
+           Palavra-chave: PARCERIAPATOBRANCO"
           partners="SMCTI e SENAC"
-          link="https://forms.gle/v8pahb87izBui9V17"
+          link="https://www.pr.senac.br/cursos/?uep=9&tc=202500102"
         />
         <CourseHeader
           id="11"
@@ -139,6 +128,20 @@ const page = () => {
         <div className="section-default flex-col text-start justify-start gap-8">
           <p className="m-2 w-full text-2xl font-bold">Indisponíveis:</p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3">
+            <CourseCard
+              id="8"
+              image="/assets/images/cursos/robotica.jpg"
+              title="Introdução à Robótica Móvel com Arduino - Presencial"
+              duration="30 horas"
+              description="O curso oferece uma introdução à robótica móvel, abordando teoria
+              e prática da locomoção autônoma em robôs seguidores de linha e
+              lutadores de sumô. Os alunos aprenderão eletrônica básica,
+              microcontroladores e programação, desenvolvendo projetos com
+              Arduino até a construção e programação desses robôs."
+              partner="SMCTI e do DAINF/UTFPR-PB"
+              isNotOpen={true}
+              redirectUrl=""
+            />
             <CourseCard
               id="9"
               image="/assets/images/cursos/python.png"
