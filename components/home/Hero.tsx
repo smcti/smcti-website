@@ -109,7 +109,7 @@ const Hero = () => {
                     {data.wind.gust} Km/h
                   </div>
                   <div className="h-12 text-center text flex items-center justify-between">
-                    <strong>Humidade:</strong>&nbsp;{data.main.humidity}%
+                    <strong>Umidade:</strong>&nbsp;{data.main.humidity}%
                   </div>
                 </div>
               </div>
