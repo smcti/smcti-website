@@ -1,15 +1,5 @@
 [
     {
-        "id": "1",
-        "image": "/assets/images/cursos/defesa_rede.png",
-        "title": "DEFESA DE REDE - ANALISTA DE CIBERSEGURANÇA JÚNIOR - Online",
-        "description": "Nesse curso você irá obter o conhecimento básico que você usará nolocal de trabalho como Analista de Cibersegurança Júnior. Este curso aborda maneiras de monitorar sua rede e como avaliar alertas de segurança.",
-        "partner": "SMCTI, UTFPR e CISCO",
-        "duration": "27 horas",
-        "isNotOpen": false,
-        "link": "https://forms.gle/MiGhD86S1zYai6gJ8"
-    },
-    {
         "id": "2",
         "image": "/assets/images/cursos/iot.png",
         "title": "INTRODUÇÃO À IOT E À TRANSFORMAÇÃO DIGITAL - Online",

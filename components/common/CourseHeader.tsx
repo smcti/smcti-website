@@ -19,13 +19,21 @@ const CourseHeader = (props: CourseHeaderProps) => {
             className="w-full sm:h-[500px] h-96  rounded-xl overflow-hidden object-cover"
           />
           <div className="grid grid-cols-1 text-black gap-4 lg:w-1/2 text-center">
-            <p className="text-3xl">
+            <p className="sm:text-3xl text-xl">
               {props.title}
             </p>
             <p className="text-justify">
               {props.description} <br />
             </p>
-            <strong>Vagas Limitadas</strong>
+            {Number(props.id) > 7 ? (
+              <>
+                <strong>Vagas Limitadas</strong>
+              </>
+              ) : (
+              <>
+              </>
+              )}
+            
             <Link href={`/patotech/${props.id}`} className="justify-self-end underline">
               Saiba mais
             </Link>

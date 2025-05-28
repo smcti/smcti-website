@@ -11,14 +11,12 @@ const page = () => {
     <>
       <div className="my-32 p-6 flex flex-col h-full bg-zircon-50 gap-8 text-gray-700">
         <CourseHeader
-          id="12"
-          image="/assets/images/cursos/ia_negocios.jpg"
-          title="Curso de Aplicação de Inteligência Artificial para Negócios - Presencial"
-          description="Oportunizar aos participantes conhecimentos relacionados a
-           aplicação da inteligência artificial em empresas.
-           Palavra-chave: PARCERIAPATOBRANCO"
-          partners="SMCTI e SENAC"
-          link="https://www.pr.senac.br/cursos/?uep=9&tc=202500102"
+          id="1"
+          image="/assets/images/cursos/defesa_rede.png"
+          title="DEFESA DE REDE - ANALISTA DE CIBERSEGURANÇA JÚNIOR - Online"
+          description="Nesse curso você irá obter o conhecimento básico que você usará nolocal de trabalho como Analista de Cibersegurança Júnior. Este curso aborda maneiras de monitorar sua rede e como avaliar alertas de segurança."
+          partners="SMCTI, UTFPR e CISCO"
+          link="https://forms.gle/MiGhD86S1zYai6gJ8"
         />
       </div>
       <div className="mt-32 flex flex-col h-full bg-cello gap-8 text-white">
