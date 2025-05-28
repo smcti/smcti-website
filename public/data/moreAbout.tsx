@@ -7,7 +7,7 @@ export const moreAbout = [
         Alunos desenvolvem habilidades essenciais para atuar como Analistas de
         Cibersegurança Júnior, aprendendo a monitorar redes, avaliar alertas de
         segurança e aplicar técnicas modernas de proteção. Este curso representa
-        a <strong>1ª etapa da Maratona de CiberEducação</strong>, oferecendo
+        a 1ª etapa da Maratona de CiberEducação, oferecendo
         oportunidades reais de avanço profissional em cibersegurança por meio de
         um programa dividido em três fases:
         <br />
