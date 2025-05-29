@@ -22,7 +22,7 @@ const Nav = () => {
           />
         </div>
         {/* Desktop Navigation */}
-        <ul className='md:flex hidden flex-row gap-4 items-center'>
+        <ul className='lg:flex hidden flex-row gap-4 items-center'>
           {Object.values(navItems).map((item, index) => (
             <li key={index} className='h-fit text-white'>
               {item.dropdown ? (
@@ -64,7 +64,7 @@ const Nav = () => {
         </ul>
         {/* Mobile navigation */}
         <AiOutlineMenu
-          className='md:hidden burguer-menu text-white
+          className='lg:hidden burguer-menu text-white
                 hover:cursor-pointer'
           onClick={handleDropdown}
         />

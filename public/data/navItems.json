@@ -30,6 +30,10 @@
         "path": "/itecpb"
     },
     {
+        "name": "Aceleradora",
+        "path": "/aceleradora"
+    },
+    {
         "name": "Parque Tecnológico",
         "path": "/parque"
     },
