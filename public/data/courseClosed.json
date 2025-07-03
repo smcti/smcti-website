@@ -20,16 +20,6 @@
         "link": ""
     },
     {
-        "id": "10",
-        "image": "/assets/images/cursos/python.png",
-        "title": "FUNDAMENTOS DE PYTHON II - Online",
-        "description": "Desenvolver habilidades para realizar tarefas de codificação relacionadas com os elementos essenciais da programação na linguagem Python. Conhecer os conceitos universais da programação de computadores, a sintaxe e a semântica da linguagem.",
-        "partner": "SMCTI, UTFPR e CISCO",
-        "duration": "40 horas",
-        "isNotOpen": true,
-        "link": ""
-    },
-    {
         "id": "11",
         "image": "/assets/images/cursos/eletronica.png",
         "title": "Aperfeiçoamento em Eletrônica Básica - Presencial",
@@ -60,7 +50,7 @@
         "link": ""
     },
     {
-        "id": "13",
+        "id": "14",
         "image": "/assets/images/cursos/javascript.png",
         "title": "JAVASCRIPT - Presencial",
         "description": "Aprender a dar interatividade às páginas da web, entender como os sites respondem a ações dos usuários e imaginar-se criando experiências dinâmicas no navegador. Compreender como o JavaScript manipula elementos, processa dados e torna a web mais inteligente, fluida e conectada.",

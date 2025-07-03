@@ -562,11 +562,64 @@ export const moreAbout = [
           <u> Pré-requisitos:</u> Idade mínima de 16 anos, 5º ano do Ensino
           Fundamental
           <br />
-          <u>Disponibilização do curso:</u> Presencial. 22/05 a 05/06 (mediante
-          fechamento de turma), às Terças e Quintas das 18h às 21h no Parque
-          Tecnológico - Rua Lídio Oltramari 1628, Fraron.
+          <u>Disponibilização do curso:</u> Online. 
           <br />
         </p>
+      </>
+    ),
+  },
+  {
+    id: "15",
+    title: "Fundamentos de Python 1",
+    benefits: (
+      <>
+        Usado por startups e gigantes da tecnologia como Google, Facebook,
+        Netflix e muito mais, o Python com código fácil de ler oferece infinitas
+        possibilidades para criar projetos de software de pequena e grande
+        escalas. Desenvolve os fundamentos digitais. <br />
+        <ul>
+          <li>
+            ✓Explora o mundo da programação de computadores e as carreiras que
+            ele oferece
+          </li>
+          <li>✓Desenvolve habilidades de codificação usando Python</li>
+          <li>
+            ✓Ensina sobre tipos de dados, variáveis, operações de E/S, fluxo de
+            controle e funções
+          </li>
+        </ul>
+      </>
+    ),
+    description: (
+      <>
+        <p>
+          <u>Público-alvo:</u> Alunos do ensino médio, universitários e o
+          público em geral <br />
+          <u>Tempo estimado para conclusão:</u> 30 horas
+          <br />
+          <u> Pré-requisitos:</u> Nenhum
+          <br />
+          <u>Disponibilização do curso:</u> Self-Paced (Estude por conta
+          própria), Guiada pelo instrutor
+          <br />
+          <u>Destaques dos componentes de aprendizagem:</u>
+        </p>
+        <ul className="list-disc list-inside px-4">
+          <li> 4 módulos</li>
+          <li> Atividades interativas e questionários</li>
+          <li> 1 projeto final </li>
+          <li> 1 teste final</li>
+        </ul>
+        <u>Critérios de seleção:</u>A seleção dos participantes será realizada
+        com base nos seguintes critérios de prioridade:
+        <ol>
+          <li>1. Estudantes de escolas públicas municipais e estaduais;</li>
+          <li>2. Estudantes de escolas públicas da região;</li>
+          <li>3. Estudantes de escolas particulares;</li>
+          <li>
+            4. Profissionais em busca de recolocação no mercado de trabalho.
+          </li>
+        </ol>
       </>
     ),
   },
