@@ -108,6 +108,34 @@ const page = () => {
           </div>
         </div>
       </section>
+      <section>
+        <div className="section-default flex flex-col gap-8 text-gray-700">
+          <HeadingText title="Propostas Recebidas" super="Propostas" />
+          <div className="flex flex-col gap-4">
+          <p>
+            Segue abaixo, em ordem alfabética, a relação de empresas e instituições que
+            nos enviaram propostas:
+          </p>
+          <li>ACE</li>
+          <li>Alperman</li>
+          <li>Darwin</li>
+          <li>IEBT Innovation</li>
+          <li>Impact HUB</li>
+          <li>MOA Ventures</li>
+          <li>Ventiur</li>
+          <li>Venture HUB</li>
+
+          <p>
+            As propostas serão analisadas pelo comitê da Aceleradora, e até o dia
+            <strong>25/07</strong> divulgaremos a proposta (ou propostas) que mais se adequa
+            à nossa realidade, para darmos seguimento às análises.
+          </p>
+
+          <p>
+            Agradecemos a todos que nos enviaram suas propostas!
+          </p>
+        </div>
+      </section>
     </div>
   );
 };
