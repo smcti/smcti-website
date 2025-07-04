@@ -1,5 +1,6 @@
 import HeadingText from "@components/common/HeadingText";
-import { AiOutlineFilePdf } from "@node_modules/react-icons/ai";
+// CORREÇÃO 2: Caminho de importação ajustado
+import { AiOutlineFilePdf } from "react-icons/ai";
 import moment from "moment";
 
 interface RegDoc {
@@ -12,7 +13,8 @@ const RegDocs: RegDoc[] = [
   {
     name: "Solicitação de Proposta (RFP)",
     path: "/assets/docs/Solicitacao_de_Proposta_2025.pdf",
-    date: moment("2025-29-05").toDate(),
+    // CORREÇÃO 1: Formato da data corrigido para YYYY-MM-DD
+    date: moment("2025-05-29").toDate(),
   },
 ];
 
@@ -55,7 +57,7 @@ const page = () => {
       <section>
         <div className="section-default flex flex-col gap-8 text-gray-700">
           <HeadingText title="Nossos objetivos" super="Objetivos" />
-          <ul className="flex list-disc flex-col gap-4">
+          <ul className="flex list-disc flex-col gap-4 pl-5">
             <li>
               Planejar estrategicamente e estruturar o modelo de negócios da
               aceleradora.
@@ -96,11 +98,12 @@ const page = () => {
           <div className="flex flex-col gap-4">
             {RegDocs.map((doc, index) => (
               <div key={index}>
-                <a className="link" href={doc.path} download>
-                  <AiOutlineFilePdf />
+                <a className="link inline-flex items-center gap-2" href={doc.path} download>
+                  <AiOutlineFilePdf size={20} />
                   <span className="text-sm">
                     {doc.name}
-                    {/* {moment(doc.date).format("DD/MM/YYYY")} */}
+                    {/* Exemplo de como formatar a data, se desejar exibi-la */}
+                    {/* ({moment(doc.date).format("DD/MM/YYYY")}) */}
                   </span>
                 </a>
               </div>
@@ -112,28 +115,32 @@ const page = () => {
         <div className="section-default flex flex-col gap-8 text-gray-700">
           <HeadingText title="Propostas Recebidas" super="Propostas" />
           <div className="flex flex-col gap-4">
-          <p>
-            Segue abaixo, em ordem alfabética, a relação de empresas e instituições que
-            nos enviaram propostas:
-          </p>
-          <li>ACE</li>
-          <li>Alperman</li>
-          <li>Darwin</li>
-          <li>IEBT Innovation</li>
-          <li>Impact HUB</li>
-          <li>MOA Ventures</li>
-          <li>Ventiur</li>
-          <li>Venture HUB</li>
+            <p>
+              Segue abaixo, em ordem alfabética, a relação de empresas e instituições que
+              nos enviaram propostas:
+            </p>
+            {/* CORREÇÃO 3: Adicionado <ul> para a lista de propostas */}
+            <ul className="list-disc pl-5 flex flex-col gap-2">
+                <li>ACE</li>
+                <li>Alperman</li>
+                <li>Darwin</li>
+                <li>IEBT Innovation</li>
+                <li>Impact HUB</li>
+                <li>MOA Ventures</li>
+                <li>Ventiur</li>
+                <li>Venture HUB</li>
+            </ul>
 
-          <p>
-            As propostas serão analisadas pelo comitê da Aceleradora, e até o dia
-            <strong>25/07</strong> divulgaremos a proposta (ou propostas) que mais se adequa
-            à nossa realidade, para darmos seguimento às análises.
-          </p>
+            <p>
+              As propostas serão analisadas pelo comitê da Aceleradora, e até o dia
+              <strong> 25/07</strong> divulgaremos a proposta (ou propostas) que mais se adequa
+              à nossa realidade, para darmos seguimento às análises.
+            </p>
 
-          <p>
-            Agradecemos a todos que nos enviaram suas propostas!
-          </p>
+            <p>
+              Agradecemos a todos que nos enviaram suas propostas!
+            </p>
+          </div>
         </div>
       </section>
     </div>
