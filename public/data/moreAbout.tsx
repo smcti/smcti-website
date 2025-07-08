@@ -458,7 +458,7 @@ export const moreAbout = [
   },
   {
     id: "10",
-    title: "Fundamentos de Python 2",
+    title: "Fundamentos de Python II - Online",
     benefits: (
       <>
         Alunos aprofundam seus conhecimentos em Python explorando conceitos
@@ -570,7 +570,7 @@ export const moreAbout = [
   },
   {
     id: "15",
-    title: "Fundamentos de Python 1",
+    title: "Fundamentos de Python I - Online",
     benefits: (
       <>
         Usado por startups e gigantes da tecnologia como Google, Facebook,
@@ -610,16 +610,6 @@ export const moreAbout = [
           <li> 1 projeto final </li>
           <li> 1 teste final</li>
         </ul>
-        <u>Critérios de seleção:</u>A seleção dos participantes será realizada
-        com base nos seguintes critérios de prioridade:
-        <ol>
-          <li>1. Estudantes de escolas públicas municipais e estaduais;</li>
-          <li>2. Estudantes de escolas públicas da região;</li>
-          <li>3. Estudantes de escolas particulares;</li>
-          <li>
-            4. Profissionais em busca de recolocação no mercado de trabalho.
-          </li>
-        </ol>
       </>
     ),
   },
