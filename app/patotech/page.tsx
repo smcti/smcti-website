@@ -29,7 +29,7 @@ const page = () => {
         <CourseHeader
         id= "16"
         image= "/assets/images/cursos/robotica.jpg"
-        title= "Introdução à Robótica Móvel com Arduino - Turma Reserva"
+        title= "Introdução à Robótica Móvel com Arduino - Cadastro de Interessados"
         description= "O curso oferece uma introdução à robótica móvel, abordando teoria e prática da locomoção autônoma em robôs seguidores de linha e lutadores de sumô. Os alunos aprenderão eletrônica básica, microcontroladores e programação, desenvolvendo projetos com Arduino até a construção e programação desses robôs."
         partners= "SMCTI e do DAINF/UTFPR-PB"
         link= "https://forms.gle/wypBEPF8kCoJYqiA9"
