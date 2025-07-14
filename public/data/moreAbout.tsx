@@ -613,4 +613,45 @@ export const moreAbout = [
       </>
     ),
   },
+  {
+    id: "16",
+    title:
+      "Introdução à Robótica Móvel com Arduino: Conceitos, Programação e Aplicação Prática em Robôs Seguidores de Linha e Lutadores de Sumô",
+    benefits: (
+      <>
+        Alunos são introduzidos aos fundamentos da robótica móvel, com foco em
+        robôs seguidores de linha e lutadores de sumô. O curso combina teoria e
+        prática utilizando o kit Arduino para desenvolver projetos reais,
+        proporcionando uma compreensão aplicada da lógica de locomoção autônoma.
+        <br />
+        <ul>
+          <li>
+            ✓Aprende conceitos básicos de eletrônica, microcontroladores e
+            programação
+          </li>
+          <li>
+            ✓Desenvolve projetos com o kit Arduino aplicados à robótica móvel
+          </li>
+          <li>
+            ✓Compreende os desafios da locomoção autônoma baseada em sensores
+          </li>
+        </ul>
+      </>
+    ),
+    description: (
+      <>
+        <p>
+          <u>Público-alvo:</u> Alunos do ensino médio de escolas públicas
+          municipais e da região; alunos de ensino medio de escolas
+          particulares; profissionais procurando realocação no mercado de
+          trabalho;
+          <br />
+          <br />
+          <u> Pré-requisitos:</u> Alunos que estão cursando ou que já concluíram
+          o Ensino Médio
+          <br />
+        </p>
+      </>
+    ),
+  }
 ];
