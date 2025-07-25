@@ -130,18 +130,24 @@ const page = () => {
                 <li>Ventiur</li>
                 <li>Venture HUB</li>
             </ul>
-
-            <p>
-              As propostas serão analisadas pelo comitê da Aceleradora, e até o dia
-              <strong> 25/07</strong> divulgaremos a proposta (ou propostas) que mais se adequa
-              à nossa realidade, para darmos seguimento às análises.
-            </p>
-
-            <p>
-              Agradecemos a todos que nos enviaram suas propostas!
-            </p>
           </div>
         </div>
+      </section>
+      <section>
+        <div className="section-default flex flex-col gap-8 text-gray-700">
+          <HeadingText title="Encaminhamento" super="Encaminhamentos" />
+          <div className="flex flex-col gap-4">
+            <p>
+              Concluída a etapa de análise das propostas submetidas, conduzida pela comissão designada e devidamente 
+              referendada pelo Conselho Municipal de Ciência, Tecnologia e Inovação, iniciou-se o processo interno de 
+              definição do modelo técnico mais apropriado para a contratação dos serviços propostos. 
+              Tal definição está sendo conduzida com base nas especificidades das propostas recebidas, 
+              nos princípios da legalidade, economicidade e eficiência, bem como na busca por garantir a melhor 
+              execução do projeto. Ressalta-se que o modelo de contratação será amplamente publicizado tão logo 
+              esteja finalizado, assegurando a transparência e o acesso à informação a todos os interessados.
+            </p>
+          </div>
+        </div>  
       </section>
     </div>
   );
