@@ -653,5 +653,95 @@ export const moreAbout = [
         </p>
       </>
     ),
+  },
+  {
+    id: "15",
+    title: "Fundamentos de Python I - Online",
+    benefits: (
+      <>
+        Usado por startups e gigantes da tecnologia como Google, Facebook,
+        Netflix e muito mais, o Python com código fácil de ler oferece infinitas
+        possibilidades para criar projetos de software de pequena e grande
+        escalas. Desenvolve os fundamentos digitais. <br />
+        <ul>
+          <li>
+            ✓Explora o mundo da programação de computadores e as carreiras que
+            ele oferece
+          </li>
+          <li>✓Desenvolve habilidades de codificação usando Python</li>
+          <li>
+            ✓Ensina sobre tipos de dados, variáveis, operações de E/S, fluxo de
+            controle e funções
+          </li>
+        </ul>
+      </>
+    ),
+    description: (
+      <>
+        <p>
+          <u>Público-alvo:</u> Alunos do ensino médio, universitários e o
+          público em geral <br />
+          <u>Tempo estimado para conclusão:</u> 30 horas
+          <br />
+          <u> Pré-requisitos:</u> Nenhum
+          <br />
+          <u>Disponibilização do curso:</u> Self-Paced (Estude por conta
+          própria), Guiada pelo instrutor
+          <br />
+          <u>Destaques dos componentes de aprendizagem:</u>
+        </p>
+        <ul className="list-disc list-inside px-4">
+          <li> 4 módulos</li>
+          <li> Atividades interativas e questionários</li>
+          <li> 1 projeto final </li>
+          <li> 1 teste final</li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    id: "17",
+    title: "Fundamentos de Python I - Online - Turma Reserva",
+    benefits: (
+      <>
+        Usado por startups e gigantes da tecnologia como Google, Facebook,
+        Netflix e muito mais, o Python com código fácil de ler oferece infinitas
+        possibilidades para criar projetos de software de pequena e grande
+        escalas. Desenvolve os fundamentos digitais. <br />
+        <ul>
+          <li>
+            ✓Explora o mundo da programação de computadores e as carreiras que
+            ele oferece
+          </li>
+          <li>✓Desenvolve habilidades de codificação usando Python</li>
+          <li>
+            ✓Ensina sobre tipos de dados, variáveis, operações de E/S, fluxo de
+            controle e funções
+          </li>
+        </ul>
+      </>
+    ),
+    description: (
+      <>
+        <p>
+          <u>Público-alvo:</u> Alunos do ensino médio, universitários e o
+          público em geral <br />
+          <u>Tempo estimado para conclusão:</u> 30 horas
+          <br />
+          <u> Pré-requisitos:</u> Nenhum
+          <br />
+          <u>Disponibilização do curso:</u> Self-Paced (Estude por conta
+          própria), Guiada pelo instrutor
+          <br />
+          <u>Destaques dos componentes de aprendizagem:</u>
+        </p>
+        <ul className="list-disc list-inside px-4">
+          <li> 4 módulos</li>
+          <li> Atividades interativas e questionários</li>
+          <li> 1 projeto final </li>
+          <li> 1 teste final</li>
+        </ul>
+      </>
+    ),
   }
 ];
