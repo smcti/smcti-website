@@ -701,7 +701,7 @@ export const moreAbout = [
   },
   {
     id: "17",
-    title: "Fundamentos de Python I - Online - Turma Reserva",
+    title: "Fundamentos de Python I - Turma Reserva",
     benefits: (
       <>
         Usado por startups e gigantes da tecnologia como Google, Facebook,
@@ -730,8 +730,6 @@ export const moreAbout = [
           <br />
           <u> Pré-requisitos:</u> Nenhum
           <br />
-          <u>Disponibilização do curso:</u> Self-Paced (Estude por conta
-          própria), Guiada pelo instrutor
           <br />
           <u>Destaques dos componentes de aprendizagem:</u>
         </p>
@@ -741,6 +739,16 @@ export const moreAbout = [
           <li> 1 projeto final </li>
           <li> 1 teste final</li>
         </ul>
+        <u>Critérios de seleção:</u>A seleção dos participantes será realizada
+        com base nos seguintes critérios de prioridade:
+        <ol>
+          <li>1. Estudantes de escolas públicas municipais e estaduais;</li>
+          <li>2. Estudantes de escolas públicas da região;</li>
+          <li>3. Estudantes de escolas particulares;</li>
+          <li>
+            4. Profissionais em busca de recolocação no mercado de trabalho.
+          </li>
+        </ol>
       </>
     ),
   }
