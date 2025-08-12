@@ -24,7 +24,7 @@ const page = () => {
           title="FUNDAMENTOS DE PYTHON I - Turma Reserva"
           description="Desenvolver habilidades para realizar tarefas de codificação relacionadas com os elementos essenciais da programação na linguagem Python. Conhecer os conceitos universais da programação de computadores, a sintaxe e a semântica da linguagem."
           partners="SMCTI e do DAINF/UTFPR-PB"
-          link="https://forms.gle/v5ysiD1oskWm38td9"
+          link="https://forms.gle/v5ysiD1oskWm38td9" 
         />
         <CourseHeader
           id="1"
