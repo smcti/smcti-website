@@ -18,6 +18,10 @@
             {
                 "name":"Leis de incentivo a Inovação",
                 "path":"/leis/inovacao"
+            },
+            {
+                "name": "Publicações",
+                "path": "/publicacoes"
             }
         ]
     },
