@@ -28,10 +28,16 @@ const Projetos = () => {
                         </div>
 
                         {item.file ?  
-                        <p className='flex flex-row gap-2 items-center'  >
-                           O Projeto: <BsCloudDownload className='text-cyan-700'/>  <a target='_blank' href={item.file} className='text-cyan-700 underline'> {item.title}</a>
-                        </p>
-                        :""} 
+                            <p className='flex flex-row gap-2 items-center' >
+                                O Projeto: <BsCloudDownload className='text-cyan-700'/>  <a target='_blank' href={item.file} className='text-cyan-700 underline'> {item.title}</a> 
+                            </p>
+                        :""}
+
+                        {item.file2 ?  
+                            <p className='flex flex-row gap-2 items-center' >
+                                O Projeto: <BsCloudDownload className='text-cyan-700'/>  <a target='_blank' href={item.file2} className='text-cyan-700 underline'>Anprotec</a>
+                            </p>
+                        :""}
 
                         {item.link ?  
                         <p>

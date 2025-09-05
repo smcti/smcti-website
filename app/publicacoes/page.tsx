@@ -1,5 +1,4 @@
 import HeadingText from "@components/common/HeadingText";
-import { AiOutlineFilePdf } from "react-icons/ai";
 import moment from "moment";
 
 interface RegDoc {
@@ -16,7 +15,7 @@ const RegDocs: RegDoc[] = [
   },
   {
     name: "Anprotec 2025",
-    path: "/assets/docs/Anprotec_2025_VersaoFinalDOC_162.pdf",
+    path: "",
     date: moment("2025-09-28").toDate(),
   },
 ];
@@ -77,24 +76,6 @@ const Page = () => {
               Educação e Saúde, conselhos e comitês municipais, famílias e
               comunidade interessada.
             </p>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div className="section-default flex flex-col gap-8 text-gray-700">
-          <HeadingText title="Documentos" />
-          <hr />
-          <div className="flex flex-col gap-4">
-            {RegDocs.map((doc, index) => (
-              <div key={index}>
-                <a className="link inline-flex items-center gap-2" href={doc.path} download>
-                  <AiOutlineFilePdf size={20} />
-                  <span className="text-sm">
-                    {doc.name}
-                  </span>
-                </a>
-              </div>
-            ))}
           </div>
         </div>
       </section>
