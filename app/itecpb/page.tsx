@@ -29,9 +29,6 @@ const RegDocs: RegDoc[] = [
     name: "Valor da UFM",
     path: "/assets/docs/UFM_2023_DECRETO_N_9_410.pdf",
     date: moment("2022-12-06").toDate(),
-  },
-  {
-    name
   }
   {
     name: "Regimento da ITECPB",
