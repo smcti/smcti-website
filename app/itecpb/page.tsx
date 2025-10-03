@@ -31,6 +31,9 @@ const RegDocs: RegDoc[] = [
     date: moment("2022-12-06").toDate(),
   },
   {
+    name
+  }
+  {
     name: "Regimento da ITECPB",
     path: "/assets/docs/Regimento Interno - Decreto.pdf",
     date: moment("2024-15-08").toDate(),
