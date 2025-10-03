@@ -10,6 +10,11 @@ interface RegDoc {
 }
 
 const RegDocs: RegDoc[] = [
+  /* {
+    name: "Edital de Chamada 10.2025",
+    path: "/assets/docs/Edital_de_Chamada_01_2024_1.pdf",
+    date: moment("2024-15-08").toDate(),
+  },
   {
     name: "Edital de Chamada 01.2024",
     path: "/assets/docs/Edital_de_Chamada_01_2024_1.pdf",
@@ -29,7 +34,7 @@ const RegDocs: RegDoc[] = [
     name: "Valor da UFM",
     path: "/assets/docs/UFM_2023_DECRETO_N_9_410.pdf",
     date: moment("2022-12-06").toDate(),
-  },
+  }
   {
     name: "Regimento da ITECPB",
     path: "/assets/docs/Regimento Interno - Decreto.pdf",
@@ -69,10 +74,15 @@ const RegDocs: RegDoc[] = [
     name: "Resultado das Inscrições Homologadas - Proponentes Pre-Incubação",
     path: "assets/docs/Resultado_das_Inscrições_Homologadas_etapa01.pdf",
     date: moment("2024-19-12").toDate(),
+  },*/
+  {
+    name: "Edital Chamamento Incubadora 2025",
+    path: "assets/docs/01-EDITAL-DE-CHAMADA-INCUBADORA-25",
+    date: moment("2025-29-01").toDate(),
   },
   {
-    name: "Restultado da Banca - Proponentes Pre-Incubação",
-    path: "assets/docs/Restultado_da_Banca-Proponentes_Pre-Incubação.pdf",
+    name: "Edital Seleção Incubadora 2025",
+    path: "assets/docs/01-EDITAL-DE-SELECAO-INCUBADORA-25",
     date: moment("2025-29-01").toDate(),
   },
 ];
