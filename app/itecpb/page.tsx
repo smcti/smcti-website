@@ -77,13 +77,13 @@ const RegDocs: RegDoc[] = [
   },*/
   {
     name: "Edital Chamamento Incubadora 2025",
-    path: "assets/docs/01-EDITAL-DE-CHAMADA-INCUBADORA-25",
-    date: moment("2025-29-01").toDate(),
+    path: "assets/docs/01-EDITAL-DE-CHAMADA-INCUBADORA-25.pdf",
+    date: moment("2025-10-03").toDate(),
   },
   {
     name: "Edital Seleção Incubadora 2025",
-    path: "assets/docs/01-EDITAL-DE-SELECAO-INCUBADORA-25",
-    date: moment("2025-29-01").toDate(),
+    path: "assets/docs/01-EDITAL-DE-SELECAO-INCUBADORA-25.pdf",
+    date: moment("2025-10-03").toDate(),
   },
 ];
 
