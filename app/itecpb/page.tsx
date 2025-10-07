@@ -85,6 +85,26 @@ const RegDocs: RegDoc[] = [
     path: "assets/docs/01-EDITAL-DE-SELECAO-INCUBADORA-25.pdf",
     date: moment("2025-10-03").toDate(),
   },
+   {
+    name: "Decreto 10584 e Regimento.pdf",
+    path: "assets/docs/Decreto 10584 e Regimento.pdf",
+    date: moment("2025-10-03").toDate(),
+  },
+   {
+    name: "Declaração do Proponente.docx",
+    path: "assets/docs/Delcaração do Proponente.docx",
+    date: moment("2025-10-03").toDate(),
+  },
+   {
+    name: "Proposta do Projeto 2025",
+    path: "assets/docs/Proposta do projeto.docx",
+    date: moment("2025-10-03").toDate(),
+  },
+   {
+    name: "UFM 2025",
+    path: "assets/docs/UFM 2025.pdf",
+    date: moment("2025-10-03").toDate(),
+  },
 ];
 
 const page = () => {
