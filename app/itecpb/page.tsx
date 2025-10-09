@@ -105,6 +105,11 @@ const RegDocs: RegDoc[] = [
     path: "assets/docs/UFM 2025.pdf",
     date: moment("2025-10-03").toDate(),
   },
+    {
+    name: "2025-10-09 - Nivelamento da Proposta",
+    path: "assets/docs/2025-10-09 - Nivelamento da proposta.pdf",
+    date: moment("2025-10-09").toDate(),
+  },
 ];
 
 const page = () => {
