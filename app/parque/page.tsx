@@ -1,5 +1,61 @@
 import HeadingText from "@components/common/HeadingText"
 import { AiOutlineFilePdf } from 'react-icons/ai';
+import moment from "moment";
+
+interface RegDoc {
+  name: string;
+  path: string;
+  date: Date;
+}
+
+const RegDocs: RegDoc[] = [
+  {
+    name: "Regimento Parque e Decreto",
+    path: "2025-05-30 - Regimento Parque e decreto.pdf",
+    date: moment("2025-10-17").toDate(),
+  },
+  {
+    name: "Edital Seleção Laboratórios 2025",
+    path: "assets/docs/EDITAL_DE_SELECAO_02_2025_LABORATORIOS.pdf",
+    date: moment("2025-10-17").toDate(),
+  },
+   {
+    name: "ANEXO II - Art. 7 da Constituição Federal",
+    path: "assets/docs/ANEXO II - Art. 7 da Constituição Federal.docx",
+    date: moment("2025-10-17").toDate(),
+  },
+   {
+    name: "ANEXO IV - Conhecimento e Concordância do Edital",
+    path: "assets/docs/ANEXO IV - Conhecimento e Concordância do Edital.docx",
+    date: moment("2025-10-17").toDate(),
+  },
+   {
+    name: "ANEXO V - Termo de Vistoria",
+    path: "assets/docs/ANEXO V - Termo de Vistoria.docx",
+    date: moment("2025-10-17").toDate(),
+  },
+   {
+    name: "ANEXO VI - Declaração de Dispensa de Vistoria",
+    path: "assets/docs/ANEXO VI - Declaração de Dispensa de Vistoria.docx",
+    date: moment("2025-10-17").toDate(),
+  },
+  {
+    name: "ANEXO VII - Declaração de ausência de conflitos de interesse da Banca",
+    path: "assets/docs/ANEXO VII - Declaração de ausência de conflitos de interesse da Banca.docx",
+    date: moment("2025-10-17").toDate(),
+  },
+  {
+    name: "ANEXO VIII - Proposta de Projeto",
+    path: "assets/docs/ANEXO VIII - Proposta de Projeto.docx",
+    date: moment("2025-10-17").toDate(),
+  },
+  {
+    name: "ANEXO IX - Plano de Ação",
+    path: "assets/docs/ANEXO IX - Plano de Ação.docx",
+    date: moment("2025-10-17").toDate(),
+  }
+];
+
 
 const page = () => {
   return (
@@ -25,6 +81,25 @@ const page = () => {
         <div>§ 1°. Os objetivos do Parque Tecnológico poderão ser atingidos por meio da interação e cooperação entre instituições de ensino, instituições científicas e tecnológicas, empresas de base tecnológica, entidades ou órgãos da administração pública direta e indireta federal, estadual e municipal.</div>
         <hr />
         <a href="/assets/docs/Regimento-Parque-Tecnologico.pdf" className="link" download><AiOutlineFilePdf />DECRETO Nº 7.863, DE 8 DE DEZEMBRO DE 2015</a>
+      </section>
+      <section>
+        <div className="section-default flex flex-col gap-8 text-gray-700">
+          <HeadingText title="Regimentos e Documentos" super="Clique e baixe" />
+          <hr />
+          <div className="flex flex-col gap-4">
+            {RegDocs.map((doc, index) => (
+              <div key={index}>
+                <a className="link" href={doc.path} download>
+                  <AiOutlineFilePdf />
+                  <span className="text-sm">
+                    {doc.name}
+                    {/* {moment(doc.date).format("DD/MM/YYYY")} */}
+                  </span>
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
     </div>
   )
