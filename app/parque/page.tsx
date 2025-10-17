@@ -11,7 +11,7 @@ interface RegDoc {
 const RegDocs: RegDoc[] = [
   {
     name: "Regimento Parque e decreto",
-    path: "2025-05-30 - Regimento Parque e decreto.pdf",
+    path: "assets/docs/2025-05-30 - Regimento Parque e decreto.pdf",
     date: moment("2025-10-17").toDate(),
   },
   {
