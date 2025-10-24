@@ -10,14 +10,7 @@ const page = () => {
   return (
     <>
       <div className="my-32 p-6 flex flex-col h-full bg-zircon-50 gap-8 text-gray-700">
-        <CourseHeader
-          id="15"
-          image="/assets/images/cursos/python.png"
-          title="FUNDAMENTOS DE PYTHON I - ONLINE"
-          description="Desenvolver habilidades para realizar tarefas de codificação relacionadas com os elementos essenciais da programação na linguagem Python. Conhecer os conceitos universais da programação de computadores, a sintaxe e a semântica da linguagem."
-          partners="SMCTI e do DAINF/UTFPR-PB"
-          link="https://forms.gle/waivq8BnawS4SQucA"
-        />
+
         <CourseHeader
           id="17"
           image="/assets/images/cursos/python.png"
@@ -25,22 +18,6 @@ const page = () => {
           description="Desenvolver habilidades para realizar tarefas de codificação relacionadas com os elementos essenciais da programação na linguagem Python. Conhecer os conceitos universais da programação de computadores, a sintaxe e a semântica da linguagem."
           partners="SMCTI e do DAINF/UTFPR-PB"
           link="https://forms.gle/v5ysiD1oskWm38td9" 
-        />
-        <CourseHeader
-          id="1"
-          image="/assets/images/cursos/defesa_rede.png"
-          title="DEFESA DE REDE - ANALISTA DE CIBERSEGURANÇA JÚNIOR - Online"
-          description="Nesse curso você irá obter o conhecimento básico que você usará nolocal de trabalho como Analista de Cibersegurança Júnior. Este curso aborda maneiras de monitorar sua rede e como avaliar alertas de segurança."
-          partners="SMCTI, UTFPR e CISCO"
-          link="https://forms.gle/MiGhD86S1zYai6gJ8"
-        />
-        <CourseHeader
-        id= "16"
-        image= "/assets/images/cursos/robotica.jpg"
-        title= "Introdução à Robótica Móvel com Arduino - Cadastro de Interessados"
-        description= "O curso oferece uma introdução à robótica móvel, abordando teoria e prática da locomoção autônoma em robôs seguidores de linha e lutadores de sumô. Os alunos aprenderão eletrônica básica, microcontroladores e programação, desenvolvendo projetos com Arduino até a construção e programação desses robôs."
-        partners= "SMCTI e do DAINF/UTFPR-PB"
-        link= "https://forms.gle/wypBEPF8kCoJYqiA9"
         />
       </div>
       <div className="mt-32 flex flex-col h-full bg-cello gap-8 text-white">
