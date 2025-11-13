@@ -112,6 +112,19 @@ const RegDocs: RegDoc[] = [
   },
 ];
 
+const Edital: RegDoc[] = [
+  {
+    name: "Ata de Nominação dos Avaliadores das Propostas",
+    path: "assets/docs/ata_avaliadores_2025.pdf",
+    date: moment("2025-11-13").toDate(),
+  },
+  {
+    name: "Ata de Entrega das Propostas para Incubação",
+    path: "assets/docs/ata_propostas_2025.pdf",
+    date: moment("2025-11-13").toDate(),
+  }
+];
+
 const page = () => {
   return (
     <div className="my-32 flex flex-col gap-8">
@@ -214,6 +227,25 @@ const page = () => {
           <hr />
           <div className="flex flex-col gap-4">
             {RegDocs.map((doc, index) => (
+              <div key={index}>
+                <a className="link" href={doc.path} download>
+                  <AiOutlineFilePdf />
+                  <span className="text-sm">
+                    {doc.name}
+                    {/* {moment(doc.date).format("DD/MM/YYYY")} */}
+                  </span>
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="section-default flex flex-col gap-8 text-gray-700">
+          <HeadingText title="Edital 2025" super="Clique e baixe" />
+          <hr />
+          <div className="flex flex-col gap-4">
+            {Edital.map((doc, index) => (
               <div key={index}>
                 <a className="link" href={doc.path} download>
                   <AiOutlineFilePdf />
