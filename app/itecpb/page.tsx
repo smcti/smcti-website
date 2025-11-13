@@ -76,6 +76,14 @@ const RegDocs: RegDoc[] = [
     date: moment("2024-19-12").toDate(),
   },*/
   {
+    name: "Ata de Nominação dos Avaliadores das Propostas",
+    path: "assets/docs/ata_avaliadores_2025.pdf",
+    date: moment("2025-11-13").toDate(),
+  },  {
+    name: "Ata de Entrega das Propostas para Incubação",
+    path: "assets/docs/ata_propostas_2025.pdf",
+    date: moment("2025-11-13").toDate(),
+  },  {
     name: "Edital Chamamento Incubadora 2025",
     path: "assets/docs/01-EDITAL-DE-CHAMADA-INCUBADORA-25.pdf",
     date: moment("2025-10-03").toDate(),
