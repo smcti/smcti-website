@@ -76,14 +76,6 @@ const RegDocs: RegDoc[] = [
     date: moment("2024-19-12").toDate(),
   },*/
   {
-    name: "Ata de Nominação dos Avaliadores das Propostas",
-    path: "assets/docs/ata_avaliadores_2025.pdf",
-    date: moment("2025-11-13").toDate(),
-  },  {
-    name: "Ata de Entrega das Propostas para Incubação",
-    path: "assets/docs/ata_propostas_2025.pdf",
-    date: moment("2025-11-13").toDate(),
-  },  {
     name: "Edital Chamamento Incubadora 2025",
     path: "assets/docs/01-EDITAL-DE-CHAMADA-INCUBADORA-25.pdf",
     date: moment("2025-10-03").toDate(),
@@ -118,6 +110,19 @@ const RegDocs: RegDoc[] = [
     path: "assets/docs/2025-10-09 - Nivelamento da proposta.pdf",
     date: moment("2025-10-09").toDate(),
   },
+];
+
+const Edital: RegDoc[] = [
+  {
+    name: "Ata de Nominação dos Avaliadores das Propostas",
+    path: "assets/docs/ata_avaliadores_2025.pdf",
+    date: moment("2025-11-13").toDate(),
+  },
+  {
+    name: "Ata de Entrega das Propostas para Incubação",
+    path: "assets/docs/ata_propostas_2025.pdf",
+    date: moment("2025-11-13").toDate(),
+  }
 ];
 
 const page = () => {
@@ -222,6 +227,25 @@ const page = () => {
           <hr />
           <div className="flex flex-col gap-4">
             {RegDocs.map((doc, index) => (
+              <div key={index}>
+                <a className="link" href={doc.path} download>
+                  <AiOutlineFilePdf />
+                  <span className="text-sm">
+                    {doc.name}
+                    {/* {moment(doc.date).format("DD/MM/YYYY")} */}
+                  </span>
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="section-default flex flex-col gap-8 text-gray-700">
+          <HeadingText title="Edital 2025" super="Clique e baixe" />
+          <hr />
+          <div className="flex flex-col gap-4">
+            {Edital.map((doc, index) => (
               <div key={index}>
                 <a className="link" href={doc.path} download>
                   <AiOutlineFilePdf />
