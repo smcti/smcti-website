@@ -106,7 +106,7 @@ const RegDocs: RegDoc[] = [
     date: moment("2025-10-03").toDate(),
   },
     {
-    name: "2025-10-09 - Nivelamento da Proposta",
+    name: "09/10/2025 - Nivelamento da Proposta",
     path: "assets/docs/2025-10-09 - Nivelamento da proposta.pdf",
     date: moment("2025-10-09").toDate(),
   },
@@ -119,14 +119,14 @@ const RegDocs: RegDoc[] = [
 
 const Edital: RegDoc[] = [
   {
-    name: "Ata de Nominação dos Avaliadores das Propostas",
+    name: "12/11/2025 - Ata de Nominação dos Avaliadores das Propostas",
     path: "assets/docs/ata_avaliadores_2025.pdf",
-    date: moment("2025-11-13").toDate(),
+    date: moment("2025-11-12").toDate(),
   },
   {
-    name: "Ata de Entrega das Propostas para Incubação",
+    name: "12/11/2025 - Ata de Entrega das Propostas para Incubação",
     path: "assets/docs/ata_propostas_2025.pdf",
-    date: moment("2025-11-13").toDate(),
+    date: moment("2025-11-12").toDate(),
   }
 ];
 
