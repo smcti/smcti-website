@@ -127,6 +127,11 @@ const Edital: RegDoc[] = [
     name: "12/11/2025 - Ata de Entrega das Propostas para Incubação",
     path: "assets/docs/ata_propostas_2025.pdf",
     date: moment("2025-11-12").toDate(),
+  },
+  {
+    name: "19/11/2025 - Ata de Suficiência para Banca",
+    path: "assets/docs/Ata de suficiência para banca.pdf",
+    date: moment("2025-11-19").toDate(),
   }
 ];
 
