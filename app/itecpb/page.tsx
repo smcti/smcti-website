@@ -109,12 +109,7 @@ const RegDocs: RegDoc[] = [
     name: "09/10/2025 - Nivelamento da Proposta",
     path: "assets/docs/2025-10-09 - Nivelamento da proposta.pdf",
     date: moment("2025-10-09").toDate(),
-  },
-  {
-    name: "2025-10-19 - Ata de suficiência de Propostas",
-    path: "assets/docs/Ata_suficiencia.pdf",
-    date: moment("2025-10-19").toDate(),
-  },
+  }
 ];
 
 const Edital: RegDoc[] = [
@@ -127,6 +122,11 @@ const Edital: RegDoc[] = [
     name: "12/11/2025 - Ata de Entrega das Propostas para Incubação",
     path: "assets/docs/ata_propostas_2025.pdf",
     date: moment("2025-11-12").toDate(),
+  },
+  {
+    name: "19/11/2025 - Ata de suficiência de Propostas",
+    path: "assets/docs/Ata_suficiencia.pdf",
+    date: moment("2025-11-19").toDate(),
   }
 ];
 
