@@ -127,6 +127,16 @@ const Edital: RegDoc[] = [
     name: "19/11/2025 - Ata de suficiência de Propostas",
     path: "assets/docs/Ata_suficiencia.pdf",
     date: moment("2025-11-19").toDate(),
+  },
+   {
+    name: "27/11/2025 - Apresentação das bancas assinado",
+    path: "assets/docs/2025-11-27 - Apresentação das bancas assinado.pdf",
+    date: moment("2025-11-27").toDate(),
+  },
+   {
+    name: "27/11/2025 - Ata de ratificação das propostas assinado",
+    path: "assets/docs/2025-11-27 - Ata de ratificação das propostas assinado.pdf",
+    date: moment("2025-11-27").toDate(),
   }
 ];
 
