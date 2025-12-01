@@ -130,12 +130,12 @@ const Edital: RegDoc[] = [
   },
    {
     name: "27/11/2025 - Apresentação das bancas assinado",
-    path: "assets/docs/2025-11-27 - Apresentacao das bancas assinado.pdf",
+    path: "assets/docs/2025_Bancas.pdf",
     date: moment("2025-11-27").toDate(),
   },
    {
     name: "27/11/2025 - Ata de ratificação das propostas assinado",
-    path: "assets/docs/2025-11-27 - Ata de ratificacao das propostas assinado.pdf",
+    path: "assets/docs/2025_Propostas.pdf",
     date: moment("2025-11-27").toDate(),
   }
 ];
