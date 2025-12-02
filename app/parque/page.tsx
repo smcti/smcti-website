@@ -55,7 +55,18 @@ const RegDocs: RegDoc[] = [
     date: moment("2025-10-17").toDate(),
   }
 ];
-
+const Edital: RegDoc[] = [
+  {
+    name:"01/12/2025 - Ata para Nominar Avaliadores Assinado",
+    path:"assets/docs/ata_nominar_avaliadores_propostas_assinado.pdf",
+    date: moment("2025-12-01").toDate(),
+  },
+  {
+    name:"01/12/2025 - Ata de Entrega das Propostas Assinado",
+    path:"assets/docs/ata_entrega_propostas_assinado_2025.pdf",
+    date: moment("2025-12-01").toDate(),
+  }
+];
 
 const page = () => {
   return (
@@ -86,6 +97,25 @@ const page = () => {
           <hr />
           <div className="flex flex-col gap-4">
             {RegDocs.map((doc, index) => (
+              <div key={index}>
+                <a className="link" href={doc.path} download>
+                  <AiOutlineFilePdf />
+                  <span className="text-sm">
+                    {doc.name}
+                    {/* {moment(doc.date).format("DD/MM/YYYY")} */}
+                  </span>
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="section-default flex flex-col gap-8 text-gray-700">
+          <HeadingText title="Edital 2025" super="Clique e baixe" />
+          <hr />
+          <div className="flex flex-col gap-4">
+            {Edital.map((doc, index) => (
               <div key={index}>
                 <a className="link" href={doc.path} download>
                   <AiOutlineFilePdf />
