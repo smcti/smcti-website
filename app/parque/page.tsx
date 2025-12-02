@@ -63,7 +63,7 @@ const Edital: RegDoc[] = [
   },
   {
     name:"01/12/2025 - Ata de Entrega das Propostas Assinado",
-    path:"assets/docs/ata_entrega_propostas_assinado_2025.pdf",
+    path:"assets/docs/ata_entrega_propostas_assinado.pdf",
     date: moment("2025-12-01").toDate(),
   }
 ];
