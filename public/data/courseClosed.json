@@ -138,5 +138,16 @@
         "duration": "",
         "isNotOpen": true,
         "link": "https://forms.gle/waivq8BnawS4SQucA"
+    },
+    {
+        "id": "18",
+        "image": "/assets/images/cursos/modelagem3D.png",
+        "title": "Desenho e Modelagem 3D com software Fusion 360",
+        "description": "Aprender a modelar, criar e projetar objetos do zero, prontos para ganhar vida nas impressoras 3D.",
+        "partner": "SMCTI e FabLab/UTFPR-PB",
+        "duration": "8 horas",
+        "isNotOpen": true,
+        "link": "https://forms.gle/u7VZLrjak5o2qEap8"
     }
+     
 ]
