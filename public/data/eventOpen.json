@@ -1,0 +1,22 @@
+[
+    {
+        "id": "2",
+        "image": "/assets/images/eventos/expopato.jpg",
+        "title": "Expopato 2025 - A maior, a melhor!",
+        "description":  "A EXPOPATO é um dos maiores eventos do sul do Brasil, reunindo milhares de visitantes em um ambiente preparado para gerar oportunidades, conexões e experiências inesquecíveis.",
+        "partner": " ",
+        "duration": "08 a 16 de Novembro",
+        "isNotOpen": false,
+        "link": "https://www.expopato.com.br/"
+    },
+    {
+        "id": "1",
+        "image": "/assets/images/eventos/tecsul2025.jpg",
+        "title": "TecSUL 2025 - Criando Pontes com a Inovação",
+        "description":  "O maior encontro de ciência, tecnologia e inovação do Sudoeste do Paraná, conectando ideias, talentos e oportunidades para o desenvolvimento regional.",
+        "partner": " ",
+        "duration": "06 a 10 de Outubro",
+        "isNotOpen": false,
+        "link": "https://tecsul.org.br/"
+    }
+]

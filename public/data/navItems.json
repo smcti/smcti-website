@@ -42,6 +42,10 @@
         "path": "/parque"
     },
     {
+        "name": "Eventos",
+        "path": "/eventos"
+    },
+    {
         "name": "Contato",
         "path": "/contact"
     }
