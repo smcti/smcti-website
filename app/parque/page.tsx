@@ -20,6 +20,11 @@ const RegDocs: RegDoc[] = [
     date: moment("2025-10-17").toDate(),
   },
    {
+    name: "UFM 2026",
+    path: "assets/docs/UFM_2026.pdf",
+    date: moment("2025-12-15").toDate(),
+  },
+   {
     name: "ANEXO II - Art. 7 da Constituição Federal",
     path: "assets/docs/ANEXO II - Art. 7 da Constituição Federal.docx",
     date: moment("2025-10-17").toDate(),

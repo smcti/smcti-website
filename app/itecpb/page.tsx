@@ -100,16 +100,16 @@ const RegDocs: RegDoc[] = [
     path: "assets/docs/Proposta do projeto.docx",
     date: moment("2025-10-03").toDate(),
   },
-   {
-    name: "UFM 2025",
-    path: "assets/docs/UFM 2025.pdf",
-    date: moment("2025-10-03").toDate(),
-  },
     {
     name: "09/10/2025 - Nivelamento da Proposta",
     path: "assets/docs/2025-10-09 - Nivelamento da proposta.pdf",
     date: moment("2025-10-09").toDate(),
-  }
+  },
+    {
+    name: "UFM 2026",
+    path: "assets/docs/UFM_2026.pdf",
+    date: moment("2025-12-15").toDate(),
+  },
 ];
 
 const Edital: RegDoc[] = [
