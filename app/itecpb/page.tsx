@@ -118,21 +118,6 @@ const Edital: RegDoc[] = [
     path: "assets/docs/Ata_Resultado_Final.pdf",
     date: moment("2025-12-16").toDate(),
   },
-  {
-    name: "12/11/2025 - Ata de Nominação dos Avaliadores das Propostas",
-    path: "assets/docs/Ata_para_nominar_avaliadores_assinada.pdf",
-    date: moment("2025-11-12").toDate(),
-  },
-  {
-    name: "12/11/2025 - Ata de Entrega das Propostas para Incubação",
-    path: "assets/docs/Ata_entrega_propostas_assinado.pdf",
-    date: moment("2025-11-12").toDate(),
-  },
-  {
-    name: "19/11/2025 - Ata de suficiência de Propostas",
-    path: "assets/docs/Ata_suficiencia.pdf",
-    date: moment("2025-11-19").toDate(),
-  },
    {
     name: "27/11/2025 - Apresentação das bancas assinado",
     path: "assets/docs/2025_bancas.pdf",
@@ -142,7 +127,22 @@ const Edital: RegDoc[] = [
     name: "27/11/2025 - Ata de ratificação das propostas assinado",
     path: "assets/docs/2025_propostas.pdf",
     date: moment("2025-11-27").toDate(),
-  }
+  },
+    {
+    name: "19/11/2025 - Ata de suficiência de Propostas",
+    path: "assets/docs/Ata_suficiencia.pdf",
+    date: moment("2025-11-19").toDate(),
+  },
+    {
+    name: "12/11/2025 - Ata de Nominação dos Avaliadores das Propostas",
+    path: "assets/docs/Ata_para_nominar_avaliadores_assinada.pdf",
+    date: moment("2025-11-12").toDate(),
+  },
+    {
+    name: "12/11/2025 - Ata de Entrega das Propostas para Incubação",
+    path: "assets/docs/Ata_entrega_propostas_assinado.pdf",
+    date: moment("2025-11-12").toDate(),
+  },
 ];
 
 const page = () => {
