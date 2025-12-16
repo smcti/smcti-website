@@ -62,6 +62,11 @@ const RegDocs: RegDoc[] = [
 ];
 const Edital: RegDoc[] = [
   {
+    name: "16/12/2025 - Ata de Homologação de Inscrições",
+    path: "assets/docs/Ata_homologação_inscrições.pdf",
+    date: moment("2025-12-16").toDate(),
+  },
+  {
     name:"01/12/2025 - Ata para Nominar Avaliadores Assinado",
     path:"assets/docs/ata_nominar_avaliadores_propostas_assinado.pdf",
     date: moment("2025-12-01").toDate(),

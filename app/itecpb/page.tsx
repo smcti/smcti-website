@@ -114,13 +114,18 @@ const RegDocs: RegDoc[] = [
 
 const Edital: RegDoc[] = [
   {
+    name: "16/12/2025 - Ata do Resultado Final do Processo Seletivo",
+    path: "assets/docs/Ata_Resultado_Final.pdf",
+    date: moment("2025-12-16").toDate(),
+  },
+  {
     name: "12/11/2025 - Ata de Nominação dos Avaliadores das Propostas",
-    path: "assets/docs/ata_avaliadores_2025.pdf",
+    path: "assets/docs/Ata_para_nominar_avaliadores_assinada.pdf",
     date: moment("2025-11-12").toDate(),
   },
   {
     name: "12/11/2025 - Ata de Entrega das Propostas para Incubação",
-    path: "assets/docs/ata_propostas_2025.pdf",
+    path: "assets/docs/Ata_entrega_propostas_assinado.pdf",
     date: moment("2025-11-12").toDate(),
   },
   {
