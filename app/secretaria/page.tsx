@@ -7,7 +7,7 @@ const page = () => {
   return (
     <>
       <section>
-        <div className="section-default my-32 flex flex-col gap-8 text-gray-700">
+        <div className="section-default my-32 flex flex-col gap-8 text-gray-700 text-justify">
           <HeadingText title="SMCTI" super="Sobre" />
           <div className="flex flex-col gap-4 text-justify ">
             <p>A Prefeitura de Pato Branco criou a Secretaria Municipal de Ciência, Tecnologia e Inovação através a lei nº 3.999 de 21 de março de 2013.</p>
@@ -20,7 +20,7 @@ const page = () => {
         </div>
       </section>
       <section>
-        <div className="section-default my-32 flex flex-col gap-8 text-gray-700">
+        <div className="section-default my-32 flex flex-col gap-8 text-gray-700 text-justify">
           <HeadingText title="Da Secretaria Municipal de CTI" super="Objetivos e diretrizes" />
           <div className="flex flex-col gap-4 text-justify">
             <p>Art. 38. À Secretaria de Ciência, Tecnologia e Inovação compete:</p>

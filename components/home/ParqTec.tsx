@@ -14,16 +14,13 @@ const ParqTec = () => {
         src="/assets/images/Logo-Parque-1.svg"
         alt="Imagem com logo de um pato técnologico, escrito: parque tecnologico, Pato Branco, Brasil"
       />
-      <div className="flex flex-col text-gray-700 gap-16">
+      <div className="flex flex-col text-gray-700 gap-16 text-justify">
         <HeadingText
           super="Parque Tecnológico e SMCTI"
           title="Parque Tecnológico"
           reverse
         />
-        <p
-          className="text-justify
-          md:text-right"
-        >
+        <p>
           O Parque Tecnológico de Pato Branco, liderado pela SMCTI, é um local
           de destaque para pesquisa, extensão e incubação de empresas de base
           tecnológica. Consolidando o ambiente tecnológico da cidade, Pato

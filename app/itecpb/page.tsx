@@ -147,7 +147,7 @@ const Edital: RegDoc[] = [
 
 const page = () => {
   return (
-    <div className="my-32 flex flex-col gap-8">
+    <div className="my-32 flex flex-col gap-8 text-justify">
       <section className="">
         <div className="section-default flex flex-col gap-8 text-gray-700">
           <HeadingText title="A ITECPB" super="Incubadora" />

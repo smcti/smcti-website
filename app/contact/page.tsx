@@ -21,7 +21,7 @@ const page = () => {
 
   return (
     <section>
-      <div className='section-default py-32 flex flex-col gap-8 text-gray-700'>
+      <div className='section-default py-32 flex flex-col gap-8 text-gray-700 text-justify'>
         <HeadingText title="Precisa de ajuda?" super="Entre em contato"/>
         <p>Bem-vindo à nossa seção de ajuda!</p>
         <p>Estamos aqui para fornecer toda a assistência e suporte necessários para garantir que você aproveite ao máximo a sua experiência em nosso site. Nesta seção, você encontrará uma variedade de tópicos de ajuda abrangentes para responder às suas dúvidas e solucionar quaisquer problemas que possam surgir.</p>
@@ -35,7 +35,7 @@ const page = () => {
                   <p>{item.body}</p>
                   {item.collapsable ? (
                     <>
-                    <div id="collapse" className="flex hidden flex-col gap-4">
+                    <div id="collapse" className="hidden flex-col gap-4">
                       <hr />
                       <p>Selecione a opção desejada:</p>
                       <div className="flex flex-col sm:flex-row gap-4">

@@ -80,7 +80,7 @@ const Edital: RegDoc[] = [
 
 const page = () => {
   return (
-    <div className="my-32 flex flex-col gap-8">
+    <div className="my-32 flex flex-col gap-8 text-justify">
       <section className="section-default flex flex-col gap-8 text-gray-700">
         <HeadingText title="Parque Tecnológico" super="Sobre" />
         <div className="flex flex-col gap-4">
