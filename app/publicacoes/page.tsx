@@ -22,7 +22,7 @@ const RegDocs: RegDoc[] = [
 
 const Page = () => {
   return (
-    <div className="my-32 flex flex-col gap-8">
+    <div className="my-32 flex flex-col gap-8 text-justify">
       <section className="">
         <div className="section-default flex flex-col gap-8 ">
           <h2 className="font-black text-2xl sm:text-5xl ">ESTUDO EXPLORATÓRIO — TEA NAS ESCOLAS DE PATO BRANCO</h2>

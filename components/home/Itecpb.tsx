@@ -3,21 +3,18 @@ import Button from "@components/common/Button";
 
 const Itecpb = () => {
   return (
-    <section className="bg-cello-800">
+    <section className="bg-cello-800 ">
       <div
         className="section-default flex flex-col items-center justify-between gap-16 py-32
         lg:flex-row"
       >
-        <div className="flex flex-col text-zircon gap-16">
+        <div className="flex flex-col text-zircon gap-16 text-justify">
           <HeadingText
             super="Incubadora Tecnológica de Pato Branco"
             title="ITECPB"
             dark
           />
-          <p
-            className="text-justify
-            md:text-left"
-          >
+          <p>
             A Incubadora Tecnológica de Pato Branco (ITECPB) é um espaço onde a
             inovação, tecnologia, conhecimento e network se inter-relacionam
             fomentando o empreendedorismo. Ambiente que visa oferecer suporte
