@@ -143,6 +143,11 @@ const Edital: RegDoc[] = [
     path: "assets/docs/Ata_entrega_propostas_assinado.pdf",
     date: moment("2025-11-12").toDate(),
   },
+   {
+    name: "22/12/2025 - Ata de Entrega de Retificação do Resultado Final",
+    path: "assets/docs/2025-12-22 - Ata de Ratificacao do Resultado Final assinado.pdf",
+    date: moment("2025-12-22").toDate(),
+  }
 ];
 
 const page = () => {
