@@ -67,14 +67,19 @@ const Edital: RegDoc[] = [
     date: moment("2025-12-16").toDate(),
   },
   {
-    name:"01/12/2025 - Ata para Nominar Avaliadores Assinado",
+    name:"01/12/2025 - Ata para Nominar Avaliadores",
     path:"assets/docs/ata_nominar_avaliadores_propostas_assinado.pdf",
     date: moment("2025-12-01").toDate(),
   },
   {
-    name:"01/12/2025 - Ata de Entrega das Propostas Assinado",
+    name:"01/12/2025 - Ata de Entrega das Propostas",
     path:"assets/docs/ata_entrega_propostas_assinado.pdf",
     date: moment("2025-12-01").toDate(),
+  },
+  {
+    name:"23/12/2025 - Ata de Ratificação",
+    path:"assets/docs/2025-12-23 - Ata de ratificacao assinada.pdf",
+    date: moment("2025-12-23").toDate(),
   }
 ];
 
