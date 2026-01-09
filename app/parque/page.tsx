@@ -80,6 +80,11 @@ const Edital: RegDoc[] = [
     name:"23/12/2025 - Ata de Ratificação",
     path:"assets/docs/2025-12-23 - Ata de ratificacao assinada.pdf",
     date: moment("2025-12-23").toDate(),
+  },
+  {
+    name:"09/01/2026 - Ordem da Banca",
+    path:"assets/docs/2026-01-09 - Ordem da Banca assinado.pdf",
+    date: moment("2026-01-09").toDate(),
   }
 ];
 
