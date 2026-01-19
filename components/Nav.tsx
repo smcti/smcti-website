@@ -24,7 +24,7 @@ const Nav = () => {
         {/* Desktop Navigation */}
         <ul className='lg:flex hidden flex-row gap-4 items-center'>
           {Object.values(navItems).map((item, index) => (
-            <li key={index} className='h-fit text-white'>
+            <li key={index} className='h-fit text-white transition-transform duration-200 hover:scale-1100 hover:text-cello-100'>
               {item.dropdown ? (
                 <Menu>
                   <div className='relative'>
