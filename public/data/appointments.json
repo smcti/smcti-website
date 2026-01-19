@@ -8,15 +8,5 @@
         "title": "Hall superior",
         "href": "/agenda/hall-superior",
         "iframe": "<!-- Google Calendar Appointment Scheduling begin -->\n<iframe src=\"https://calendar.google.com/calendar/appointments/schedules/AcZssZ3zT5E_shnYtz2DI27-NcWutBthY51_Gq232kFywCh43bYcIxRteBrL7HesIDUMffnfXdFVmZCz?gv=true\" style=\"border: 0\" width=\"100%\" height=\"100%\" frameborder=\"0\"></iframe>\n<!-- end Google Calendar Appointment Scheduling -->"
-    },
-    {
-        "title": "Sala de reunioes",
-        "href": "/agenda/sala-de-reunioes",
-        "iframe": "<!-- Google Calendar Appointment Scheduling begin -->\n<iframe src=\"https://calendar.google.com/calendar/appointments/schedules/AcZssZ2BS0hJ1zmMVSYbI-MPvwygCLw3kXja6iUa062j0TPZYcqJge46OdPaxj5_PmJFXsqOFkf72Ne6?gv=true\" style=\"border: 0\" width=\"100%\" height=\"100%\" frameborder=\"0\"></iframe>\n<!-- end Google Calendar Appointment Scheduling -->"
-    },    
-    {
-        "title": "Sala de reunioes 2",
-        "href": "/agenda/sala-de-reunioes-2",
-        "iframe": "<!-- Google Calendar Appointment Scheduling begin -->\n<iframe src=\"https://calendar.google.com/calendar/appointments/schedules/AcZssZ1EeMt6XviSFhz9JvjMdoT5GE4WfopZP0zLjeNCFfEjOKPa_uLm4eEfhco6kz8HnTvPCWVNnDtA?gv=true\" style=\"border: 0\" width=\"100%\" height=\"100%\" frameborder=\"0\"></iframe>\n<!-- end Google Calendar Appointment Scheduling -->"
     }
 ]
