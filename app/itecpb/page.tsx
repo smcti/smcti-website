@@ -114,6 +114,21 @@ const RegDocs: RegDoc[] = [
 
 const Edital: RegDoc[] = [
   {
+    name: "04/02/2026 - Ata do Resultado Final assinada - Módulo 1B",
+    path: "assets/docs/2026-02-04 - Ata do Resultado Final assinada.pdf",
+    date: moment("2026-02-04").toDate(),
+  },
+  {
+    name: "07/01/2026 - Convocação dos Aprovados",
+    path: "assets/docs/2026-01-07 - convocacao dos aprovados.pdf",
+    date: moment("2026-01-07").toDate(),
+  },
+  {
+    name: "22/12/2025 - Ata de Entrega de Retificação do Resultado Final",
+    path: "assets/docs/2025-12-22 - Ata de Ratificacao do Resultado Final assinado.pdf",
+    date: moment("2025-12-22").toDate(),
+  },
+  {
     name: "16/12/2025 - Ata do Resultado Final do Processo Seletivo",
     path: "assets/docs/Ata_Resultado_Final.pdf",
     date: moment("2025-12-16").toDate(),
@@ -142,16 +157,6 @@ const Edital: RegDoc[] = [
     name: "12/11/2025 - Ata de Entrega das Propostas para Incubação",
     path: "assets/docs/Ata_entrega_propostas_assinado.pdf",
     date: moment("2025-11-12").toDate(),
-  },
-   {
-    name: "22/12/2025 - Ata de Entrega de Retificação do Resultado Final",
-    path: "assets/docs/2025-12-22 - Ata de Ratificacao do Resultado Final assinado.pdf",
-    date: moment("2025-12-22").toDate(),
-  },
-  {
-    name: "07/01/2026 - Convocação dos Aprovados",
-    path: "assets/docs/2026-01-07 - convocacao dos aprovados.pdf",
-    date: moment("2026-01-26").toDate(),
   }
 ];
 
