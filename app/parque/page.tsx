@@ -10,6 +10,11 @@ interface RegDoc {
 
 const RegDocs: RegDoc[] = [
   {
+    name: "04/02/2026 - Ata do Resultado Final assinada - Módulo 1B",
+    path: "assets/docs/2026-02-04 - Ata do Resultado Final assinada.pdf",
+    date: moment("2026-02-04").toDate(),
+  },
+  {
     name: "Regimento Parque e decreto",
     path: "assets/docs/2025-05-30 - Regimento Parque e decreto.pdf",
     date: moment("2025-10-17").toDate(),
