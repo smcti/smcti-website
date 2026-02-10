@@ -62,8 +62,7 @@ const benefitsData = [
         bg: "bg-emerald-50", 
         border: "border-emerald-200" 
     },
-];
-
+]
 const statsData = [
     { icon: Scale, value: "20", label: "StartUps Incubadas", color: "text-blue-600", bg: "bg-blue-50", border: "border-blue-500" },
     { icon: Building2, value: "+70", label: "Empreendimentos passaram por aqui!", color: "text-indigo-600", bg: "bg-indigo-50", border: "border-indigo-500" },
