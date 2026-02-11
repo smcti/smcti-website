@@ -35,8 +35,9 @@ const Booking = () => {
                   className={`w-full bg-white h-48 rounded-lg p-4  border flex flex-col justify-between border-t-4
                                 hover:cursor-pointer hover:shadow-lg md:hover:-translate-y-2 md:transition-all  md:max-w-[48%]  md:mr-auto
                                 ${index == 0 ? "border-t-red-500" : ""}
-                                ${index == 1 ? "border-t-blue-500" : ""}
-                                `}
+                                ${index == 1 ? "border-t-green-500" : ""}
+                                ${index == 2 ? "border-t-blue-500" : ""}
+                                ${index == 3 ? "border-t-yellow-500" : ""}`}
                   onClick={() => {
                     window.location.assign(item.href);
                   }}
@@ -45,7 +46,9 @@ const Booking = () => {
                   <div
                     className={`flex flex-row justify-end
                                     ${index == 0 ? "text-red-500" : ""}
-                                    ${index == 1 ? "text-blue-500" : ""}
+                                    ${index == 1 ? "text-green-500" : ""}
+                                    ${index == 2 ? "text-blue-500" : ""}
+                                    ${index == 3 ? "text-yellow-500" : ""}
                                     `}
                   >
                     {renderIcon(iconList[index])}

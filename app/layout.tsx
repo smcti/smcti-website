@@ -2,7 +2,6 @@ import '@styles/globals.css';
 
 import Nav from "@/components/Nav"
 import Footer from "@/components/Footer"
-import ScrollToTop from "@/components/common/scrolltotop"
 import Script from 'next/script';
 
 export const metadata = {
@@ -11,6 +10,7 @@ export const metadata = {
       rel: 'icon',
       type: 'image/png',
       url: '/assets/icons/brasao.png',
+      // media: '(prefers-color-scheme: dark)'
     }
   ]
 }
@@ -21,9 +21,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-br"> 
-      <body className='flex flex-col min-h-[100dvh] relative'>
-
+    <html lang="en">
+      <body className='flex flex-col min-h-[100dvh]'>
         <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-8HJYXM0G6L" />
         <Script
           id='google-analytics'
@@ -37,16 +36,9 @@ export default function RootLayout({
             gtag('config', 'G-8HJYXM0G6L');
             `,
           }} />
-
-          <Nav />
-          
-          <main className='bg-zircon-50 font-poppins pt-8 pb-16 flex-grow'>
-            {children}
-          </main>
-          
-          <Footer />
-          <ScrollToTop />
-        
+        <Nav></Nav>
+        <main className='bg-zircon-50 font-poppins'>{children}</main>
+        <Footer></Footer>
       </body>
     </html>
   )

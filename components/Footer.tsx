@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer className="mt-auto bg-cello-800 text-zircon">
       <div
-        className="mt-8 section-default flex flex-col gap-16
+        className="mt-32 section-default flex flex-col gap-16
         md:flex-row"
       >
         <div
@@ -48,10 +48,10 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex flex-col text-center section-default mb-8 gap-16 mt-8">
+      <div className="flex flex-col text-center section-default mb-32 gap-16 mt-8">
         <hr />
         <p>
-          Todos os direitos reservados, &copy; 2026 Secretaria de Ciência,
+          Todos os direitos reservados, &copy; 2023 Secretaria de Ciência,
           Tecnologia e Inovação de Pato Branco - PR
         </p>
       </div>

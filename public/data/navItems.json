@@ -31,21 +31,7 @@
     },
     {
         "name": "Incubadora",
-        "path": "/itecpb",
-        "dropdown":[
-            {
-                "name":"Sobre",
-                "path":"/itecpb"
-            },
-            {
-                "name":"Incubados",
-                "path":"/incubados"
-            },
-            {
-                "name":"Documentos",
-                "path":"/documentos-incubadora"
-            }
-        ]
+        "path": "/itecpb"
     },
     {
         "name": "Aceleradora",
@@ -63,4 +49,5 @@
         "name": "Contato",
         "path": "/contact"
     }
+   
 ]
