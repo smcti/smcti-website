@@ -38,7 +38,7 @@ const incubadasData: Incubada[] = [
   { 
     id: 1,
     name: "Safe Educa", 
-    logo: "/assets/images/LogosIncubadas/SafeEduca.png",
+    logo: "/assets/images/logosincubadas/safe.png",
     description: "Educar financeiramente é investir no futuro de todas as gerações.",
     startDate: "26/09/2024",
     segmento: "EdTech",
@@ -52,7 +52,7 @@ const incubadasData: Incubada[] = [
   { 
     id: 2,
     name: "Rock Jobs", 
-    logo: "/assets/images/LogosIncubadas/RockJobs.png",
+    logo: "/assets/images/logosincubadas/rock.png",
     description: "Conectamos empresas e candidatos através do emprego.",
     startDate: "25/11/2022",
     segmento: "RH Tech",
@@ -66,7 +66,7 @@ const incubadasData: Incubada[] = [
   { 
     id: 3,
     name: "PhBot", 
-    logo: "/assets/images/LogosIncubadas/PhBot.png",
+    logo: "/assets/images/logosincubadas/phbot.png",
     description: "O que voce faz pela água hoje o planeta devolvera amanhã!",
     startDate: "16/01/2026",
     segmento: "Automação IoT",
@@ -79,7 +79,7 @@ const incubadasData: Incubada[] = [
   { 
     id: 4,
     name: "Cash Local", 
-    logo: "/assets/images/LogosIncubadas/cashlocal.png",
+    logo: "/assets/images/logosincubadas/cash.png",
     description: "Sorriso no rosto e dinheiro no bolso, todo mundo gosta!",
     startDate: "23/02/2023",
     segmento: "Fintech / Fidelização",
@@ -93,7 +93,7 @@ const incubadasData: Incubada[] = [
   { 
     id: 5,
     name: "LEFTECH", 
-    logo: "/assets/images/LogosIncubadas/leftech.png",
+    logo: "/assets/images/logosincubadas/leftech.png",
     description: "LEFTECH soluções eletrônicas.",
     startDate: "24/09/2024",
     segmento: "Hardware & Mobilidade",
@@ -107,7 +107,7 @@ const incubadasData: Incubada[] = [
   { 
     id: 6,
     name: "Askme Solutions", 
-    logo: "/assets/images/LogosIncubadas/askme.png",
+    logo: "/assets/images/logosincubadas/askme.png",
     description: "Fique bem, Fique Seguro, Fique com Askme Solutions",
     startDate: "22/02/2023",
     segmento: "Logística & Segurança",
@@ -164,7 +164,8 @@ export default function IncubadosSection() {
                             <Image 
                               src={item.logo} 
                               alt={item.name} 
-                              fill 
+                              fill
+                              unoptimized
                               className="object-contain drop-shadow-sm"
                             />
                         </div>
@@ -215,6 +216,7 @@ export default function IncubadosSection() {
                             src={selectedCompany.logo} 
                             alt={selectedCompany.name} 
                             fill 
+                            unoptimized
                             className="object-contain"
                         />
                       </div>

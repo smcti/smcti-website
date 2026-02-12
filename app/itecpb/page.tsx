@@ -12,19 +12,19 @@ import {
 
 const galleryData = [
     {
-        src: "/assets/images/fotositecpb/parqueentrada.jpg", 
+        src: "/assets/images/fotos/parqueentrada.png", 
         description: "Ambientes colaborativos projetados para estimular a criatividade."
     },
     {
-        src: "/assets/images/fotositecpb/parqueemcima.JPG",
+        src: "/assets/images/fotos/parqueemcima.png",
         description: "Ambiente que fomenta novas ideias."
     },
     {
-        src: "/assets/images/fotositecpb/incubados.jpeg",
+        src: "/assets/images/fotos/incubados.png",
         description: "Boas-vindas às novas startups que integram nosso ecossistema de inovação."
     },
     {
-        src: "/assets/images/fotositecpb/assinatura.jpeg",
+        src: "/assets/images/fotos/assinatura.png",
         description: "Momentos de troca de experiência entre empreendedores e mentores."
     }
 ];
@@ -241,6 +241,7 @@ export default function AboutSection() {
                                     src={slide.src}
                                     alt = ""
                                     fill
+                                    unoptimized
                                     className="object-cover"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
