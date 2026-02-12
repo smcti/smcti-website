@@ -22,6 +22,10 @@
             {
                 "name": "Publicações",
                 "path": "/publicacoes"
+            },
+            {
+                "name": "Sou fornecedor",
+                "path": "https://forms.gle/STFTcTKCCoNwR8Y9A"
             }
         ]
     },
