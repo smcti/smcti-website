@@ -23,15 +23,7 @@ interface RegDoc {
 
 const RegDocsData: RegDoc[] = [
   { name: "Regimento Parque e decreto", path: "assets/docs/2025-05-30 - Regimento Parque e decreto.pdf", date: moment("2025-10-17").toDate() },
-  { name: "Edital Seleção Laboratórios 2025", path: "assets/docs/EDITAL_DE_SELECAO_02_2025_LABORATORIOS.pdf", date: moment("2025-10-17").toDate() },
-  { name: "UFM 2026", path: "assets/docs/UFM_2026.pdf", date: moment("2025-12-15").toDate() },
-  { name: "ANEXO II - Art. 7 da Constituição Federal", path: "assets/docs/ANEXO II - Art. 7 da Constituição Federal.docx", date: moment("2025-10-17").toDate() },
-  { name: "ANEXO IV - Conhecimento e Concordância do Edital", path: "assets/docs/ANEXO IV - Conhecimento e Concordância do Edital.docx", date: moment("2025-10-17").toDate() },
-  { name: "ANEXO V - Termo de Vistoria", path: "assets/docs/ANEXO V - Termo de Vistoria.docx", date: moment("2025-10-17").toDate() },
-  { name: "ANEXO VI - Declaração de Dispensa de Vistoria", path: "assets/docs/ANEXO VI - Declaração de Dispensa de Vistoria.docx", date: moment("2025-10-17").toDate() },
-  { name: "ANEXO VII - Declaração de ausência de conflitos de interesse da Banca", path: "assets/docs/ANEXO VII - Declaração de ausência de conflitos de interesse da Banca.docx", date: moment("2025-10-17").toDate() },
-  { name: "ANEXO VIII - Proposta de Projeto", path: "assets/docs/ANEXO VIII - Proposta de Projeto.docx", date: moment("2025-10-17").toDate() },
-  { name: "ANEXO IX - Plano de Ação", path: "assets/docs/ANEXO IX - Plano de Ação.docx", date: moment("2025-10-17").toDate() }
+  { name: "UFM 2026", path: "assets/docs/UFM_2026.pdf", date: moment("2025-12-15").toDate() }
 ];
 
 const EditalData: RegDoc[] = [
@@ -40,7 +32,16 @@ const EditalData: RegDoc[] = [
   { name: "01/12/2025 - Ata de Entrega das Propostas", path: "assets/docs/ata_entrega_propostas_assinado.pdf", date: moment("2025-12-01").toDate() },
   { name: "23/12/2025 - Ata de Ratificação", path: "assets/docs/2025-12-23 - Ata de ratificacao assinada.pdf", date: moment("2025-12-23").toDate() },
   { name: "09/01/2026 - Ordem da Banca", path: "assets/docs/2026-01-09 - Ordem da Banca assinado.pdf", date: moment("2026-01-09").toDate() },
-  { name: "04/02/2026 - Convocação dos Aprovados", path: "assets/docs/2026-02-04 - Ata do Resultado Final assinada.pdf", date: moment("2026-02-04").toDate() }
+  { name: "04/02/2026 - Convocação dos Aprovados", path: "assets/docs/2026-02-04 - Ata do Resultado Final assinada.pdf", date: moment("2026-02-04").toDate() },
+  { name: "ANEXO II - Art. 7 da Constituição Federal", path: "assets/docs/ANEXO II - Art. 7 da Constituição Federal.docx", date: moment("2025-10-17").toDate() },
+  { name: "ANEXO IV - Conhecimento e Concordância do Edital", path: "assets/docs/ANEXO IV - Conhecimento e Concordância do Edital.docx", date: moment("2025-10-17").toDate() },
+  { name: "ANEXO V - Termo de Vistoria", path: "assets/docs/ANEXO V - Termo de Vistoria.docx", date: moment("2025-10-17").toDate() },
+  { name: "ANEXO VI - Declaração de Dispensa de Vistoria", path: "assets/docs/ANEXO VI - Declaração de Dispensa de Vistoria.docx", date: moment("2025-10-17").toDate() },
+  { name: "ANEXO VII - Declaração de ausência de conflitos de interesse da Banca", path: "assets/docs/ANEXO VII - Declaração de ausência de conflitos de interesse da Banca.docx", date: moment("2025-10-17").toDate() },
+  { name: "ANEXO VIII - Proposta de Projeto", path: "assets/docs/ANEXO VIII - Proposta de Projeto.docx", date: moment("2025-10-17").toDate() },
+  { name: "ANEXO IX - Plano de Ação", path: "assets/docs/ANEXO IX - Plano de Ação.docx", date: moment("2025-10-17").toDate() },
+  { name: "Edital Seleção Laboratórios 2025", path: "assets/docs/EDITAL_DE_SELECAO_02_2025_LABORATORIOS.pdf", date: moment("2025-10-17").toDate() },
+  { name: "Ata de Ratificação do Resultado Final Assinado", path: "assets/docs/2026-02-12 - Ata de ratificação do Resultado Final assinado.pdf", date: moment("2026-02-12").toDate() }
 ];
 
 const RegDocs = RegDocsData.sort((a, b) => b.date.getTime() - a.date.getTime());

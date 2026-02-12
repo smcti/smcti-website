@@ -46,7 +46,8 @@ export default function DynamicCarousel({ companies, direction = 'forward' }: Dy
                 <Image 
                   src={company.logo} 
                   alt={company.name} 
-                  fill 
+                  fill
+                  unoptimized
                   className="object-contain mix-blend-multiply" 
                   sizes="160px"
                 />
