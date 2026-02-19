@@ -73,7 +73,7 @@ const contactsData = [
     {
         id: 1,
         name: "Ana Claudia Marques",
-        role: "Diretora ITECPB",
+        role: "Assessora do Departamento de Incubadora",
         photo: "/assets/images/ana.png", 
         email: "diretora.itecpb@patobranco.tec.br",
         phone: "(46) 9937-2377"
