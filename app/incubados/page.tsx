@@ -118,6 +118,75 @@ const incubadasData: Incubada[] = [
     phone: "(46) 9911-9424",
     products: ["Plataforma de Rastreamento", "Gestão de Frotas"]
   },
+  { 
+    id: 7,
+    name: "Consegsys", 
+    logo: "/assets/images/logosincubadas/consegsys.png",
+    description: "Tecnologia que organiza, conecta e faz crescer",
+    startDate: "26/01/2026",
+    segmento: "Software",
+    link: "https://www.consegsys.com.br",
+    fullDescription: "Criamos soluções em software e automação para empresas que precisam ganhar eficiência, reduzir custos e ter mais controle sobre seus processos.",
+    founder: "Alex Carpenedo",
+    email: "Comercial@consegsys.com.br",
+    phone: "(46) 99900-2829",
+    products: ["CRM para o agronegócio", "Chatbot", "Aplicativos e sistemas sob demanda"]
+  },
+  { 
+    id: 8,
+    name: "Flumia Flow", 
+    logo: "/assets/images/logosincubadas/flumia.png",
+    description: "A flum.ia é a ponte entre o atendimento humano e a automação inteligente",
+    startDate: "26/01/2026",
+    segmento: "Software",
+    link: "https://www.flumia.com.br",
+    fullDescription: "O Flumia Flow é um vendedor digital automatizado para WhatsApp. Ele atende clientes, gera orçamentos, fecha pedidos e integra tudo ao seu ERP, funcionando 24 horas por dia.",
+    founder: "Luiz Felipe Beatrici",
+    email: "flumiaflow@gmail.com",
+    phone: "(46) 99933-5308",
+    products: ["Solução via Whatsapp para vendas e consulta de preços"]
+  },
+  { 
+    id: 9,
+    name: "E-Dialoga Sistemas", 
+    logo: "/assets/images/logosincubadas/edialoga.png",
+    description: "Feito de empresa para empresas",
+    startDate: "26/01/2026",
+    segmento: "Software",
+    link: "https://www.edialoga.com.br",
+    fullDescription: "Todos os seus canais de comunicação em um único local! O software E-Dialoga combina multiatendimento eficiente e envio em massa, centralizando todos os canais de comunicação (WhatsApp, Facebook Messenger, Instagram Direct, Telegram e Email) em um único lugar. Tenha um robô de atendimento projetado para interagir com usuários e responder perguntas sem a necessidade de intervenção humana.",
+    founder: "Paulo Henrique Silvestre",
+    email: "paulo@edialoga.com.br",
+    phone: "(46) 99121-5132",
+    products: ["Chat Omnichannel para Whatsapp", "Instagram", "Facebook", "Telegram", "Email"]
+  },
+  { 
+    id: 10,
+    name: "Flatland Lab", 
+    logo: "/assets/images/logosincubadas/flatland.png",
+    description: "Specialty crops require specialty automation",
+    startDate: "26/01/2026",
+    segmento: "Hardware, Software, IA",
+    link: "https://www.flatland-lab.com",
+    fullDescription: "A Flatland Lab desenvolve tecnologias de automação, sensoriamento e IA de nível comercial para culturas especiais. Fornecemos sistemas prontos para uso em campo que ajudam produtores, melhoristas e pesquisadores a coletar dados mais precisos e tomar melhores decisões. Nossas soluções abrangem veículos autônomos, sensores personalizados, modelos de visão computacional e infraestrutura de fenotipagem.",
+    founder: "Bruno Leme",
+    email: "bruno@flatland-lab.com",
+    phone: "(61) 99146-9102",
+    products: ["GPS de precisão", "Sistemas para colheita de frutas"]
+  },
+  { 
+    id: 11,
+    name: "NU.RA Biological Intelligence", 
+    logo: "/assets/images/logosincubadas/nura.png",
+    description: "Nutrição inteligente, cuidado contínuo.",
+    startDate: "26/01/2026",
+    segmento: "Healthtech / Biotecnologia",
+    fullDescription: "A NURA é uma startup de nutrição avançada que desenvolve soluções baseadas em inteligência biológica para promover equilíbrio, saúde e performance no dia a dia. Unindo ciência, tecnologia e cuidado contínuo, cria produtos pensados para atuar de forma progressiva e sustentável no organismo, respeitando o ritmo natural do corpo.",
+    founder: "Elielma Colla",
+    email: "nuralabs.br@gmail.com",
+    phone: "(46) 99980-2671",
+    products: ["NURA Flow (Suporte Biológico de Rotina)"]
+  }
 ];
 
 export default function IncubadosSection() {
