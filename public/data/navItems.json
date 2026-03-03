@@ -57,7 +57,21 @@
     },
     {
         "name": "Parque Tecnológico",
-        "path": "/parque"
+        "path": "/parque",
+        "dropdown": [
+            {
+                "name": "Sobre o Parque",
+                "path": "/parque"
+            },
+            {
+                "name": "Banco de Talentos",
+                "path": "/#banco-de-talentos"
+            },
+            {
+                "name": "Acesso Empresas",
+                "path": "/painel"
+            }
+        ]
     },
     {
         "name": "Eventos",
