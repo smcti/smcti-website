@@ -37,18 +37,31 @@ const CoursePage = () => {
         </div>
       </div>
       <div className="section-default flex flex-col gap-4 mt-4 text-justify">
-        {course.id === "8" || course.id === "9" || course.id === "11" || course.id === "12" ? (
+        {course.id === "19" || course.id === "20" ? (
           <>
-            {course.id === "8" ? (
-              <p>
-                <strong>IMPORTANTE:</strong> No último dia do curso, os alunos
-                participarão de uma competição entre os Robôs Seguidores de
-                Linha que desenvolveram ao longo das aulas. Os três primeiros
-                colocados serão premiados com troféus.
+            <h2 className="text-4xl">Reconhecimento do curso</h2>
+            <p>
+              No Senac, o aluno é protagonista da própria jornada de aprendizado. A
+              formação é voltada ao desenvolvimento de competências práticas em
+              informática, abrangendo desde os fundamentos do computador até o uso de
+              ferramentas essenciais como Windows, Word, Excel e Internet. Essa base
+              permite ao participante atuar com mais autonomia, organização e eficiência
+              em atividades acadêmicas e profissionais.
+            </p>
+            <p>
+              Em parceria com o Parque, o curso conecta teoria e prática, aproximando o
+              aluno das demandas reais do mercado. O domínio de recursos como edição de
+              documentos, criação de planilhas, uso de fórmulas e navegação na internet
+              fortalece habilidades cada vez mais exigidas no ambiente de trabalho,
+              ampliando oportunidades de inserção e crescimento profissional.
               </p>
-            ) : (
-              <></>
-            )}
+              <p>
+                <strong>IMPORTANTE:</strong> Os Programas de Aprendizagem do Senac são
+                destinados a jovens entre 14 e 24 anos e possibilitam a integração entre
+                formação educacional e prática profissional em empresas dos setores de
+                comércio de bens, serviços e turismo, contribuindo para o desenvolvimento
+                de competências essenciais para o mercado de trabalho.
+              </p>
           </>
         ) : (
           <>
