@@ -144,7 +144,7 @@ const page = () => {
               Tal definição está sendo conduzida com base nas especificidades das propostas recebidas, 
               nos princípios da legalidade, economicidade e eficiência, bem como na busca por garantir a melhor 
               execução do projeto. Ressalta-se que o modelo de contratação será amplamente publicizado tão logo 
-              esteja finalizado, assegurando a transparência e o acesso à informação a todos os interessados.
+              esteja finalizado, assegurando a transparência e o acesso à informação a todos os interessados...
             </p>
           </div>
         </div>  
