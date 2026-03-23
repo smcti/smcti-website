@@ -5,19 +5,34 @@ import CourseHeader from "@components/common/CourseHeader";
 import PartnerFooter from "@components/common/PartnerFooter";
 import courseOpen from "@/public/data/courseOpen.json";
 import courseClosed from "@/public/data/courseClosed.json";
+import HeadingText from "@components/common/HeadingText";
 
 const page = () => {
   return (
     <>
-      <div className="my-32 p-6 flex flex-col h-full bg-zircon-50 gap-8 text-gray-700">
+      <div className="my-32 flex flex-col h-full bg-zircon-50 gap-8 text-gray-700">
+
+        <section className="">
+          <div className="section-default flex flex-col gap-8 text-gray-700">
+            <HeadingText title="Patotech" super="Cursos" />
+          </div>
+        </section>
 
         <CourseHeader
-          id="17"
-          image="/assets/images/cursos/python.png"
-          title="FUNDAMENTOS DE PYTHON I - Turma Reserva"
-          description="Desenvolver habilidades para realizar tarefas de codificação relacionadas com os elementos essenciais da programação na linguagem Python. Conhecer os conceitos universais da programação de computadores, a sintaxe e a semântica da linguagem."
-          partners="SMCTI e do DAINF/UTFPR-PB"
-          link="https://forms.gle/v5ysiD1oskWm38td9" 
+          id="19"
+          image="/assets/images/cursos/informaticabasica.jpeg"
+          title="Informática Básica"
+          description="Curso de Informática Básica voltado à introdução dos principais conceitos e ferramentas do uso do computador no dia a dia. Aborda fundamentos de hardware e software, navegação e configurações do sistema operacional Windows, além da utilização prática dos aplicativos Word e Excel, incluindo edição de textos, formatação, fórmulas, gráficos e impressão. Também contempla noções de internet, redes, navegação segura, mecanismos de busca e uso de correio eletrônico."
+          partners="SMCTI e SENAC"
+          link="https://forms.gle/3z9z6VEM9UgLbMZJA"
+        />
+        <CourseHeader
+          id="20"
+          image="/assets/images/cursos/msexcel.jpeg"
+          title="MS Excel Operações Essenciais"
+          description="Curso introdutório de Excel que apresenta a interface do programa e os conceitos fundamentais, como pasta de trabalho, planilhas e células. Aborda a inserção e organização de dados, além de formatação básica (fonte, alinhamento, bordas e preenchimento). Também explora os principais tipos de valores em células e ensina a realizar cálculos essenciais, como soma, subtração, multiplicação e divisão."
+          partners="SMCTI e SENAC"
+          link="https://forms.gle/wPkBCafAhg9JV1ya8" 
         />
       </div>
       <div className="mt-32 flex flex-col h-full bg-cello gap-8 text-white">

@@ -751,5 +751,113 @@ export const moreAbout = [
         </ol>
       </>
     ),
+  },
+  {
+    id: "19",
+    title: "Informática Básica",
+    benefits: (
+      <>
+        Desenvolva habilidades essenciais para o uso do computador no dia a dia,
+        estudos e mercado de trabalho. O curso aborda desde conceitos iniciais até
+        o uso prático das principais ferramentas digitais, proporcionando autonomia
+        no ambiente tecnológico. <br />
+        <ul>
+          <li>✓Aprende conceitos básicos de hardware e software</li>
+          <li>✓Utiliza o sistema operacional Windows na prática</li>
+          <li>✓Cria e formata documentos no Word</li>
+          <li>✓Trabalha com planilhas e funções básicas no Excel</li>
+          <li>✓Navega na internet e utiliza e-mail com segurança</li>
+        </ul>
+      </>
+    ),
+    description: (
+    <>
+      <p>
+        <u>Público-alvo:</u> Jovens a partir de 14 anos interessados em
+        informática <br />
+        <u>Carga horária:</u> 40 horas
+        <br />
+        <u>Pré-requisitos:</u> 5º ano do Ensino Fundamental
+        <br />
+        <u>Vagas:</u> 20 participantes
+        <br />
+        <u>Datas:</u> 14 e 15/04, 22/04, 28 e 29/04, 05 e 06/05, 12 e 13/05,
+        19/05
+        <br />
+        <br />
+        <u>Conteúdo:</u>
+      </p>
+
+      <ul className="list-disc list-inside px-4">
+        <li>Fundamentos de informática (hardware e software)</li>
+        <li>Windows: uso básico e configurações</li>
+        <li>Word: criação e formatação de documentos</li>
+        <li>Excel: planilhas, fórmulas e gráficos</li>
+        <li>Internet: navegação, busca e e-mail</li>
+      </ul>
+
+      <u>Critérios de seleção:</u>
+      <ol>
+        <li>1. Escolas públicas municipais e estaduais;</li>
+        <li>2. Escolas públicas da região;</li>
+        <li>3. Escolas particulares;</li>
+        <li>4. Público em geral.</li>
+      </ol>
+    </>
+  ),
+  },
+  {
+    id: "20",
+    title: "MS Excel - Operações Básicas",
+    benefits: (
+      <>
+        Aprenda a utilizar o Excel para organizar, calcular e analisar dados de
+        forma prática. O curso desenvolve habilidades essenciais para estudos e
+        atividades profissionais, com foco em produtividade e tomada de decisão.
+        <br />
+        <ul>
+          <li>✓Compreende a estrutura de planilhas e células</li>
+          <li>✓Insere e organiza dados corretamente</li>
+          <li>✓Formata planilhas para melhor visualização</li>
+          <li>✓Realiza cálculos básicos com fórmulas</li>
+          <li>✓Aplica o Excel em tarefas do dia a dia</li>
+        </ul>
+      </>
+    ),
+    description: (
+      <>
+        <p>
+          <u>Público-alvo:</u> Jovens e adultos a partir de 14 anos interessados em
+          planilhas eletrônicas <br />
+          <u>Carga horária:</u> 20 horas
+          <br />
+          <u>Pré-requisitos:</u> 5º ano do Ensino Fundamental
+          <br />
+          <u>Vagas:</u> 20 participantes
+          <br />
+          <u>Datas:</u> 18, 19, 20/08, 25, 26, 27/08 e 01/09
+          <br />
+          <br />
+          <u>Conteúdo:</u>
+        </p>
+
+        <ul className="list-disc list-inside px-4">
+          <li>Interface do Excel e navegação</li>
+          <li>Conceitos: pasta de trabalho, planilha e célula</li>
+          <li>Entrada e organização de dados</li>
+          <li>Formatação: fonte, alinhamento, bordas e preenchimento</li>
+          <li>Tipos de dados: texto, número, moeda e data</li>
+          <li>Cálculos básicos: soma, subtração, divisão e multiplicação</li>
+        </ul>
+
+        <u>Critérios de seleção:</u>
+        <ol>
+          <li>1. Escolas públicas municipais e estaduais;</li>
+          <li>2. Escolas públicas da região;</li>
+          <li>3. Escolas particulares;</li>
+          <li>4. Público em geral.</li>
+        </ol>
+      </>
+    ),
   }
 ];

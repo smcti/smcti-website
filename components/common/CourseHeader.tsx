@@ -16,7 +16,7 @@ const CourseHeader = (props: CourseHeaderProps) => {
           <img
             src={props.image}
             alt="imagemCurso"
-            className="w-full sm:h-[500px] h-96  rounded-xl overflow-hidden object-cover"
+            className="w-1/2 sm:h-[400px] h-96 rounded-xl overflow-hidden object-cover"
           />
           <div className="grid grid-cols-1 text-black gap-4 lg:w-1/2 text-center">
             <p className="sm:text-3xl text-xl">
