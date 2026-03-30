@@ -1,9 +1,5 @@
 // lib/mongodb.ts
 import { MongoClient } from "mongodb";
-
-// Removemos o throw new Error e colocamos um fallback temporário.
-// Se a variável não existir (no momento do build), ele usa essa string genérica
-// para o MongoClient não quebrar reclamando de URL inválida.
 const uri = process.env.MONGODB_URI || "mongodb://localhost:27017/build_temporario";
 const options = {};
 
