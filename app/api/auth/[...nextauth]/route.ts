@@ -5,8 +5,9 @@ import clientPromise from "@/lib/mongodb";
 export const authOptions: AuthOptions = {
   providers: [
     GoogleProvider({
-      clientId: process.env.GOOGLE_CLIENT_ID as string,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET as string,
+      // Adicionamos as strings de fallback para o build não quebrar
+      clientId: process.env.GOOGLE_CLIENT_ID || "chave_falsa_para_build",
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET || "segredo_falso_para_build",
     }),
   ],
   session: {
@@ -59,7 +60,8 @@ export const authOptions: AuthOptions = {
   pages: {
     error: '/acesso-negado',
   },
-  secret: process.env.NEXTAUTH_SECRET,
+  // Adicionamos o fallback para o segredo do NextAuth também
+  secret: process.env.NEXTAUTH_SECRET || "segredo_falso_do_nextauth",
 };
 
 const handler = NextAuth(authOptions);
