@@ -149,6 +149,27 @@ const page = () => {
           </div>
         </div>  
       </section>
+      <section>
+        <div className="section-default flex flex-col gap-8 text-gray-700">
+          <HeadingText title="Seleção pública" super="Seleção pública" />
+          <div className="flex flex-col gap-4">
+            <p>
+             Foi publicada a Seleção Pública de Fornecedores nº 09/2025, destinada à contratação de serviço técnico especializado para 
+              a implantação da aceleradora de startups no Parque Tecnológico de Pato Branco, no âmbito do Convênio nº 262/2024. 
+              O processo receberá propostas até 10 de abril de 2026, às 09h, com sessão pública prevista para a mesma data, às 09h30, 
+              por meio da plataforma BLL Compras. O edital e seus anexos estão disponíveis para consulta pelos interessados.
+            </p>
+             <a
+          href="https://portalfuntef.azurewebsites.net/2026/03/27/selecao-publica-de-fornecedores-n-09-2025/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 underline"
+  >
+    Acesse o edital aqui.
+  </a>
+          </div>
+        </div>  
+      </section>
     </div>
   );
 };
