@@ -232,7 +232,7 @@ const incubadasData: Incubada[] = [
   {
     id: 15,
     name: "TAS", 
-    logo: "/assets/images/logosincubadas/TAS.png",
+    logo: "/assets/images/logosincubadas/Tas.png",
     description: "Transformamos tecnologia em resultado.",
     startDate: "26/01/2026",
     segmento: "Software, consultoria, BI",
