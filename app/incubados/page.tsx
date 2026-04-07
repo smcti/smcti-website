@@ -104,22 +104,9 @@ const incubadasData: Incubada[] = [
     phone: "(46) 99932-1270",
     products: ["Montagem de Placas (SMT/PTH)", "Projetos Eletrônicos", "Prototipagem Rápida", "Automação"]
   },
+  
   { 
     id: 6,
-    name: "Askme Solutions", 
-    logo: "/assets/images/logosincubadas/askme.png",
-    description: "Fique bem, Fique Seguro, Fique com Askme Solutions",
-    startDate: "22/02/2023",
-    segmento: "Logística & Segurança",
-    link: "https://askmesolutions.com.br/",
-    fullDescription: "Empresa especializada em rastreamento de baixo custo, tanto de frota, como bens móveis.",
-    founder: "Luciano Cesar Ascari",
-    email: "comercial@askmesolutions.com.br",
-    phone: "(46) 9911-9424",
-    products: ["Plataforma de Rastreamento", "Gestão de Frotas"]
-  },
-  { 
-    id: 7,
     name: "Consegsys", 
     logo: "/assets/images/logosincubadas/consegsys.png",
     description: "Tecnologia que organiza, conecta e faz crescer",
@@ -133,7 +120,7 @@ const incubadasData: Incubada[] = [
     products: ["CRM para o agronegócio", "Chatbot", "Aplicativos e sistemas sob demanda"]
   },
   { 
-    id: 8,
+    id: 7,
     name: "Flumia Flow", 
     logo: "/assets/images/logosincubadas/flumia.png",
     description: "A flum.ia é a ponte entre o atendimento humano e a automação inteligente",
@@ -147,7 +134,7 @@ const incubadasData: Incubada[] = [
     products: ["Solução via Whatsapp para vendas e consulta de preços"]
   },
   { 
-    id: 9,
+    id: 8,
     name: "E-Dialoga Sistemas", 
     logo: "/assets/images/logosincubadas/edialoga.png",
     description: "Feito de empresa para empresas",
@@ -161,7 +148,7 @@ const incubadasData: Incubada[] = [
     products: ["Chat Omnichannel para Whatsapp", "Instagram", "Facebook", "Telegram", "Email"]
   },
   { 
-    id: 10,
+    id: 9,
     name: "Flatland Lab", 
     logo: "/assets/images/logosincubadas/flatland.png",
     description: "Specialty crops require specialty automation",
@@ -175,7 +162,7 @@ const incubadasData: Incubada[] = [
     products: ["GPS de precisão", "Sistemas para colheita de frutas"]
   },
   { 
-    id: 11,
+    id: 10,
     name: "NU.RA Biological Intelligence", 
     logo: "/assets/images/logosincubadas/nura.png",
     description: "Nutrição inteligente, cuidado contínuo.",
@@ -186,6 +173,115 @@ const incubadasData: Incubada[] = [
     email: "nuralabs.br@gmail.com",
     phone: "(46) 99980-2671",
     products: ["NURA Flow (Suporte Biológico de Rotina)"]
+  },
+   { 
+    id: 11,
+    name: "Raziel Labs ", 
+    logo: "/assets/images/logosincubadas/Raziel.png",
+    description: "Fábrica de IA. Desenvolvemos motores de inteligência sob medida para o seu negócio.",
+    startDate: "26/01/2026",
+    segmento: "Inteligência Artificial / Software / Dados",
+    link: "http://raziellabs.co/",
+    fullDescription: "A Raziel Labs atua como uma Fábrica de IA, ajudando empresas e instituições a transformar iniciativas de Inteligência Artificial em soluções operacionais e seguras. A empresa desenvolve o motor inteligente das soluções, incluindo backend, pipelines de dados, agentes e governança técnica, criando sistemas integráveis a plataformas existentes e preparados para ambientes corporativos, governamentais e industriais. O objetivo é reduzir a complexidade do desenvolvimento de IA e acelerar a entrega de valor com soluções confiáveis e prontas para produção.",
+    founder: "Rozimery Ferreira",
+    email: "nuralabs.br@gmail.com",
+    phone: "(46) 99973-0692",
+    products: ["Montagem de Placas", "Projetos Eletrônicos", "Prototipagem", "Automação"]
+  },
+  {
+    id: 12,
+    name: "Climb", 
+    logo: "/assets/images/logosincubadas/Climb.png",
+    description: "Ajudamos negócios a escalarem usando automação e Inteligência Artificial",
+    startDate: "26/01/2026",
+    segmento: "Software",
+    link: "http://www.climbonline.com.br",
+    fullDescription: "Criamos sistemas e agentes 100% personalizados que tornam processos mais rápidos, baratos e eficientes usando automação e I.A",
+    founder: "Samuel Judá Batiston",
+    email: "climbonline.samuel@gmail.com",
+    phone: "(46) 99114-9717",
+    products: ["Soluções sob medida com IA", "Agentes inteligentes integrados", "Diagnóstico ROI.A", "Selecta AI (Recrutamento)", "Loyalty Farma (Fidelização)"]
+  },
+  {
+    id: 13,
+    name: "Software Fazenda Melhor", 
+    logo: "/assets/images/logosincubadas/FazendaMelhor.png",
+    description: "Gerenciando a Vida no Campo",
+    startDate: "26/01/2026",
+    segmento: "Software",
+    link: "https://www.fazendamelhor.com.br/",
+    fullDescription: "A Fazenda Melhor é uma startup de base tecnológica que desenvolve soluções digitais para a gestão rural, com foco em contadores e profissionais que atendem o agronegócio. Por meio de uma plataforma SaaS simples e integrada, a empresa organiza informações financeiras, fiscais e operacionais dos produtores rurais, facilitando o atendimento, a padronização de processos e a tomada de decisão. A solução conecta contador e produtor em um único ambiente, promovendo mais eficiência, controle e profissionalização na gestão das propriedades rurais.",
+    founder: "Felipe Gustavo Loff",
+    email: "felipegustavo@fazendamelhor.com.br",
+    phone: "(46) 2604-0425",
+    products: ["Plataforma SaaS de Gestão Rural", "Solução para Contadores", "Ferramenta para Agronegócios"]
+  },
+    {
+    id: 14,
+    name: "ITSARTUP", 
+    logo: "/assets/images/logosincubadas/ITSARTUP.png",
+    description: "ITSARTUP - STAY CREATIVE",
+    startDate: "26/01/2026",
+    segmento: "Software",
+    fullDescription: "A ITSARTUP é uma edtech que desenvolve soluções inovadoras para a formação continuada de professores da rede pública, integrando criatividade, metodologias ativas e tecnologia. Combinamos vivências práticas e plataforma digital para transformar a atuação docente e gerar impacto real na aprendizagem dos alunos.\nA ITSARTUP também atua no segmento B2B, oferecendo workshops, cursos e experiências voltadas à criatividade, inovação e desenvolvimento humano para empresas, aplicando os mesmos princípios metodológicos em contextos corporativos.",
+    founder: "Jessana Moccelini",
+    email: "itsartup@gmail.com",
+    phone: "(46) 99979-9598",
+    products: ["Plataforma educacional", "Formação de professores e Mentorias", "Palestras e Workshops para empresas."]
+  },
+  {
+    id: 15,
+    name: "TAS", 
+    logo: "/assets/images/logosincubadas/TAS.png",
+    description: "Transformamos tecnologia em resultado.",
+    startDate: "26/01/2026",
+    segmento: "Software, consultoria, BI",
+    fullDescription: "A TAS Consultoria atua na interseção entre dados, tecnologia e estratégia, utilizando Business Intelligence (BI) como base para transformação empresarial.\nApoiamos empresas na estruturação de dados, criação de indicadores e otimização de processos, promovendo uma gestão orientada por dados (data-driven), com foco em eficiência operacional, previsibilidade e crescimento sustentável.",
+    founder: "Tiago Alex dos Santos",
+    email: "tiagoalexdossantos@gmail.com",
+    phone: "(46) 99134-1816",
+    products: ["BI Especialista em Agronegócio", "Integração", "Automação de processos", "BI com IA integrada"]
+  },
+   {
+    id: 16,
+    name: "Noctua", 
+    logo: "/assets/images/logosincubadas/Noctua.png",
+    description: "Automatize. Eleve. Inove.",
+    startDate: "26/01/2026",
+    segmento: "Hardware, Firmware, Cloud.",
+    link: "https://noctua-iot.com",
+    fullDescription: "A Noctua IoT é uma empresa voltada ao desenvolvimento de soluções de Internet das Coisas para a indústria, com foco em monitoramento inteligente, análise de dados em tempo real e otimização de processos. Sua plataforma conecta equipamentos físicos a sistemas digitais, permitindo maior controle operacional, manutenção preditiva e aumento de eficiência em setores como agronegócio, mineração e logística, alinhando-se aos conceitos da Indústria 4.0.",
+    founder: "Luiz Eduardo Caldas Kramer",
+    email: "admin@noctua-iot.com",
+    phone: "(42) 99964-4352",
+    products: ["Desenvolvimento de soluções IoT sob demanda"]
+  },
+   {
+    id: 17,
+    name: "DCT Tecnologia", 
+    logo: "/assets/images/logosincubadas/DCT.png",
+    description: "Tecnologia inteligente conectando inovação, segurança e desempenho.",
+    startDate: "26/01/2026",
+    segmento: "Hardware/Software/Firmware/Sistemas embarcados/Internet das Coisas (IoT) / Engenharia e P&D",
+    fullDescription: "A DCT Tecnologia é uma empresa especializada no desenvolvimento de soluções tecnológicas avançadas, com foco em sistemas embarcados, telecomunicações e inovação aplicada. Atuando de forma integrada entre hardware e software, a empresa desenvolve produtos e soluções sob medida para atender demandas complexas da indústria e setores estratégicos, promovendo eficiência, conectividade e transformação digital",
+    founder: "Celso Satoshi Saito",
+    email: "dct.tecnologia26@gmail.com",
+    phone: "(41) 98882-4503",
+    products: ["IoT e Telemetria", "Rastreamento e Monitoramento", "Comunicação Sem Fio", "Hardware Customizado", "Aquisição e Processamento de Dados", "Cidades Inteligentes", "Desenvolvimento Sob Demanda"]
+  },
+  {
+    id: 18,
+    name: "VELOXI", 
+    logo: "/assets/images/logosincubadas/VELOXI.png",
+    description: "Sistema online e customizável que controla a produção em tempo real.",
+    startDate: "26/01/2026",
+    segmento: "Software",
+    link:"http://veloxi.com.br",
+    fullDescription: "Através do CmControl, um sistema inteligente, controlamos e gerenciamos todos os procecessos e etapas de produção como MES e ShopFloor Control. Desenvolvemos tecnologia de ponta para otimização de processos de produção.",
+    founder: "HERON WILLIAN BERTON",
+    email: "contato@veloxi.com.br",
+    phone: "(41) 3109-6384",
+    products: ["IoT e Telemetria", "Rastreamento", "Comunicação Sem Fio", "Hardware Customizado", "Plataformas de Dados", "Cidades Inteligentes", "Desenvolvimento Sob Medida"]
   }
 ];
 
