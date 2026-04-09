@@ -176,17 +176,17 @@ const incubadasData: Incubada[] = [
   },
    { 
     id: 11,
-    name: "Raziel Labs ", 
+    name: "Raziel Labs", 
     logo: "/assets/images/logosincubadas/Raziel.png",
     description: "Fábrica de IA. Desenvolvemos motores de inteligência sob medida para o seu negócio.",
-    startDate: "26/01/2026",
+    startDate: "12/03/2026",
     segmento: "Inteligência Artificial / Software / Dados",
     link: "http://raziellabs.co/",
     fullDescription: "A Raziel Labs atua como uma Fábrica de IA, ajudando empresas e instituições a transformar iniciativas de Inteligência Artificial em soluções operacionais e seguras. A empresa desenvolve o motor inteligente das soluções, incluindo backend, pipelines de dados, agentes e governança técnica, criando sistemas integráveis a plataformas existentes e preparados para ambientes corporativos, governamentais e industriais. O objetivo é reduzir a complexidade do desenvolvimento de IA e acelerar a entrega de valor com soluções confiáveis e prontas para produção.",
-    founder: "Rozimery Ferreira",
-    email: "nuralabs.br@gmail.com",
+    founder: "Rozimery Ferreira e Muriel Mazzetto",
+    email: "hello@raziellabs.co",
     phone: "(46) 99973-0692",
-    products: ["Montagem de Placas", "Projetos Eletrônicos", "Prototipagem", "Automação"]
+    products: ["Diagnóstico e Direcionamento", "Validação de Solução", "Desenvolvimento e Evolução"]
   },
   {
     id: 12,
