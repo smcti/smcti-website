@@ -8,7 +8,7 @@ import Reveal from "@components/common/reveal";
 
 // Importe o componente do formulário que criamos. 
 // Ajuste o caminho '@components/...' dependendo da pasta exata onde você salvou o arquivo CurriculoForm.tsx
-import CurriculoForm from "@components/common/CurriculoForm"; 
+// import CurriculoForm from "@components/common/CurriculoForm"; 
 
 export const metadata = {
   title: "Home",
@@ -36,8 +36,8 @@ const Home = () => {
         <Booking />
       </Reveal>
       
-      {/* Nova Seção: Banco de Talentos / Envio de Currículos */}
-      <Reveal>
+      {/* Nova Seção: Banco de Talentos / Envio de Currículos (Comentada temporariamente) */}
+      {/* <Reveal>
         <section className="py-16 bg-gray-50" id="banco-de-talentos">
           <div className="container mx-auto px-4 max-w-4xl">
             <div className="text-center mb-10">
@@ -47,12 +47,12 @@ const Home = () => {
               </p>
             </div>
             
-            {/* O formulário em si */}
             <CurriculoForm />
             
           </div>
         </section>
-      </Reveal>
+      </Reveal> 
+      */}
     </>
   );
 };

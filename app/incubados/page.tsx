@@ -232,7 +232,7 @@ const incubadasData: Incubada[] = [
   {
     id: 15,
     name: "TAS", 
-    logo: "/assets/images/logosincubadas/Tas.png",
+    logo: "/assets/images/logosincubadas/tas.png",
     description: "Transformamos tecnologia em resultado.",
     startDate: "26/01/2026",
     segmento: "Software, consultoria, BI",
@@ -271,7 +271,7 @@ const incubadasData: Incubada[] = [
   },
   {
     id: 18,
-    name: "VELOXI", 
+    name: "VLX", 
     logo: "/assets/images/logosincubadas/VELOXI.png",
     description: "Sistema online e customizável que controla a produção em tempo real.",
     startDate: "26/01/2026",
