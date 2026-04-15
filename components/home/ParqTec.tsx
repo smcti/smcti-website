@@ -16,8 +16,8 @@ const ParqTec = () => {
       />
       <div className="flex flex-col text-gray-700 gap-16 text-justify">
         <HeadingText
-          super="Parque Tecnológico e SMCTI"
-          title="Parque Tecnológico"
+          super="Empresas Âncoras e SMCTI"
+          title="Empresas Âncoras"
           reverse
         />
         <p>

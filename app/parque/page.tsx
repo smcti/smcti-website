@@ -99,7 +99,7 @@ const ParqueTecnologicoPage = () => {
             <div className="flex flex-col gap-8">
                 <div className="flex items-center gap-3">
                     <div className="p-2 bg-blue-100 rounded-lg text-blue-600"><Building2 size={28}/></div>
-                    <HeadingText title="Parque Tecnológico" super="Sobre" />
+                    <HeadingText title="Empresas Âncoras" super="Sobre" />
                 </div>
                 
                 <div className="bg-white rounded-3xl p-8 shadow-sm border border-blue-50 relative overflow-hidden">
