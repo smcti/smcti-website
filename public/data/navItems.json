@@ -56,12 +56,16 @@
         "path": "/aceleradora"
     },
     {
-        "name": "Parque Tecnológico",
+        "name": "Empresas Âncoras",
         "path": "/parque",
         "dropdown": [
             {
                 "name": "Sobre o Parque",
                 "path": "/parque"
+            },
+            {
+                "name": "Empresas",
+                "path": "/empresas"
             }
         ]
     },

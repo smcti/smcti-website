@@ -6,7 +6,7 @@ const Footer = () => {
   const footerData = {
     Sobre: usefulLinks,
     "Links úteis": navItems,
-    "Parque Tecnológico": contacts,
+    "Empresas Âncoras": contacts,
   };
 
   return (

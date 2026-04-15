@@ -18,22 +18,7 @@ const page = () => {
           </div>
         </section>
 
-        <CourseHeader
-          id="19"
-          image="/assets/images/cursos/informaticabasica.jpeg"
-          title="Informática Básica"
-          description="Curso de Informática Básica voltado à introdução dos principais conceitos e ferramentas do uso do computador no dia a dia. Aborda fundamentos de hardware e software, navegação e configurações do sistema operacional Windows, além da utilização prática dos aplicativos Word e Excel, incluindo edição de textos, formatação, fórmulas, gráficos e impressão. Também contempla noções de internet, redes, navegação segura, mecanismos de busca e uso de correio eletrônico."
-          partners="SMCTI e SENAC"
-          link="https://forms.gle/3z9z6VEM9UgLbMZJA"
-        />
-        <CourseHeader
-          id="20"
-          image="/assets/images/cursos/msexcel.jpeg"
-          title="MS Excel Operações Essenciais"
-          description="Curso introdutório de Excel que apresenta a interface do programa e os conceitos fundamentais, como pasta de trabalho, planilhas e células. Aborda a inserção e organização de dados, além de formatação básica (fonte, alinhamento, bordas e preenchimento). Também explora os principais tipos de valores em células e ensina a realizar cálculos essenciais, como soma, subtração, multiplicação e divisão."
-          partners="SMCTI e SENAC"
-          link="https://forms.gle/wPkBCafAhg9JV1ya8" 
-        />
+        
       </div>
       <div className="mt-32 flex flex-col h-full bg-cello gap-8 text-white">
         <div className="section-default flex-col text-start justify-start gap-8">
