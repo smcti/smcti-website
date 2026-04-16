@@ -5,7 +5,8 @@ import {
   MapPin, 
   Mail, 
   Phone,
-  Layers
+  Layers,
+  ExternalLink
 } from "lucide-react";
 
 interface EmpresaAncora {
@@ -16,6 +17,7 @@ interface EmpresaAncora {
   segmento: string;
   email: string;
   phone: string;
+  link?: string;
 }
 
 const ancorasData: EmpresaAncora[] = [
@@ -23,10 +25,11 @@ const ancorasData: EmpresaAncora[] = [
     id: 1,
     name: "Akiyama", 
     logo: "/assets/images/logos-empresas_ancoras/akiyama.png",
-    description: "Ê uma empresa de tecnologia especializada em soluções de identificação biométrica, reconhecimento facial, autenticação de pessoas e automação industrial.",
+    description: "Especializada em soluções de identificação biométrica, reconhecimento facial, autenticação de pessoas e automação industrial.",
     segmento: "Tecnologia / Automação",
     email: "contato@akiyama.com.br",
-    phone: "(  )     -    ",
+    phone: " (41) 3028-0222",
+    link: "https://www.akiyama.com.br/"
   },
   { 
     id: 2,
@@ -35,16 +38,18 @@ const ancorasData: EmpresaAncora[] = [
     description: "Simplificar e modernizar a gestão do setor de hospitalidade brasileiro.",
     segmento: "Software",
     email: "contato@bitzsoftwares.com.br",
-    phone: "(  )     -    ",
+    phone: "(46) 3025-2515",
+    link: "https://www.bitzsoftwares.com.br/"
   },
   { 
     id: 3,
-    name: "Emitelli", 
-    logo: "/assets/images/logos-empresas_ancoras/emitelli.png",
+    name: "Emiteli", 
+    logo: "/assets/images/logos-empresas_ancoras/emiteli.png",
     description: "Ê uma empresa brasileira especializada na montagem de placas eletrônicas e produtos finais.",
     segmento: "Eletrônica",
     email: "contato@emitelli.com.br",
-    phone: "(  )     -    ",
+    phone: "(41) 3021-6134",
+    link: "https://www.emiteli.com.br/"
   },
    { 
     id: 4,
@@ -53,7 +58,8 @@ const ancorasData: EmpresaAncora[] = [
     description: "É uma rede de lojas autônomas pioneira na venda de botijões de gás de cozinha (GLP), operando com tecnologia de autoatendimento.",
     segmento: "Varejo / Automação",
     email: "contato@gasfacil.com.br",
-    phone: "(  )     -    ",
+    phone: "(46) 99932-0167",
+    link: "https://www.instagram.com/gasfacil24h?igsh=MTNmN3h3ODF4aWsyMQ=="
   },
    { 
     id: 5,
@@ -62,7 +68,8 @@ const ancorasData: EmpresaAncora[] = [
     description: "A Softfocus impulsiona a prosperidade no agronegócio unindo pessoas, crédito e tecnologia. Desenvolvemos soluções ágeis para instituições financeiras.",
     segmento: "Agritech",
     email: "contato@softfocus.com.br",
-    phone: "(  )     -    ",
+    phone: "(46) 2604-0935",
+    link: "https://www.softfocus.com.br/"
   }
 ];
 
@@ -121,7 +128,7 @@ export default function EmpresasPage() {
                            <h4 className="text-xl font-black text-gray-800 mb-2 group-hover:text-blue-700 transition-colors line-clamp-1">
                              {item.name}
                            </h4>
-                           <p className="text-sm text-gray-500 leading-relaxed line-clamp-3 font-medium">
+                           <p className="text-sm text-gray-600 leading-relaxed line-clamp-5 font-medium">
                              {item.description}
                            </p>
                         </div>
@@ -135,8 +142,18 @@ export default function EmpresasPage() {
                               <Phone size={16} className="text-blue-500 shrink-0" />
                               <span className="truncate">{item.phone}</span>
                            </div>
+                           {item.link && (
+                              <a 
+                                href={item.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="mt-2 flex items-center justify-center gap-2 w-full py-2 px-4 bg-gray-50 hover:bg-blue-50 text-gray-600 hover:text-blue-700 rounded-xl text-sm font-bold transition-all duration-300 border border-gray-100 hover:border-blue-200 shadow-sm"
+                              >
+                                Acessar Website <ExternalLink size={14} className="shrink-0" />
+                              </a>
+                           )}
                            <div className="flex items-center gap-2 text-sm text-gray-400 mt-2">
-                              <MapPin size={14} className="text-gray-300" /> Pato Branco
+                              <MapPin size={14} className="text-gray-300" /> Pato Branco - PR
                            </div>
                         </div>
                      </div>
