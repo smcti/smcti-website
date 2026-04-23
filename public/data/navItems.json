@@ -46,10 +46,6 @@
                 "path": "/incubados"
             },
             {
-                "name": "Graduados",
-                "path": "/graduados"
-            },
-            {
                 "name": "Documentos",
                 "path": "/documentos-incubadora"
             }
