@@ -1,5 +1,11 @@
 // lib/mongodb.ts
 import { MongoClient } from "mongodb";
+
+// Validação de variável de ambiente em produção
+if (process.env.NODE_ENV === "production" && !process.env.MONGODB_URI) {
+  console.error("❌ MONGODB_URI não está definida nas variáveis de ambiente de produção!");
+}
+
 const uri = process.env.MONGODB_URI || "mongodb://localhost:27017/build_temporario";
 const options = {};
 
@@ -15,7 +21,13 @@ if (process.env.NODE_ENV === "development") {
 
   if (!globalWithMongo._mongoClientPromise) {
     client = new MongoClient(uri, options);
-    globalWithMongo._mongoClientPromise = client.connect();
+    globalWithMongo._mongoClientPromise = client.connect().then((c) => {
+      console.log("✅ MongoDB conectado com sucesso (dev):", c.db().databaseName);
+      return c;
+    }).catch((error) => {
+      console.error("❌ Falha na conexão MongoDB (dev):", error.message);
+      throw error;
+    });
   }
   clientPromise = globalWithMongo._mongoClientPromise;
 } else {
@@ -23,8 +35,11 @@ if (process.env.NODE_ENV === "development") {
   client = new MongoClient(uri, options);
   
   // Capturamos eventuais erros de conexão durante o build para não quebrar o processo
-  clientPromise = client.connect().catch((error) => {
-    console.warn("Conexão com o banco ignorada durante o build:", error.message);
+  clientPromise = client.connect().then((c) => {
+    console.log("✅ MongoDB conectado com sucesso (prod):", c.db().databaseName);
+    return c;
+  }).catch((error) => {
+    console.warn("❌ Conexão com o banco ignorada durante o build:", error.message);
     return null as unknown as MongoClient;
   });
 }

@@ -57,6 +57,15 @@ export default function AdminClient({ initialData = [], userEmail }: { initialDa
             <Link href="/painel" className="bg-slate-700 hover:bg-blue-600 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all">
               Ir para Visão Empresa
             </Link>
+            <Link href="/painel-admin/mentorias" className="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all">
+              Triagem de Mentorias
+            </Link>
+            <Link href="/painel-admin/mentores" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all">
+              Gestão de Mentores
+            </Link>
+            <Link href="/painel-admin/usuarios" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1">
+              Gestão de Usuários
+            </Link>
           </div>
         </div>
       </header>

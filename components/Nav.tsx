@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import navItems from "@/public/data/navItems.json";
-import { AiOutlineMenu, AiOutlineCaretDown } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineCaretDown, AiOutlineLock } from "react-icons/ai";
 import { Menu } from "@headlessui/react";
 
 const Nav = () => {
@@ -79,13 +79,19 @@ const Nav = () => {
               )}
             </li>
           ))}
+          <li className='h-fit text-white transition-transform duration-200 hover:scale-105 hover:text-cello-100 flex items-center ml-2 border-l pl-4 border-white/30'>
+             <a href="/login" title="Área Restrita"><AiOutlineLock className="w-5 h-5 focus:outline-none" /></a>
+          </li>
         </ul>
 
         {/* Mobile navigation */}
-        <AiOutlineMenu
-          className='lg:hidden burguer-menu text-white text-2xl hover:cursor-pointer'
-          onClick={handleDropdown}
-        />
+        <div className="flex gap-4 items-center lg:hidden">
+          <a href="/login"><AiOutlineLock className="text-white text-2xl hover:cursor-pointer" /></a>
+          <AiOutlineMenu
+            className='burguer-menu text-white text-2xl hover:cursor-pointer'
+            onClick={handleDropdown}
+          />
+        </div>
         
         {/* Mobile Dropdown Menu */}
         <div

@@ -1,6 +1,32 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'standalone',
+  async headers() {
+    return [
+      {
+        // Aplica CORS para todas as rotas de API
+        source: "/api/:path*",
+        headers: [
+          {
+            key: "Access-Control-Allow-Origin",
+            value: process.env.NEXTAUTH_URL || "https://patobranco.tec.br",
+          },
+          {
+            key: "Access-Control-Allow-Methods",
+            value: "GET, POST, PATCH, DELETE, OPTIONS",
+          },
+          {
+            key: "Access-Control-Allow-Headers",
+            value: "Content-Type, Authorization",
+          },
+          {
+            key: "Access-Control-Allow-Credentials",
+            value: "true",
+          },
+        ],
+      },
+    ];
+  },
   async redirects() {
     return [
       {
