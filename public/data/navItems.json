@@ -6,18 +6,18 @@
     {
         "name": "Secretaria",
         "path": "/secretaria",
-        "dropdown":[
+        "dropdown": [
             {
-                "name":"Sobre",
-                "path":"/secretaria"
+                "name": "Sobre",
+                "path": "/secretaria"
             },
             {
-                "name":"Projetos",
-                "path":"/projetos"
+                "name": "Projetos",
+                "path": "/projetos"
             },
             {
-                "name":"Leis de incentivo a Inovação",
-                "path":"/leis/inovacao"
+                "name": "Leis de incentivo a Inovação",
+                "path": "/leis/inovacao"
             },
             {
                 "name": "Publicações",
@@ -36,18 +36,22 @@
     {
         "name": "Incubadora",
         "path": "/itecpb",
-        "dropdown":[
+        "dropdown": [
             {
-                "name":"Sobre",
-                "path":"/itecpb"
+                "name": "Sobre",
+                "path": "/itecpb"
             },
             {
-                "name":"Incubados",
-                "path":"/incubados"
+                "name": "Incubados",
+                "path": "/incubados"
             },
             {
-                "name":"Documentos",
-                "path":"/documentos-incubadora"
+                "name": "Graduados",
+                "path": "/graduados"
+            },
+            {
+                "name": "Documentos",
+                "path": "/documentos-incubadora"
             }
         ]
     },
