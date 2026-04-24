@@ -1,12 +1,6 @@
 // lib/mongoose.ts
 import mongoose from "mongoose";
 
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/build_temporario";
-
-if (process.env.NODE_ENV === "production" && !process.env.MONGODB_URI) {
-  console.error("❌ MONGODB_URI não está definida para o Mongoose em produção!");
-}
-
 // Cache global para evitar múltiplas conexões Mongoose (similar ao padrão do MongoClient)
 let cached = (global as any).mongoose;
 
@@ -20,6 +14,14 @@ async function dbConnect(): Promise<typeof mongoose> {
   }
 
   if (!cached.promise) {
+    // Lê MONGODB_URI aqui, dentro da função, para garantir que a env var
+    // já está disponível no momento da chamada (resolve problema no Cloud Run)
+    const MONGODB_URI = process.env.MONGODB_URI;
+
+    if (!MONGODB_URI) {
+      throw new Error("❌ MONGODB_URI não está definida nas variáveis de ambiente.");
+    }
+
     const opts = {
       bufferCommands: false,
     };
