@@ -49,6 +49,7 @@ const Hero = () => {
 
   return (
     <header>
+
       <div className="relative z-0 h-[100dvh] -mt-16 overflow-hidden flex flex-col items-center">
         <div className="absolute w-full h-full bg-cello-900  top-0 left-0 z-10 opacity-70"></div>
         <video
