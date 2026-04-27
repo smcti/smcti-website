@@ -5,7 +5,7 @@ import Itecpb from "@components/home/Itecpb";
 import Booking from "@components/home/Booking";
 import Hero from "@components/home/Hero";
 import Graduados from "@components/home/Graduados";
-import Reveal from "@components/common/reveal"; 
+import Reveal from "@components/common/reveal";
 
 // Importe o componente do formulário que criamos. 
 // Ajuste o caminho '@components/...' dependendo da pasta exata onde você salvou o arquivo CurriculoForm.tsx
@@ -39,7 +39,7 @@ const Home = () => {
       <Reveal>
         <Booking />
       </Reveal>
-      
+
       {/* Nova Seção: Banco de Talentos / Envio de Currículos (Comentada temporariamente) */}
       {/* <Reveal>
         <section className="py-16 bg-gray-50" id="banco-de-talentos">
