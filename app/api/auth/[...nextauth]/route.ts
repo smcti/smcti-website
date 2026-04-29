@@ -2,7 +2,7 @@ export const dynamic = "force-dynamic";
 
 import NextAuth, { AuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
-import clientPromise from "@/lib/mongodb";
+import { getClientPromise } from "@/lib/mongodb";
 import mongoose from "mongoose";
 import { User } from "@/lib/models/User";
 import bcrypt from "bcryptjs";
@@ -31,10 +31,10 @@ export const authOptions: AuthOptions = {
           throw new Error("Email e senha são obrigatórios.");
         }
 
-        const client = await clientPromise;
+        const client = await getClientPromise();
         // Assegura conexão mongoose ativa
         if (mongoose.connection.readyState !== 1) {
-            await mongoose.connect(process.env.MONGODB_URI as string);
+          await mongoose.connect(process.env.MONGODB_URI as string);
         }
 
         const user = await User.findOne({ email: credentials.email });
@@ -58,7 +58,7 @@ export const authOptions: AuthOptions = {
     }),
   ],
   session: {
-    strategy: "jwt", 
+    strategy: "jwt",
   },
   callbacks: {
     async jwt({ token, user }) {
@@ -78,7 +78,7 @@ export const authOptions: AuthOptions = {
   },
   pages: {
     signIn: '/login',      // Nova página de login
-    error: '/acesso-negado', 
+    error: '/acesso-negado',
   },
   secret: process.env.NEXTAUTH_SECRET || "segredo_falso_do_nextauth",
 };
