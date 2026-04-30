@@ -1,12 +1,12 @@
 import { NextResponse } from "next/server";
-import clientPromise from "@/lib/mongodb";
+import { getClientPromise } from "@/lib/mongodb";
 import { GridFSBucket } from "mongodb";
 import { Readable } from "stream";
 
 export async function POST(request: Request) {
   try {
     const formData = await request.formData();
-    
+
     // Sanitização básica: remove espaços em branco extras e padroniza o email
     const nome = (formData.get("nome") as string || "").trim();
     const email = (formData.get("email") as string || "").trim().toLowerCase();
@@ -36,10 +36,10 @@ export async function POST(request: Request) {
     }
 
     if (!nome || !email || !telefone) {
-        return NextResponse.json({ error: "Preencha todos os campos obrigatórios." }, { status: 400 });
+      return NextResponse.json({ error: "Preencha todos os campos obrigatórios." }, { status: 400 });
     }
 
-    const client = await clientPromise;
+    const client = await getClientPromise();
     const db = client.db("banco_parque");
 
     // 2. Bloqueio de Duplicatas (Apenas por Email)
@@ -57,7 +57,7 @@ export async function POST(request: Request) {
     const readableStream = Readable.from(buffer);
 
     const uploadStream = bucket.openUploadStream(pdfFile.name, {
-        metadata: { contentType: pdfFile.type },
+      metadata: { contentType: pdfFile.type },
     });
 
     const fileId = await new Promise((resolve, reject) => {
@@ -73,7 +73,7 @@ export async function POST(request: Request) {
       email,
       telefone,
       objetivo,
-      categorias, 
+      categorias,
       formacao,
       pdfFileId: fileId,
       status: "disponivel", // Garante que caia na aba correta do painel
@@ -84,8 +84,8 @@ export async function POST(request: Request) {
     // 5. Criação do Índice TTL para exclusão em 6 meses (180 dias)
     // Removi o 'await' para que o banco faça isso em background, respondendo mais rápido ao usuário.
     db.collection("curriculos").createIndex(
-      { "dataEnvio": 1 }, 
-      { expireAfterSeconds: 15552000 } 
+      { "dataEnvio": 1 },
+      { expireAfterSeconds: 15552000 }
     ).catch(console.error);
 
     return NextResponse.json({ success: true, message: "Currículo salvo com sucesso!" });

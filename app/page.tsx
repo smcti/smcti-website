@@ -4,7 +4,6 @@ import Labs from "@components/home/Labs";
 import Itecpb from "@components/home/Itecpb";
 import Booking from "@components/home/Booking";
 import Hero from "@components/home/Hero";
-import Graduados from "@components/home/Graduados";
 import Reveal from "@components/common/reveal";
 
 // Importe o componente do formulário que criamos. 
@@ -32,9 +31,6 @@ const Home = () => {
       </Reveal>
       <Reveal>
         <Itecpb />
-      </Reveal>
-      <Reveal>
-        <Graduados />
       </Reveal>
       <Reveal>
         <Booking />

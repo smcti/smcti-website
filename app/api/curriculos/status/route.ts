@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import clientPromise from "@/lib/mongodb";
+import { getClientPromise } from "@/lib/mongodb";
 import { ObjectId } from "mongodb";
 
 export async function POST(request: Request) {
@@ -11,7 +11,7 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "Dados incompletos" }, { status: 400 });
     }
 
-    const client = await clientPromise;
+    const client = await getClientPromise();
     const db = client.db("banco_parque");
     const objectId = new ObjectId(id);
 
@@ -19,21 +19,21 @@ export async function POST(request: Request) {
       // Grava definitivamente no MongoDB
       await db.collection("curriculos").updateOne(
         { _id: objectId },
-        { 
+        {
           $addToSet: { interessados: empresa },
-          $set: { status: "selecionado" } 
+          $set: { status: "selecionado" }
         }
       );
     } else if (acao === "contratar") {
       // Grava definitivamente no MongoDB
       await db.collection("curriculos").updateOne(
         { _id: objectId },
-        { 
-          $set: { 
-            status: "contratado", 
+        {
+          $set: {
+            status: "contratado",
             empresaFinal: empresa,
-            dataContratacao: new Date() 
-          } 
+            dataContratacao: new Date()
+          }
         }
       );
     }

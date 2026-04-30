@@ -1,4 +1,4 @@
-import clientPromise from "@/lib/mongodb";
+import { getClientPromise } from "@/lib/mongodb";
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 import { redirect } from "next/navigation";
@@ -15,9 +15,9 @@ export default async function PainelEmpresa() {
     redirect("/api/auth/signin");
   }
 
-  const client = await clientPromise;
+  const client = await getClientPromise();
   const db = client.db("banco_parque");
-  
+
   const curriculosRaw = await db.collection("curriculos").find({}).sort({ dataEnvio: -1 }).toArray();
 
   // 2. O MAPEAMENTO CORRIGIDO DA PONTE (DB -> FRONTEND)
@@ -31,7 +31,7 @@ export default async function PainelEmpresa() {
     objetivo: doc.objetivo || "",
     pdfFileId: doc.pdfFileId ? doc.pdfFileId.toString() : "",
     dataEnvio: doc.dataEnvio ? doc.dataEnvio.toISOString() : new Date().toISOString(),
-    
+
     // 👇👇👇 AQUI ESTAVA O SEU PROBLEMA 👇👇👇
     // Se você não mapear esses três campos aqui, o PainelClient fica "cego" e reseta as abas
     status: doc.status || "disponivel",
