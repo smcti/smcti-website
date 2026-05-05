@@ -859,5 +859,39 @@ export const moreAbout = [
         </ol>
       </>
     ),
+  },
+  {
+    id: "21",
+    title: "Auxiliar de Informática",
+    benefits: (
+      <>
+        Auxiliar de informática:
+Ao concluir o curso, o aluno estará preparado para utilizar o computador com autonomia no dia a dia pessoal e profissional, aumentando suas oportunidades no mercado de trabalho. Além das competências técnicas, o curso contribui para o desenvolvimento de habilidades comportamentais importantes, como organização, comunicação e responsabilidade. Essa combinação torna o participante mais confiante, produtivo e apto a atuar em diferentes ambientes profissionais que exigem conhecimentos básicos de informática.
+        <br />
+        <ul>
+          <li>✓Unidade curricular: Formação Profissional</li>
+          <li>✓Conteúdos formativos: Introdução à informática Windows - Área de trabalho e menu iniciar.</li>
+          <li>✓Características das janelas e barra de tarefas Windows Explorer.</li>
+          <li>✓Trabalhando com pastas, painel de controle, Word Pad, Paint e calculadora. Word básico.</li>
+          <li>✓Criando planilha de trabalho, inserindo dados, inserindo linhas e colunas.</li>
+        </ul>
+      </>
+    ),
+    description: (
+      <>
+        <p>
+          <u>Público-alvo:</u> Jovens e adultos a partir de 14 anos que desejam adquirir conhecimentos básicos em informática para uso pessoal ou inserção no mercado de trabalho <br />
+          <u>Carga horária:</u> 160 horas
+          <br />
+          <u>Pré-requisitos:</u> Não é necessário conhecimento prévio em informática
+          <br />
+          <br />
+          <u>Conteúdo:</u>
+          <br />
+          Informática básica (Windows, Word, Excel, PowerPoint), digitação, internet e formação cidadã (ética, relações interpessoais, saúde e segurança no trabalho)
+        </p>
+
+      </>
+    ),
   }
 ];
