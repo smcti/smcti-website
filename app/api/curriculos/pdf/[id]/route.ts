@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import clientPromise from "@/lib/mongodb";
+import { getClientPromise } from "@/lib/mongodb";
 import { GridFSBucket, ObjectId } from "mongodb";
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "@/app/api/auth/[...nextauth]/route";
@@ -15,7 +15,7 @@ export async function GET(
       return new NextResponse("Acesso Negado", { status: 401 });
     }
 
-    const client = await clientPromise;
+    const client = await getClientPromise();
     const db = client.db("banco_parque");
     const bucket = new GridFSBucket(db, { bucketName: "curriculos_pdfs" });
 

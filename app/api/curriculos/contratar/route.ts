@@ -1,11 +1,11 @@
 import { NextResponse } from "next/server";
-import clientPromise from "@/lib/mongodb";
+import { getClientPromise } from "@/lib/mongodb";
 import { ObjectId } from "mongodb";
 
 export async function POST(request: Request) {
   try {
     const { id, empresa } = await request.json();
-    const client = await clientPromise;
+    const client = await getClientPromise();
     const db = client.db("banco_parque");
 
     await db.collection("curriculos").updateOne(

@@ -1,4 +1,4 @@
-import clientPromise from "@/lib/mongodb";
+import { getClientPromise } from "@/lib/mongodb";
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 import { redirect } from "next/navigation";
@@ -17,16 +17,16 @@ export default async function PainelAdmin() {
   // 2. Trava 2 (RBAC): Verifica a 'role' injetada pelo NextAuth.
   // Se não for 'admin', redireciona para a visão restrita das empresas
   if (session.user?.role !== "admin") {
-    redirect("/painel"); 
+    redirect("/painel");
   }
 
   // Pegamos o email para passar para o componente Client desenhar na tela
   const userEmail = session.user?.email || "";
 
   // Se passou pelas duas travas, o usuário é comprovadamente um admin. O código continua...
-  const client = await clientPromise;
+  const client = await getClientPromise();
   const db = client.db("banco_parque");
-  
+
   const curriculosRaw = await db.collection("curriculos").find({}).sort({ dataEnvio: -1 }).toArray();
 
   const curriculos = curriculosRaw.map(doc => ({
