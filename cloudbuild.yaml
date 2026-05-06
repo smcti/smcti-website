@@ -81,6 +81,3 @@ availableSecrets:
 
 images:
   - 'southamerica-east1-docker.pkg.dev/parquetec/cloud-run-source-deploy/smcti-website'
-
-options:
-  default_logs_bucket_behavior: REGIONAL_USER_OWNED_BUCKET
