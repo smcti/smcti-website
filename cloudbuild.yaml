@@ -1,5 +1,24 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        docker build \
+          --build-arg MONGODB_URI=$$MONGODB_URI \
+          --build-arg GOOGLE_CLIENT_ID=$$GOOGLE_CLIENT_ID \
+          --build-arg GOOGLE_CLIENT_SECRET=$$GOOGLE_CLIENT_SECRET \
+          --build-arg NEXTAUTH_URL=$$NEXTAUTH_URL \
+          --build-arg NEXTAUTH_SECRET=$$NEXTAUTH_SECRET \
+          --build-arg AUTH_TRUST_HOST=$$AUTH_TRUST_HOST \
+          --build-arg AUTH_URL=$$AUTH_URL \
+          --build-arg SMTP_HOST=$$SMTP_HOST \
+          --build-arg SMTP_PORT=$$SMTP_PORT \
+          --build-arg SMTP_USER=$$SMTP_USER \
+          --build-arg SMTP_PASS=$$SMTP_PASS \
+          --build-arg SMTP_FROM=$$SMTP_FROM \
+          --build-arg CRON_SECRET=$$CRON_SECRET \
+          -t southamerica-east1-docker.pkg.dev/parquetec/cloud-run-source-deploy/smcti-website .
     secretEnv:
       - MONGODB_URI
       - GOOGLE_CLIENT_ID
@@ -14,28 +33,12 @@ steps:
       - SMTP_PASS
       - SMTP_FROM
       - CRON_SECRET
-    args:
-      - 'build'
-      - '--build-arg', 'MONGODB_URI=$$MONGODB_URI'
-      - '--build-arg', 'GOOGLE_CLIENT_ID=$$GOOGLE_CLIENT_ID'
-      - '--build-arg', 'GOOGLE_CLIENT_SECRET=$$GOOGLE_CLIENT_SECRET'
-      - '--build-arg', 'NEXTAUTH_URL=$$NEXTAUTH_URL'
-      - '--build-arg', 'NEXTAUTH_SECRET=$$NEXTAUTH_SECRET'
-      - '--build-arg', 'AUTH_TRUST_HOST=$$AUTH_TRUST_HOST'
-      - '--build-arg', 'AUTH_URL=$$AUTH_URL'
-      - '--build-arg', 'SMTP_HOST=$$SMTP_HOST'
-      - '--build-arg', 'SMTP_PORT=$$SMTP_PORT'
-      - '--build-arg', 'SMTP_USER=$$SMTP_USER'
-      - '--build-arg', 'SMTP_PASS=$$SMTP_PASS'
-      - '--build-arg', 'SMTP_FROM=$$SMTP_FROM'
-      - '--build-arg', 'CRON_SECRET=$$CRON_SECRET'
-      - '-t'
-      - 'southamerica-east1-docker.pkg.dev/parquetec/cloud-run-source-deploy/smcti-website'
-      - '.'
+
   - name: 'gcr.io/cloud-builders/docker'
     args:
       - 'push'
       - 'southamerica-east1-docker.pkg.dev/parquetec/cloud-run-source-deploy/smcti-website'
+
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     entrypoint: gcloud
     args:
