@@ -15,7 +15,6 @@ interface Graduada {
   link?: string;
   fullDescription?: string;
 }
-/*
 const graduadasData: Graduada[] = [
   { 
     id: 1,
@@ -47,7 +46,7 @@ const graduadasData: Graduada[] = [
     link: "https://ampernet.com.br/",
     fullDescription: "Começando como um pequeno provedor, a Ampernet expandiu sua rede de fibra óptica e hoje conecta milhares de pessoas e empresas no sudoeste do Paraná."
   },
-];*/
+];
 
 export default function GraduadosSection() {
   const [selectedCompany, setSelectedCompany] = useState<Graduada | null>(null);
