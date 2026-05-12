@@ -781,8 +781,7 @@ export const moreAbout = [
         <br />
         <u>Vagas:</u> 20 participantes
         <br />
-        <u>Datas:</u> 14 e 15/04, 22/04, 28 e 29/04, 05 e 06/05, 12 e 13/05,
-        19/05
+        <u>Datas:</u> Início em 02/06
         <br />
         <br />
         <u>Conteúdo:</u>
@@ -885,6 +884,7 @@ Ao concluir o curso, o aluno estará preparado para utilizar o computador com au
           <br />
           <u>Pré-requisitos:</u> Não é necessário conhecimento prévio em informática
           <br />
+          <u>Datas:</u> Início em 11/05
           <br />
           <u>Conteúdo:</u>
           <br />
