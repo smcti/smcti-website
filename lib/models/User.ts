@@ -4,6 +4,11 @@ export interface IUser extends Document {
   email: string;
   password?: string; // a senha hasheada
   role: string;
+  // Campos extras para empresas cadastradas
+  nomeEmpresa?: string;
+  nomeResponsavel?: string;
+  areaAtuacao?: string;
+  descricaoAtividades?: string;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -24,9 +29,14 @@ const UserSchema: Schema = new Schema(
     role: {
       type: String,
       required: true,
-      enum: ["admin", "gestor_mentorias", "empresario", "usuario"],
+      enum: ["admin", "gestor_mentorias", "empresario", "empresa", "usuario"],
       default: "usuario",
     },
+    // Campos extras opcionais para usuários com role "empresa"
+    nomeEmpresa: { type: String },
+    nomeResponsavel: { type: String },
+    areaAtuacao: { type: String },
+    descricaoAtividades: { type: String },
   },
   { timestamps: true }
 );

@@ -1,11 +1,14 @@
 // app/api/mentores/solicitar/route.ts
 // POST: Cria uma nova solicitação de mentoria
+// Exige autenticação e role "empresa" ou "admin"
+// Os dados de nome e email da empresa vêm da sessão do usuário logado
 import { NextRequest, NextResponse } from "next/server";
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 import dbConnect from "@/lib/mongoose";
 import Mentor from "@/lib/models/Mentor";
 import MentorshipRequest from "@/lib/models/MentorshipRequest";
+import { User } from "@/lib/models/User";
 
 export const dynamic = "force-dynamic";
 
@@ -13,26 +16,42 @@ export async function POST(req: NextRequest) {
   try {
     // 1. Autenticação obrigatória
     const session = await getServerSession(authOptions);
-    if (!session) {
+    if (!session || !session.user?.email) {
       return NextResponse.json(
         { error: "Não autorizado. Faça login primeiro." },
         { status: 401 }
       );
     }
 
-    const body = await req.json();
-    const { mentorId, incubadoName, incubadoEmail } = body;
-
-    if (!mentorId || !incubadoName || !incubadoEmail) {
+    // 2. Verificação de role — apenas "empresa" ou "admin"
+    const role = session.user?.role;
+    if (role !== "empresa" && role !== "admin") {
       return NextResponse.json(
-        { error: "Campos obrigatórios: mentorId, incubadoName, incubadoEmail." },
+        { error: "Apenas empresas cadastradas podem solicitar mentoria." },
+        { status: 403 }
+      );
+    }
+
+    const body = await req.json();
+    const { mentorId } = body;
+
+    if (!mentorId) {
+      return NextResponse.json(
+        { error: "Campo obrigatório: mentorId." },
         { status: 400 }
       );
     }
 
     await dbConnect();
 
-    // 2. Verifica se o mentor existe e tem vagas
+    // 3. Busca dados do usuário logado no banco para obter nome da empresa e email
+    const userDoc = await User.findOne({ email: session.user.email }).lean();
+    const incubadoEmail = session.user.email;
+    // Para admin, usa o email como nome se não houver nomeEmpresa
+    const incubadoName =
+      (userDoc as any)?.nomeEmpresa || session.user.email;
+
+    // 4. Verifica se o mentor existe e tem vagas
     const mentor = await Mentor.findById(mentorId);
     if (!mentor) {
       return NextResponse.json(
@@ -48,11 +67,11 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // 3. Calcula o mês de referência atual (formato "YYYY-MM")
+    // 5. Calcula o mês de referência atual (formato "YYYY-MM")
     const now = new Date();
     const mesReferencia = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}`;
 
-    // 4. Verifica se já existe solicitação para o mesmo mentor/incubado/mês
+    // 6. Verifica se já existe solicitação para o mesmo mentor/empresa/mês
     const existingRequest = await MentorshipRequest.findOne({
       mentorId,
       incubadoEmail,
@@ -66,7 +85,7 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // 5. Cria a solicitação com status "Pendente"
+    // 7. Cria a solicitação com status "Pendente"
     const newRequest = await MentorshipRequest.create({
       mentorId,
       mentorName: mentor.name,
