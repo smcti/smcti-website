@@ -1,25 +1,32 @@
-// app/painel-admin/mentores/page.tsx
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "@/lib/auth";
 import { redirect } from "next/navigation";
 import { getRedirectPathByRole } from "@/lib/auth/redirectByRole";
-import MentoresClient from "./mentoresclient";
+import TalentosTesteClient from "./TalentosTesteClient";
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Teste Interno - Banco de Talentos',
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export const dynamic = "force-dynamic";
 
-export default async function MentoresAdmin() {
+export default async function TalentosTestePage() {
   const session = await getServerSession(authOptions);
 
   if (!session) {
     redirect("/login");
   }
 
-  // Acesso restrito: admins ou gestores de mentoria
+  // Apenas admins podem acessar a página de teste
   const role = session.user?.role;
-  if (role !== "admin" && role !== "gestor_mentorias") {
+  if (role !== "admin") {
     redirect(getRedirectPathByRole(role));
   }
 
-  const userEmail = session.user?.email || "";
-  return <MentoresClient userEmail={userEmail} userRole={role} />;
+  return <TalentosTesteClient />;
 }

@@ -1,6 +1,7 @@
 import { getServerSession } from "next-auth/next";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/lib/auth";
 import { redirect } from "next/navigation";
+import { getRedirectPathByRole } from "@/lib/auth/redirectByRole";
 import MentoriasClient from "./mentoriasclient";
 
 export const dynamic = "force-dynamic";
@@ -17,7 +18,7 @@ export default async function MentoriasAdmin() {
   // ANTES estava só "admin", causando o "Acesso Negado" para o Nelito
   const role = session.user?.role;
   if (role !== "admin" && role !== "gestor_mentorias") {
-    redirect("/acesso-negado");
+    redirect(getRedirectPathByRole(role));
   }
 
   const userEmail = session.user?.email || "";

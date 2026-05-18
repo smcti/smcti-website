@@ -128,27 +128,11 @@ export default function MentoresPage() {
     setRequesting(true);
     setRequestResult(null);
 
-    // Usa um prompt simples para os dados do incubado
-    const incubadoName = window.prompt("Qual o nome da sua empresa incubada?");
-    if (!incubadoName) {
-      setRequesting(false);
-      return;
-    }
-    const incubadoEmail = window.prompt("Qual o e-mail de contato?");
-    if (!incubadoEmail) {
-      setRequesting(false);
-      return;
-    }
-
     try {
       const res = await fetch("/api/mentores/solicitar", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          mentorId: mentor._id,
-          incubadoName,
-          incubadoEmail,
-        }),
+        body: JSON.stringify({ mentorId: mentor._id }),
       });
 
       const data = await res.json();

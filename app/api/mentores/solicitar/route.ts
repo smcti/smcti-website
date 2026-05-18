@@ -4,7 +4,7 @@
 // Os dados de nome e email da empresa vêm da sessão do usuário logado
 import { NextRequest, NextResponse } from "next/server";
 import { getServerSession } from "next-auth/next";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/lib/auth";
 import dbConnect from "@/lib/mongoose";
 import Mentor from "@/lib/models/Mentor";
 import MentorshipRequest from "@/lib/models/MentorshipRequest";

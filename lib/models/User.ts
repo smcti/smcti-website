@@ -9,6 +9,7 @@ export interface IUser extends Document {
   nomeResponsavel?: string;
   areaAtuacao?: string;
   descricaoAtividades?: string;
+  currentSessionId?: string;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -37,6 +38,7 @@ const UserSchema: Schema = new Schema(
     nomeResponsavel: { type: String },
     areaAtuacao: { type: String },
     descricaoAtividades: { type: String },
+    currentSessionId: { type: String },
   },
   { timestamps: true }
 );

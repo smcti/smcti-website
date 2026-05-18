@@ -5,19 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
 import { Lock } from "lucide-react";
 
-// Mapeamento de role → destino de redirecionamento
-function getRoleRedirect(role: string | undefined, fallback: string): string {
-  switch (role) {
-    case "admin":
-      return "/painel-admin";
-    case "gestor_mentorias":
-      return "/painel-admin/mentorias";
-    case "empresario":
-      return "/painel";
-    default:
-      return fallback;
-  }
-}
+import { getRedirectPathByRole } from "@/lib/auth/redirectByRole";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -50,7 +38,7 @@ export default function LoginPage() {
         const sessionData = await sessionRes.json();
         const role = sessionData?.user?.role;
 
-        const destination = callbackUrl || getRoleRedirect(role, "/");
+        const destination = callbackUrl || getRedirectPathByRole(role);
         router.push(destination);
         router.refresh();
       } else {
