@@ -4,6 +4,10 @@ import Nav from "@/components/Nav"
 import Footer from "@/components/Footer"
 import ScrollToTop from "@/components/common/scrolltotop"
 import Script from 'next/script';
+import { Providers } from "@/components/providers";
+import AutoLogout from "@/components/common/AutoLogout";
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/lib/auth';
 
 export const metadata = {
   icons: [
@@ -15,11 +19,13 @@ export const metadata = {
   ]
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
+  const session = await getServerSession(authOptions);
+
   return (
     <html lang="pt-br"> 
       <body className='flex flex-col min-h-[100dvh] relative'>
@@ -38,14 +44,17 @@ export default function RootLayout({
             `,
           }} />
 
-          <Nav />
-          
-          <main className='bg-zircon-50 font-poppins pt-8 pb-16 flex-grow'>
-            {children}
-          </main>
-          
-          <Footer />
-          <ScrollToTop />
+          <Providers session={session}>
+            <AutoLogout />
+            <Nav />
+            
+            <main className='bg-zircon-50 font-poppins pt-8 pb-16 flex-grow'>
+              {children}
+            </main>
+            
+            <Footer />
+            <ScrollToTop />
+          </Providers>
         
       </body>
     </html>

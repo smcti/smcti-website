@@ -2,12 +2,29 @@
 
 import { useState, useEffect } from "react";
 import navItems from "@/public/data/navItems.json";
-import { AiOutlineMenu, AiOutlineCaretDown, AiOutlineLock } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineCaretDown, AiOutlineLock, AiOutlineUnlock } from "react-icons/ai";
 import { Menu } from "@headlessui/react";
+import { useSession } from "next-auth/react";
+import { useRouter } from "next/navigation";
+import { getRedirectPathByRole } from "@/lib/auth/redirectByRole";
 
 const Nav = () => {
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const { data: session, status } = useSession();
+  const router = useRouter();
+
+  function handleLockClick() {
+    if (status === "loading") return; // aguarda carregar
+    
+    if (status === "unauthenticated" || !session) {
+      router.push("/login");
+      return;
+    }
+
+    const role = (session.user as any)?.role;
+    router.push(getRedirectPathByRole(role));
+  }
 
   useEffect(() => {
     const controlNavbar = () => {
@@ -80,13 +97,27 @@ const Nav = () => {
             </li>
           ))}
           <li className='h-fit text-white transition-transform duration-200 hover:scale-105 hover:text-cello-100 flex items-center ml-2 border-l pl-4 border-white/30'>
-             <a href="/login" title="Área Restrita"><AiOutlineLock className="w-5 h-5 focus:outline-none" /></a>
+             <button 
+               onClick={handleLockClick}
+               disabled={status === "loading"}
+               title={status === "authenticated" ? 'Ir para o painel' : 'Fazer login'}
+               className="focus:outline-none"
+             >
+               {status === "authenticated" ? <AiOutlineUnlock className="w-5 h-5 focus:outline-none" /> : <AiOutlineLock className="w-5 h-5 focus:outline-none" />}
+             </button>
           </li>
         </ul>
 
         {/* Mobile navigation */}
         <div className="flex gap-4 items-center lg:hidden">
-          <a href="/login"><AiOutlineLock className="text-white text-2xl hover:cursor-pointer" /></a>
+          <button 
+            onClick={handleLockClick}
+            disabled={status === "loading"}
+            title={status === "authenticated" ? 'Ir para o painel' : 'Fazer login'}
+            className="focus:outline-none"
+          >
+            {status === "authenticated" ? <AiOutlineUnlock className="text-white text-2xl hover:cursor-pointer" /> : <AiOutlineLock className="text-white text-2xl hover:cursor-pointer" />}
+          </button>
           <AiOutlineMenu
             className='burguer-menu text-white text-2xl hover:cursor-pointer'
             onClick={handleDropdown}

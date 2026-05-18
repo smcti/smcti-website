@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { signOut } from "next-auth/react";
 import {
   UserPlus,
   Trash2,
@@ -26,6 +27,7 @@ interface Usuario {
 const ROLE_LABELS: Record<string, { label: string; color: string }> = {
   admin: { label: "Admin", color: "bg-red-100 text-red-700 border-red-200" },
   gestor_mentorias: { label: "Gestor de Mentorias", color: "bg-emerald-100 text-emerald-700 border-emerald-200" },
+  empresa: { label: "Empresa", color: "bg-indigo-100 text-indigo-700 border-indigo-200" },
   empresario: { label: "Empresário", color: "bg-blue-100 text-blue-700 border-blue-200" },
   usuario: { label: "Usuário", color: "bg-gray-100 text-gray-600 border-gray-200" },
 };
@@ -138,6 +140,13 @@ export default function UsuariosClient({ adminEmail }: { adminEmail: string }) {
             >
               <ArrowLeft size={12} /> Voltar
             </Link>
+            <button
+              onClick={() => signOut({ callbackUrl: '/login' })}
+              className="bg-slate-600 hover:bg-slate-500 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all"
+              title="Encerrar sessão"
+            >
+              Sair
+            </button>
           </div>
         </div>
       </header>

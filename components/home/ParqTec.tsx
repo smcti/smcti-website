@@ -21,7 +21,6 @@ const ParqTec = () => {
           reverse
         />
         <p>
-          <div> a {process.env.ENV_TEST}</div>
 
           O Parque Tecnológico de Pato Branco, liderado pela SMCTI, é um local
           de destaque para pesquisa, extensão e incubação de empresas de base

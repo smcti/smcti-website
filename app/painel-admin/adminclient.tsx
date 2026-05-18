@@ -66,6 +66,13 @@ export default function AdminClient({ initialData = [], userEmail }: { initialDa
             <Link href="/painel-admin/usuarios" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center gap-1">
               Gestão de Usuários
             </Link>
+            <button
+              onClick={() => signOut({ callbackUrl: '/login' })}
+              className="bg-slate-600 hover:bg-slate-500 text-white px-4 py-2 rounded-xl text-xs font-bold transition-all"
+              title="Encerrar sessão"
+            >
+              Sair
+            </button>
           </div>
         </div>
       </header>

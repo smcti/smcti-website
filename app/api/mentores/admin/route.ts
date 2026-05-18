@@ -3,7 +3,7 @@
 // PATCH: Aprova ou rejeita uma solicitação
 import { NextRequest, NextResponse } from "next/server";
 import { getServerSession } from "next-auth/next";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/lib/auth";
 import dbConnect from "@/lib/mongoose";
 import Mentor from "@/lib/models/Mentor";
 import MentorshipRequest from "@/lib/models/MentorshipRequest";
@@ -135,7 +135,8 @@ export async function PATCH(req: NextRequest) {
         request.incubadoEmail,
         request.incubadoName,
         request.mentorName,
-        request.mesReferencia
+        request.mesReferencia,
+        new Date() // data/horário da aprovação
       );
 
       return NextResponse.json(
@@ -157,7 +158,7 @@ export async function PATCH(req: NextRequest) {
         request.incubadoName,
         request.mentorName,
         request.mesReferencia,
-        motivoRejeicao || "Motivo não especificado pela administração."
+        motivoRejeicao || "Sua solicitação não pôde ser aprovada neste ciclo. Agradecemos o interesse e convidamos você a tentar novamente no próximo mês."
       );
 
       return NextResponse.json(

@@ -3,8 +3,9 @@
 // Acesso exclusivo para role "admin"
 
 import { getServerSession } from "next-auth/next";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/lib/auth";
 import { redirect } from "next/navigation";
+import { getRedirectPathByRole } from "@/lib/auth/redirectByRole";
 import UsuariosClient from "./usuariosclient";
 
 export const dynamic = "force-dynamic";
@@ -18,7 +19,7 @@ export default async function UsuariosAdmin() {
 
   // Acesso restrito: somente admins
   if (session.user?.role !== "admin") {
-    redirect("/acesso-negado");
+    redirect(getRedirectPathByRole(session.user?.role));
   }
 
   const adminEmail = session.user?.email || "";

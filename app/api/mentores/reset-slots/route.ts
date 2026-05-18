@@ -5,7 +5,7 @@
 //   2. ADMIN: via sessão NextAuth com role "admin" (reset manual pelo painel)
 import { NextRequest, NextResponse } from "next/server";
 import { getServerSession } from "next-auth/next";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/lib/auth";
 import dbConnect from "@/lib/mongoose";
 import Mentor from "@/lib/models/Mentor";
 import { AuditLog } from "@/lib/models/AuditLog";
