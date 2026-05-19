@@ -5,7 +5,7 @@ import { getRedirectPathByRole } from '@/lib/auth/redirectByRole'
 
 // Mapa exato de quais prefixos cada role tem permissão de acessar
 const ROLE_ALLOWED_PREFIXES: Record<string, string[]> = {
-  admin:            ['/painel-admin', '/admin'],
+  admin:            ['/painel-admin', '/admin', '/painel'],
   gestor_mentorias: ['/painel-admin/mentorias', '/painel-admin/mentores'],
   empresario:       ['/painel'],
   empresa:          ['/painel'],
