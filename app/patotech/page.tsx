@@ -26,12 +26,24 @@ const page = () => {
           Palavra passe: PARCERIAPATOBRANCO"
           partners="SMCTI e SENAC"
           link="https://www.pr.senac.br/cursos/?uep=9&tc=202600064"
+          date="02/06/2026 a 01/07/2026"
+        />
+
+        <CourseHeader
+          id="20"
+          image="/assets/images/cursos/htmlcss.png"
+          title="HTML E CSS - CRIAÇÃO DE WEBSITES "
+          description="Desenvolver habilidades fundamentais, entender como a web é construída e visualizar-se em uma carreira na área de desenvolvimento front-end. Compreender como as páginas ganham estrutura com HTML, estilo com CSS e como essas linguagens dão vida a sites modernos e acessíveis.
+          Palavra passe: PARCERIAPATOBRANCO"
+          partners="SMCTI e SENAC"
+          link="https://www.pr.senac.br/cursos/?uep=9&tc=202600084"
+          date="07/07/2026 a 04/08/2026"
         />
         
       </div>
       <div className="mt-32 flex flex-col h-full bg-cello gap-8 text-white">
         <div className="section-default flex-col text-start justify-start gap-8">
-          <p className="m-2 w-full text-2xl font-bold">Disponíveis:</p>
+          <p className="m-2 w-full text-2xl font-bold">Em andamento:</p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 justify-between">
             {Object.values(courseOpen).map((item, index) => (
               <CourseCard

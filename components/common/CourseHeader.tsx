@@ -6,7 +6,8 @@ interface CourseHeaderProps{
     title: string,
     description: string,
     partners: string,
-    link: string
+    link: string,
+    date?: string
 }
 
 const CourseHeader = (props: CourseHeaderProps) => {
@@ -37,6 +38,11 @@ const CourseHeader = (props: CourseHeaderProps) => {
             <Link href={`/patotech/${props.id}`} className="justify-self-end underline">
               Saiba mais
             </Link>
+            {props.date && (
+              <p className="text-start">
+                <strong>Data: {props.date}</strong>
+              </p>
+            )}
             <p className="text-start">
               <strong>Parceiros: {props.partners}</strong>
             </p>
