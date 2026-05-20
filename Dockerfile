@@ -6,7 +6,6 @@ WORKDIR /app
 COPY package.json package-lock.json* ./
 RUN npm install --cache .npm --prefer-offline
 
-
 FROM base AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
