@@ -1,22 +1,12 @@
 [
     {
-        "id": "16",
-        "image": "/assets/images/cursos/robotica.jpg",
-        "title": "Introdução à Robótica Móvel com Arduino - Cadastro de Interessados",
-        "description":  "O curso oferece uma introdução à robótica móvel, abordando teoria e prática da locomoção autônoma em robôs seguidores de linha e lutadores de sumô. Os alunos aprenderão eletrônica básica, microcontroladores e programação, desenvolvendo projetos com Arduino até a construção e programação desses robôs.",
-        "partner": "SMCTI e do DAINF/UTFPR-PB",
+        "id": "21",
+        "image": "/assets/images/cursos/auxiliarinformatica.jpeg",
+        "title": "Auxiliar de Informática",
+        "description": "O curso de Auxiliar de Informática aborda os fundamentos do uso do computador, incluindo o sistema operacional Windows, organização de arquivos e pastas, além do uso de ferramentas básicas como editor de texto, planilhas e apresentações. Aprenda a criar e formatar documentos, trabalhar com tabelas, utilizar fórmulas em planilhas e produzir slides. Além da parte técnica, o curso inclui conteúdos voltados ao desenvolvimento pessoal e profissional, como relações interpessoais, ética, cidadania, saúde e segurança no trabalho e consciência ambiental.",
+        "partner": "SMCTI e SENAI",
         "duration": "",
         "isNotOpen": false,
-        "link": "https://forms.gle/wypBEPF8kCoJYqiA9"
-    },
-    {
-        "id": "17",
-        "image": "/assets/images/cursos/python.png",
-        "title": "FUNDAMENTOS DE PYTHON I - Turma Reserva",
-        "description": "Desenvolver habilidades para realizar tarefas de codificação relacionadas com os elementos essenciais da programação na linguagem Python. Conhecer os conceitos universais da programação de computadores, a sintaxe e a semântica da linguagem.",
-        "partner": "SMCTI e do DAINF/UTFPR-PB",
-        "duration": "",
-        "isNotOpen": false,
-        "link": "https://forms.gle/v5ysiD1oskWm38td9"
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSe_zyK4cZ_ZQ_ojiWcSCaDsdr10brWolbyl03xyc9ndhxaq0g/viewform"
     }
 ]
