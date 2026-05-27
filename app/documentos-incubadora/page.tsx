@@ -36,6 +36,16 @@ const EditaisList: ListDoc[] = [
     name: "2026-04-14 Edital de Chamada 01-2026.pdf", 
     path: "/assets/docs/2026-04-14 - Edital de chamada assinado.pdf", 
     size: "210 KB" 
+  },
+   { 
+    name: "2026-05-25 - Ata entrega propostas assinado.pdf", 
+    path: "/assets/docs/2026-05-25 - Ata entrega propostas assinado.pdf", 
+    size: "145 KB" 
+  },
+   { 
+    name: "2026-05-26 - Ata para nominar avaliadores propostas assinado.pdf", 
+    path: "/assets/docs/2026-05-26 - Ata para nominar avaliadores propostas assinado.pdf", 
+    size: "145 KB" 
   }
 ];
 
