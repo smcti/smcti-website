@@ -178,5 +178,15 @@
         "duration": "",
         "isNotOpen": true,
         "link": "https://docs.google.com/forms/d/e/1FAIpQLSfopUrUHadgdTaIqHAGfLCmDPXHxmwvddvS3seyGPEuLQyS3g/viewform?usp=sharing&ouid=116689063623064374363"
+    },
+    {
+        "id": "19",
+        "image": "/assets/images/cursos/informaticabasica.jpeg",
+        "title": "Informática Básica",
+        "description": "Desenvolva habilidades essenciais para o uso do computador no dia a dia, estudos e mercado de trabalho. O curso aborda desde conceitos iniciais até o uso prático das principais ferramentas digitais, proporcionando autonomia no ambiente tecnológico.",
+        "partner": "SMCTI",
+        "duration": "40 horas",
+        "isNotOpen": true,
+        "link": ""
     }
 ]

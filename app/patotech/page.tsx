@@ -19,17 +19,6 @@ const page = () => {
         </section>
 
         <CourseHeader
-          id="19"
-          image="/assets/images/cursos/informaticabasica.jpeg"
-          title="Informática Básica"
-          description="Curso de Informática Básica voltado à introdução dos principais conceitos e ferramentas do uso do computador no dia a dia. Aborda fundamentos de hardware e software, navegação e configurações do sistema operacional Windows, além da utilização prática dos aplicativos Word e Excel, incluindo edição de textos, formatação, fórmulas, gráficos e impressão. Também contempla noções de internet, redes, navegação segura, mecanismos de busca e uso de correio eletrônico.
-          Palavra passe: PARCERIAPATOBRANCO"
-          partners="SMCTI e SENAC"
-          link="https://www.pr.senac.br/cursos/?uep=9&tc=202600064"
-          date="02/06/2026 a 01/07/2026"
-        />
-
-        <CourseHeader
           id="20"
           image="/assets/images/cursos/htmlcss.png"
           title="HTML E CSS - CRIAÇÃO DE WEBSITES "
