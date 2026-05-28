@@ -333,7 +333,7 @@ const graduadasData: Graduada[] = [
   {
     id: 3,
     name: "Mercattum",
-    logo: "/assets/images/logosgraduadas/Mercattum.png",
+    logo: "/assets/images/logosgraduadas/mercattum.png",
     description: "Programa de Fidelidade com cashback para supermercados e Força de Vendas para atacados e distribuidoras.",
     graduatedDate: "22/11/2019",
     segmento: "Software",
