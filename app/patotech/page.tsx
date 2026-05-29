@@ -36,7 +36,7 @@ const page = () => {
           description="Desenvolva habilidades em programação, lógica computacional e desenvolvimento de sistemas com um curso completo e prático. Ideal para quem deseja iniciar na área de tecnologia e se preparar para o mercado de trabalho."
           partners="SMCTI e SENAI"
           link="https://forms.gle/dyxhKeEdaWz7ZpFU8"
-          date="02/06/2026 a 12/11/2026"
+          date="16/06/2026 a 12/11/2026"
         />
 
       </div>
