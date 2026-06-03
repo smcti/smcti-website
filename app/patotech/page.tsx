@@ -19,17 +19,6 @@ const page = () => {
         </section>
 
         <CourseHeader
-          id="19"
-          image="/assets/images/cursos/informaticabasica.jpeg"
-          title="Informática Básica"
-          description="Curso de Informática Básica voltado à introdução dos principais conceitos e ferramentas do uso do computador no dia a dia. Aborda fundamentos de hardware e software, navegação e configurações do sistema operacional Windows, além da utilização prática dos aplicativos Word e Excel, incluindo edição de textos, formatação, fórmulas, gráficos e impressão. Também contempla noções de internet, redes, navegação segura, mecanismos de busca e uso de correio eletrônico.
-          Palavra passe: PARCERIAPATOBRANCO"
-          partners="SMCTI e SENAC"
-          link="https://www.pr.senac.br/cursos/?uep=9&tc=202600064"
-          date="02/06/2026 a 01/07/2026"
-        />
-
-        <CourseHeader
           id="20"
           image="/assets/images/cursos/htmlcss.jpeg"
           title="HTML E CSS - CRIAÇÃO DE WEBSITES "
@@ -39,7 +28,17 @@ const page = () => {
           link="https://www.pr.senac.br/cursos/?uep=9&tc=202600084"
           date="07/07/2026 a 04/08/2026"
         />
-        
+
+        <CourseHeader
+          id="23"
+          image="/assets/images/cursos/Programador_Atual.png"
+          title="PROGRAMADOR DE SISTEMAS"
+          description="Desenvolva habilidades em programação, lógica computacional e desenvolvimento de sistemas com um curso completo e prático. Ideal para quem deseja iniciar na área de tecnologia e se preparar para o mercado de trabalho."
+          partners="SMCTI e SENAI"
+          link="https://forms.gle/dyxhKeEdaWz7ZpFU8"
+          date="16/06/2026 a 12/11/2026"
+        />
+
       </div>
       <div className="mt-32 flex flex-col h-full bg-cello gap-8 text-white">
         <div className="section-default flex-col text-start justify-start gap-8">
@@ -58,7 +57,7 @@ const page = () => {
                 redirectUrl={item.link}
               />
             ))}
-          </div> 
+          </div>
         </div>
       </div>
       <div className="mt-32 flex flex-col h-full bg-zirco-50 gap-8 text-black">
