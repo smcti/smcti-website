@@ -46,6 +46,11 @@ const EditaisList: ListDoc[] = [
     name: "2026-05-26 - Ata para nominar avaliadores propostas assinado.pdf", 
     path: "/assets/docs/2026-05-26 - Ata para nominar avaliadores propostas assinado.pdf", 
     size: "145 KB" 
+  },
+  { 
+    name: "2026-06-02 - Ata de suficiência das propostas assinado.pdf", 
+    path: "/assets/docs/2026-06-02 - Ata de suficiência das propostas assinado.pdf", 
+    size: "143 KB" 
   }
 ];
 

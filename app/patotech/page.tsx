@@ -20,7 +20,7 @@ const page = () => {
 
         <CourseHeader
           id="20"
-          image="/assets/images/cursos/htmlcss.png"
+          image="/assets/images/cursos/htmlcss.jpeg"
           title="HTML E CSS - CRIAÇÃO DE WEBSITES "
           description="Desenvolver habilidades fundamentais, entender como a web é construída e visualizar-se em uma carreira na área de desenvolvimento front-end. Compreender como as páginas ganham estrutura com HTML, estilo com CSS e como essas linguagens dão vida a sites modernos e acessíveis.
           Palavra passe: PARCERIAPATOBRANCO"
