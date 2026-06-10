@@ -807,55 +807,47 @@ export const moreAbout = [
   },
   {
     id: "20",
-    title: "MS Excel - Operações Básicas",
+    title: "HTML E CSS - Criação de Websites",
     benefits: (
       <>
-        Aprenda a utilizar o Excel para organizar, calcular e analisar dados de
-        forma prática. O curso desenvolve habilidades essenciais para estudos e
-        atividades profissionais, com foco em produtividade e tomada de decisão.
+        Desenvolva habilidades fundamentais para criar páginas web com estrutura,
+        estilo e boa organização visual. O curso apresenta os primeiros passos do
+        desenvolvimento front-end e ajuda o participante a entender como sites
+        modernos são construídos.
         <br />
         <ul>
-          <li>✓Compreende a estrutura de planilhas e células</li>
-          <li>✓Insere e organiza dados corretamente</li>
-          <li>✓Formata planilhas para melhor visualização</li>
-          <li>✓Realiza cálculos básicos com fórmulas</li>
-          <li>✓Aplica o Excel em tarefas do dia a dia</li>
+          <li>✓Compreende a estrutura básica de uma página HTML</li>
+          <li>✓Aplica estilos com CSS para organizar cores, fontes e espaçamentos</li>
+          <li>✓Entende como criar páginas mais acessíveis e responsivas</li>
+          <li>✓Visualiza caminhos de entrada para a área de desenvolvimento web</li>
         </ul>
       </>
     ),
     description: (
       <>
         <p>
-          <u>Público-alvo:</u> Jovens e adultos a partir de 14 anos interessados em
-          planilhas eletrônicas <br />
-          <u>Carga horária:</u> 20 horas
+          <u>Público-alvo:</u> Pessoas interessadas em iniciar na criação de sites e
+          no desenvolvimento front-end <br />
+          <u>Carga horária:</u> Consulte a instituição parceira
           <br />
-          <u>Pré-requisitos:</u> 5º ano do Ensino Fundamental
+          <u>Pré-requisitos:</u> Interesse em tecnologia e conhecimentos básicos de informática
           <br />
-          <u>Vagas:</u> 20 participantes
+          <u>Parceiros:</u> SMCTI e SENAC
           <br />
-          <u>Datas:</u> 18, 19, 20/08, 25, 26, 27/08 e 01/09
+          <u>Período:</u> 07/07/2026 a 04/08/2026
           <br />
+          <u>Palavra passe:</u> PARCERIAPATOBRANCO
           <br />
           <u>Conteúdo:</u>
         </p>
 
         <ul className="list-disc list-inside px-4">
-          <li>Interface do Excel e navegação</li>
-          <li>Conceitos: pasta de trabalho, planilha e célula</li>
-          <li>Entrada e organização de dados</li>
-          <li>Formatação: fonte, alinhamento, bordas e preenchimento</li>
-          <li>Tipos de dados: texto, número, moeda e data</li>
-          <li>Cálculos básicos: soma, subtração, divisão e multiplicação</li>
+          <li>Fundamentos de HTML</li>
+          <li>Estruturação de páginas web</li>
+          <li>Fundamentos de CSS</li>
+          <li>Estilização, organização visual e boas práticas</li>
+          <li>Noções iniciais de sites modernos e acessíveis</li>
         </ul>
-
-        <u>Critérios de seleção:</u>
-        <ol>
-          <li>1. Escolas públicas municipais e estaduais;</li>
-          <li>2. Escolas públicas da região;</li>
-          <li>3. Escolas particulares;</li>
-          <li>4. Público em geral.</li>
-        </ol>
       </>
     ),
   },
@@ -891,6 +883,46 @@ Ao concluir o curso, o aluno estará preparado para utilizar o computador com au
           Informática básica (Windows, Word, Excel, PowerPoint), digitação, internet e formação cidadã (ética, relações interpessoais, saúde e segurança no trabalho)
         </p>
 
+      </>
+    ),
+  },
+  {
+    id: "23",
+    title: "Programador de Sistemas",
+    benefits: (
+      <>
+        Desenvolva habilidades em programação, lógica computacional e
+        desenvolvimento de sistemas com uma formação prática voltada para quem
+        deseja iniciar ou fortalecer sua trajetória na área de tecnologia.
+        <br />
+        <ul>
+          <li>✓Compreende fundamentos de lógica de programação</li>
+          <li>✓Aprende conceitos essenciais para desenvolvimento de sistemas</li>
+          <li>✓Pratica organização de código e resolução de problemas</li>
+          <li>✓Prepara-se para continuar estudando e atuar em tecnologia</li>
+        </ul>
+      </>
+    ),
+    description: (
+      <>
+        <p>
+          <u>Público-alvo:</u> Pessoas interessadas em programação e desenvolvimento de sistemas <br />
+          <u>Parceiros:</u> SMCTI e SENAI
+          <br />
+          <u>Período:</u> 16/06/2026 a 12/11/2026
+          <br />
+          <u>Disponibilização do curso:</u> Consulte as informações de inscrição no formulário oficial
+          <br />
+          <br />
+          <u>Conteúdo:</u>
+        </p>
+
+        <ul className="list-disc list-inside px-4">
+          <li>Lógica de programação</li>
+          <li>Fundamentos de desenvolvimento de sistemas</li>
+          <li>Práticas de codificação e organização de soluções</li>
+          <li>Noções para preparação ao mercado de tecnologia</li>
+        </ul>
       </>
     ),
   }
