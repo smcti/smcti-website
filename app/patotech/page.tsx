@@ -256,14 +256,18 @@ const FeaturedCourseCard = ({ course }: { course: FeaturedCourse }) => {
             </span>
             <p className="mt-1 text-slate-600">{course.enrollmentDate}</p>
           </div>
-          <div className="rounded-lg border border-slate-200 bg-slate-50 p-3">
-            <span className="flex items-center gap-2 font-bold text-slate-900">
-              <CalendarDays className="h-4 w-4 text-cello-700" />
-              Início do curso
-            </span>
-            <p className="mt-1 text-slate-600">{course.startDate}</p>
-          </div>
-        </div>
+        </section>
+
+        <CourseHeader
+          id="20"
+          image="/assets/images/cursos/htmlcss.jpeg"
+          title="HTML E CSS - CRIAÇÃO DE WEBSITES "
+          description="Desenvolver habilidades fundamentais, entender como a web é construída e visualizar-se em uma carreira na área de desenvolvimento front-end. Compreender como as páginas ganham estrutura com HTML, estilo com CSS e como essas linguagens dão vida a sites modernos e acessíveis.
+          Palavra passe: PARCERIAPATOBRANCO"
+          partners="SMCTI e SENAC"
+          link="https://www.pr.senac.br/cursos/?uep=9&tc=202600084"
+          date="07/07/2026 a 04/08/2026"
+        />
 
         <div className="mt-4 flex flex-wrap gap-2">
           <span className="inline-flex items-center gap-2 rounded-lg bg-cyan-50 px-3 py-2 text-xs font-bold text-cello-800">
