@@ -51,6 +51,16 @@ const EditaisList: ListDoc[] = [
     name: "2026-06-02 - Ata de suficiência das propostas assinado.pdf", 
     path: "/assets/docs/2026-06-02 - Ata de suficiência das propostas assinado.pdf", 
     size: "143 KB" 
+  },
+  { 
+    name: "2025-06-10 - Ata de ratificação das propostas assinado.pdf", 
+    path: "/assets/docs/2025-06-10 - Ata de ratificação das propostas assinado.pdf", 
+    size: "233 KB" 
+  },
+  { 
+    name: "2025-06-10 - Apresentação das bancas assinado.pdf", 
+    path: "/assets/docs/2025-06-10 - Apresentação das bancas assinado.pdf", 
+    size: "233 KB" 
   }
 ];
 
