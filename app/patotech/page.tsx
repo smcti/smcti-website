@@ -85,22 +85,6 @@ const modalityIcons: Record<CourseModality, LucideIcon> = {
 
 const featuredCourses = [
   {
-    id: "20",
-    image: "/assets/images/cursos/banner-html-css.png",
-    title: "HTML E CSS - CRIAÇÃO DE WEBSITES",
-    description:
-      "Aprenda a estruturar páginas com HTML, criar estilos com CSS e entender como sites modernos ganham forma. Indicado para quem quer dar os primeiros passos no desenvolvimento front-end.",
-    partners: "SMCTI e SENAC",
-    link: "https://www.pr.senac.br/cursos/?uep=9&tc=202600084",
-    date: "07/07/2026 a 04/08/2026",
-    enrollmentDate: "Matrículas abertas",
-    startDate: "07/07/2026",
-    category: "Desenvolvimento Web" as CourseCategory,
-    modality: "Presencial" as CourseModality,
-    highlight: "Criação de websites",
-    passphrase: "PARCERIAPATOBRANCO",
-  },
-  {
     id: "23",
     image: "/assets/images/cursos/banner-programador-sistemas.png",
     title: "PROGRAMADOR DE SISTEMAS",
@@ -114,6 +98,35 @@ const featuredCourses = [
     category: "Sistemas" as CourseCategory,
     modality: "Presencial" as CourseModality,
     highlight: "Formação profissional",
+  },
+  {
+    id: "24",
+    image: "/assets/images/cursos/card-curso-logica-de-programacao.png",
+    title: "LÓGICA DE PROGRAMAÇÃO",
+    description: "Desenvolva o raciocínio lógico e aprenda a construir algoritmos eficientes para resolver problemas reais.",
+    link: "",
+    date: "14/07/2026 a 17/09/2026",
+    enrollmentDate: "Matrículas abertas",
+    startDate: "14/07/2026",
+    category: "Sistemas" as CourseCategory,
+    modality: "Presencial" as CourseModality,
+    highlight: "Formação profissional",
+  },
+    {
+    id: "20",
+    image: "/assets/images/cursos/banner-html-css.png",
+    title: "HTML E CSS - CRIAÇÃO DE WEBSITES",
+    description:
+      "Aprenda a estruturar páginas com HTML, criar estilos com CSS e entender como sites modernos ganham forma. Indicado para quem quer dar os primeiros passos no desenvolvimento front-end.",
+    partners: "SMCTI e SENAC",
+    link: "https://www.pr.senac.br/cursos/?uep=9&tc=202600084",
+    date: "22/09/2026 a 29/10/2026",
+    enrollmentDate: "Matrículas abertas",
+    startDate: "22/09/2026",
+    category: "Desenvolvimento Web" as CourseCategory,
+    modality: "Presencial" as CourseModality,
+    highlight: "Criação de websites",
+    passphrase: "PARCERIAPATOBRANCO",
   },
 ];
 
@@ -314,6 +327,8 @@ const Page = () => {
   const [activeModality, setActiveModality] = useState<CourseModality>("Todos");
   const [notifyCourse, setNotifyCourse] = useState<string | null>(null);
   const [notificationSent, setNotificationSent] = useState(false);
+  const [notificationError, setNotificationError] = useState<string | null>(null);
+  const [isSubmittingNotification, setIsSubmittingNotification] = useState(false);
 
   const ongoingCourses = useMemo(
     () =>
@@ -354,12 +369,62 @@ const Page = () => {
   const openNotifyModal = (courseTitle: string) => {
     setNotifyCourse(courseTitle);
     setNotificationSent(false);
+    setNotificationError(null);
+    setIsSubmittingNotification(false);
   };
 
-  const handleNotificationSubmit = (event: FormEvent<HTMLFormElement>) => {
+  const handleNotificationSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    // TODO: integrar este formulário a um endpoint quando o backend de notificações estiver disponível.
-    setNotificationSent(true);
+
+    if (!notifyCourse) {
+      return;
+    }
+
+    const form = event.currentTarget;
+    const formData = new FormData(form);
+    const nome = String(formData.get("name") ?? "").trim();
+    const email = String(formData.get("email") ?? "").trim();
+
+    if (!nome || !email) {
+      setNotificationError("Informe nome e e-mail para continuar.");
+      return;
+    }
+
+    setNotificationError(null);
+    setIsSubmittingNotification(true);
+
+    try {
+      const response = await fetch("/api/patotech/interessados", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          nome,
+          email,
+          interesse: notifyCourse,
+        }),
+      });
+
+      const responseBody = (await response.json().catch(() => null)) as {
+        message?: string;
+      } | null;
+
+      if (!response.ok) {
+        throw new Error(responseBody?.message ?? "Nao foi possivel registrar o interesse.");
+      }
+
+      form.reset();
+      setNotificationSent(true);
+    } catch (error) {
+      setNotificationError(
+        error instanceof Error
+          ? error.message
+          : "Nao foi possivel registrar o interesse agora."
+      );
+    } finally {
+      setIsSubmittingNotification(false);
+    }
   };
 
   return (
@@ -388,7 +453,7 @@ const Page = () => {
                 PatoTech: cursos de tecnologia para conectar você ao futuro
               </h1>
               <p className="max-w-2xl text-base leading-7 text-zircon-100 sm:text-lg">
-                Encontre oportunidades de capacitação em tecnologia, inovação e desenvolvimento profissional com informações claras sobre inscrições, datas e status de cada turma.
+                Encontre oportunidades de capacitação em tecnologia, inovação e desenvolvimento profissional com informações sobre inscrições, datas e status de cada turma.
               </p>
             </div>
             <div className="flex flex-col gap-3 sm:flex-row">
@@ -399,14 +464,7 @@ const Page = () => {
                 <BookOpenCheck className="h-4 w-4" />
                 Ver cursos disponíveis
               </a>
-              <button
-                type="button"
-                onClick={() => openNotifyModal("Novidades do PatoTech")}
-                className="inline-flex items-center justify-center gap-2 rounded-lg border border-white/40 px-5 py-3 text-sm font-bold text-white transition-all duration-300 hover:-translate-y-0.5 hover:border-white hover:bg-white/10 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-200"
-              >
-                <Bell className="h-4 w-4" />
-                Receber novidades
-              </button>
+              
             </div>
           </div>
         </div>
@@ -651,10 +709,10 @@ const Page = () => {
               <div className="mt-6 rounded-lg border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-800">
                 <div className="flex items-center gap-2 font-bold">
                   <CheckCircle2 className="h-5 w-5" />
-                  Interesse registrado na interface.
+                  Interesse registrado com sucesso.
                 </div>
                 <p className="mt-2 leading-6">
-                  Quando o backend estiver integrado, este envio poderá alimentar a lista de avisos do PatoTech.
+                  Seus dados foram salvos na lista de interessados do PatoTech.
                 </p>
               </div>
             ) : (
@@ -691,12 +749,19 @@ const Page = () => {
                     />
                   </div>
                 </div>
+                {notificationError && (
+                  <div className="rounded-lg border border-red-200 bg-red-50 p-3 text-sm font-semibold text-red-700">
+                    {notificationError}
+                  </div>
+                )}
                 <button
                   type="submit"
-                  className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-cello-800 px-5 py-3 text-sm font-bold text-white transition-all duration-300 hover:bg-cello-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-cello-500"
+                  disabled={isSubmittingNotification}
+                  className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-cello-800 px-5 py-3 text-sm font-bold text-white transition-all duration-300 hover:bg-cello-700 disabled:cursor-not-allowed disabled:opacity-70 focus:outline-none focus-visible:ring-2 focus-visible:ring-cello-500"
+                  aria-busy={isSubmittingNotification}
                 >
                   <Bell className="h-4 w-4" />
-                  Confirmar interesse
+                  {isSubmittingNotification ? "Salvando..." : "Confirmar interesse"}
                 </button>
               </form>
             )}
