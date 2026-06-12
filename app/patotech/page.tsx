@@ -109,7 +109,7 @@ const featuredCourses = [
     date: "14/07/2026 a 17/09/2026",
     enrollmentDate: "Matrículas abertas",
     startDate: "14/07/2026",
-    category: "Sistemas" as CourseCategory,
+    category: "Programação" as CourseCategory,
     modality: "Presencial" as CourseModality,
     highlight: "Formação profissional",
     passphrase: "PARCERIAPATOBRANCO",
