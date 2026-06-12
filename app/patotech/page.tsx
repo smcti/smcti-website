@@ -104,6 +104,7 @@ const featuredCourses = [
     image: "/assets/images/cursos/card-curso-logica-de-programacao.png",
     title: "LÓGICA DE PROGRAMAÇÃO",
     description: "Desenvolva o raciocínio lógico e aprenda a construir algoritmos eficientes para resolver problemas reais.",
+    partners: "SMCTI e SENAC",
     link: "",
     date: "14/07/2026 a 17/09/2026",
     enrollmentDate: "Matrículas abertas",
@@ -111,6 +112,7 @@ const featuredCourses = [
     category: "Sistemas" as CourseCategory,
     modality: "Presencial" as CourseModality,
     highlight: "Formação profissional",
+    passphrase: "PARCERIAPATOBRANCO",
   },
     {
     id: "20",
