@@ -38,7 +38,7 @@ const CoursePage = () => {
     );
   }
 
-  const isProgrammingCourse = id === "20" || id === "23";
+  const isProgrammingCourse = id === "20" || id === "23" || id === "24";
   const isBasicComputerCourse = id === "19" || id === "21";
 
   return (

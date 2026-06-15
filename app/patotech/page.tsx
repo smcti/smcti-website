@@ -105,16 +105,16 @@ const featuredCourses = [
     title: "LÓGICA DE PROGRAMAÇÃO",
     description: "Desenvolva o raciocínio lógico e aprenda a construir algoritmos eficientes para resolver problemas reais.",
     partners: "SMCTI e SENAC",
-    link: "",
+    link: "https://www.pr.senac.br/cursos/?uep=9&tc=202600099",
     date: "14/07/2026 a 17/09/2026",
     enrollmentDate: "Matrículas abertas",
     startDate: "14/07/2026",
     category: "Programação" as CourseCategory,
     modality: "Presencial" as CourseModality,
     highlight: "Formação profissional",
-    passphrase: "PARCERIAPATOBRANCO",
+    passphrase: ""
   },
-    {
+  {
     id: "20",
     image: "/assets/images/cursos/banner-html-css.png",
     title: "HTML E CSS - CRIAÇÃO DE WEBSITES",
@@ -128,7 +128,7 @@ const featuredCourses = [
     category: "Desenvolvimento Web" as CourseCategory,
     modality: "Presencial" as CourseModality,
     highlight: "Criação de websites",
-    passphrase: "PARCERIAPATOBRANCO",
+    passphrase: "",
   },
 ];
 
