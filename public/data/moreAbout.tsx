@@ -836,8 +836,6 @@ export const moreAbout = [
           <br />
           <u>Período:</u> 07/07/2026 a 04/08/2026
           <br />
-          <u>Palavra passe:</u> PARCERIAPATOBRANCO
-          <br />
           <u>Conteúdo:</u>
         </p>
 
@@ -922,6 +920,50 @@ Ao concluir o curso, o aluno estará preparado para utilizar o computador com au
           <li>Fundamentos de desenvolvimento de sistemas</li>
           <li>Práticas de codificação e organização de soluções</li>
           <li>Noções para preparação ao mercado de tecnologia</li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    id: "24",
+    title: "Lógica de Programação",
+    benefits: (
+      <>
+        Desenvolva o raciocínio lógico e aprenda a organizar soluções por meio
+        de algoritmos, criando uma base sólida para evoluir em programação,
+        desenvolvimento de sistemas e outras áreas da tecnologia.
+        <br />
+        <ul>
+          <li>✓Compreende os fundamentos de lógica de programação</li>
+          <li>✓Aprende a estruturar algoritmos para resolver problemas</li>
+          <li>✓Pratica variáveis, operadores e estruturas de decisão</li>
+          <li>✓Desenvolve base para avançar em linguagens de programação</li>
+        </ul>
+      </>
+    ),
+    description: (
+      <>
+        <p>
+          <u>Público-alvo:</u> Pessoas interessadas em iniciar na área de
+          programação e tecnologia <br />
+          <u>Carga horária:</u> Consulte a instituição parceira
+          <br />
+          <u>Pré-requisitos:</u> Interesse em tecnologia e conhecimentos básicos
+          de informática
+          <br />
+          <u>Parceiros:</u> SMCTI e SENAC
+          <br />
+          <u>Período:</u> 14/07/2026 a 17/09/2026
+          <br />
+          <u>Conteúdo:</u>
+        </p>
+
+        <ul className="list-disc list-inside px-4">
+          <li>Introdução à lógica de programação</li>
+          <li>Construção e interpretação de algoritmos</li>
+          <li>Variáveis, constantes, operadores e expressões</li>
+          <li>Estruturas condicionais e de repetição</li>
+          <li>Resolução de problemas com pensamento computacional</li>
         </ul>
       </>
     ),
