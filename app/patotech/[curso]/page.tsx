@@ -38,9 +38,6 @@ const CoursePage = () => {
     );
   }
 
-  const isProgrammingCourse = id === "20" || id === "23" || id === "24";
-  const isBasicComputerCourse = id === "19" || id === "21";
-
   return (
     <div className="-mt-8 bg-zircon-50 text-slate-900">
       <section className="bg-cello-950 text-white">
@@ -103,34 +100,22 @@ const CoursePage = () => {
               </div>
             </div>
 
-            {isProgrammingCourse ? (
-              <div className="space-y-4 leading-7 text-slate-700">
-                <p>
-                  A formação aproxima teoria e prática para que o participante compreenda os fundamentos da programação e consiga aplicar o conhecimento em projetos reais. O foco é construir uma base clara para continuar estudando, desenvolver autonomia e reconhecer oportunidades na área de tecnologia.
-                </p>
-                <p>
-                  Cursos como HTML e CSS e Programador de Sistemas ajudam o aluno a visualizar caminhos de entrada no mercado, com noções essenciais de lógica, desenvolvimento, organização de código e solução de problemas.
-                </p>
-              </div>
-            ) : isBasicComputerCourse ? (
-              <div className="space-y-4 leading-7 text-slate-700">
-                <p>
-                  A formação fortalece competências digitais para estudo, trabalho e rotina pessoal. O participante desenvolve mais autonomia no uso do computador, organização de arquivos, ferramentas de produtividade e navegação segura.
-                </p>
-                <p>
-                  Esse conhecimento básico amplia a confiança para novas capacitações e melhora o preparo para atividades profissionais que exigem familiaridade com tecnologia.
-                </p>
-              </div>
-            ) : (
-              <div className="space-y-4 leading-7 text-slate-700">
-                <p>
-                  Receber uma Cisco Digital Badge oferece validação oficial de habilidades por uma empresa reconhecida globalmente, facilitando a verificação por empregadores e fortalecendo a presença profissional do participante.
-                </p>
-                <p>
-                  <strong>IMPORTANTE:</strong> Apenas estudantes que obtiverem nota igual ou superior a 70% em qualquer tentativa do exame final receberão a insígnia digital. Alunos que já receberam o distintivo deste curso não o receberão novamente.
-                </p>
-              </div>
-            )}
+            <div className="space-y-4 leading-7 text-slate-700">
+              <p>
+                Toda formação representa um passo importante para transformar
+                interesse em conhecimento aplicado. Ao participar de uma
+                capacitação, o aluno amplia sua visão sobre tecnologia,
+                desenvolve autonomia para aprender continuamente e fortalece sua
+                capacidade de resolver problemas em diferentes contextos.
+              </p>
+              <p>
+                A busca pelo conhecimento promove crescimento pessoal e
+                profissional, abre novos caminhos de atuação e aumenta as
+                oportunidades de inserção, evolução ou recolocação no mercado.
+                Cada aprendizado adquirido contribui para construir uma trajetória
+                mais preparada, confiante e conectada às demandas do futuro.
+              </p>
+            </div>
           </div>
         </div>
       </section>

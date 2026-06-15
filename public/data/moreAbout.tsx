@@ -828,7 +828,7 @@ export const moreAbout = [
         <p>
           <u>Público-alvo:</u> Pessoas interessadas em iniciar na criação de sites e
           no desenvolvimento front-end <br />
-          <u>Carga horária:</u> Consulte a instituição parceira
+          <u>Carga horária:</u> 36 horas
           <br />
           <u>Pré-requisitos:</u> Interesse em tecnologia e conhecimentos básicos de informática
           <br />
@@ -946,7 +946,7 @@ Ao concluir o curso, o aluno estará preparado para utilizar o computador com au
         <p>
           <u>Público-alvo:</u> Pessoas interessadas em iniciar na área de
           programação e tecnologia <br />
-          <u>Carga horária:</u> Consulte a instituição parceira
+          <u>Carga horária:</u> 60 horas
           <br />
           <u>Pré-requisitos:</u> Interesse em tecnologia e conhecimentos básicos
           de informática
