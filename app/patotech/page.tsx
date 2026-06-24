@@ -134,6 +134,60 @@ const featuredCourses = [
 
 type FeaturedCourse = (typeof featuredCourses)[number];
 
+type ListedCourse = CourseBase & {
+  category: CourseCategory;
+  modality: CourseModality;
+  durationLabel?: string;
+  statusLabel?: string;
+};
+
+const getSaoPauloTodayValue = () => {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/Sao_Paulo",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(new Date());
+
+  const year = parts.find((part) => part.type === "year")?.value;
+  const month = parts.find((part) => part.type === "month")?.value;
+  const day = parts.find((part) => part.type === "day")?.value;
+
+  return year && month && day ? Number(`${year}${month}${day}`) : 0;
+};
+
+const parseBrazilianDateValue = (date: string) => {
+  const match = date.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+
+  if (!match) {
+    return null;
+  }
+
+  const [, day, month, year] = match;
+  return Number(`${year}${month}${day}`);
+};
+
+const hasCourseStarted = (startDate: string, todayValue: number) => {
+  const startDateValue = parseBrazilianDateValue(startDate);
+
+  return startDateValue !== null && startDateValue <= todayValue;
+};
+
+const mapStartedFeaturedCourse = (course: FeaturedCourse): ListedCourse => ({
+  id: course.id,
+  image: course.image,
+  title: course.title,
+  description: course.description,
+  partner: course.partners,
+  duration: course.date,
+  durationLabel: "Período",
+  isNotOpen: false,
+  link: course.link,
+  category: course.category,
+  modality: course.modality,
+  statusLabel: "Turma já iniciada",
+});
+
 const getCourseCategory = (course: Pick<CourseBase, "title" | "image">): CourseCategory => {
   const content = `${course.title} ${course.image}`
     .normalize("NFD")
@@ -331,15 +385,32 @@ const Page = () => {
   const [notificationSent, setNotificationSent] = useState(false);
   const [notificationError, setNotificationError] = useState<string | null>(null);
   const [isSubmittingNotification, setIsSubmittingNotification] = useState(false);
+  const todayValue = useMemo(() => getSaoPauloTodayValue(), []);
 
-  const ongoingCourses = useMemo(
+  const availableFeaturedCourses = useMemo(
+    () => featuredCourses.filter((course) => !hasCourseStarted(course.startDate, todayValue)),
+    [todayValue]
+  );
+
+  const startedFeaturedCourses = useMemo(
     () =>
-      (courseOpen as CourseBase[]).map((course) => ({
-        ...course,
-        category: getCourseCategory(course),
-        modality: getCourseModality(course),
-      })),
-    []
+      featuredCourses
+        .filter((course) => hasCourseStarted(course.startDate, todayValue))
+        .map(mapStartedFeaturedCourse),
+    [todayValue]
+  );
+
+  const ongoingCourses = useMemo<ListedCourse[]>(
+    () =>
+      [
+        ...startedFeaturedCourses,
+        ...(courseOpen as CourseBase[]).map((course) => ({
+          ...course,
+          category: getCourseCategory(course),
+          modality: getCourseModality(course),
+        })),
+      ],
+    [startedFeaturedCourses]
   );
 
   const unavailableCourses = useMemo(
@@ -358,7 +429,7 @@ const Page = () => {
   const matchesModality = (modality: CourseModality) =>
     activeModality === "Todos" || modality === activeModality;
 
-  const visibleFeatured = featuredCourses.filter(
+  const visibleFeatured = availableFeaturedCourses.filter(
     (course) => matchesCategory(course.category) && matchesModality(course.modality)
   );
   const visibleOngoing = ongoingCourses.filter(
@@ -572,12 +643,12 @@ const Page = () => {
                   description={item.description}
                   partner={item.partner}
                   duration={item.duration}
+                  durationLabel={item.durationLabel}
                   isNotOpen={item.isNotOpen}
-                  redirectUrl={item.link}
                   category={item.category}
                   modality={item.modality}
                   status="ongoing"
-                  statusLabel="Em andamento"
+                  statusLabel={item.statusLabel ?? "Turma já iniciada"}
                 />
               ))
             ) : (
