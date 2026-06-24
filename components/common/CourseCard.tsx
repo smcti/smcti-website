@@ -21,6 +21,7 @@ interface CourseCardProps {
   title: string;
   description: string;
   duration: string;
+  durationLabel?: string;
   image: string;
   isNotOpen: boolean;
   redirectUrl?: string;
@@ -39,6 +40,7 @@ const CourseCard = (props: CourseCardProps) => {
   const statusLabel = props.statusLabel ?? (isUnavailable ? "Indisponível no momento" : "Em andamento");
   const StatusIcon = isUnavailable ? LockKeyhole : Clock3;
   const ModalityIcon = props.modality === "Online" ? Wifi : MapPin;
+  const durationLabel = props.durationLabel ?? "Duração";
 
   const cardStyles = isUnavailable
     ? "border-slate-200 bg-white text-slate-900 shadow-sm"
@@ -157,7 +159,7 @@ const CourseCard = (props: CourseCardProps) => {
                 </span>
                 <span className={`inline-flex items-center gap-2 rounded-lg border px-3 py-2 ${chipStyles}`}>
                   <CalendarDays className="h-4 w-4" />
-                  Duração: {props.duration || "A definir"}
+                  {durationLabel}: {props.duration || "A definir"}
                 </span>
                 {props.modality && (
                   <span className={`inline-flex items-center gap-2 rounded-lg border px-3 py-2 ${chipStyles}`}>
