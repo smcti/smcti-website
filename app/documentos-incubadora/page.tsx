@@ -61,6 +61,11 @@ const EditaisList: ListDoc[] = [
     name: "2025-06-10 - Apresentação das bancas assinado.pdf", 
     path: "/assets/docs/2025-06-10 - Apresentação das bancas assinado.pdf", 
     size: "233 KB" 
+  },
+    { 
+    name: "2026-06-25 - Ata do Resultado Final assinado.pdf", 
+    path: "/assets/docs/2026-06-25 - Ata do Resultado Final assinado.pdf", 
+    size: "149 KB" 
   }
 ];
 

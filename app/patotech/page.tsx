@@ -83,7 +83,156 @@ const modalityIcons: Record<CourseModality, LucideIcon> = {
   Presencial: MapPin,
 };
 
+const onlineCoursePeriod = "01/07/2026 a 30/11/2026";
+const onlineCourseStartDate = "01/07/2026";
+const onlineCourseEndDate = "30/11/2026";
+const netAcadPartners = "SMCTI, UTFPR e CISCO";
+
 const featuredCourses = [
+  {
+    id: "1",
+    image: "/assets/images/cursos/defesa_rede.png",
+    title: "DEFESA DE REDE - ANALISTA DE CIBERSEGURANÇA JÚNIOR - Online",
+    description:
+      "Obtenha conhecimentos básicos para atuar como Analista de Cibersegurança Júnior, monitorando redes e avaliando alertas de segurança.",
+    partners: netAcadPartners,
+    link: "https://www.netacad.com/pt/courses/network-defense?courseLang=pt-BR&instance_id=5d7dc3b3-26d2-4193-b048-1fcc9fd99f2f",
+    date: onlineCoursePeriod,
+    enrollmentDate: "Matrículas abertas",
+    startDate: onlineCourseStartDate,
+    availableUntilDate: onlineCourseEndDate,
+    category: "Tecnologia e Inovação" as CourseCategory,
+    modality: "Online" as CourseModality,
+    highlight: "Cisco NetAcad",
+  },
+  {
+    id: "2",
+    image: "/assets/images/cursos/iot.png",
+    title: "INTRODUÇÃO À IOT E À TRANSFORMAÇÃO DIGITAL - Online",
+    description:
+      "Entenda como a Internet das Coisas e a transformação digital conectam objetos, dados, automação e segurança para criar valor.",
+    partners: netAcadPartners,
+    link: "https://www.netacad.com/pt/courses/introduction-iot?courseLang=pt-BR&instance_id=84e593cf-7f5f-4b8b-b12a-0455ef08185d",
+    date: onlineCoursePeriod,
+    enrollmentDate: "Matrículas abertas",
+    startDate: onlineCourseStartDate,
+    availableUntilDate: onlineCourseEndDate,
+    category: "Tecnologia e Inovação" as CourseCategory,
+    modality: "Online" as CourseModality,
+    highlight: "Cisco NetAcad",
+  },
+  {
+    id: "3",
+    image: "/assets/images/cursos/data_science.png",
+    title: "INTRODUÇÃO À CIÊNCIA DE DADOS - Online",
+    description:
+      "Explore conceitos fundamentais de dados, visualizações e projetos exploratórios para compreender o valor da alfabetização em dados.",
+    partners: netAcadPartners,
+    link: "https://www.netacad.com/pt/courses/introduction-data-science?courseLang=pt-BR&instance_id=2f38bfda-82a2-4a2c-8324-7db9e50e6365",
+    date: onlineCoursePeriod,
+    enrollmentDate: "Matrículas abertas",
+    startDate: onlineCourseStartDate,
+    availableUntilDate: onlineCourseEndDate,
+    category: "Tecnologia e Inovação" as CourseCategory,
+    modality: "Online" as CourseModality,
+    highlight: "Cisco NetAcad",
+  },
+  {
+    id: "4",
+    image: "/assets/images/cursos/cybersecurity.png",
+    title: "INTRODUÇÃO À CIBERSEGURANÇA - Online",
+    description:
+      "Aprenda fundamentos de segurança online, tipos de ataques, medidas de proteção e oportunidades profissionais em cibersegurança.",
+    partners: netAcadPartners,
+    link: "https://www.netacad.com/pt/courses/introduction-to-cybersecurity?courseLang=pt-BR&instance_id=d9626980-3348-40ae-b753-62031431f175",
+    date: onlineCoursePeriod,
+    enrollmentDate: "Matrículas abertas",
+    startDate: onlineCourseStartDate,
+    availableUntilDate: onlineCourseEndDate,
+    category: "Tecnologia e Inovação" as CourseCategory,
+    modality: "Online" as CourseModality,
+    highlight: "Cisco NetAcad",
+  },
+  {
+    id: "15",
+    image: "/assets/images/cursos/python.png",
+    title: "FUNDAMENTOS DE PYTHON 1 - Online",
+    description:
+      "Desenvolva habilidades essenciais de programação em Python, aprendendo conceitos universais, sintaxe e semântica da linguagem.",
+    partners: netAcadPartners,
+    link: "https://www.netacad.com/pt/courses/python-essentials-1?courseLang=pt-BR&instance_id=587d101d-c8e0-4075-9c1d-a2e4029de2b4",
+    date: onlineCoursePeriod,
+    enrollmentDate: "Matrículas abertas",
+    startDate: onlineCourseStartDate,
+    availableUntilDate: onlineCourseEndDate,
+    category: "Programação" as CourseCategory,
+    modality: "Online" as CourseModality,
+    highlight: "Cisco NetAcad",
+  },
+  {
+    id: "6",
+    image: "/assets/images/cursos/ai.png",
+    title: "INTRODUÇÃO À IA MODERNA - Online",
+    description:
+      "Conheça conceitos e aplicações da inteligência artificial moderna por meio de conteúdos em inglês com legendas em português.",
+    partners: netAcadPartners,
+    link: "https://www.netacad.com/pt/courses/introduction-to-modern-ai?courseLang=pt-BR&instance_id=52af335e-e20c-431a-86fc-936357f62ba4",
+    date: onlineCoursePeriod,
+    enrollmentDate: "Matrículas abertas",
+    startDate: onlineCourseStartDate,
+    availableUntilDate: onlineCourseEndDate,
+    category: "Tecnologia e Inovação" as CourseCategory,
+    modality: "Online" as CourseModality,
+    highlight: "Cisco NetAcad",
+  },
+  {
+    id: "5",
+    image: "/assets/images/cursos/hardware.png",
+    title: "FUNDAMENTOS DO HARDWARE DE COMPUTADOR - Online",
+    description:
+      "Explore os fundamentos de computadores e dispositivos móveis, seus componentes, funcionamento e técnicas básicas de solução de problemas.",
+    partners: netAcadPartners,
+    link: "https://www.netacad.com/pt/courses/computer-hardware-basics?courseLang=pt-BR&instance_id=b9f00f13-78ca-47fa-ad26-7d6e07317145",
+    date: onlineCoursePeriod,
+    enrollmentDate: "Matrículas abertas",
+    startDate: onlineCourseStartDate,
+    availableUntilDate: onlineCourseEndDate,
+    category: "Tecnologia e Inovação" as CourseCategory,
+    modality: "Online" as CourseModality,
+    highlight: "Cisco NetAcad",
+  },
+  {
+    id: "7",
+    image: "/assets/images/cursos/empreendedorismo.png",
+    title: "DESCOBRINDO O EMPREENDEDORISMO - Online",
+    description:
+      "Dê os primeiros passos para transformar ideias em negócios, aprendendo fundamentos para estruturar visão, metas e oportunidades.",
+    partners: netAcadPartners,
+    link: "https://www.netacad.com/pt/courses/discovering-entrepreneurship?courseLang=pt-BR&instance_id=b25adf9c-c067-47ea-9a80-f79081084119",
+    date: onlineCoursePeriod,
+    enrollmentDate: "Matrículas abertas",
+    startDate: onlineCourseStartDate,
+    availableUntilDate: onlineCourseEndDate,
+    category: "Tecnologia e Inovação" as CourseCategory,
+    modality: "Online" as CourseModality,
+    highlight: "Cisco NetAcad",
+  },
+  {
+    id: "25",
+    image: "/assets/images/cursos/cybersecurity.png",
+    title: "SENSIBILIZAÇÃO PARA A SEGURANÇA DIGITAL - Online",
+    description:
+      "Aprenda práticas essenciais para proteger dados, contas e dispositivos, usando a tecnologia com mais segurança no dia a dia.",
+    partners: netAcadPartners,
+    link: "https://www.netacad.com/pt/courses/digital-safety-security?courseLang=pt-PT&instance_id=92eb284d-fcad-447e-a6d8-da12a7f652d6",
+    date: onlineCoursePeriod,
+    enrollmentDate: "Matrículas abertas",
+    startDate: onlineCourseStartDate,
+    availableUntilDate: onlineCourseEndDate,
+    category: "Tecnologia e Inovação" as CourseCategory,
+    modality: "Online" as CourseModality,
+    highlight: "Cisco NetAcad",
+  },
   {
     id: "23",
     image: "/assets/images/cursos/banner-programador-sistemas.png",
@@ -173,6 +322,18 @@ const hasCourseStarted = (startDate: string, todayValue: number) => {
   return startDateValue !== null && startDateValue <= todayValue;
 };
 
+const hasFeaturedCourseAvailabilityEnded = (course: FeaturedCourse, todayValue: number) => {
+  if (!("availableUntilDate" in course)) {
+    return hasCourseStarted(course.startDate, todayValue);
+  }
+
+  const endDateValue = parseBrazilianDateValue(course.availableUntilDate ?? course.startDate);
+  return endDateValue !== null && endDateValue < todayValue;
+};
+
+const isFeaturedCourseAvailable = (course: FeaturedCourse, todayValue: number) =>
+  !hasFeaturedCourseAvailabilityEnded(course, todayValue);
+
 const mapStartedFeaturedCourse = (course: FeaturedCourse): ListedCourse => ({
   id: course.id,
   image: course.image,
@@ -243,6 +404,24 @@ const getCourseModality = (
 
   return "Presencial";
 };
+
+const getModalityPriority = (modality: CourseModality) => {
+  if (modality === "Presencial") {
+    return 0;
+  }
+
+  if (modality === "Online") {
+    return 1;
+  }
+
+  return 2;
+};
+
+const sortCoursesByModality = <T extends { modality: CourseModality }>(courses: T[]) =>
+  [...courses].sort(
+    (currentCourse, nextCourse) =>
+      getModalityPriority(currentCourse.modality) - getModalityPriority(nextCourse.modality)
+  );
 
 const sectionHeadingStyles = "max-w-3xl space-y-3";
 
@@ -388,14 +567,18 @@ const Page = () => {
   const todayValue = useMemo(() => getSaoPauloTodayValue(), []);
 
   const availableFeaturedCourses = useMemo(
-    () => featuredCourses.filter((course) => !hasCourseStarted(course.startDate, todayValue)),
+    () => featuredCourses.filter((course) => isFeaturedCourseAvailable(course, todayValue)),
     [todayValue]
   );
 
   const startedFeaturedCourses = useMemo(
     () =>
       featuredCourses
-        .filter((course) => hasCourseStarted(course.startDate, todayValue))
+        .filter(
+          (course) =>
+            hasCourseStarted(course.startDate, todayValue) &&
+            !isFeaturedCourseAvailable(course, todayValue)
+        )
         .map(mapStartedFeaturedCourse),
     [todayValue]
   );
@@ -429,14 +612,20 @@ const Page = () => {
   const matchesModality = (modality: CourseModality) =>
     activeModality === "Todos" || modality === activeModality;
 
-  const visibleFeatured = availableFeaturedCourses.filter(
-    (course) => matchesCategory(course.category) && matchesModality(course.modality)
+  const visibleFeatured = sortCoursesByModality(
+    availableFeaturedCourses.filter(
+      (course) => matchesCategory(course.category) && matchesModality(course.modality)
+    )
   );
-  const visibleOngoing = ongoingCourses.filter(
-    (course) => matchesCategory(course.category) && matchesModality(course.modality)
+  const visibleOngoing = sortCoursesByModality(
+    ongoingCourses.filter(
+      (course) => matchesCategory(course.category) && matchesModality(course.modality)
+    )
   );
-  const visibleUnavailable = unavailableCourses.filter(
-    (course) => matchesCategory(course.category) && matchesModality(course.modality)
+  const visibleUnavailable = sortCoursesByModality(
+    unavailableCourses.filter(
+      (course) => matchesCategory(course.category) && matchesModality(course.modality)
+    )
   );
 
   const openNotifyModal = (courseTitle: string) => {

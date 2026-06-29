@@ -254,24 +254,22 @@ export const moreAbout = [
   },
   {
     id: "6",
-    title: "Fundamentos de IA com IBM SkillsBuild",
+    title: "Introdução à IA Moderna",
     benefits: (
       <>
-        Alunos aprendem os conceitos essenciais da inteligência artificial, como
-        aprendizado de máquina, aprendizado profundo, processamento de linguagem
-        natural e visão computacional, por meio de experiências práticas com o
-        IBM Watson Studio. O curso prepara os participantes para compreender o
-        impacto da IA no mundo atual e vislumbrar oportunidades de carreira no
-        setor tecnológico. <br />
+        Alunos conhecem conceitos e aplicações da inteligência artificial
+        moderna, compreendendo como a IA está transformando estudos, trabalho,
+        negócios e soluções tecnológicas. O curso substitui a oferta anterior de
+        Fundamentos de IA com IBM SkillsBuild e está disponível com vídeos em
+        inglês legendados em português. <br />
         <ul>
           <li>
-            ✓Explora os fundamentos da inteligência artificial e suas aplicações
+            ✓Explora fundamentos e usos atuais da inteligência artificial
           </li>
           <li>
-            ✓Desenvolve habilidades práticas com ferramentas como IBM Watson
-            Studio
+            ✓Ajuda a identificar oportunidades, impactos e cuidados no uso da IA
           </li>
-          <li>✓ Conhece tendências de mercado e oportunidades na área de IA</li>
+          <li>✓Apresenta conteúdos online com legendas em português</li>
         </ul>
       </>
     ),
@@ -280,17 +278,21 @@ export const moreAbout = [
         <p>
           <u>Público-alvo:</u> Alunos do ensino médio, universitários e o
           público em geral <br />
-          <u>Tempo estimado para conclusão:</u> 10 horas
+          <u>Período:</u> 01/07/2026 a 30/11/2026
           <br />
           <u> Pré-requisitos:</u> Nenhum
           <br />
           <u>Disponibilização do curso:</u> Self-Paced (Estude por conta
-          própria)
+          própria), online pelo Cisco NetAcad
+          <br />
+          <u>Observação:</u> O conteúdo está traduzido por legendas em português;
+          os vídeos são apresentados em inglês.
           <br />
           <u>Destaques dos componentes de aprendizagem:</u>
         </p>
         <ul className="list-disc list-inside px-4">
-          <li> 7 módulos</li>
+          <li> Conteúdos introdutórios sobre IA moderna</li>
+          <li> Vídeos com legendas em português</li>
           <li> Verificações de conhecimento e testes de módulo</li>
           <li> Exame final</li>
         </ul>
@@ -964,6 +966,50 @@ Ao concluir o curso, o aluno estará preparado para utilizar o computador com au
           <li>Variáveis, constantes, operadores e expressões</li>
           <li>Estruturas condicionais e de repetição</li>
           <li>Resolução de problemas com pensamento computacional</li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    id: "25",
+    title: "Sensibilização para a Segurança Digital",
+    benefits: (
+      <>
+        Desenvolva hábitos essenciais para usar a internet, contas, dados e
+        dispositivos com mais segurança. O curso ajuda participantes a reconhecer
+        riscos comuns do ambiente digital e adotar práticas simples para reduzir
+        vulnerabilidades no dia a dia.
+        <br />
+        <ul>
+          <li>✓Reconhece ameaças digitais comuns e golpes online</li>
+          <li>✓Aprende boas práticas para proteger contas, senhas e dados</li>
+          <li>✓Fortalece o uso seguro de dispositivos e serviços digitais</li>
+          <li>✓Contribui para uma postura mais consciente no ambiente online</li>
+        </ul>
+      </>
+    ),
+    description: (
+      <>
+        <p>
+          <u>Público-alvo:</u> Pessoas interessadas em aprender práticas básicas
+          de proteção digital para estudos, trabalho e uso pessoal <br />
+          <u>Período:</u> 01/07/2026 a 30/11/2026
+          <br />
+          <u>Pré-requisitos:</u> Nenhum
+          <br />
+          <u>Disponibilização do curso:</u> Self-Paced (Estude por conta
+          própria), online pelo Cisco NetAcad
+          <br />
+          <u>Parceiros:</u> SMCTI, UTFPR e CISCO
+          <br />
+          <u>Conteúdo:</u>
+        </p>
+
+        <ul className="list-disc list-inside px-4">
+          <li>Segurança no uso de contas e senhas</li>
+          <li>Proteção de dados pessoais</li>
+          <li>Boas práticas para navegação e comunicação online</li>
+          <li>Cuidados com dispositivos e serviços digitais</li>
         </ul>
       </>
     ),
