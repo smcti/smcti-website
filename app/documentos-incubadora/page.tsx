@@ -27,45 +27,50 @@ interface ListDoc {
 
 // Editais com nomes formatados: Data Nome [cite: 504, 1106]
 const EditaisList: ListDoc[] = [
-  { 
-    name: "2025-10-02 Edital de Seleção 01-2025.pdf", 
-    path: "/assets/docs/01-EDITAL-DE-SELECAO-INCUBADORA-25 (1).pdf", 
-    size: "480 KB" 
+  {
+    name: "2025-10-02 Edital de Seleção 01-2025.pdf",
+    path: "/assets/docs/01-EDITAL-DE-SELECAO-INCUBADORA-25 (1).pdf",
+    size: "480 KB"
   },
-  { 
-    name: "2026-04-14 Edital de Chamada 01-2026.pdf", 
-    path: "/assets/docs/2026-04-14 - Edital de chamada assinado.pdf", 
-    size: "210 KB" 
+  {
+    name: "2026-04-14 Edital de Chamada 01-2026.pdf",
+    path: "/assets/docs/2026-04-14 - Edital de chamada assinado.pdf",
+    size: "210 KB"
   },
-   { 
-    name: "2026-05-25 - Ata entrega propostas assinado.pdf", 
-    path: "/assets/docs/2026-05-25 - Ata entrega propostas assinado.pdf", 
-    size: "145 KB" 
+  {
+    name: "2026-05-25 - Ata entrega propostas assinado.pdf",
+    path: "/assets/docs/2026-05-25 - Ata entrega propostas assinado.pdf",
+    size: "145 KB"
   },
-   { 
-    name: "2026-05-26 - Ata para nominar avaliadores propostas assinado.pdf", 
-    path: "/assets/docs/2026-05-26 - Ata para nominar avaliadores propostas assinado.pdf", 
-    size: "145 KB" 
+  {
+    name: "2026-05-26 - Ata para nominar avaliadores propostas assinado.pdf",
+    path: "/assets/docs/2026-05-26 - Ata para nominar avaliadores propostas assinado.pdf",
+    size: "145 KB"
   },
-  { 
-    name: "2026-06-02 - Ata de suficiência das propostas assinado.pdf", 
-    path: "/assets/docs/2026-06-02 - Ata de suficiência das propostas assinado.pdf", 
-    size: "143 KB" 
+  {
+    name: "2026-06-02 - Ata de suficiência das propostas assinado.pdf",
+    path: "/assets/docs/2026-06-02 - Ata de suficiência das propostas assinado.pdf",
+    size: "143 KB"
   },
-  { 
-    name: "2025-06-10 - Ata de ratificação das propostas assinado.pdf", 
-    path: "/assets/docs/2025-06-10 - Ata de ratificação das propostas assinado.pdf", 
-    size: "233 KB" 
+  {
+    name: "2026-06-10 - Ata de ratificação das propostas assinado.pdf",
+    path: "/assets/docs/2026-06-10 - Ata de ratificação das propostas assinado.pdf",
+    size: "233 KB"
   },
-  { 
-    name: "2025-06-10 - Apresentação das bancas assinado.pdf", 
-    path: "/assets/docs/2025-06-10 - Apresentação das bancas assinado.pdf", 
-    size: "233 KB" 
+  {
+    name: "2026-06-10 - Apresentação das bancas assinado.pdf",
+    path: "/assets/docs/2026-06-10 - Apresentação das bancas assinado.pdf",
+    size: "233 KB"
   },
-    { 
-    name: "2026-06-25 - Ata do Resultado Final assinado.pdf", 
-    path: "/assets/docs/2026-06-25 - Ata do Resultado Final assinado.pdf", 
-    size: "149 KB" 
+  {
+    name: "2026-06-25 - Ata do Resultado Final assinado.pdf",
+    path: "/assets/docs/2026-06-25 - Ata do Resultado Final assinado.pdf",
+    size: "149 KB"
+  },
+  {
+    name: "2026-07-06 - Ata de Ratificação do Resultado Final assinada.pdf",
+    path: "/assets/docs/2026-07-06 - Ata de Ratificação do Resultado Final assinada.pdf",
+    size: "192 KB"
   }
 ];
 
@@ -83,25 +88,25 @@ const AnexosList: ListDoc[] = [
 
 // --- COMPONENTE DOS CARDS ---
 const DocCard = ({ doc, variant = 'blue' }: { doc: RegDoc, variant?: 'blue' | 'rose' }) => {
-  const colors = variant === 'blue' 
+  const colors = variant === 'blue'
     ? { bg: 'bg-blue-50', text: 'text-blue-600', border: 'group-hover:border-blue-200', iconBg: 'bg-blue-100', icon: FileText }
     : { bg: 'bg-rose-50', text: 'text-rose-600', border: 'group-hover:border-rose-200', iconBg: 'bg-rose-100', icon: FileCheck };
 
   const Icon = colors.icon;
 
   return (
-    <a 
-      href={doc.path} 
+    <a
+      href={doc.path}
       download
       className={`group relative flex flex-col gap-4 p-5 bg-white rounded-2xl border border-gray-100 shadow-[0_2px_8px_-3px_rgba(0,0,0,0.05)] hover:shadow-lg hover:-translate-y-1 transition-all duration-300 ${colors.border}`}
     >
       <div className="flex items-start justify-between gap-4">
         <div className={`p-3 rounded-xl ${colors.iconBg} ${colors.text} shrink-0 group-hover:scale-110 transition-transform duration-300`}>
-           <Icon size={24} />
+          <Icon size={24} />
         </div>
-        
+
         <div className="p-2 rounded-full bg-gray-50 text-gray-400 group-hover:bg-gray-100 group-hover:text-gray-600 transition-colors">
-            <FileDown size={18} />
+          <FileDown size={18} />
         </div>
       </div>
 
@@ -109,7 +114,7 @@ const DocCard = ({ doc, variant = 'blue' }: { doc: RegDoc, variant?: 'blue' | 'r
         <h3 className="font-bold text-gray-800 leading-snug group-hover:text-gray-600 transition-colors line-clamp-2" title={doc.name}>
           {doc.name}
         </h3>
-        
+
         <div className="flex items-center gap-2 text-xs font-medium text-gray-400 mt-1">
           <Calendar size={14} className={colors.text} />
           <span>Atualizado em: {moment(doc.date).format("DD/MM/YYYY")}</span>
@@ -117,7 +122,7 @@ const DocCard = ({ doc, variant = 'blue' }: { doc: RegDoc, variant?: 'blue' | 'r
       </div>
 
       <div className={`absolute bottom-0 left-4 right-4 h-0.5 rounded-full ${colors.bg} overflow-hidden`}>
-          <div className={`h-full w-0 group-hover:w-full ${colors.text.replace('text', 'bg')} transition-all duration-700 ease-out opacity-30`}></div>
+        <div className={`h-full w-0 group-hover:w-full ${colors.text.replace('text', 'bg')} transition-all duration-700 ease-out opacity-30`}></div>
       </div>
     </a>
   );
@@ -155,47 +160,47 @@ const AttachmentList = () => {
 export default function DocumentsSection() {
   return (
     <div className="flex flex-col gap-16 relative pb-10">
-        <div className="absolute top-0 right-0 w-full h-full bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-50/40 via-transparent to-transparent -z-10 pointer-events-none"></div>
-        
-        {/* SEÇÃO 1: Regimentos e Documentos */}
-        <section className="animate-fade-up animate-delay-200">
-            <div className="section-default flex flex-col gap-8">
-                <div className="flex flex-col gap-6">
-                    <div className="flex items-center gap-4">
-                        <div className="p-3 bg-white border border-rose-100 rounded-2xl text-rose-600 shadow-sm"><Scale size={28}/></div>
-                        <HeadingText title="Regimentos e Documentos" super="Documentos Gerais" />
-                    </div>
-                    <div className="w-full h-px bg-gradient-to-r from-rose-200 via-gray-200 to-transparent"></div>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-                    {RegDocs.map((doc, index) => (
-                        <DocCard key={index} doc={doc} variant="rose" />
-                    ))}
-                </div>
-            </div>
-        </section>
+      <div className="absolute top-0 right-0 w-full h-full bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-50/40 via-transparent to-transparent -z-10 pointer-events-none"></div>
 
-        {/* SEÇÃO 2: Edital chamada projetos NÃO residentes */}
-        <section className="animate-fade-up animate-delay-300">
-            <div className="section-default flex flex-col gap-8">
-                <div className="flex flex-col gap-6">
-                    <div className="flex items-center gap-4">
-                        <div className="p-3 bg-white border border-blue-100 rounded-2xl text-blue-600 shadow-sm"><FileCheck size={28}/></div>
-                        <HeadingText 
-                            title={
-                                <>
-                                    Edital chamada projetos <strong className="text-rose-600">NÃO</strong> residentes
-                                </>
-                            } 
-                            super="Editais" 
-                        />
-                    </div>
-                    <div className="w-full h-px bg-gradient-to-r from-blue-200 via-gray-200 to-transparent"></div>
-                </div>
-                
-                <AttachmentList />
+      {/* SEÇÃO 1: Regimentos e Documentos */}
+      <section className="animate-fade-up animate-delay-200">
+        <div className="section-default flex flex-col gap-8">
+          <div className="flex flex-col gap-6">
+            <div className="flex items-center gap-4">
+              <div className="p-3 bg-white border border-rose-100 rounded-2xl text-rose-600 shadow-sm"><Scale size={28} /></div>
+              <HeadingText title="Regimentos e Documentos" super="Documentos Gerais" />
             </div>
-        </section>
+            <div className="w-full h-px bg-gradient-to-r from-rose-200 via-gray-200 to-transparent"></div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+            {RegDocs.map((doc, index) => (
+              <DocCard key={index} doc={doc} variant="rose" />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* SEÇÃO 2: Edital chamada projetos NÃO residentes */}
+      <section className="animate-fade-up animate-delay-300">
+        <div className="section-default flex flex-col gap-8">
+          <div className="flex flex-col gap-6">
+            <div className="flex items-center gap-4">
+              <div className="p-3 bg-white border border-blue-100 rounded-2xl text-blue-600 shadow-sm"><FileCheck size={28} /></div>
+              <HeadingText
+                title={
+                  <>
+                    Edital chamada projetos <strong className="text-rose-600">NÃO</strong> residentes
+                  </>
+                }
+                super="Editais"
+              />
+            </div>
+            <div className="w-full h-px bg-gradient-to-r from-blue-200 via-gray-200 to-transparent"></div>
+          </div>
+
+          <AttachmentList />
+        </div>
+      </section>
     </div>
   );
 }
