@@ -1,38 +1,11 @@
 {
-    "2021": {
-        "valor": "73.536.795,00",
-        "arrecadamentos": {
-            "federal": "3.262M+",
-            "estadual": "2.027M+",
-            "municipal": "115.151+",
-            "empregos": "260"
-        }
-    },
-    "2022": {
-        "valor": "93.715.408,15",
-        "arrecadamentos": {
-            "federal": "3.262M+",
-            "estadual": "2.027M+",
-            "municipal": "115.151+",
-            "empregos": "277"
-        }
-    },
-    "2023": {
-        "valor": "",
-        "arrecadamentos": {
-            "federal": "",
-            "estadual": "",
-            "municipal": "",
-            "empregos": ""
-        }
-    },
     "2025": {
-        "valor": "",
-        "arrecadamentos": {
-            "federal": "",
-            "estadual": "",
-            "municipal": "",
-            "empregos": ""
+        "valor": "133300000",
+        "empresas": {
+            "incubadas": "8",
+            "graduadas": "17",
+            "ancoras": "5",
+            "empregos": "202"
         }
     }
 }
