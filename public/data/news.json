@@ -1,0 +1,52 @@
+[
+  {
+    "id": "mapeamento-inovacao-2026",
+    "image": "/assets/images/news/parquetecnologico2.jpg",
+    "title": "SMCTI realiza levantamento de desafios e oportunidades de inovação",
+    "description": "A Secretaria Municipal de Ciência, Tecnologia e Inovação iniciou um levantamento junto às secretarias, departamentos e unidades da Administração Municipal para identificar desafios e oportunidades de inovação.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "14/07/2026",
+    "isNotOpen": false,
+    "link": "/noticias/mapeamento-inovacao-2026"
+  },
+  {
+    "id": "sebrae-parceria-2026",
+    "image": "/assets/images/news/SEBRAE_Alan_07_2026.jpg",
+    "title": "Parque Tecnológico fortalece parceria com o Sebrae PR em agenda estratégica",
+    "description": "O Parque Tecnológico de Pato Branco recebeu representantes do Sebrae PR para uma agenda de alinhamento de iniciativas voltadas ao fortalecimento do empreendedorismo, da inovação e do desenvolvimento regional, ampliando oportunidades para empresas e startups.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "08/07/2026",
+    "isNotOpen": false,
+    "link": "/noticias/sebrae-parceria-2026"
+  },
+  {
+    "id": "obr-2026",
+    "image": "/assets/images/news/OBR_2026.png",
+    "title": "Etapa da OBR reúne estudantes em dia de inovação e tecnologia",
+    "description": "A Olimpíada Brasileira de Robótica (OBR) reuniu estudantes da rede de ensino em uma programação voltada ao desenvolvimento da criatividade, do raciocínio lógico e do trabalho em equipe, incentivando o interesse pela ciência e tecnologia.",
+    "partner": "Secretaria Municipal de Educação",
+    "datePosted": "06/07/2026",
+    "isNotOpen": false,
+    "link": "/noticias/obr-2026"
+  },
+  {
+    "id": "visita-sesi-ampere-2026",
+    "image": "/assets/images/news/SESI_Ampere_06_2026.jpeg",
+    "title": "Estudantes do Colégio SESI de Ampére conhecem o ecossistema de inovação",
+    "description": "O Parque Tecnológico recebeu estudantes do Ensino Médio do Colégio SESI de Ampére para uma visita técnica, proporcionando uma imersão no ecossistema de inovação de Pato Branco e incentivando o interesse pela ciência, tecnologia e empreendedorismo.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "04/07/2026",
+    "isNotOpen": false,
+    "link": "/noticias/visita-sesi-ampere-2026"
+  },
+  {
+    "id": "encerramento-patotech-senac-2026",
+    "image": "/assets/images/news/SENAC_Curso_07_2026.jpeg",
+    "title": "Parque Tecnológico celebra encerramento de curso em parceria com o SENAC",
+    "description": "O Parque Tecnológico de Pato Branco concluiu mais uma edição do curso de Informática Básica promovido pela PatoTech Escola de Inovação em parceria com o SENAC, reforçando o compromisso com a capacitação profissional e o desenvolvimento da comunidade.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "03/07/2026",
+    "isNotOpen": false,
+    "link": "/noticias/encerramento-patotech-senac-2026"
+  }
+]

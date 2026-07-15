@@ -70,8 +70,8 @@
         ]
     },
     {
-        "name": "Eventos",
-        "path": "/eventos"
+        "name": "Notícias",
+        "path": "/noticias"
     },
     {
         "name": "Contato",
