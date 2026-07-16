@@ -56,6 +56,10 @@
         "path": "/aceleradora"
     },
     {
+        "name": "Pato 360",
+        "path": "/pato360"
+    },
+    {
         "name": "Empresas Âncoras",
         "path": "/parque",
         "dropdown": [
