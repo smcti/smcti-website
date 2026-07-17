@@ -52,7 +52,11 @@ const Page = ({ params }: PageProps) => {
         <img
           src={article.image}
           alt={article.title}
-          className="aspect-video w-full rounded-xl object-cover"
+          className={`aspect-video w-full rounded-xl ${
+            article.id === "webinar-cpsi-ril-2026"
+              ? "object-contain bg-gray-100"
+              : "object-cover"
+          }`}
         />
       )}
 
