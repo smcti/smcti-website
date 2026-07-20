@@ -1,5 +1,25 @@
 [
   {
+    "id": "imersao-comunicacao-pitch-itecpb-2026",
+    "image": "/assets/images/news/Sebrae2.jpeg",
+    "title": "Startups da ITECPB participam de imersão sobre comunicação, oratória e pitch de alto impacto",
+    "description": "As startups da Incubadora Tecnológica de Pato Branco (ITECPB) participaram de uma imersão voltada ao desenvolvimento de habilidades de comunicação, oratória e apresentação de negócios, em parceria com o Sebrae.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "20/07/2026",
+    "isNotOpen": false,
+    "link": "/noticias/imersao-comunicacao-pitch-itecpb-2026"
+  },
+  {
+    "id": "lancamento-e-dialoga-360-2026",
+    "image": "/assets/images/news/Capa-Dialoga.jpeg",
+    "title": "Tecnologia desenvolvida na ITECPB ganha lançamento oficial no dia 12/08/2026",
+    "description": "A E-Dialoga, empresa incubada na Incubadora Tecnológica de Pato Branco (ITECPB), realiza no dia 12 de agosto de 2026 o lançamento oficial da plataforma E-Dialoga 360, durante o E-Dialoga Experience 2026 no Parque Tecnológico de Pato Branco.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "20/07/2026",
+    "isNotOpen": false,
+    "link": "/noticias/lancamento-e-dialoga-360-2026"
+  },
+  {
     "id": "webinar-cpsi-ril-2026",
     "image": "/assets/images/news/Imagem-CPSI1.png",
     "title": "Pato Branco compartilha experiência em Contratação Pública para Solução Inovadora em evento nacional da RIL Brasil",
@@ -38,6 +58,16 @@
     "datePosted": "06/07/2026",
     "isNotOpen": false,
     "link": "/noticias/obr-2026"
+  },
+  {
+    "id": "aurhi-plataforma-vagas-2026",
+    "image": "/assets/images/news/Capa-Aurhi.jpeg",
+    "title": "Aurhi chega ao mercado com plataforma de gestão de vagas e candidaturas desenvolvida na ITECPB",
+    "description": "A Aurhi, startup desenvolvida e estruturada na Incubadora Tecnológica de Pato Branco (ITECPB), iniciou sua atuação no mercado com uma plataforma voltada à gestão de vagas de emprego e candidaturas.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "04/07/2026",
+    "isNotOpen": false,
+    "link": "/noticias/aurhi-plataforma-vagas-2026"
   },
   {
     "id": "visita-sesi-ampere-2026",
