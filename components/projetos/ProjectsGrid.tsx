@@ -26,6 +26,7 @@ interface Project {
   category: Exclude<Category, 'Todos'>
   icon: LucideIcon
   tags: Tag[]
+  logo?: string
   link?: string
   file?: string
   file2?: string
@@ -135,9 +136,26 @@ const PROJECTS: Project[] = [
     publico:
       'Município de Pato Branco, com foco especial em jovens e profissionais interessados em ingressar ou se aperfeiçoar no setor de tecnologia e inovação.',
     category: 'Tecnologia',
+    logo: '/assets/images/logos/patotech.png',
     icon: Cpu,
     tags: [{ label: 'IA', color: 'blue' }, { label: 'Inovação', color: 'blue' }, { label: 'Capacitação', color: 'blue' }],
     link: 'https://patobranco.tec.br/patotech',
+  },
+  {
+    id: 'pato-360',
+    title: 'Pato 360°',
+    shortDesc:
+      'Sistema de videomonitoramento inteligente em parceria com o 3º BPM para garantir segurança pública em locais estratégicos do município.',
+    objetivos:
+      'Melhorar o serviço de segurança pública ao empregar câmeras de videomonitoramento controladas pelo 3º BPM.',
+    beneficios:
+      'O trabalho conjunto entre a Prefeitura e os órgãos de segurança possibilita o mapeamento de todo o município a fim de monitorar locais estratégicos de segurança, garantindo o controle remoto, pelo 3º Batalhão de Polícia Militar, nas entradas/saídas do município e em locais de grande aglomeração de pessoas.',
+    publico: 'Todos os cidadãos.',
+    category: 'Segurança',
+    logo: '/assets/images/logos/pato360.png',
+    icon: Camera,
+    tags: [{ label: 'Segurança', color: 'rose' }, { label: 'Monitoramento', color: 'rose' }, { label: '5G', color: 'rose' }],
+    link: 'https://patobranco.tec.br/pato360',
   },
   {
     id: 'cidade-inteligente',
@@ -234,20 +252,6 @@ const PROJECTS: Project[] = [
     category: 'Tecnologia',
     icon: Radio,
     tags: [{ label: '5G', color: 'blue' }, { label: 'IoT', color: 'blue' }, { label: 'Infraestrutura', color: 'blue' }],
-  },
-  {
-    id: 'pato-360',
-    title: 'Pato 360°',
-    shortDesc:
-      'Sistema de videomonitoramento inteligente em parceria com o 3º BPM para garantir segurança pública em locais estratégicos do município.',
-    objetivos:
-      'Melhorar o serviço de segurança pública ao empregar câmeras de videomonitoramento controladas pelo 3º BPM.',
-    beneficios:
-      'O trabalho conjunto entre a Prefeitura e os órgãos de segurança possibilita o mapeamento de todo o município a fim de monitorar locais estratégicos de segurança, garantindo o controle remoto, pelo 3º Batalhão de Polícia Militar, nas entradas/saídas do município e em locais de grande aglomeração de pessoas.',
-    publico: 'Todos os cidadãos.',
-    category: 'Segurança',
-    icon: Camera,
-    tags: [{ label: 'Segurança', color: 'rose' }, { label: 'Monitoramento', color: 'rose' }, { label: '5G', color: 'rose' }],
   },
   {
     id: 'robotica',
@@ -360,6 +364,7 @@ export default function ProjectsGrid() {
       {/* ── Cards grid ──────────────────────────────────── */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filtered.map((project) => {
+  
           const s = categoryStyles[project.category]
           const Icon = project.icon
           return (
@@ -378,15 +383,24 @@ export default function ProjectsGrid() {
               >
                 {/* Card header */}
                 <div className="flex items-start gap-3 p-5 pb-3">
-                  <div
-                    className={`
-                      flex-shrink-0 w-12 h-12 rounded-xl
-                      ${s.iconBg}
-                      flex items-center justify-center
-                      transition-transform duration-300 group-hover:scale-110
-                    `}
-                  >
-                    <Icon size={22} />
+                  <div className="items-center justify-center">
+                    {project.logo ? (
+                      <div className='rounded-xl bg-white border-2 flex'>
+                      <img
+                        src={project.logo}
+                        alt={`Logo ${project.title}`}
+                        className="h-16 w-16 object-contain"
+                      />
+                      </div>
+                    ) : (
+                      project.icon && (
+                        <div className='p-3 rounded-xl bg-cello-800 flex'>
+                          <project.icon
+                            size={24}
+                            className="text-cyan-300"/>
+                        </div>
+                      )
+                    )}
                   </div>
                   <div className="flex-1 min-w-0">
                     <span className={`block text-[10px] font-bold uppercase tracking-widest ${s.text}`}>
@@ -419,25 +433,24 @@ export default function ProjectsGrid() {
                 </div>
 
                 {/* Footer: CTA only */}
-                <div
-                  className={`
-                    px-5 py-3 flex items-center justify-center
-                    border-t ${s.borderIdle} ${s.footerBg}
-                  `}
-                >
-                  <span
+                {project.link &&
+                  <div
                     className={`
-                      flex items-center gap-1 text-xs font-semibold
-                      ${s.text} px-3.5 py-1.5 rounded-full
-                      border border-transparent
-                      transition-all duration-250 ease-out
-                      group-hover:border-current group-hover:gap-2
+                      px-5 py-3 flex items-center justify-center
+                      border-t ${s.borderIdle} ${s.footerBg}
                     `}
                   >
-                    Saiba mais
-                    <ChevronRight size={14} className="transition-transform duration-250 group-hover:translate-x-1" />
-                  </span>
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={(e) => e.stopPropagation()}
+                      className={`flex items-center gap-2.5 px-4 py-2.5 rounded-xl border ${s.borderIdle} ${s.text} bg-white hover:brightness-95 transition-all text-sm font-medium`}>
+                      <ExternalLink size={15} />
+                      Acessar site do projeto
+                    </a>
                 </div>
+                }
               </article>
             </Reveal>
           )
@@ -471,7 +484,23 @@ export default function ProjectsGrid() {
                 `}
               >
                 <div className={`flex-shrink-0 w-14 h-14 rounded-2xl ${s.iconBg} flex items-center justify-center`}>
-                  <Icon size={26} />
+                  {p.logo ? (
+                      <div className='rounded-xl bg-white border-2 flex'>
+                      <img
+                        src={p.logo}
+                        alt={`Logo ${p.title}`}
+                        className="h-16 w-16 object-contain"
+                      />
+                      </div>
+                    ) : (
+                      p.icon && (
+                        <div className='p-3 rounded-xl bg-cello-800 flex'>
+                          <p.icon
+                            size={24}
+                            className="text-cyan-300"/>
+                        </div>
+                      )
+                    )}
                 </div>
                 <div className="flex-1 min-w-0">
                   <span className={`block text-[10px] font-bold uppercase tracking-widest ${s.text}`}>
