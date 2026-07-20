@@ -13,20 +13,54 @@ import {
 const galleryData = [
     {
         src: "/assets/images/fotos/parqueentrada.png",
-        description: "Ambientes colaborativos projetados para estimular a criatividade."
+        description: "Ambientes colaborativos projetados para estimular a criatividade.",
+        topic: "Destaque"
     },
     {
         src: "/assets/images/fotos/parqueemcima.png",
-        description: "Ambiente que fomenta novas ideias."
+        description: "Ambiente que fomenta novas ideias.",
+        topic: "Destaque"
     },
     {
-        src: "/assets/images/fotos/incubados.png",
-        description: "Boas-vindas às novas startups que integram nosso ecossistema de inovação."
+        src: "/assets/images/itecpb/atendimento1.jpeg",
+        description: "Atendimento para incubados.",
+        topic: "Incubadora"
     },
     {
-        src: "/assets/images/fotos/assinatura.png",
-        description: "Momentos de troca de experiência entre empreendedores e mentores."
-    }
+        src: "/assets/images/itecpb/atendimento2.jpeg",
+        description: "Atendimento para incubados.",
+        topic: "Incubadora"
+    },
+    {
+        src: "/assets/images/itecpb/atendimento3.jpeg",
+        description: "Atendimento para incubados.",
+        topic: "Incubadora"
+    },
+    {
+        src: "/assets/images/itecpb/atendimento4.jpeg",
+        description: "Atendimento para incubados.",
+        topic: "Incubadora"
+    },
+    {
+        src: "/assets/images/itecpb/evento1.jpeg",
+        description: "Eventos para capacitação dos incubados.",
+        topic: "Eventos"
+    },
+    {
+        src: "/assets/images/itecpb/evento2.jpeg",
+        description: "Eventos para capacitação dos incubados.",
+        topic: "Eventos"
+    },
+    {
+        src: "/assets/images/itecpb/evento3.jpeg",
+        description: "Eventos para capacitação dos incubados.",
+        topic: "Eventos"
+    },
+    {
+        src: "/assets/images/itecpb/evento4.jpeg",
+        description: "Eventos para capacitação dos incubados.",
+        topic: "Eventos"
+    },
 ];
 
 const benefitsData = [
@@ -249,7 +283,7 @@ export default function AboutSection() {
                                     </div>
                                     <div className="absolute bottom-0 left-0 w-full p-8 md:p-12 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
                                         <span className="bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-2 inline-block">
-                                            Destaque
+                                            {slide.topic}
                                         </span>
                                         <p className="text-gray-200 text-sm md:text-base max-w-2xl font-medium">
                                             {slide.description}
