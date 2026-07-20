@@ -1,22 +1,103 @@
 [
     {
-        "id": "obr-2026",
-        "image": "/assets/images/news/OBR_2026.png",
-        "title": "Etapa da OBR reúne estudantes em dia de inovação e tecnologia",
-        "description": "A Olimpíada Brasileira de Robótica (OBR) reuniu estudantes da rede de ensino em uma programação voltada ao desenvolvimento da criatividade, do raciocínio lógico e do trabalho em equipe.",
+        "id": "imersao-comunicacao-pitch-itecpb-2026",
+        "image": "/assets/images/news/Sebrae2.jpeg",
+        "title": "Startups da ITECPB participam de imersão sobre comunicação, oratória e pitch de alto impacto",
+        "description": "As startups da Incubadora Tecnológica de Pato Branco (ITECPB) participaram, nos dias 13 e 14 de julho, de uma imersão voltada ao desenvolvimento de habilidades de comunicação, oratória e apresentação de negócios, em parceria com o Sebrae.",
         "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
-        "datePosted": "06 de Julho de 2026",
+        "datePosted": "20 de Julho de 2026",
         "content": [
-            "Na última sexta-feira, Pato Branco sediou mais uma etapa da Olimpíada Brasileira de Robótica (OBR), evento que reuniu estudantes de diferentes instituições de ensino em uma programação dedicada à ciência, tecnologia e inovação. A iniciativa proporcionou aos participantes uma experiência enriquecedora, estimulando o aprendizado por meio de desafios práticos e atividades colaborativas.",
-            "Durante a competição, as equipes colocaram em prática conhecimentos de programação, lógica e robótica, enfrentando desafios que exigiram criatividade, raciocínio rápido e trabalho em equipe. Além da competição, o evento também promoveu a troca de experiências entre estudantes, professores e organizadores, fortalecendo o interesse pelas áreas de ciência e tecnologia.",
-            "A Olimpíada Brasileira de Robótica é reconhecida nacionalmente por incentivar o desenvolvimento de competências importantes para a formação dos estudantes, despertando o interesse por inovação, pesquisa e resolução de problemas. A participação em eventos como este contribui para o desenvolvimento de habilidades que serão fundamentais tanto na vida acadêmica quanto profissional.",
-            "A Prefeitura de Pato Branco, por meio da Secretaria Municipal de Ciência, Tecnologia e Inovação, apoia iniciativas que aproximam crianças e jovens do universo tecnológico, promovendo oportunidades de aprendizado e incentivando o protagonismo estudantil em projetos voltados ao desenvolvimento científico.",
-            "O município segue investindo em ações que fortalecem o ecossistema de inovação local, estimulando a formação de novos talentos e consolidando Pato Branco como uma cidade referência em educação, tecnologia e empreendedorismo. A realização de eventos como a OBR demonstra o compromisso da administração municipal com a construção de um futuro cada vez mais inovador para as novas gerações."
+            "As startups da Incubadora Tecnológica de Pato Branco (ITECPB) participaram, nos dias 13 e 14 de julho, de uma imersão voltada ao desenvolvimento de habilidades de comunicação, oratória e apresentação de negócios. A capacitação foi conduzida por Felipe Costa, especialista em oratória, performance e pitch de alto impacto, em uma iniciativa realizada em parceria com o Sebrae.",
+            "Durante os dois dias de atividades, os empreendedores trabalharam técnicas para aprimorar a comunicação verbal e não verbal, estruturar narrativas mais estratégicas e apresentar suas soluções de forma clara, persuasiva e impactante. O objetivo foi fortalecer a capacidade das startups de comunicar seu valor, apresentar seus negócios e estabelecer conexões com potenciais investidores, parceiros e clientes.",
+            "Além do aprimoramento dos discursos, a imersão destacou a importância da performance e da comunicação estratégica no desenvolvimento de negócios inovadores. Para startups, saber transmitir uma ideia com clareza e confiança é um diferencial importante em momentos como apresentações, rodadas de investimento, reuniões comerciais e busca por novas parcerias.",
+            "A ação reforça a importância da atuação integrada entre os diferentes atores do ecossistema de inovação e empreendedorismo. Por meio da união de esforços entre a ITECPB e o Sebrae, os empreendedores tiveram acesso a conhecimentos e ferramentas que contribuem para sua preparação e desenvolvimento no mercado.",
+            "Mais do que aprimorar apresentações, a iniciativa buscou fortalecer a capacidade dos empreendedores de transformar ideias e soluções inovadoras em oportunidades de negócio, contribuindo também para o crescimento e o desenvolvimento do ecossistema regional de inovação."
+        ],
+        "images": [
+            "/assets/images/news/FelipeCosta-apresentacao.jpeg",
+            "/assets/images/news/pitch-sucesso.jpeg",
+            "",
+            "/assets/images/news/Sebrae1.jpeg",
+            ""
+        ],
+        "gallery": [
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "lancamento-e-dialoga-360-2026",
+        "image": "/assets/images/news/Capa-Dialoga.jpeg",
+        "title": "Tecnologia desenvolvida na ITECPB ganha lançamento oficial no dia 12/08/2026",
+        "description": "A E-Dialoga, empresa incubada na Incubadora Tecnológica de Pato Branco (ITECPB), realiza no dia 12 de agosto de 2026 o lançamento oficial da plataforma E-Dialoga 360, durante o E-Dialoga Experience 2026 no Parque Tecnológico de Pato Branco.",
+        "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+        "datePosted": "20 de Julho de 2026",
+        "content": [
+            "A E-Dialoga, empresa incubada na Incubadora Tecnológica de Pato Branco (ITECPB), realiza no dia 12 de agosto de 2026 o lançamento oficial da plataforma E-Dialoga 360. A apresentação acontecerá durante o E-Dialoga Experience 2026, no Parque Tecnológico de Pato Branco, e reunirá clientes, empresários, autoridades, instituições de ensino e representantes do setor de tecnologia.",
+            "A nova plataforma integra inteligência artificial, automação de processos e comunicação omnichannel em um único ambiente. A proposta é permitir que as empresas centralizem seus canais de atendimento, acompanhem a jornada dos clientes e utilizem os dados gerados nas interações para apoiar a tomada de decisões.",
+            "De acordo com o fundador da E-Dialoga, Paulo Henrique, a solução foi desenvolvida com foco no acompanhamento completo do relacionamento entre empresas e clientes.",
+            "\"A E-Dialoga 360 foi pensada para que a empresa conheça toda a jornada do seu cliente, desde o primeiro contato até enquanto ele permanecer cliente da organização. A plataforma registra tudo o que aconteceu, o que está acontecendo e transforma essas informações em inteligência para o negócio. Com isso, a empresa consegue identificar gargalos, entender oportunidades de melhoria, antecipar necessidades e, principalmente, conhecer profundamente seus clientes\", afirma.",
+            "Segundo o fundador, o acompanhamento da jornada completa permite que as empresas reduzam uma atuação baseada apenas em respostas às demandas e passem a construir relacionamentos mais personalizados e orientados por dados.",
+            "Durante o evento, os participantes poderão acompanhar demonstrações práticas da E-Dialoga 360 e conhecer recursos voltados à automação de atendimentos, integração de diferentes canais de comunicação, organização de equipes e geração de indicadores estratégicos.",
+            "Trajetória dentro da ITECPB",
+            "O lançamento também marca uma etapa importante na trajetória da E-Dialoga dentro da Incubadora Tecnológica de Pato Branco. A ITECPB oferece suporte a empresas de base tecnológica em diferentes etapas de desenvolvimento, promovendo o acesso a mentorias, networking e conexões com universidades, instituições e o mercado.",
+            "A realização do evento no Parque Tecnológico de Pato Branco reforça a integração entre empreendedorismo, conhecimento, tecnologia e inovação que caracteriza o ecossistema local. Para a empresa, o ambiente de incubação teve papel importante no desenvolvimento da solução e na construção de conexões estratégicas ao longo de sua trajetória.",
+            "Além da apresentação da plataforma, o E-Dialoga Experience 2026 contará com momentos de networking entre empresários, gestores, investidores, representantes do poder público e profissionais do setor de tecnologia. A programação também deverá promover discussões sobre o desenvolvimento de empresas de base tecnológica e suas possibilidades de expansão para outros mercados.",
+            "O evento representa uma nova etapa para a E-Dialoga, que busca ampliar a atuação da plataforma E-Dialoga 360 e levar a solução a empresas de diferentes regiões do país. A trajetória da empresa, iniciada no ambiente de inovação de Pato Branco, evidencia o papel da ITECPB e do Parque Tecnológico no apoio ao desenvolvimento e à consolidação de negócios de base tecnológica."
         ],
         "images": [
             "",
             "",
-            "/assets/images/fotos/parqueentrada.png"
+            ""
+        ],
+        "gallery": [
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "webinar-cpsi-ril-2026",
+        "image": "/assets/images/news/Sucesso-CPSI.jpg",
+        "title": "Pato Branco compartilha experiência em Contratação Pública para Solução Inovadora em evento nacional da RIL Brasil",
+        "description": "O Município de Pato Branco participou de webinar promovido pela RIL Brasil sobre Contratação Pública para Solução Inovadora (CPSI), ao lado das prefeituras de Porto Alegre e Rio de Janeiro.",
+        "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+        "datePosted": "16 de Julho de 2026",
+        "content": [
+            "O Município de Pato Branco participou, nesta semana, do webinar \"Experiências Municipais em Contratação Pública para Solução Inovadora (CPSI)\", promovido pela RIL Brasil – Rede de Inovação Local, ao lado de representantes das prefeituras de Porto Alegre (RS) e Rio de Janeiro (RJ). O encontro reuniu gestores públicos de diversas regiões do país para compartilhar experiências práticas sobre a utilização dos instrumentos previstos no Marco Legal das Startups (Lei Complementar nº 182/2021).",
+            "Representando Pato Branco, o diretor do Parque Tecnológico de Pato Branco, Douglas Henrique Batista, apresentou a trajetória do município na implementação do Contrato Público para Solução Inovadora (CPSI), destacando os desafios enfrentados, os aprendizados obtidos e os resultados alcançados com o projeto de cercamento digital inteligente e videomonitoramento apoiado por inteligência artificial.",
+            "Durante a apresentação, Douglas ressaltou que Pato Branco foi uma das primeiras cidades do Paraná a utilizar o instrumento do CPSI, reforçando que a contratação pública para inovação exige uma mudança de paradigma. \"O CPSI não começa definindo a tecnologia que será comprada. Ele começa definindo claramente o problema público que precisa ser resolvido\", destacou.",
+            "Entre os principais aprendizados compartilhados estiveram a importância do planejamento prévio, da construção coletiva envolvendo diferentes secretarias municipais, da participação ativa da Procuradoria Jurídica durante todas as etapas do processo e da documentação detalhada das decisões tomadas ao longo da execução.",
+            "Outro ponto enfatizado foi a integração promovida entre a Prefeitura e as forças de segurança pública. A solução implantada permitiu ampliar a capacidade de monitoramento inteligente do município, fortalecendo a atuação preventiva da Polícia Militar, Polícia Civil, Polícia Rodoviária Federal e demais órgãos parceiros, além de gerar informações estratégicas para a gestão pública.",
+            "Ao apresentar os resultados do projeto, Douglas destacou que o CPSI proporcionou não apenas avanços tecnológicos, mas também um importante processo de aprendizado institucional. \"Foi uma curva de aprendizado para todos os envolvidos: secretaria, jurídico, procuradoria, comissão, empresa e gestão municipal. Hoje temos muito mais segurança para desenvolver novas compras públicas de inovação\", afirmou.",
+            "A participação de Pato Branco recebeu reconhecimento dos organizadores e dos demais participantes do evento. A diretora da Aceleradora da RIL Brasil, Camila, destacou a importância de apresentar experiências de cidades médias e pequenas que vêm utilizando instrumentos inovadores de contratação pública. Já representantes de outros municípios elogiaram a iniciativa e ressaltaram o valor de compartilhar experiências práticas entre gestores públicos.",
+            "A participação no webinar reforça o posicionamento de Pato Branco como referência nacional em inovação no setor público, compartilhando boas práticas e contribuindo para que outros municípios possam utilizar a contratação pública como instrumento para resolver desafios complexos e acelerar a transformação digital da administração pública."
+        ],
+        "images": [
+            "",
+            "",
+            ""
+        ],
+        "gallery": [
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "mapeamento-inovacao-2026",
+        "image": "",
+        "title": "SMCTI realiza levantamento de desafios e oportunidades de inovação",
+        "description": "A Secretaria Municipal de Ciência, Tecnologia e Inovação iniciou um levantamento junto aos setores da Administração Municipal para identificar desafios e oportunidades de inovação que subsidiem o planejamento de projetos e ações estratégicas.",
+        "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+        "datePosted": "14 de Julho de 2026",
+        "content": [
+            "A Secretaria Municipal de Ciência, Tecnologia e Inovação (SMCTI) iniciou um levantamento interno de desafios e oportunidades de inovação junto às secretarias, departamentos e unidades da Administração Municipal. A ação faz parte das iniciativas de Cidade Inteligente (Smart City) desenvolvidas pelo Município, que incluem a participação em rankings e programas nacionais, a estruturação de projetos-piloto e a articulação com empresas, startups e instituições de ensino e pesquisa.",
+            "O objetivo do levantamento é identificar problemas, gargalos e necessidades dos diferentes setores da Prefeitura que possam ser aprimorados por meio de tecnologia, integração de dados, revisão de processos, parcerias ou desenvolvimento de novas soluções. As informações coletadas servirão de base para o planejamento de projetos, prospecção de soluções e captação de recursos.",
+            "A Secretaria Municipal de Ciência, Tecnologia e Inovação destaca que não é necessário indicar uma solução tecnológica para o problema apresentado. O foco do levantamento é compreender os desafios enfrentados pelos setores e os resultados que se pretende alcançar, contribuindo para a identificação de oportunidades de inovação no âmbito da Administração Municipal."
+        ],
+        "images": [
+            "",
+            "/assets/images/news/cidade_tecnologica.jpeg",
+            ""
         ],
         "gallery": [
             "",
@@ -41,6 +122,57 @@
             "",
             "",
             "/assets/images/news/SEBRAE_Alan_07_2026.jpg"
+        ],
+        "gallery": [
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "obr-2026",
+        "image": "/assets/images/news/OBR_2026.png",
+        "title": "Etapa da OBR reúne estudantes em dia de inovação e tecnologia",
+        "description": "A Olimpíada Brasileira de Robótica (OBR) reuniu estudantes da rede de ensino em uma programação voltada ao desenvolvimento da criatividade, do raciocínio lógico e do trabalho em equipe.",
+        "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+        "datePosted": "06 de Julho de 2026",
+        "content": [
+            "Na última sexta-feira, Pato Branco sediou mais uma etapa da Olimpíada Brasileira de Robótica (OBR), evento que reuniu estudantes de diferentes instituições de ensino em uma programação dedicada à ciência, tecnologia e inovação. A iniciativa proporcionou aos participantes uma experiência enriquecedora, estimulando o aprendizado por meio de desafios práticos e atividades colaborativas.",
+            "Durante a competição, as equipes colocaram em prática conhecimentos de programação, lógica e robótica, enfrentando desafios que exigiram criatividade, raciocínio rápido e trabalho em equipe. Além da competição, o evento também promoveu a troca de experiências entre estudantes, professores e organizadores, fortalecendo o interesse pelas áreas de ciência e tecnologia.",
+            "A Olimpíada Brasileira de Robótica é reconhecida nacionalmente por incentivar o desenvolvimento de competências importantes para a formação dos estudantes, despertando o interesse por inovação, pesquisa e resolução de problemas. A participação em eventos como este contribui para o desenvolvimento de habilidades que serão fundamentais tanto na vida acadêmica quanto profissional.",
+            "A Prefeitura de Pato Branco, por meio da Secretaria Municipal de Ciência, Tecnologia e Inovação, apoia iniciativas que aproximam crianças e jovens do universo tecnológico, promovendo oportunidades de aprendizado e incentivando o protagonismo estudantil em projetos voltados ao desenvolvimento científico.",
+            "O município segue investindo em ações que fortalecem o ecossistema de inovação local, estimulando a formação de novos talentos e consolidando Pato Branco como uma cidade referência em educação, tecnologia e empreendedorismo. A realização de eventos como a OBR demonstra o compromisso da administração municipal com a construção de um futuro cada vez mais inovador para as novas gerações."
+        ],
+        "images": [
+            "",
+            "",
+            "/assets/images/fotos/parqueentrada.png"
+        ],
+        "gallery": [
+            "",
+            ""
+        ]
+    },
+    {
+        "id": "aurhi-plataforma-vagas-2026",
+        "image": "/assets/images/news/Capa-Aurhi.jpeg",
+        "title": "Aurhi chega ao mercado com plataforma de gestão de vagas e candidaturas desenvolvida na ITECPB",
+        "description": "A Aurhi, startup desenvolvida e estruturada na Incubadora Tecnológica de Pato Branco (ITECPB), iniciou sua atuação no mercado com uma plataforma voltada à gestão de vagas de emprego e candidaturas.",
+        "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+        "datePosted": "04 de Julho de 2026",
+        "content": [
+            "A Aurhi, startup desenvolvida e estruturada na Incubadora Tecnológica de Pato Branco (ITECPB), iniciou sua atuação no mercado com uma plataforma voltada à gestão de vagas de emprego e candidaturas. A solução busca aproximar empresas e profissionais por meio da tecnologia, tornando os processos de recrutamento e seleção mais ágeis e organizados.",
+            "Já no início de sua operação, a plataforma conta com 23 empresas cadastradas, 60 vagas disponíveis e mais de 300 usuários ativos. Os números refletem a adesão inicial à solução e o potencial de uma proposta que busca modernizar a forma como empresas divulgam oportunidades e profissionais se candidatam a vagas de emprego.",
+            "A Aurhi foi desenvolvida com o objetivo de substituir processos tradicionais, como o uso de currículos impressos, por uma experiência digital de conexão entre empresas e candidatos. A plataforma centraliza informações e facilita o gerenciamento das oportunidades, contribuindo para uma comunicação mais eficiente entre os diferentes participantes do processo de recrutamento.",
+            "Embora utilize recursos tecnológicos para otimizar a seleção, a proposta da startup também considera a importância do fator humano nas relações profissionais. A tecnologia é utilizada como ferramenta para facilitar conexões entre talentos e empresas, tornando o processo mais acessível e dinâmico.",
+            "Startup nasce no ambiente de inovação",
+            "A trajetória da Aurhi representa mais um negócio desenvolvido no ambiente da Incubadora Tecnológica de Pato Branco. Por meio da estrutura, mentorias e conexões oferecidas pela ITECPB, a startup teve suporte para transformar sua ideia em uma solução estruturada e pronta para atuar no mercado.",
+            "O desenvolvimento da empresa reforça o papel das incubadoras no apoio a negócios inovadores, especialmente na fase de validação e consolidação de novos produtos e serviços. Ao aproximar empreendedores, instituições e o mercado, o ambiente de inovação contribui para que ideias sejam aprimoradas e transformadas em negócios com potencial de crescimento.",
+            "Com o lançamento da plataforma e a adesão inicial de empresas e usuários, a Aurhi inicia uma nova etapa de sua trajetória, buscando ampliar sua presença no mercado e contribuir para a transformação digital dos processos de recrutamento e seleção."
+        ],
+        "images": [
+            "",
+            "",
+            ""
         ],
         "gallery": [
             "",
@@ -94,55 +226,6 @@
             "",
             "",
             "/assets/images/news/patotech.jpeg"
-        ],
-        "gallery": [
-            "",
-            ""
-        ]
-    },
-    {
-        "id": "webinar-cpsi-ril-2026",
-        "image": "/assets/images/news/Sucesso-CPSI.jpg",
-        "title": "Pato Branco compartilha experiência em Contratação Pública para Solução Inovadora em evento nacional da RIL Brasil",
-        "description": "O Município de Pato Branco participou de webinar promovido pela RIL Brasil sobre Contratação Pública para Solução Inovadora (CPSI), ao lado das prefeituras de Porto Alegre e Rio de Janeiro.",
-        "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
-        "datePosted": "16 de Julho de 2026",
-        "content": [
-            "O Município de Pato Branco participou, nesta semana, do webinar \"Experiências Municipais em Contratação Pública para Solução Inovadora (CPSI)\", promovido pela RIL Brasil – Rede de Inovação Local, ao lado de representantes das prefeituras de Porto Alegre (RS) e Rio de Janeiro (RJ). O encontro reuniu gestores públicos de diversas regiões do país para compartilhar experiências práticas sobre a utilização dos instrumentos previstos no Marco Legal das Startups (Lei Complementar nº 182/2021).",
-            "Representando Pato Branco, o diretor do Parque Tecnológico de Pato Branco, Douglas Henrique Batista, apresentou a trajetória do município na implementação do Contrato Público para Solução Inovadora (CPSI), destacando os desafios enfrentados, os aprendizados obtidos e os resultados alcançados com o projeto de cercamento digital inteligente e videomonitoramento apoiado por inteligência artificial.",
-            "Durante a apresentação, Douglas ressaltou que Pato Branco foi uma das primeiras cidades do Paraná a utilizar o instrumento do CPSI, reforçando que a contratação pública para inovação exige uma mudança de paradigma. \"O CPSI não começa definindo a tecnologia que será comprada. Ele começa definindo claramente o problema público que precisa ser resolvido\", destacou.",
-            "Entre os principais aprendizados compartilhados estiveram a importância do planejamento prévio, da construção coletiva envolvendo diferentes secretarias municipais, da participação ativa da Procuradoria Jurídica durante todas as etapas do processo e da documentação detalhada das decisões tomadas ao longo da execução.",
-            "Outro ponto enfatizado foi a integração promovida entre a Prefeitura e as forças de segurança pública. A solução implantada permitiu ampliar a capacidade de monitoramento inteligente do município, fortalecendo a atuação preventiva da Polícia Militar, Polícia Civil, Polícia Rodoviária Federal e demais órgãos parceiros, além de gerar informações estratégicas para a gestão pública.",
-            "Ao apresentar os resultados do projeto, Douglas destacou que o CPSI proporcionou não apenas avanços tecnológicos, mas também um importante processo de aprendizado institucional. \"Foi uma curva de aprendizado para todos os envolvidos: secretaria, jurídico, procuradoria, comissão, empresa e gestão municipal. Hoje temos muito mais segurança para desenvolver novas compras públicas de inovação\", afirmou.",
-            "A participação de Pato Branco recebeu reconhecimento dos organizadores e dos demais participantes do evento. A diretora da Aceleradora da RIL Brasil, Camila, destacou a importância de apresentar experiências de cidades médias e pequenas que vêm utilizando instrumentos inovadores de contratação pública. Já representantes de outros municípios elogiaram a iniciativa e ressaltaram o valor de compartilhar experiências práticas entre gestores públicos.",
-            "A participação no webinar reforça o posicionamento de Pato Branco como referência nacional em inovação no setor público, compartilhando boas práticas e contribuindo para que outros municípios possam utilizar a contratação pública como instrumento para resolver desafios complexos e acelerar a transformação digital da administração pública."
-        ],
-        "images": [
-            "",
-            "",
-            ""
-        ],
-        "gallery": [
-            "",
-            ""
-        ]
-    },
-    {
-        "id": "mapeamento-inovacao-2026",
-        "image": "",
-        "title": "SMCTI realiza levantamento de desafios e oportunidades de inovação",
-        "description": "A Secretaria Municipal de Ciência, Tecnologia e Inovação iniciou um levantamento junto aos setores da Administração Municipal para identificar desafios e oportunidades de inovação que subsidiem o planejamento de projetos e ações estratégicas.",
-        "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
-        "datePosted": "14 de Julho de 2026",
-        "content": [
-            "A Secretaria Municipal de Ciência, Tecnologia e Inovação (SMCTI) iniciou um levantamento interno de desafios e oportunidades de inovação junto às secretarias, departamentos e unidades da Administração Municipal. A ação faz parte das iniciativas de Cidade Inteligente (Smart City) desenvolvidas pelo Município, que incluem a participação em rankings e programas nacionais, a estruturação de projetos-piloto e a articulação com empresas, startups e instituições de ensino e pesquisa.",
-            "O objetivo do levantamento é identificar problemas, gargalos e necessidades dos diferentes setores da Prefeitura que possam ser aprimorados por meio de tecnologia, integração de dados, revisão de processos, parcerias ou desenvolvimento de novas soluções. As informações coletadas servirão de base para o planejamento de projetos, prospecção de soluções e captação de recursos.",
-            "A Secretaria Municipal de Ciência, Tecnologia e Inovação destaca que não é necessário indicar uma solução tecnológica para o problema apresentado. O foco do levantamento é compreender os desafios enfrentados pelos setores e os resultados que se pretende alcançar, contribuindo para a identificação de oportunidades de inovação no âmbito da Administração Municipal."
-        ],
-        "images": [
-            "",
-            "/assets/images/news/cidade_tecnologica.jpeg",
-            ""
         ],
         "gallery": [
             "",
