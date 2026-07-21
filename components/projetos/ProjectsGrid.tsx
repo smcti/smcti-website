@@ -7,6 +7,7 @@ import {
   Radio, Camera, Bot, Globe, HeartHandshake, X, ExternalLink,
   Download, UserCheck, ChevronRight, SlidersHorizontal,
   type LucideIcon,
+  BrainCircuitIcon,
 } from 'lucide-react'
 import Reveal from '@components/common/reveal'
 
@@ -156,6 +157,19 @@ const PROJECTS: Project[] = [
     icon: Camera,
     tags: [{ label: 'Segurança', color: 'rose' }, { label: 'Monitoramento', color: 'rose' }, { label: '5G', color: 'rose' }],
     link: 'https://patobranco.tec.br/pato360',
+  },
+  {
+  id: 'pato-ia',
+  title: 'Pato IA',
+  shortDesc: 'Programa municipal que reúne iniciativas de Inteligência Artificial voltadas ao desenvolvimento de soluções inovadoras para o município.',
+  objetivos: 'Promover o uso ético, seguro e estratégico da Inteligência Artificial na administração pública, ampliando a eficiência dos serviços municipais, capacitando servidores e desenvolvendo soluções inovadoras em benefício da população.',
+  beneficios: 'Centraliza as iniciativas de IA do município, fortalece a governança tecnológica, capacita servidores, desenvolve agentes inteligentes para diferentes áreas da administração pública, incentiva a inovação e amplia a transparência e a qualidade dos serviços prestados ao cidadão.',
+  publico: 'Servidores públicos, empresas, instituições parceiras, empreendedores e toda a população de Pato Branco.',
+  category: 'Tecnologia',
+  icon: BrainCircuitIcon,
+  tags: [ { label: 'IA', color: 'blue' }, { label: 'Inovação', color: 'blue' }, { label: 'Automação', color: 'blue' }, { label: 'Capacitação', color: 'blue' }
+  ],
+  link: 'https://patobranco.tec.br/pato-ia',
   },
   {
     id: 'cidade-inteligente',
