@@ -564,7 +564,7 @@ export const moreAbout = [
           <u> Pré-requisitos:</u> Idade mínima de 16 anos, 5º ano do Ensino
           Fundamental
           <br />
-          <u>Disponibilização do curso:</u> Online. 
+          <u>Disponibilização do curso:</u> Online.
           <br />
         </p>
       </>
@@ -773,39 +773,39 @@ export const moreAbout = [
       </>
     ),
     description: (
-    <>
-      <p>
-        <u>Público-alvo:</u> Jovens a partir de 14 anos interessados em
-        informática <br />
-        <u>Carga horária:</u> 40 horas
-        <br />
-        <u>Pré-requisitos:</u> 5º ano do Ensino Fundamental
-        <br />
-        <u>Vagas:</u> 20 participantes
-        <br />
-        <u>Datas:</u> Início em 02/06
-        <br />
-        <br />
-        <u>Conteúdo:</u>
-      </p>
+      <>
+        <p>
+          <u>Público-alvo:</u> Jovens a partir de 14 anos interessados em
+          informática <br />
+          <u>Carga horária:</u> 40 horas
+          <br />
+          <u>Pré-requisitos:</u> 5º ano do Ensino Fundamental
+          <br />
+          <u>Vagas:</u> 20 participantes
+          <br />
+          <u>Datas:</u> Início em 02/06
+          <br />
+          <br />
+          <u>Conteúdo:</u>
+        </p>
 
-      <ul className="list-disc list-inside px-4">
-        <li>Fundamentos de informática (hardware e software)</li>
-        <li>Windows: uso básico e configurações</li>
-        <li>Word: criação e formatação de documentos</li>
-        <li>Excel: planilhas, fórmulas e gráficos</li>
-        <li>Internet: navegação, busca e e-mail</li>
-      </ul>
+        <ul className="list-disc list-inside px-4">
+          <li>Fundamentos de informática (hardware e software)</li>
+          <li>Windows: uso básico e configurações</li>
+          <li>Word: criação e formatação de documentos</li>
+          <li>Excel: planilhas, fórmulas e gráficos</li>
+          <li>Internet: navegação, busca e e-mail</li>
+        </ul>
 
-      <u>Critérios de seleção:</u>
-      <ol>
-        <li>1. Escolas públicas municipais e estaduais;</li>
-        <li>2. Escolas públicas da região;</li>
-        <li>3. Escolas particulares;</li>
-        <li>4. Público em geral.</li>
-      </ol>
-    </>
-  ),
+        <u>Critérios de seleção:</u>
+        <ol>
+          <li>1. Escolas públicas municipais e estaduais;</li>
+          <li>2. Escolas públicas da região;</li>
+          <li>3. Escolas particulares;</li>
+          <li>4. Público em geral.</li>
+        </ol>
+      </>
+    ),
   },
   {
     id: "20",
@@ -836,7 +836,11 @@ export const moreAbout = [
           <br />
           <u>Parceiros:</u> SMCTI e SENAC
           <br />
-          <u>Período:</u> 07/07/2026 a 04/08/2026
+          <u>Período:</u> 22/09/2026 a 29/10/2026, às terças e quintas-feiras, das 19h00 às 22h00
+          <br />
+          <u>Local do curso:</u> Parque Tecnológico de Pato Branco
+          <br />
+          R. Lídio Oltramari, 1628 - Fraron, Pato Branco - PR, 85503-381
           <br />
           <u>Conteúdo:</u>
         </p>
@@ -857,7 +861,7 @@ export const moreAbout = [
     benefits: (
       <>
         Auxiliar de informática:
-Ao concluir o curso, o aluno estará preparado para utilizar o computador com autonomia no dia a dia pessoal e profissional, aumentando suas oportunidades no mercado de trabalho. Além das competências técnicas, o curso contribui para o desenvolvimento de habilidades comportamentais importantes, como organização, comunicação e responsabilidade. Essa combinação torna o participante mais confiante, produtivo e apto a atuar em diferentes ambientes profissionais que exigem conhecimentos básicos de informática.
+        Ao concluir o curso, o aluno estará preparado para utilizar o computador com autonomia no dia a dia pessoal e profissional, aumentando suas oportunidades no mercado de trabalho. Além das competências técnicas, o curso contribui para o desenvolvimento de habilidades comportamentais importantes, como organização, comunicação e responsabilidade. Essa combinação torna o participante mais confiante, produtivo e apto a atuar em diferentes ambientes profissionais que exigem conhecimentos básicos de informática.
         <br />
         <ul>
           <li>✓Unidade curricular: Formação Profissional</li>
@@ -1013,5 +1017,52 @@ Ao concluir o curso, o aluno estará preparado para utilizar o computador com au
         </ul>
       </>
     ),
-  }
+  },
+  {
+    id: "28",
+    title: "IA para Negócios",
+    benefits: (
+      <>
+        Aprenda usar inteligência artificial pra otimizar processos, tomar
+        decisão e ganhar produtividade no dia a dia empresarial, com formação
+        prática voltada pra quem quer aplicar IA nos negócios.
+        <br />
+        <ul>
+          <li>Compreende fundamentos de inteligência artificial aplicada a negócios ✓</li>
+          <li>Aprende a usar ferramentas de IA no dia a dia ✓</li>
+          <li>Pratica tomada de decisão apoiada por IA ✓</li>
+          <li>Prepara-se pra ganhar produtividade usando tecnologia ✓</li>
+        </ul>
+      </>
+    ),
+    description: (
+      <>
+        <p>
+          <u>Público-alvo:</u> Pessoas interessadas em aplicar inteligência artificial nos negócios <br />
+          <u>Parceiros:</u> SMCTI e SENAC
+          <br />
+          <u>Carga Horária:</u> 15 horas
+          <br />
+          <u>Pré-requisitos:</u> Ser maior de 16 anos e ter concluído o 5º ano do Ensino Fundamental
+          <br />
+          <u>Período:</u> 15/08/2026 a 19/09/2026, aos sábados, das 09h00 às 12h00
+          <br />
+          <u>Local do curso:</u> Parque Tecnológico de Pato Branco
+          <br />
+          R. Lídio Oltramari, 1628 - Fraron, Pato Branco - PR, 85503-381
+          <br />
+          <u>Conteúdo:</u>
+        </p>
+
+        <ul className="list-disc list-inside px-4">
+          <li>Inteligência Artificial: Introdução e conceitos.</li>
+          <li>Tipos de ferramentas de Inteligência Artificial.</li>
+          <li>Machine Learning: Aprendizado de máquina.</li>
+          <li>Deep Learning: Aprendizado profundo.</li>
+          <li>Aplicações da IA em negócios: Marketing e Vendas, Operações Financeiras, Atendimento ao Cliente, Direito Empresarial e Recursos Humanos.</li>
+          <li>Ferramentas de IA para empresas: ChatGPT, Midjourney, Gemini, Jasper, Murf, DALL-E 2, copilot.</li>
+        </ul>
+      </>
+    ),
+  },
 ];
