@@ -5,6 +5,7 @@ import {
   ArrowRight,
   Bell,
   BookOpenCheck,
+  Building2Icon,
   CalendarDays,
   CheckCircle2,
   Code2,
@@ -270,6 +271,7 @@ const featuredCourses = [
     description:
       "Aprenda a estruturar páginas com HTML, criar estilos com CSS e entender como sites modernos ganham forma. Indicado para quem quer dar os primeiros passos no desenvolvimento front-end.",
     partners: "SMCTI e SENAC",
+    location: "Parque Tecnológico de Pato Branco",
     link: "https://www.pr.senac.br/cursos/?uep=9&tc=202600084",
     date: "22/09/2026 a 29/10/2026",
     enrollmentDate: "Matrículas abertas",
@@ -277,6 +279,23 @@ const featuredCourses = [
     category: "Desenvolvimento Web" as CourseCategory,
     modality: "Presencial" as CourseModality,
     highlight: "Criação de websites",
+    passphrase: "",
+  },
+  {
+    id: "28",
+    image: "/assets/images/cursos/banner_ia_negocios.png",
+    title: "IA PARA NEGÓCIOS",
+    description:
+      "Aprenda usar inteligência artificial pra otimizar processos, tomar decisão e ganhar produtividade nos negócios. Curso prático, foco em ferramentas de IA aplicadas ao dia a dia empresarial.",
+    partners: "SMCTI e SENAC",
+    location: "Parque Tecnológico de Pato Branco",
+    link: "https://www.pr.senac.br/cursos/?uep=9&tc=202600124",
+    date: "15/08/2026 a 19/09/2026",
+    enrollmentDate: "Matrículas abertas",
+    startDate: "15/08/2026",
+    category: "Tecnologia e Inovação" as CourseCategory,
+    modality: "Presencial" as CourseModality,
+    highlight: "Inteligência Artificial",
     passphrase: "",
   },
 ];
@@ -305,7 +324,11 @@ const getSaoPauloTodayValue = () => {
   return year && month && day ? Number(`${year}${month}${day}`) : 0;
 };
 
-const parseBrazilianDateValue = (date: string) => {
+const parseBrazilianDateValue = (date?: string) => {
+  if (!date) {
+    return null;
+  }
+
   const match = date.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
 
   if (!match) {
@@ -431,31 +454,31 @@ const socialLinks: {
   icon: IconType;
   hoverStyles: string;
 }[] = [
-  {
-    name: "Instagram",
-    href: "https://www.instagram.com/parquetecpatobranco/",
-    icon: FaInstagram,
-    hoverStyles: "hover:border-[#C13584] hover:bg-[radial-gradient(circle_at_30%_110%,#FEDA75_0%,#FA7E1E_25%,#D62976_50%,#962FBF_75%,#4F5BD5_100%)] hover:text-white",
-  },
-  {
-    name: "Facebook",
-    href: "https://www.facebook.com/smctipb/",
-    icon: FaFacebookF,
-    hoverStyles: "hover:border-[#1877F2] hover:bg-[#1877F2] hover:text-white",
-  },
-  {
-    name: "YouTube",
-    href: "https://www.youtube.com/@parquetecpatobranco",
-    icon: FaYoutube,
-    hoverStyles: "hover:border-[#FF0000] hover:bg-[#FF0000] hover:text-white",
-  },
-  {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/company/smcti-pb/",
-    icon: FaLinkedinIn,
-    hoverStyles: "hover:border-[#0A66C2] hover:bg-[#0A66C2] hover:text-white",
-  },
-];
+    {
+      name: "Instagram",
+      href: "https://www.instagram.com/parquetecpatobranco/",
+      icon: FaInstagram,
+      hoverStyles: "hover:border-[#C13584] hover:bg-[radial-gradient(circle_at_30%_110%,#FEDA75_0%,#FA7E1E_25%,#D62976_50%,#962FBF_75%,#4F5BD5_100%)] hover:text-white",
+    },
+    {
+      name: "Facebook",
+      href: "https://www.facebook.com/smctipb/",
+      icon: FaFacebookF,
+      hoverStyles: "hover:border-[#1877F2] hover:bg-[#1877F2] hover:text-white",
+    },
+    {
+      name: "YouTube",
+      href: "https://www.youtube.com/@parquetecpatobranco",
+      icon: FaYoutube,
+      hoverStyles: "hover:border-[#FF0000] hover:bg-[#FF0000] hover:text-white",
+    },
+    {
+      name: "LinkedIn",
+      href: "https://www.linkedin.com/company/smcti-pb/",
+      icon: FaLinkedinIn,
+      hoverStyles: "hover:border-[#0A66C2] hover:bg-[#0A66C2] hover:text-white",
+    },
+  ];
 
 const EmptyState = ({ children }: { children: React.ReactNode }) => (
   <div className="rounded-lg border border-dashed border-slate-300 bg-white p-6 text-sm text-slate-600">
@@ -497,22 +520,22 @@ const FeaturedCourseCard = ({ course }: { course: FeaturedCourse }) => {
         <p className="mt-3 flex-1 text-sm leading-6 text-slate-600">{course.description}</p>
 
         <div className="mt-5 grid gap-3 text-sm sm:grid-cols-2">
-  <div className="rounded-lg border border-slate-200 bg-slate-50 p-3">
-    <span className="flex items-center gap-2 font-bold text-slate-900">
-      <CalendarDays className="h-4 w-4 text-cello-700" />
-      Matrículas
-    </span>
-    <p className="mt-1 text-slate-600">{course.enrollmentDate}</p>
-  </div>
+          <div className="rounded-lg border border-slate-200 bg-slate-50 p-3">
+            <span className="flex items-center gap-2 font-bold text-slate-900">
+              <CalendarDays className="h-4 w-4 text-cello-700" />
+              Matrículas
+            </span>
+            <p className="mt-1 text-slate-600">{course.enrollmentDate}</p>
+          </div>
 
-  <div className="rounded-lg border border-slate-200 bg-slate-50 p-3">
-    <span className="flex items-center gap-2 font-bold text-slate-900">
-      <CalendarDays className="h-4 w-4 text-cello-700" />
-      Início do curso
-    </span>
-    <p className="mt-1 text-slate-600">{course.startDate}</p>
-  </div>
-</div>
+          <div className="rounded-lg border border-slate-200 bg-slate-50 p-3">
+            <span className="flex items-center gap-2 font-bold text-slate-900">
+              <CalendarDays className="h-4 w-4 text-cello-700" />
+              Início do curso
+            </span>
+            <p className="mt-1 text-slate-600">{course.startDate}</p>
+          </div>
+        </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
           <span className="inline-flex items-center gap-2 rounded-lg bg-cyan-50 px-3 py-2 text-xs font-bold text-cello-800">
@@ -523,6 +546,12 @@ const FeaturedCourseCard = ({ course }: { course: FeaturedCourse }) => {
             <UsersRound className="h-4 w-4" />
             Parceiros: {course.partners}
           </span>
+          {course.location && (
+            <span className="inline-flex items-center gap-2 rounded-lg bg-yellow-100 px-3 py-2 text-xs font-bold text-slate-700">
+              <Building2Icon className="h-4 w-4" />
+              Local: {course.location}
+            </span>
+          )}
           <span className="inline-flex items-center gap-2 rounded-lg bg-emerald-50 px-3 py-2 text-xs font-bold text-emerald-800">
             <ModalityIcon className="h-4 w-4" />
             Modalidade: {course.modality}
@@ -596,6 +625,21 @@ const Page = () => {
     [startedFeaturedCourses]
   );
 
+  const sortCoursesByModality = <T extends { modality: CourseModality }>(
+    courses: T[],
+    getStartDate: (course: T) => number = () => 0
+  ) =>
+    [...courses].sort((currentCourse, nextCourse) => {
+      const modalityDiff =
+        getModalityPriority(currentCourse.modality) - getModalityPriority(nextCourse.modality);
+
+      if (modalityDiff !== 0) {
+        return modalityDiff;
+      }
+
+      return getStartDate(currentCourse) - getStartDate(nextCourse);
+    });
+
   const unavailableCourses = useMemo(
     () =>
       (courseClosed as CourseBase[]).map((course) => ({
@@ -615,13 +659,20 @@ const Page = () => {
   const visibleFeatured = sortCoursesByModality(
     availableFeaturedCourses.filter(
       (course) => matchesCategory(course.category) && matchesModality(course.modality)
-    )
+    ),
+    (course) => parseBrazilianDateValue(course.startDate) ?? 0
   );
+
   const visibleOngoing = sortCoursesByModality(
     ongoingCourses.filter(
       (course) => matchesCategory(course.category) && matchesModality(course.modality)
-    )
+    ),
+    (course) => {
+      const raw = (course as unknown as { startDate?: string | number }).startDate;
+      return typeof raw === "number" ? raw : parseBrazilianDateValue(String(raw ?? "")) ?? 0;
+    }
   );
+
   const visibleUnavailable = sortCoursesByModality(
     unavailableCourses.filter(
       (course) => matchesCategory(course.category) && matchesModality(course.modality)
@@ -726,7 +777,7 @@ const Page = () => {
                 <BookOpenCheck className="h-4 w-4" />
                 Ver cursos disponíveis
               </a>
-              
+
             </div>
           </div>
         </div>
@@ -756,11 +807,10 @@ const Page = () => {
                   role="tab"
                   aria-selected={isActive}
                   onClick={() => setActiveCategory(category)}
-                  className={`inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border px-4 py-2 text-center text-sm font-bold transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 ${
-                    isActive
-                      ? "border-cello-800 bg-cello-800 text-white shadow-sm"
-                      : "border-slate-200 bg-white text-slate-700 hover:-translate-y-0.5 hover:border-cello-300 hover:text-cello-800"
-                  }`}
+                  className={`inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border px-4 py-2 text-center text-sm font-bold transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 ${isActive
+                    ? "border-cello-800 bg-cello-800 text-white shadow-sm"
+                    : "border-slate-200 bg-white text-slate-700 hover:-translate-y-0.5 hover:border-cello-300 hover:text-cello-800"
+                    }`}
                 >
                   <Icon className="h-4 w-4" />
                   {category}
@@ -784,11 +834,10 @@ const Page = () => {
                     type="button"
                     aria-pressed={isActive}
                     onClick={() => setActiveModality(modality)}
-                    className={`inline-flex items-center gap-2 rounded-lg border px-4 py-2 text-sm font-bold transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 ${
-                      isActive
-                        ? "border-cyan-300 bg-cyan-300 text-cello-950 shadow-sm"
-                        : "border-slate-200 bg-white text-slate-700 hover:-translate-y-0.5 hover:border-cello-300 hover:text-cello-800"
-                    }`}
+                    className={`inline-flex items-center gap-2 rounded-lg border px-4 py-2 text-sm font-bold transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 ${isActive
+                      ? "border-cyan-300 bg-cyan-300 text-cello-950 shadow-sm"
+                      : "border-slate-200 bg-white text-slate-700 hover:-translate-y-0.5 hover:border-cello-300 hover:text-cello-800"
+                      }`}
                   >
                     <Icon className="h-4 w-4" />
                     {modality}
