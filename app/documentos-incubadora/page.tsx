@@ -84,7 +84,7 @@ const AnexosList: ListDoc[] = [
   { name: "Anexo VI - Termo de Adesão Simplificado - Residentes.docx", path: "/assets/docs/Anexo VI - Termo de Adesão Simplificado - Residentes.docx", size: "130 KB" },
   { name: "Anexo VII - Termo de adesão simplificado - não residentes.docx", path: "/assets/docs/Anexo VII - Termo de adesão simplificado - não residentes.docx", size: "130 KB" },
   { name: "Anexo VIII - Termo de Responsabilidade pelo uso de bem público.docx", path: "/assets/docs/Anexo VIII - Termo de Responsbailidade pelo uso de bem público.docx", size: "120 KB" },
-  { name: "Anexo IX - Termo de Parceria - Ceni Advogados.pdf", path: "/assets/docs/Anexo IX - Termo de Parceria - Ceni Advogados.pdf", size: "324 KB" }
+  { name: "Anexo IX - Convocação dos aprovados.pdf", path: "/assets/docs/Anexo IX - Convocação dos aprovados.pdf", size: "187 KB" }
 ];
 
 // --- COMPONENTE DOS CARDS ---
