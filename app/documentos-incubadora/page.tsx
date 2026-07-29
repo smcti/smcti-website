@@ -71,6 +71,11 @@ const EditaisList: ListDoc[] = [
     name: "2026-07-06 - Ata de Ratificação do Resultado Final assinada.pdf",
     path: "/assets/docs/2026-07-06 - Ata de Ratificação do Resultado Final assinada.pdf",
     size: "192 KB"
+  },
+  {
+    name: "2026-07-29 - Convocação dos aprovados.pdf",
+    path: "/assets/docs/2026-07-29 - Convocação dos aprovados.pdf",
+    size: "187 KB"
   }
 ];
 
@@ -84,7 +89,6 @@ const AnexosList: ListDoc[] = [
   { name: "Anexo VI - Termo de Adesão Simplificado - Residentes.docx", path: "/assets/docs/Anexo VI - Termo de Adesão Simplificado - Residentes.docx", size: "130 KB" },
   { name: "Anexo VII - Termo de adesão simplificado - não residentes.docx", path: "/assets/docs/Anexo VII - Termo de adesão simplificado - não residentes.docx", size: "130 KB" },
   { name: "Anexo VIII - Termo de Responsabilidade pelo uso de bem público.docx", path: "/assets/docs/Anexo VIII - Termo de Responsbailidade pelo uso de bem público.docx", size: "120 KB" },
-  { name: "Anexo IX - Convocação dos aprovados.pdf", path: "/assets/docs/Anexo IX - Convocação dos aprovados.pdf", size: "187 KB" }
 ];
 
 // --- COMPONENTE DOS CARDS ---
