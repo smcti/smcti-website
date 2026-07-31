@@ -7,7 +7,8 @@
     "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
     "datePosted": "31/07/2026",
     "isNotOpen": false,
-    "link": "/noticias/itecpb-credenciamento-cati-2026"
+    "link": "/noticias/itecpb-credenciamento-cati-2026",
+    "category": "Legislação"
   },
   {
     "id": "visita-tyler-group-2026",
@@ -17,7 +18,8 @@
     "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
     "datePosted": "31/07/2026",
     "isNotOpen": false,
-    "link": "/noticias/visita-tyler-group-2026"
+    "link": "/noticias/visita-tyler-group-2026",
+    "category": "Visita"
   },
   {
     "id": "incubacao-graduacao-itecpb-2026",
@@ -27,7 +29,8 @@
     "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
     "datePosted": "31/07/2026",
     "isNotOpen": false,
-    "link": "/noticias/incubacao-graduacao-itecpb-2026"
+    "link": "/noticias/incubacao-graduacao-itecpb-2026",
+    "category": "Inovação"
   },
   {
     "id": "imersao-comunicacao-pitch-itecpb-2026",
@@ -37,7 +40,8 @@
     "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
     "datePosted": "20/07/2026",
     "isNotOpen": false,
-    "link": "/noticias/imersao-comunicacao-pitch-itecpb-2026"
+    "link": "/noticias/imersao-comunicacao-pitch-itecpb-2026",
+    "category": "Evento"
   },
   {
     "id": "lancamento-e-dialoga-360-2026",
@@ -47,7 +51,8 @@
     "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
     "datePosted": "20/07/2026",
     "isNotOpen": false,
-    "link": "/noticias/lancamento-e-dialoga-360-2026"
+    "link": "/noticias/lancamento-e-dialoga-360-2026",
+    "category": "Inovação"
   },
   {
     "id": "webinar-cpsi-ril-2026",
@@ -57,7 +62,8 @@
     "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
     "datePosted": "16/07/2026",
     "isNotOpen": false,
-    "link": "/noticias/webinar-cpsi-ril-2026"
+    "link": "/noticias/webinar-cpsi-ril-2026",
+    "category": "Evento"
   },
   {
     "id": "mapeamento-inovacao-2026",
@@ -67,7 +73,8 @@
     "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
     "datePosted": "14/07/2026",
     "isNotOpen": false,
-    "link": "/noticias/mapeamento-inovacao-2026"
+    "link": "/noticias/mapeamento-inovacao-2026",
+    "category": "Inovação"
   },
   {
     "id": "sebrae-parceria-2026",
@@ -77,7 +84,8 @@
     "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
     "datePosted": "08/07/2026",
     "isNotOpen": false,
-    "link": "/noticias/sebrae-parceria-2026"
+    "link": "/noticias/sebrae-parceria-2026",
+    "category": "Visita"
   },
   {
     "id": "obr-2026",
@@ -87,7 +95,8 @@
     "partner": "Secretaria Municipal de Educação",
     "datePosted": "06/07/2026",
     "isNotOpen": false,
-    "link": "/noticias/obr-2026"
+    "link": "/noticias/obr-2026",
+    "category": "Evento"
   },
   {
     "id": "aurhi-plataforma-vagas-2026",
@@ -97,7 +106,8 @@
     "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
     "datePosted": "04/07/2026",
     "isNotOpen": false,
-    "link": "/noticias/aurhi-plataforma-vagas-2026"
+    "link": "/noticias/aurhi-plataforma-vagas-2026",
+    "category": "Inovação"
   },
   {
     "id": "visita-sesi-ampere-2026",
@@ -107,7 +117,8 @@
     "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
     "datePosted": "04/07/2026",
     "isNotOpen": false,
-    "link": "/noticias/visita-sesi-ampere-2026"
+    "link": "/noticias/visita-sesi-ampere-2026",
+    "category": "Visita"
   },
   {
     "id": "encerramento-patotech-senac-2026",
@@ -117,6 +128,7 @@
     "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
     "datePosted": "03/07/2026",
     "isNotOpen": false,
-    "link": "/noticias/encerramento-patotech-senac-2026"
+    "link": "/noticias/encerramento-patotech-senac-2026",
+    "category": "Evento"
   }
 ]
