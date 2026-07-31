@@ -298,6 +298,23 @@ const featuredCourses = [
     highlight: "Inteligência Artificial",
     passphrase: "",
   },
+  {
+    id: "29",
+    image: "/assets/images/cursos/banner_lego_robotica.jpeg",
+    title: "Workshop de robótica",
+    description:
+      "Aprenda robótica de forma prática e divertida em uma atividade para pais e filhos utilizando o LEGO EV3. Desenvolva o raciocínio lógico, a criatividade e o trabalho em equipe por meio da montagem e programação de robôs.",
+    partners: "SMCTI",
+    location: "Parque Tecnológico de Pato Branco",
+    link: "https://docs.google.com/forms/d/1Bvbz85jSlitrdiC-xU570vxYxvG4YgFVVrJ0kjslS0M/edit",
+    date: "14:00 às 17:00",
+    enrollmentDate: "Matrículas abertas",
+    startDate: "07/08/2026",
+    category: "Robótica" as CourseCategory,
+    modality: "Presencial" as CourseModality,
+    highlight: "Robótica",
+    passphrase: "",
+  },
 ];
 
 type FeaturedCourse = (typeof featuredCourses)[number];

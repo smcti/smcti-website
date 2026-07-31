@@ -1065,4 +1065,58 @@ export const moreAbout = [
       </>
     ),
   },
+  {
+  id: "29",
+  title: "Workshop de Robótica",
+  benefits: (
+    <>
+      Aprenda robótica de forma prática e divertida em uma atividade para
+      pais e filhos utilizando o LEGO EV3. Desenvolva o raciocínio lógico,
+      a criatividade e o trabalho em equipe por meio da montagem e
+      programação de robôs.
+
+      <br />
+      <br />
+
+      ✓ Conhece os conceitos básicos da robótica educacional<br />
+      ✓ Monta e programa robôs utilizando o LEGO EV3<br />
+      ✓ Desenvolve lógica, criatividade e resolução de problemas<br />
+      ✓ Fortalece a colaboração entre pais e filhos em atividades práticas
+    </>
+  ),
+  description: (
+    <>
+      <strong>Público-alvo:</strong> Pais, responsáveis e crianças interessados em aprender robótica de forma prática
+      <br />
+      <strong>Parceiros:</strong> SMCTI
+      <br />
+      <br />
+
+      <strong>Data:</strong> 07/08/2026 as 14:00
+      <br />
+      <strong>Inscrições:</strong> 07/08/2026 as 12:00
+      <br />
+      <strong>Modalidade:</strong> Presencial
+      <br />
+      <strong>Local:</strong> Parque Tecnológico de Pato Branco
+      <br />
+      R. Lídio Oltramari, 1628 - Fraron, Pato Branco - PR, 85503-381
+
+      <br />
+      <br />
+
+      <strong>Conteúdo:</strong>
+
+      <ul className="list-disc list-inside px-4">
+        <li>Introdução à robótica educacional.</li>
+        <li>Conhecendo os componentes do LEGO Mindstorms EV3.</li>
+        <li>Montagem de um robô utilizando o kit LEGO EV3.</li>
+        <li>Noções básicas de programação por blocos.</li>
+        <li>Sensores e atuadores: funcionamento e aplicações.</li>
+        <li>Desafios práticos de movimentação e automação.</li>
+        <li>Trabalho em equipe entre pais e filhos para resolução de desafios.</li>
+      </ul>
+    </>
+  ),
+},
 ];
