@@ -23,11 +23,13 @@ const NewsCard = (props: newCardProps) => {
 
     return (
         <div className="m-2 flex h-full flex-col rounded-xl bg-white p-4 shadow-lg shadow-gray-500/50">
-            <div className="aspect-video w-full overflow-hidden rounded-xl">
+            <div className={`aspect-video w-full overflow-hidden rounded-xl ${ !props.isNotOpen ? "cursor-pointer" : ""}`}
+                onClick={!props.isNotOpen ? handleClick : undefined}
+>
                 <img
                     src={props.image}
                     alt={props.title}
-                    className="h-full w-full object-cover object-center"
+                    className="h-full w-full object-cover object-center transition-transform duration-300 hover:scale-105"
                 />
             </div>
 

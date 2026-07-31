@@ -1,5 +1,35 @@
 [
   {
+    "id": "itecpb-credenciamento-cati-2026",
+    "image": "/assets/images/news/CATI_credenciado_2026.png",
+    "title": "ITECPB é credenciada pelo CATI para atividades de pesquisa e desenvolvimento",
+    "description": "A Incubadora Tecnológica de Pato Branco (ITECPB) foi credenciada pelo Comitê da Área de Tecnologia da Informação (CATI), por meio da Resolução CATI nº 46/2026, habilitando a instituição a executar atividades de pesquisa e desenvolvimento no setor de tecnologia da informação.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "31/07/2026",
+    "isNotOpen": false,
+    "link": "/noticias/itecpb-credenciamento-cati-2026"
+  },
+  {
+    "id": "visita-tyler-group-2026",
+    "image": "/assets/images/news/visita_tyler_group_2026.jpeg",
+    "title": "Parque Tecnológico recebe visita da equipe do Tyler Group",
+    "description": "O Parque Tecnológico de Pato Branco recebeu a equipe do Tyler Group para apresentar sua estrutura, projetos e o funcionamento do ecossistema local de inovação, fortalecendo a aproximação com o setor produtivo.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "31/07/2026",
+    "isNotOpen": false,
+    "link": "/noticias/visita-tyler-group-2026"
+  },
+  {
+    "id": "incubacao-graduacao-itecpb-2026",
+    "image": "/assets/images/news/graduacao_final_2026.jpg",
+    "title": "ITECPB celebra incubação de três novas empresas e graduação de empreendimento",
+    "description": "A Incubadora Tecnológica de Pato Branco (ITECPB) recebeu três novas empresas em seu ecossistema de inovação e celebrou a graduação de uma empresa que concluiu seu ciclo de incubação.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "31/07/2026",
+    "isNotOpen": false,
+    "link": "/noticias/incubacao-graduacao-itecpb-2026"
+  },
+  {
     "id": "imersao-comunicacao-pitch-itecpb-2026",
     "image": "/assets/images/news/Sebrae2.jpeg",
     "title": "Startups da ITECPB participam de imersão sobre comunicação, oratória e pitch de alto impacto",
