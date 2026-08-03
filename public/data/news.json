@@ -1,5 +1,16 @@
 [
   {
+  "id": "workshop-robotica-lego-ev3-2026",
+  "image": "/assets/images/news/workshop_robotica.png",
+  "title": "Inscrições abertas para o Workshop de Robótica com LEGO EV3 para pais e filhos",
+  "description": "O Parque Tecnológico de Pato Branco recebe o Workshop de Robótica em família. Uma atividade prática e divertida com LEGO EV3 para desenvolver o raciocínio lógico e o trabalho em equipe.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "03/08/2026",
+  "isNotOpen": false,
+  "link": "/noticias/workshop-robotica-lego-ev3-2026",
+  "category": "Capacitação"
+  },
+  {
     "id": "itecpb-credenciamento-cati-2026",
     "image": "/assets/images/news/CATI_credenciado_2026.png",
     "title": "ITECPB é credenciada pelo CATI para atividades de pesquisa e desenvolvimento",
