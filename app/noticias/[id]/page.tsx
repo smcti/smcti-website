@@ -4,7 +4,7 @@ import HeadingText from "@components/common/HeadingText";
 import newsDetails from "@/public/data/newsDetails.json";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { HiOutlineArrowLeft } from "react-icons/hi";
+import { HiOutlineArrowLeft, HiOutlineExternalLink } from "react-icons/hi";
 
 interface PageProps {
   params: {
@@ -65,28 +65,29 @@ const Page = ({ params }: PageProps) => {
           <div key={index}>
             <p>{paragraph}</p>
 
-            {article.images &&
-              article.images[index] && (
-                <img
-                  src={article.images[index]}
-                  alt={`Imagem ${index + 1}`}
-                  className="mt-8 w-full rounded-xl object-cover shadow-md"
-                />
-              )}
+            {article.images && article.images[index] && (
+              <img
+                src={article.images[index]}
+                alt={`Imagem ${index + 1}`}
+                className="mt-8 w-full rounded-xl object-cover shadow-md"
+              />
+            )}
           </div>
         ))}
 
+        {/* Exibição do Link / Botão de Inscrição */}
         {article.link && (
-          <p className="">
+          <div className="mt-6 flex flex-col items-start gap-2">
             <a
               href={article.link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-cello font-bold text-md underline hover:text-blue-700 transition-colors"
+              className="inline-flex items-center gap-2 rounded-lg bg-cello px-6 py-3 font-semibold text-white shadow-md transition-colors hover:bg-blue-800"
             >
               {article.link.text}
+              <HiOutlineExternalLink className="text-xl" />
             </a>
-          </p>
+          </div>
         )}
       </div>
     </div>

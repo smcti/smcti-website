@@ -1,5 +1,33 @@
 [
     {
+    "id": "workshop-robotica-lego-ev3-2026",
+    "image": "/assets/images/news/workshop_robotica.png",
+    "title": "Inscrições abertas para o Workshop de Robótica com LEGO EV3 para pais e filhos",
+    "description": "O Parque Tecnológico de Pato Branco recebe o Workshop de Robótica em família. Uma atividade prática e divertida com LEGO EV3 para desenvolver o raciocínio lógico e o trabalho em equipe.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "03 de Agosto de 2026",
+    "content": [
+        "Estão abertas as inscrições para o Workshop de Robótica voltado para pais e filhos, promovido pela Secretaria Municipal de Ciência, Tecnologia e Inovação (SMCTI). A atividade será realizada no dia 07 de agosto de 2026, das 14:00 às 17:00, no Parque Tecnológico de Pato Branco.",
+        "O encontro propõe uma experiência prática e interativa de aprendizagem por meio do kit LEGO EV3. O objetivo principal é unir a família em torno do aprendizado de tecnologia, estimulando a cooperação e a resolução de problemas de maneira lúdica e acessível.",
+        "Durante o workshop, os participantes terão a oportunidade de projetar, construir e programar robôs reais. A metodologia aplicada desenvolve o raciocínio lógico, a criatividade e a capacidade de trabalho em equipe entre jovens e adultos.",
+        "A iniciativa reforça a missão de Pato Branco em aproximar a comunidade das áreas de Ciência, Tecnologia, Engenharia e Matemática (STEM), incentivando a cultura de inovação desde os primeiros passos no ecossistema tecnológico.",
+        "As vagas são limitadas e as matrículas já estão abertas. Os interessados podem garantir a participação preenchendo o formulário de inscrição disponível online."
+    ],
+    "link": {
+    "text": "Para saber mais acesse",
+    "url": "https://patobranco.tec.br/patotech"
+    },
+    "images": [
+        "",
+        "",
+        ""
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
+    {
         "id": "itecpb-credenciamento-cati-2026",
         "image": "/assets/images/news/CATI_credenciado_2026.png",
         "title": "ITECPB é credenciada pelo CATI para atividades de pesquisa e desenvolvimento",
