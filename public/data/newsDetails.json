@@ -1,5 +1,53 @@
 [
     {
+    "id": "caca-ao-tesouro-dia-dos-pais-smcti-patotech-2026",
+    "image": "/assets/images/news/caca_ao_tesouro.png",
+    "title": "SMCTI e PatoTech lançam Caça ao Tesouro de Dia dos Pais com patinho colecionável",
+    "description": "Prefeitura de Pato Branco, por meio da SMCTI e PatoTech, realiza ação de Dia dos Pais que une tecnologia, pistas e diversão em família para encontrar patinhos colecionáveis pela cidade.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "07 de Agosto de 2026",
+    "content": [
+        "A Secretaria Municipal de Ciência, Tecnologia e Inovação (SMCTI) da Prefeitura de Pato Branco, em parceria com a PatoTech (Escola de Inovação), deu início a uma ação especial em celebração ao Dia dos Pais: a Caça ao Tesouro de Dia dos Pais.",
+        "A iniciativa convida pais e filhos a participarem de uma experiência interativa pela cidade para levarem para casa um patinho colecionável exclusivo, produzido especialmente para homenagear a data e incentivar o convivio familiar.",
+        "Para participar, a população deve acompanhar as pistas divulgadas nas redes sociais oficiais do Parque Tecnológico (@parquetecpatobranco), explorar os pontos indicados do município e encontrar os itens escondidos.",
+        "Quem encontrar o patinho garante o item como brinde e pode registrar o momento em família marcando o perfil oficial do Parque Tecnológico nas redes sociais.",
+        "A ação reforça o compromisso de integrar a tecnologia e a inovação com eventos comunitários, criando memórias marcantes e promovendo a ocupação dos espaços públicos da cidade."
+    ],
+    "images": [
+        "",
+        "",
+        ""
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
+    {
+    "id": "pato-branco-fase-estadual-desafio-liga-jovem-2026",
+    "image": "/assets/images/news/classificado_estadual.png",
+    "title": "Pato Branco avança para a fase estadual do Desafio Liga Jovem",
+    "description": "Estudantes do Colégio Militar de Pato Branco classificaram duas equipes para a etapa estadual do Desafio Liga Jovem com os projetos Foca+ e Biogesso.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "07 de Agosto de 2026",
+    "content": [
+        "O Parque Tecnológico de Pato Branco celebra a classificação do Colégio Militar de Pato Branco para a fase estadual do Desafio Liga Jovem. Estudantes e professores orientadores garantiram vaga com duas equipes destacadas na competição.",
+        "No Ensino Fundamental, a conquista veio com a Equipe Atlas Polaris, que desenvolveu o Projeto Foca+. Já pela categoria Ensino Médio, a Equipe Avalia garantiu sua vaga com a apresentação do Projeto Biogesso.",
+        "O resultado reconhece o protagonismo dos estudantes, a dedicação dos educadores e o impacto transformador de desenvolver soluções inovadoras para os desafios reais da comunidade local.",
+        "As bancas estaduais já têm datas marcadas: a apresentação do Ensino Fundamental acontece no dia 1º de setembro, às 16h; e a do Ensino Médio será realizada no dia 11 de setembro, às 20h.",
+        "A iniciativa reforça a vocação do município em incentivar o empreendedorismo e a inovação tecnológica no ambiente escolar. Pato Branco segue na torcida por novas conquistas nesta etapa."
+    ],
+    "images": [
+        "",
+        "",
+        ""
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
+    {
     "id": "workshop-robotica-lego-ev3-2026",
     "image": "/assets/images/news/workshop_robotica.png",
     "title": "Inscrições abertas para o Workshop de Robótica com LEGO EV3 para pais e filhos",

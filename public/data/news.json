@@ -1,5 +1,27 @@
 [
   {
+  "id": "caca-ao-tesouro-dia-dos-pais-smcti-patotech-2026",
+  "image": "/assets/images/news/caca_ao_tesouro.png",
+  "title": "SMCTI e PatoTech lançam Caça ao Tesouro de Dia dos Pais com patinho colecionável",
+  "description": "Prefeitura de Pato Branco, por meio da SMCTI e PatoTech, realiza ação de Dia dos Pais que une tecnologia, pistas e diversão em família para encontrar patinhos colecionáveis pela cidade.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "06/08/2026",
+  "isNotOpen": false,
+  "link": "/noticias/caca-ao-tesouro-dia-dos-pais-smcti-patotech-2026",
+  "category": "Eventos"
+  },
+  {
+  "id": "pato-branco-fase-estadual-desafio-liga-jovem-2026",
+  "image": "/assets/images/news/classificado_estadual.png",
+  "title": "Pato Branco avança para a fase estadual do Desafio Liga Jovem",
+  "description": "Estudantes do Colégio Militar de Pato Branco classificaram duas equipes para a etapa estadual do Desafio Liga Jovem com os projetos Foca+ e Biogesso.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "06/08/2026",
+  "isNotOpen": false,
+  "link": "/noticias/pato-branco-fase-estadual-desafio-liga-jovem-2026",
+  "category": "Inovação"
+  },
+  {
   "id": "workshop-robotica-lego-ev3-2026",
   "image": "/assets/images/news/workshop_robotica.png",
   "title": "Inscrições abertas para o Workshop de Robótica com LEGO EV3 para pais e filhos",
