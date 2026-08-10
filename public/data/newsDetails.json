@@ -1,5 +1,60 @@
 [
     {
+    "id": "reconhecimento-prefeito-inovador",
+    "image": "/assets/images/news/prefeito_inovador_geral.jpg",
+    "title": "Pato Branco conquista o prêmio Prefeito Inovador 2026 no Congresso Paranaense de Cidades Digitais",
+    "description": "Município se destaca no 11º Congresso Paranaense de Cidades Digitais e Inteligentes ao receber prêmio e apresentar seu ecossistema de inovação para líderes de todo o Estado.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "10 de Agosto de 2026",
+    "content": [
+        "Pato Branco reafirmou seu papel de liderança em gestão pública e tecnologia ao conquistar o prestigiado reconhecimento de Prefeito Inovador 2026, concedido durante o 11º Congresso Paranaense de Cidades Digitais e Inteligentes, realizado em São José dos Pinhais.",
+        "O evento reuniu gestores e lideranças de mais de 130 prefeituras do Estado para debater o futuro da gestão pública, inovação e cidades inteligentes, posicionando Pato Branco como um dos grandes destaques da programação.",
+        "Além do prêmio recebido, a Secretaria Municipal de Ciência, Tecnologia e Inovação (SMCTI) participou como painelista do evento, apresentando o modelo do Ecossistema de Inovação de Pato Branco e sua integração de sucesso entre poder público, empresas, universidades e a sociedade civil.",
+        "A conquista consolida a atuação do município no desenvolvimento de soluções tecnológicas aplicadas aos serviços públicos, reforçando o uso de planejamento estratégico e geotecnologia na modernização da cidade.",
+        "O reconhecimento atesta o compromisso contínuo de Pato Branco em construir um ambiente inteligente e sustentável, servindo de inspiração para outras cidades paranaenses."
+    ],
+    "images": [
+        "",
+        "/assets/images/news/prefeito_inovador_Rossi.jpg",
+        "",
+        "",
+        "/assets/images/news/prefeito_inovador_certificado.jpg"
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
+    {
+    "id": "visita-estudantes-cepb",
+    "image": "/assets/images/news/visita_cepb1.jpg",
+    "title": "Estudantes do Colégio Estadual de Pato Branco visitam o Parque Tecnológico",
+    "description": "Turma de Administração conheceu de perto o ecossistema local de inovação, explorando conexões entre tecnologia, empreendedorismo e futuro.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "10 de Agosto de 2026",
+    "moreInfo": {
+        "label": "Para saber mais acesse:",
+        "url": "https://www.instagram.com/parquetecpatobranco"
+    },
+    "content": [
+        "A Secretaria Municipal de Ciência, Tecnologia e Inovação (SMCTI) recebeu no Parque Tecnológico os estudantes da turma de Administração do Colégio Estadual de Pato Branco para uma visita guiada focada em aprendizado e troca de experiências.",
+        "Durante a vivência, os alunos puderam conhecer a estrutura do ecossistema de inovação de Pato Branco e compreender como a tecnologia, a criatividade e o empreendedorismo atuam de forma integrada na transformação regional.",
+        "Além de apresentar as empresas e iniciativas abrigadas no espaço, a atividade buscou inspirar os jovens ao demonstrar, na prática, como o Parque Tecnológico funciona como um hub de conexão de pessoas, ideias e novas oportunidades de carreira.",
+        "A aproximação entre instituições de ensino e o Parque Tecnológico reforça o compromisso do município em despertar novos talentos e preparar os estudantes para as demandas do mercado de trabalho e do empreendedorismo inovador.",
+        "A SMCTI e a equipe do Parque Tecnológico agradeceram a presença dos alunos e educadores do Colégio Estadual de Pato Branco, reiterando que as portas estão sempre abertas para a comunidade escolar."
+    ],
+    "images": [
+        "",
+        "/assets/images/news/visita_cepb2.jpg",
+        "",
+        "/assets/images/news/visita_cepb3.jpg"
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
+    {
     "id": "caca-ao-tesouro-dia-dos-pais-smcti-patotech-2026",
     "image": "/assets/images/news/caca_ao_tesouro.png",
     "title": "SMCTI e PatoTech lançam Caça ao Tesouro de Dia dos Pais com patinho colecionável",
