@@ -1,5 +1,27 @@
 [
   {
+  "id": "reconhecimento-prefeito-inovador",
+  "image": "/assets/images/news/prefeito_inovador_geral.jpg",
+  "title": "Pato Branco conquista o prêmio Prefeito Inovador 2026 no Congresso Paranaense de Cidades Digitais",
+  "description": "Município se destaca no 11º Congresso Paranaense de Cidades Digitais e Inteligentes ao receber prêmio e apresentar seu ecossistema de inovação para líderes de todo o Estado.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "10/08/2026",
+  "isNotOpen": false,
+  "link": "/noticias/reconhecimento-prefeito-inovador",
+  "category": "Inovação"
+  },
+  {
+  "id": "visita-estudantes-cepb",
+  "image": "/assets/images/news/visita_cepb1.jpg",
+  "title": "Estudantes do Colégio Estadual de Pato Branco visitam o Parque Tecnológico",
+  "description": "Turma de Administração conheceu de perto o ecossistema local de inovação, explorando conexões entre tecnologia, empreendedorismo e futuro.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "10/08/2026",
+  "isNotOpen": false,
+  "link": "/noticias/visita-estudantes-cepb",
+  "category": "Visita"
+  },
+  {
   "id": "caca-ao-tesouro-dia-dos-pais-smcti-patotech-2026",
   "image": "/assets/images/news/caca_ao_tesouro.png",
   "title": "SMCTI e PatoTech lançam Caça ao Tesouro de Dia dos Pais com patinho colecionável",
