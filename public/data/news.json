@@ -1,13 +1,24 @@
 [
   {
-  "id": "reconhecimento-prefeito-inovador",
+  "id": "workshop-robotica-lego-2026",
+  "image": "/assets/images/news/workshop_robotica.png",
+  "title": "Workshop de Robótica LEGO reúne pais e filhos em edição especial de Dia dos Pais",
+  "description": "Atividade promovida no Parque Tecnológico colocou famílias para construir e programar robôs juntas, unindo aprendizado prático e fortalecimento de laços.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "11/08/2026",
+  "isNotOpen": false,
+  "link": "/noticias/workshop-robotica-lego-2026",
+  "category": "Eventos"
+  },
+  {
+  "id": "reconhecimento-prefeito-inovador-2026",
   "image": "/assets/images/news/prefeito_inovador_geral.jpg",
   "title": "Pato Branco conquista o prêmio Prefeito Inovador 2026 no Congresso Paranaense de Cidades Digitais",
   "description": "Município se destaca no 11º Congresso Paranaense de Cidades Digitais e Inteligentes ao receber prêmio e apresentar seu ecossistema de inovação para líderes de todo o Estado.",
   "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
   "datePosted": "10/08/2026",
   "isNotOpen": false,
-  "link": "/noticias/reconhecimento-prefeito-inovador",
+  "link": "/noticias/reconhecimento-prefeito-inovador-2026",
   "category": "Inovação"
   },
   {
