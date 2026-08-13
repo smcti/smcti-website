@@ -1,5 +1,92 @@
 [
-    
+    {
+    "id": "curso-introducao-robotica-arduino-utfpr-smcti-2026",
+    "image": "/assets/images/news/banner_arduino.png",
+    "title": "Inscrições abertas para o curso gratuito de Introdução à Robótica com Arduino",
+    "description": "Capacitação gratuita oferecida pela UTFPR e SMCTI via PatoTech ensina sensores, atuadores e programação de robôs aos sábados na UTFPR Pato Branco.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "13 de Agosto de 2026",
+    "moreInfo": {
+        "label": "Para saber mais acesse:",
+        "url": "https://patobranco.tec.br/patotech"
+    },
+    "content": [
+        "Estão abertas as inscrições para o curso gratuito de Introdução à Robótica com Arduino, promovido pela Universidade Tecnológica Federal do Paraná (UTFPR) em parceria com a Secretaria Municipal de Ciência, Tecnologia e Inovação (SMCTI), por meio da PatoTech.",
+        "A formação tem como objetivo ensinar conceitos fundamentais e práticos de robótica, abrangendo o funcionamento e utilização de sensores, atuadores, técnicas de programação com a plataforma Arduino e a montagem de projetos robóticos completos.",
+        "As aulas começam no dia 29 de agosto de 2026 e serão realizadas aos sábados, das 8h às 12h, nas dependências da UTFPR – Câmpus Pato Branco.",
+        "A iniciativa reforça a parceria entre o meio acadêmico e o poder público para democratizar o acesso ao ensino tecnológico no município, preparando os participantes para os desafios da inovação.",
+        "O curso é totalmente gratuito e conta com vagas limitadas. Os interessados devem garantir a sua participação realizando a inscrição o quanto antes pelos canais da PatoTech."
+    ],
+    "link": {
+    "text": "Para saber mais acesse",
+    "url": "https://patobranco.tec.br/patotech"
+    },
+    "images": [
+        "",
+        "",
+        ""
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
+    {
+    "id": "visita-guto-silva-parque-tecnologico-itecpb-2026",
+    "image": "/assets/images/news/guto_silva_geral.webp",
+    "title": "Guto Silva visita o Parque Tecnológico para bate-papo sobre inovação e desenvolvimento regional",
+    "description": "A SMCTI e a ITECPB receberam Guto Silva para um diálogo aberto com empreendedores incubados e a comunidade sobre o futuro do ecossistema de inovação.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "13 de Agosto de 2026",
+    "content": [
+        "O Parque Tecnológico de Pato Branco recebeu a visita de Guto Silva para um bate-papo especial sobre inovação, desenvolvimento regional e os novos desafios do ecossistema tecnológico. A iniciativa foi promovida pela Secretaria Municipal de Ciência, Tecnologia e Inovação (SMCTI) com apoio da Incubadora Tecnológica de Pato Branco (ITECPB).",
+        "O encontro reuniu empreendedores das empresas incubadas, lideranças locais e membros da comunidade em um espaço de diálogo aberto e escuta ativa. Na ocasião, foram debatidas estratégias para fortalecer o ambiente de negócios e ampliar o impacto da inovação na região.",
+        "A visita destacou a relevância de conectar pessoas e ideias para impulsionar o ecossistema tecnológico local, além de proporcionar uma rica troca de experiências entre os participantes e o convidado.",
+        "A equipe da SMCTI e da ITECPB agradeceu a presença de Guto Silva pelas contribuições e ideias compartilhadas com os empreendedores e gestores do Parque Tecnológico.",
+        "Para quem não pôde acompanhar ao vivo ou deseja rever o debate na íntegra, a gravação completa do evento está disponível no canal do YouTube."
+    ],
+    "link": {
+    "text": "Acesse o vído completo",
+    "url": "https://www.youtube.com/watch?v=yypu0F7btbk"
+    },
+    "images": [
+        "/assets/images/news/visita_guto_geri.webp",
+        "",
+        "/assets/images/news/visita_guto_silva.webp"
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
+    {
+    "id": "curso-ia-para-negocios-smcti-senac-2026",
+    "image": "/assets/images/news/curso_ia_2026.png",
+    "title": "Inscrições abertas para o curso prático de IA para Negócios no Parque Tecnológico",
+    "description": "Formação presencial promovida pela SMCTI e SENAC ensina a aplicar Inteligência Artificial no cotidiano empresarial para otimizar processos em Marketing, Vendas, RH e Finanças.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "13 de Agosto de 2026",
+    "content": [
+        "Estão abertas as inscrições para o curso 'IA para Negócios', uma capacitação 100% prática desenvolvida em parceria entre a Secretaria Municipal de Ciência, Tecnologia e Inovação (SMCTI) e o SENAC. As aulas têm início neste sábado, 15 de agosto de 2026.",
+        "O curso foi projetado para profissionais e empreendedores que buscam automatizar processos, melhorar a tomada de decisões e aumentar a produtividade no dia a dia do mercado de trabalho por meio de ferramentas como ChatGPT, Midjourney e outras soluções de IA.",
+        "Durante a formação, os alunos aprenderão a aplicar a tecnologia em setores fundamentais como Marketing, Vendas, Atendimento ao Cliente, Recursos Humanos e Gestão Financeira.",
+        "As aulas presenciais somam uma carga horária total de 15 horas e acontecerão aos sábados, das 09h00 às 12h00, na sede do Parque Tecnológico de Pato Branco (R. Lídio Oltramari, 1628 - Fraron).",
+        "Para participar, os pré-requisitos são ter idade mínima de 16 anos e o 5º ano do Ensino Fundamental concluído. Como as vagas são limitadas, os interessados devem garantir a inscrição o quanto antes por meio dos canais digitais do Parque Tecnológico."
+    ],
+   "link": {
+    "text": "Para saber mais acesse",
+    "url": "https://patobranco.tec.br/patotech"
+    },
+    "images": [
+        "",
+        "",
+        ""
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
     {
     "id": "workshop-robotica-lego-2026",
     "image": "/assets/images/news/workshop_robotica.png",
@@ -26,7 +113,7 @@
     },
     {
     "id": "reconhecimento-prefeito-inovador-2026",
-    "image": "/assets/images/news/prefeito_inovador_geral.jpg",
+    "image": "../assets/images/news/prefeito_inovador_geral.jpg",
     "title": "Pato Branco conquista o prêmio Prefeito Inovador 2026 no Congresso Paranaense de Cidades Digitais",
     "description": "Município se destaca no 11º Congresso Paranaense de Cidades Digitais e Inteligentes ao receber prêmio e apresentar seu ecossistema de inovação para líderes de todo o Estado.",
     "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
@@ -40,10 +127,10 @@
     ],
     "images": [
         "",
-        "/assets/images/news/prefeito_inovador_Rossi.jpg",
+        "../assets/images/news/prefeito_inovador_Rossi.jpg",
         "",
         "",
-        "/assets/images/news/prefeito_inovador_certificado.jpg"
+        "../assets/images/news/prefeito_inovador_certificado.jpg"
     ],
     "gallery": [
         "",
