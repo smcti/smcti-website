@@ -1,5 +1,37 @@
 [
-  
+  {
+  "id": "curso-introducao-robotica-arduino-utfpr-smcti-2026",
+  "image": "/assets/images/news/banner_arduino.png",
+  "title": "Inscrições abertas para o curso gratuito de Introdução à Robótica com Arduino",
+  "description": "Capacitação gratuita oferecida pela UTFPR e SMCTI via PatoTech ensina sensores, atuadores e programação de robôs aos sábados na UTFPR Pato Branco.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "13/08/2026",
+  "isNotOpen": false,
+  "link": "/noticias/curso-introducao-robotica-arduino-utfpr-smcti-2026",
+  "category": "Capacitação"
+  },
+  {
+  "id": "visita-guto-silva-parque-tecnologico-itecpb-2026",
+  "image": "/assets/images/news/guto_silva_geral.webp",
+  "title": "Guto Silva visita o Parque Tecnológico para bate-papo sobre inovação e desenvolvimento regional",
+  "description": "A SMCTI e a ITECPB receberam Guto Silva para um diálogo aberto com empreendedores incubados e a comunidade sobre o futuro do ecossistema de inovação.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "13/08/2026",
+  "isNotOpen": false,
+  "link": "/noticias/visita-guto-silva-parque-tecnologico-itecpb-2026",
+  "category": "Eventos"
+  },
+  {
+  "id": "curso-ia-para-negocios-smcti-senac-2026",
+  "image": "/assets/images/news/curso_ia_2026.png",
+  "title": "Inscrições abertas para o curso prático de IA para Negócios no Parque Tecnológico",
+  "description": "Formação presencial promovida pela SMCTI e SENAC ensina a aplicar Inteligência Artificial no cotidiano empresarial para otimizar processos em Marketing, Vendas, RH e Finanças.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "13/08/2026",
+  "isNotOpen": false,
+  "link": "/noticias/curso-ia-para-negocios-smcti-senac-2026",
+  "category": "Capacitação"
+  },
   {
   "id": "workshop-robotica-lego-2026",
   "image": "/assets/images/news/workshop_robotica.png",
