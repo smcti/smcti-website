@@ -113,7 +113,7 @@
     },
     {
     "id": "reconhecimento-prefeito-inovador-2026",
-    "image": "../assets/images/news/prefeito_inovador_geral.jpg",
+    "image": "../assets/images/news/prefeito_geral.jpg",
     "title": "Pato Branco conquista o prêmio Prefeito Inovador 2026 no Congresso Paranaense de Cidades Digitais",
     "description": "Município se destaca no 11º Congresso Paranaense de Cidades Digitais e Inteligentes ao receber prêmio e apresentar seu ecossistema de inovação para líderes de todo o Estado.",
     "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
@@ -127,10 +127,10 @@
     ],
     "images": [
         "",
-        "../assets/images/news/prefeito_inovador_Rossi.jpg",
+        "../assets/images/news/prefeito_Rossi.jpg",
         "",
         "",
-        "../assets/images/news/prefeito_inovador_certificado.jpg"
+        "../assets/images/news/prefeito_certificado.jpg"
     ],
     "gallery": [
         "",
