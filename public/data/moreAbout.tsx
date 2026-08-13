@@ -1066,57 +1066,122 @@ export const moreAbout = [
     ),
   },
   {
-  id: "29",
-  title: "Workshop de Robótica",
-  benefits: (
-    <>
-      Aprenda robótica de forma prática e divertida em uma atividade para
-      pais e filhos utilizando o LEGO EV3. Desenvolva o raciocínio lógico,
-      a criatividade e o trabalho em equipe por meio da montagem e
-      programação de robôs.
+    id: "29",
+    title: "Introdução à Robótica com Arduino",
+    benefits: (
+      <>
+        Aprenda os fundamentos da robótica de forma prática. Explore o uso de
+        sensores, atuadores e a programação básica do microcontrolador Arduino
+        desenvolvendo projetos reais e estimulando seu raciocínio lógico.
 
-      <br />
-      <br />
+        <br />
+        <br />
 
-      ✓ Conhece os conceitos básicos da robótica educacional<br />
-      ✓ Monta e programa robôs utilizando o LEGO EV3<br />
-      ✓ Desenvolve lógica, criatividade e resolução de problemas<br />
-      ✓ Fortalece a colaboração entre pais e filhos em atividades práticas
-    </>
-  ),
-  description: (
-    <>
-      <strong>Público-alvo:</strong> Pais, responsáveis e crianças interessados em aprender robótica de forma prática
-      <br />
-      <strong>Parceiros:</strong> SMCTI
-      <br />
-      <br />
+        ✓ Compreende os conceitos fundamentais da robótica e eletrônica básica<br />
+        ✓ Aprenda a programar o microcontrolador Arduino do zero<br />
+        ✓ Conecta e manipula sensores e atuadores na prática<br />
+        ✓ Desenvolve lógica de programação, criatividade e resolução de problemas
+      </>
+    ),
+    description: (
+      <>
+        <strong>Público-alvo:</strong> Alunos que estejam cursando ou já tenham concluído o Ensino Médio
+        <br />
+        <strong>Pré-requisitos:</strong> Estar cursando ou ter concluído o Ensino Médio
+        <br />
+        <strong>Parceiros:</strong> SMCTI e UTFPR
+        <br />
+        <strong>Vagas:</strong> 30 vagas
+        <br />
+        <br />
 
-      <strong>Data:</strong> 07/08/2026 as 14:00
-      <br />
-      <strong>Inscrições:</strong> 07/08/2026 as 12:00
-      <br />
-      <strong>Modalidade:</strong> Presencial
-      <br />
-      <strong>Local:</strong> Parque Tecnológico de Pato Branco
-      <br />
-      R. Lídio Oltramari, 1628 - Fraron, Pato Branco - PR, 85503-381
+        <strong>Datas:</strong> 29/08, 12/09, 19/09 e 26/09/2026 (sábados)
+        <br />
+        <strong>Horário:</strong> Das 08:00 às 12:00
+        <br />
+        <strong>Inscrições:</strong> Matrículas abertas
+        <br />
+        <strong>Modalidade:</strong> Presencial
+        <br />
+        <strong>Local:</strong> Universidade Técnologica Federal do Paraná (UTFPR)
+        <br />
+        Via do Conhecimento - KM 01 - Fraron, Pato Branco - PR, 85503-390
 
-      <br />
-      <br />
+        <br />
+        <br />
 
-      <strong>Conteúdo:</strong>
+        <strong>Conteúdo:</strong>
 
-      <ul className="list-disc list-inside px-4">
-        <li>Introdução à robótica educacional.</li>
-        <li>Conhecendo os componentes do LEGO Mindstorms EV3.</li>
-        <li>Montagem de um robô utilizando o kit LEGO EV3.</li>
-        <li>Noções básicas de programação por blocos.</li>
-        <li>Sensores e atuadores: funcionamento e aplicações.</li>
-        <li>Desafios práticos de movimentação e automação.</li>
-        <li>Trabalho em equipe entre pais e filhos para resolução de desafios.</li>
-      </ul>
-    </>
-  ),
-},
+        <ul className="list-disc list-inside px-4">
+          <li>Introdução aos conceitos de robótica e automação.</li>
+          <li>Fundamentos de eletrônica básica aplicada à robótica.</li>
+          <li>Programação básica de microcontroladores.</li>
+          <li>Uso de sensores (presença, luz, distância) e leitura de dados.</li>
+          <li>Controle de atuadores (motores, servos e acionamentos).</li>
+          <li>Desenvolvimento e montagem de projetos práticos integrados.</li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    id: "30",
+    title: "Fundamentos de Python",
+    benefits: (
+      <>
+        Este é o ponto de partida ideal para quem nunca programou ou possui pouca
+        experiência. O curso ensina os conceitos fundamentais da lógica de
+        programação e da linguagem Python de forma descomplicada e prática.
+
+        <br />
+        <br />
+
+        ✓ Domina os conceitos iniciais e a lógica de programação<br />
+        ✓ Escreve seus primeiros scripts e códigos em Python<br />
+        ✓ Aprende a manipular variáveis e comandos de entrada e saída<br />
+        ✓ Aplica estruturas condicionais e laços de repetição em problemas reais
+      </>
+    ),
+    description: (
+      <>
+        <strong>Público-alvo:</strong> Alunos do Ensino Médio que desejam iniciar na área de programação
+        <br />
+        <strong>Parceiros:</strong> SMCTI e UTFPR
+        <br />
+        <strong>Vagas:</strong> 30 vagas por turma
+        <br />
+        <br />
+
+        <strong>Turmas Disponíveis:</strong>
+        <br />
+        • <strong>Turma 1 (Sábados - Manhã):</strong> 29/08, 12/09, 19/09, 26/09, 03/10 e 17/10/2026, das 08:00 às 12:00
+        <br />
+        • <strong>Turma 2 (Sextas - Noite):</strong> 28/08, 11/09, 18/09, 25/09, 02/10 e 16/10/2026, das 18:30 às 22:30
+        <br />
+        <br />
+
+        <strong>Inscrições:</strong> Matrículas abertas
+        <br />
+        <strong>Modalidade:</strong> Presencial
+        <br />
+        <strong>Local:</strong> Universidade Técnologica Federal do Paraná (UTFPR)
+        <br />
+        Via do Conhecimento - KM 01 - Fraron, Pato Branco - PR, 85503-390
+
+        <br />
+        <br />
+
+        <strong>Conteúdo:</strong>
+
+        <ul className="list-disc list-inside px-4">
+          <li>Introdução à lógica de programação e ao ecossistema Python.</li>
+          <li>Instalação e configuração do ambiente de desenvolvimento (IDE).</li>
+          <li>Sintaxe básica da linguagem e boas práticas de código.</li>
+          <li>Variáveis, tipos de dados (números, textos, booleanos) e operadores.</li>
+          <li>Comandos de saída (print) e entrada de dados (input).</li>
+          <li>Estruturas condicionais e tomada de decisão (if, elif, else).</li>
+          <li>Laços de repetição (for, while) e controle de fluxo.</li>
+        </ul>
+      </>
+    ),
+  },
 ];
