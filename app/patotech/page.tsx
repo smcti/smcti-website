@@ -332,6 +332,23 @@ const featuredCourses = [
     highlight: "Programação",
     passphrase: "",
   },
+  {
+    id: "31",
+    image: "/assets/images/cursos/banner_senac_java.jpg",
+    title: "Programação em Java",
+    description:
+      "Desenvolva programas orientados a objetos na linguagem Java. Aprenda a configurar o ambiente de desenvolvimento, aplicar os conceitos essenciais da orientação a objetos, testar códigos e tratar erros utilizando as melhores práticas do mercado.",
+    partners: "SMCTI e Senac",
+    location: "Parque Tecnológico de Pato Branco",
+    link: "https://www.pr.senac.br/cursos/?uep=9&tc=202600135",
+    date: "18:30 às 22:30",
+    enrollmentDate: "Matrículas abertas",
+    startDate: "12/11/2026",
+    category: "Programação" as CourseCategory,
+    modality: "Presencial" as CourseModality,
+    highlight: "Senac",
+    passphrase: "",
+  },
 ];
 
 type FeaturedCourse = (typeof featuredCourses)[number];

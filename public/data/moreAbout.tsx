@@ -1184,4 +1184,63 @@ export const moreAbout = [
       </>
     ),
   },
+  {
+    id: "31",
+    title: "Programação em Java",
+    benefits: (
+      <>
+        Aprenda a criar aplicações robustas utilizando a linguagem Java, uma das
+        mais populares do mercado. O curso aborda desde a configuração do ambiente
+        até a implementação dos conceitos fundamentais de Orientação a Objetos.
+
+        <br />
+        <br />
+
+        ✓ Configura ambientes de desenvolvimento Java (IDEs e JDK)<br />
+        ✓ Domina os pilares e conceitos da Programação Orientada a Objetos<br />
+        ✓ Escreve, testa e depura códigos tratando erros e exceções<br />
+        ✓ Aplica boas práticas de programação adotadas pela indústria
+      </>
+    ),
+    description: (
+      <>
+        <strong>Requisitos</strong> Idade mínima de 15 anos completos, estar cursando a partir do 1º ano do Ensino Médio e possuir conhecimentos em editores de texto, planilhas eletrônicas e lógica de programação.
+        <br />
+        <strong>Carga horária:</strong> 36h
+        <br />
+        <strong>Parceiros:</strong> SMCTI
+        <br />
+        <strong>Vagas:</strong> 20 vagas
+        <br />
+        <br />
+        
+
+        <strong>Período:</strong> 12/11/2026 a 10/12/2026
+        <br />
+        <strong>Horário:</strong> 18:30 às 22:30
+        <br />
+        <strong>Inscrições:</strong> Matrículas abertas
+        <br />
+        <strong>Modalidade:</strong> Presencial
+        <br />
+        <u>Local do curso:</u> Parque Tecnológico de Pato Branco
+        <br />
+        R. Lídio Oltramari, 1628 - Fraron, Pato Branco - PR, 85503-381
+        <br />
+
+        <br />
+        <br />
+
+        <strong>Conteúdo:</strong>
+
+        <ul className="list-disc list-inside px-4">
+          <li>Instalação e configuração do ambiente de desenvolvimento (JDK e IDE), conforme especificações do sistema.</li>
+          <li>Conceitos fundamentais da linguagem Java e sua sintaxe.</li>
+          <li>Desenvolvimento de programas utilizando os conceitos da Orientação a Objetos.</li>
+          <li>Testes de códigos desenvolvidos em Java e tratamento de erros e exceções.</li>
+          <li>Aplicação de boas práticas e padrões de programação adotados pelo mercado.</li>
+        </ul>
+      </>
+    ),
+  },
 ];
