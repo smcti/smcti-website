@@ -1,5 +1,16 @@
 [
   {
+  "id": "curso-fundamentos-python-utfpr-smcti-2026",
+  "image": "/assets/images/news/banner_python.png",
+  "title": "Inscrições abertas para o curso gratuito de Fundamentos de Python",
+  "description": "Capacitação presencial e gratuita realizada na UTFPR ensina lógica de programação e linguagem Python aos sábados.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "17/08/2026",
+  "isNotOpen": false,
+  "link": "/noticias/curso-fundamentos-python-utfpr-smcti-2026",
+  "category": "Capacitação"
+  },
+  {
   "id": "curso-introducao-robotica-arduino-utfpr-smcti-2026",
   "image": "/assets/images/news/banner_arduino.png",
   "title": "Inscrições abertas para o curso gratuito de Introdução à Robótica com Arduino",

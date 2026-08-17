@@ -1,5 +1,33 @@
 [
     {
+    "id": "curso-fundamentos-python-utfpr-smcti-2026",
+    "image": "/assets/images/news/banner_python.png",
+    "title": "Inscrições abertas para o curso gratuito de Fundamentos de Python",
+    "description": "Capacitação presencial e gratuita realizada na UTFPR ensina lógica de programação e linguagem Python aos sábados.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "17 de Agosto de 2026",
+    "content": [
+        "Estão abertas as inscrições para o curso presencial e gratuito de Fundamentos de Python, promovido em parceria pela Secretaria Municipal de Ciência, Tecnologia e Inovação (SMCTI), por meio da PatoTech, e pela UTFPR.",
+        "A formação é voltada para quem deseja dar os primeiros passos na área de desenvolvimento de software, apresentando os conceitos básicos da linguagem Python, lógica de programação e suas aplicações práticas nas tecnologias do cotidiano.",
+        "As aulas começam no dia 29 de agosto de 2026 e serão ministradas aos sábados, das 8h às 12h, nas instalações do Bloco V do Câmpus da UTFPR em Pato Branco.",
+        "O curso busca capacitar novos talentos locais, oferecendo uma base sólida para quem deseja ingressar no mercado de tecnologia e inovação.",
+        "As vagas são limitadas e as inscrições já podem ser realizadas de forma totalmente gratuita pelo portal oficial da PatoTech."
+    ],
+    "link": {
+    "text": "Para saber mais acesse",
+    "url": "https://patobranco.tec.br/patotech"
+    },
+    "images": [
+        "",
+        "",
+        ""
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
+    {
     "id": "curso-introducao-robotica-arduino-utfpr-smcti-2026",
     "image": "/assets/images/news/banner_arduino.png",
     "title": "Inscrições abertas para o curso gratuito de Introdução à Robótica com Arduino",
