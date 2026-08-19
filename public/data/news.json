@@ -1,5 +1,16 @@
 [
   {
+  "id": "visita-estudantes-colegio-estadual-parque-tecnologico-agosto-2026",
+  "image": "/assets/images/news/visita_CEPB_geral.webp",
+  "title": "Parque Tecnológico recebe estudantes do Colégio Estadual de Pato Branco",
+  "description": "Estudantes visitaram o ecossistema de inovação para conhecer as instalações e aprender na prática sobre tecnologia e futuro.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "19/08/2026",
+  "isNotOpen": false,
+  "link": "/noticias/visita-estudantes-colegio-estadual-parque-tecnologico-agosto-2026",
+  "category": "Visita"
+  },
+  {
   "id": "curso-fundamentos-python-utfpr-smcti-2026",
   "image": "/assets/images/news/banner_python.png",
   "title": "Inscrições abertas para o curso gratuito de Fundamentos de Python",
@@ -30,7 +41,7 @@
   "datePosted": "13/08/2026",
   "isNotOpen": false,
   "link": "/noticias/visita-guto-silva-parque-tecnologico-itecpb-2026",
-  "category": "Eventos"
+  "category": "Visita"
   },
   {
   "id": "curso-ia-para-negocios-smcti-senac-2026",

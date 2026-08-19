@@ -1,5 +1,29 @@
 [
     {
+    "id": "visita-estudantes-colegio-estadual-parque-tecnologico-agosto-2026",
+    "image": "/assets/images/news/visita_CEPB_geral.webp",
+    "title": "Parque Tecnológico recebe estudantes do Colégio Estadual de Pato Branco",
+    "description": "Alunos e professores visitaram o ecossistema de inovação para conhecer as instalações e aprender na prática sobre tecnologia e futuro.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "19 de Agosto de 2026",
+    "content": [
+        "O Parque Tecnológico de Pato Branco vivenciou uma tarde especial voltada ao aprendizado e à inspiração ao receber os estudantes e professores do Colégio Estadual de Pato Branco.",
+        "A visita teve como objetivo aproximar os jovens do ecossistema local de inovação, permitindo que eles conhecessem de perto as instalações, os projetos desenvolvidos e as oportunidades oferecidas pela tecnologia na transformação do futuro.",
+        "Durante a vivência prática, os alunos puderam interagir com o ambiente de desenvolvimento e compreender o papel da inovação no crescimento pessoal e profissional dentro da comunidade.",
+        "A equipe da Secretaria Municipal de Ciência, Tecnologia e Inovação (SMCTI) agradeceu a presença e a energia contagiante de todos os estudantes e educadores, reforçando que o Parque Tecnológico está de portas abertas para novas visitas da comunidade escolar."
+    ],
+    "images": [
+        "",
+        "/assets/images/news/visita_CEPB_Nelito.jpg",
+        "",
+        "/assets/images/news/visita_CEPB_Alonso.jpg"
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
+    {
     "id": "curso-fundamentos-python-utfpr-smcti-2026",
     "image": "/assets/images/news/banner_python.png",
     "title": "Inscrições abertas para o curso gratuito de Fundamentos de Python",
