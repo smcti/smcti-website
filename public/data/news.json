@@ -1,5 +1,27 @@
 [
   {
+  "id": "parceria-smcti-secretaria-de-saude-projetos-tecnologicos-2026",
+  "image": "/assets/images/news/reuniao_secretaria_saude.jpeg",
+  "title": "SMCTI e Secretaria de Saúde se reúnem para estruturar projetos tecnológicos na rede municipal",
+  "description": "Encontro no Parque Tecnológico realizou o levantamento das principais demandas da saúde pública para o desenvolvimento de soluções tecnológicas sob medida.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "21/08/2026",
+  "isNotOpen": false,
+  "link": "/noticias/parceria-smcti-secretaria-de-saude-projetos-tecnologicos-2026",
+  "category": "Inovação"
+  },
+  {
+  "id": "acoes-sustentabilidade-inventum-2026",
+  "image": "/assets/images/news/reuniao_sustentabilidade.jpeg",
+  "title": "SMCTI alinha metas de sustentabilidade para a Inventum 2026 no Parque Tecnológico",
+  "description": "Reunião definiu diretrizes para integrar tecnologia, inovação e preservação ambiental na construção de uma feira sustentável e com impacto positivo.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "21/08/2026",
+  "isNotOpen": false,
+  "link": "/noticias/acoes-sustentabilidade-inventum-2026",
+  "category": "Inovação"
+  },
+  {
   "id": "visita-estudantes-colegio-estadual-parque-tecnologico-agosto-2026",
   "image": "/assets/images/news/visita_CEPB_geral.webp",
   "title": "Parque Tecnológico recebe estudantes do Colégio Estadual de Pato Branco",
@@ -19,7 +41,7 @@
   "datePosted": "17/08/2026",
   "isNotOpen": false,
   "link": "/noticias/curso-fundamentos-python-utfpr-smcti-2026",
-  "category": "Capacitação"
+  "category": "Evento"
   },
   {
   "id": "curso-introducao-robotica-arduino-utfpr-smcti-2026",
@@ -30,7 +52,7 @@
   "datePosted": "13/08/2026",
   "isNotOpen": false,
   "link": "/noticias/curso-introducao-robotica-arduino-utfpr-smcti-2026",
-  "category": "Capacitação"
+  "category": "Evento"
   },
   {
   "id": "visita-guto-silva-parque-tecnologico-itecpb-2026",
