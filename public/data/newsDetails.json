@@ -1,5 +1,29 @@
 [
     {
+    "id": "visitas-escolares-regiao-inventum-2026",
+    "image": "/assets/images/news/visita_escolar_inventum_2026.webp",
+    "title": "Equipe da Inventum 2026 inicia circuito de visitas às escolas regionais",
+    "description": "Mobilização convida estudantes, professores e equipes pedagógicas da região para participarem da próxima edição da maior feira de inovação de Pato Branco.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "24 de Agosto de 2026",
+    "content": [
+        "A equipe organizadora da Inventum 2026 deu início ao circuito de visitas às instituições de ensino regionais para convidar oficialmente estudantes, professores e equipes pedagógicas para a próxima edição do evento.",
+        "A ação itinerante visa aproximar a comunidade escolar do ecossistema de inovação de Pato Branco, garantindo a presença e o envolvimento ativo de diversos municípios do Sudoeste na feira.",
+        "Nos próximos dias, a mobilização continuará percorrendo diferentes escolas da região com apresentações, convites e agendamentos para a participação dos alunos na programação da Inventum.",
+        "As instituições de ensino que ainda não receberam a equipe organizadora podem solicitar o agendamento de uma visita entrando em contato diretamente pelos canais e redes sociais oficiais do Parque Tecnológico.",
+        "A iniciativa reforça a missão do evento em inspirar novas gerações, conectar talentos e promover a educação tecnológica de forma inclusiva e abrangente."
+    ],
+    "images": [
+        "/assets/images/news/visita_escolar_inventum_palco_2026.jpg",
+        "",
+        "/assets/images/news/visita_escolar_inventum_patio_2026.jpg"
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
+    {
     "id": "parceria-smcti-secretaria-de-saude-projetos-tecnologicos-2026",
     "image": "/assets/images/news/reuniao_secretaria_saude.jpeg",
     "title": "SMCTI e Secretaria de Saúde se reúnem para estruturar projetos tecnológicos na rede municipal",

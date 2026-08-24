@@ -1,5 +1,16 @@
 [
   {
+  "id": "visitas-escolares-regiao-inventum-2026",
+  "image": "/assets/images/news/visita_escolar_inventum_2026.webp",
+  "title": "Equipe da Inventum 2026 inicia circuito de visitas às escolas regionais",
+  "description": "Mobilização convida estudantes, professores e equipes pedagógicas da região para participarem da próxima edição da maior feira de inovação de Pato Branco.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "24/08/2026",
+  "isNotOpen": false,
+  "link": "/noticias/visitas-escolares-regiao-inventum-2026",
+  "category": "Visita"
+  },
+  {
   "id": "parceria-smcti-secretaria-de-saude-projetos-tecnologicos-2026",
   "image": "/assets/images/news/reuniao_secretaria_saude.jpeg",
   "title": "SMCTI e Secretaria de Saúde se reúnem para estruturar projetos tecnológicos na rede municipal",
