@@ -1095,7 +1095,7 @@ export const moreAbout = [
         <br />
         <br />
 
-        <strong>Datas:</strong> 29/08, 12/09, 19/09 e 26/09/2026 (sábados)
+        <strong>Datas:</strong> 12/09/2026 a 03/10/2026, aos sábados de manhâ
         <br />
         <strong>Horário:</strong> Das 08:00 às 12:00
         <br />
@@ -1151,14 +1151,10 @@ export const moreAbout = [
         <br />
         <br />
 
-        <strong>Turmas Disponíveis:</strong>
+        <strong>Datas:</strong> 12/09/2026 a 24/10/2026, aos sábados de manhâ
         <br />
-        • <strong>Turma 1 (Sábados - Manhã):</strong> 29/08, 12/09, 19/09, 26/09, 03/10 e 17/10/2026, das 08:00 às 12:00
+        <strong>Horário:</strong> Das 08:00 às 12:00
         <br />
-        • <strong>Turma 2 (Sextas - Noite):</strong> 28/08, 11/09, 18/09, 25/09, 02/10 e 16/10/2026, das 18:30 às 22:30
-        <br />
-        <br />
-
         <strong>Inscrições:</strong> Matrículas abertas
         <br />
         <strong>Modalidade:</strong> Presencial
