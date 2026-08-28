@@ -1,5 +1,27 @@
 [
   {
+  "id": "lancamento-oficial-inventum-2026",
+  "image": "/assets/images/news/convite_inventum_2026.png",
+  "title": "Lançamento oficial da Inventum 2026 acontece no dia 1º de setembro",
+  "description": "Comunidade é convidada para o evento aberto ao público no Centro Regional de Eventos, onde serão apresentadas as novidades da 6ª Feira de Ciência, Tecnologia e Inovação.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "28/08/2026",
+  "isNotOpen": false,
+  "link": "/noticias/lancamento-oficial-inventum-2026",
+  "category": "Eventos"
+  },
+  {
+  "id": "jornada-inventum-2026-visitas-escolas-regiao",
+  "image": "/assets/images/news/visita_escolar_inventum_slo_intro.jpeg",
+  "title": "Jornada Inventum 2026: visitas continuam mobilizando estudantes e escolas da região",
+  "description": "Equipe do Parque Tecnológico intensifica agenda nas instituições de ensino para conectar jovens, professores e comunidade ao universo da inovação.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "28/08/2026",
+  "isNotOpen": false,
+  "link": "/noticias/jornada-inventum-2026-visitas-escolas-regiao",
+  "category": "Visita"
+  },
+  {
   "id": "visitas-escolares-regiao-inventum-2026",
   "image": "/assets/images/news/visita_escolar_inventum_2026.webp",
   "title": "Equipe da Inventum 2026 inicia circuito de visitas às escolas regionais",

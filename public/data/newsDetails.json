@@ -1,5 +1,54 @@
 [
     {
+    "id": "lancamento-oficial-inventum-2026",
+    "image": "/assets/images/news/convite_inventum_2026.png",
+    "title": "Lançamento oficial da Inventum 2026 acontece no dia 1º de setembro",
+    "description": "Comunidade é convidada para o evento aberto ao público no Centro Regional de Eventos, onde serão apresentadas as novidades da 6ª Feira de Ciência, Tecnologia e Inovação.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "28 de Agosto de 2026",
+    "content": [
+        "A Prefeitura de Pato Branco, por meio da Secretaria Municipal de Ciência, Tecnologia e Inovação (SMCTI), convida toda a comunidade para o lançamento oficial da Inventum 2026 — a 6ª Feira de Ciência, Tecnologia e Inovação de Pato Branco.",
+        "O encontro de apresentação será realizado no dia 1º de setembro, às 19h, no Centro Regional de Eventos, localizado no Parque de Exposições do município.",
+        "A solenidade é aberta ao público e reunirá lideranças, empresários, estudantes, educadores e moradores para conhecerem em primeira mão os detalhes, a programação e as novidades preparadas para esta edição da feira.",
+        "A Inventum se consolida como um dos maiores eventos de inovação do Paraná, promovendo o ecossistema tecnológico local, aproximando a ciência da sociedade e impulsionando novos negócios regionais.",
+        "Toda a população de Pato Branco e região está convidada a prestigiar o momento e acompanhar o início oficial da jornada da Inventum 2026."
+    ],
+    "images": [
+        "",
+        "",
+        ""
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
+    {
+    "id": "jornada-inventum-2026-visitas-escolas-regiao",
+    "image": "/assets/images/news/visita_escolar_inventum_slo_intro.jpeg",
+    "title": "Jornada Inventum 2026: visitas continuam mobilizando estudantes e escolas da região",
+    "description": "Equipe do Parque Tecnológico intensifica agenda nas instituições de ensino para conectar jovens, professores e comunidade ao universo da inovação.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "28 de Agosto de 2026",
+    "content": [
+        "A jornada rumo à Inventum 2026 segue em ritmo acelerado. A equipe da Secretaria Municipal de Ciência, Tecnologia e Inovação (SMCTI) e do Parque Tecnológico continua na estrada para levar o convite do evento diretamente às salas de aula da região.",
+        "A iniciativa visa engajar estudantes, professores e equipes pedagógicas no ambiente de ciência, tecnologia e educação, integrando a comunidade escolar ao ecossistema regional de inovação antes mesmo da abertura oficial da feira.",
+        "O objetivo das visitas itinerantes é construir a experiência do evento de forma colaborativa com as instituições de ensino, estimulando a vocação científica e o protagonismo jovem nas escolas do Sudoeste paranaense.",
+        "O circuito prosseguirá ao longo dos próximos dias visitando novas cidades e estabelecimentos de ensino públicos e privados.",
+        "As escolas interessadas em receber a caravana da Inventum 2026 podem solicitar o agendamento através das redes sociais do Parque Tecnológico."
+    ],
+    "images": [
+        "",
+        "/assets/images/news/visita_escolar_inventum_slo_patio.jpeg",
+        "",
+        "/assets/images/news/visita_escolar_inventum_slo_apresentacao.jpeg"
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
+    {
     "id": "visitas-escolares-regiao-inventum-2026",
     "image": "/assets/images/news/visita_escolar_inventum_2026.webp",
     "title": "Equipe da Inventum 2026 inicia circuito de visitas às escolas regionais",
@@ -129,10 +178,6 @@
     "description": "Capacitação gratuita oferecida pela UTFPR e SMCTI via PatoTech ensina sensores, atuadores e programação de robôs aos sábados na UTFPR Pato Branco.",
     "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
     "datePosted": "13 de Agosto de 2026",
-    "moreInfo": {
-        "label": "Para saber mais acesse:",
-        "url": "https://patobranco.tec.br/patotech"
-    },
     "content": [
         "Estão abertas as inscrições para o curso gratuito de Introdução à Robótica com Arduino, promovido pela Universidade Tecnológica Federal do Paraná (UTFPR) em parceria com a Secretaria Municipal de Ciência, Tecnologia e Inovação (SMCTI), por meio da PatoTech.",
         "A formação tem como objetivo ensinar conceitos fundamentais e práticos de robótica, abrangendo o funcionamento e utilização de sensores, atuadores, técnicas de programação com a plataforma Arduino e a montagem de projetos robóticos completos.",
@@ -267,10 +312,6 @@
     "description": "Turma de Administração conheceu de perto o ecossistema local de inovação, explorando conexões entre tecnologia, empreendedorismo e futuro.",
     "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
     "datePosted": "10 de Agosto de 2026",
-    "moreInfo": {
-        "label": "Para saber mais acesse:",
-        "url": "https://www.instagram.com/parquetecpatobranco"
-    },
     "content": [
         "A Secretaria Municipal de Ciência, Tecnologia e Inovação (SMCTI) recebeu no Parque Tecnológico os estudantes da turma de Administração do Colégio Estadual de Pato Branco para uma visita guiada focada em aprendizado e troca de experiências.",
         "Durante a vivência, os alunos puderam conhecer a estrutura do ecossistema de inovação de Pato Branco e compreender como a tecnologia, a criatividade e o empreendedorismo atuam de forma integrada na transformação regional.",
