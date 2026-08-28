@@ -8,6 +8,8 @@ import { Providers } from "@/components/providers";
 import AutoLogout from "@/components/common/AutoLogout";
 import { getServerSession } from 'next-auth';
 import { authOptions } from '@/lib/auth';
+import InventumPopup from "@components/common/InventumPopup";
+
 
 export const metadata = {
   icons: [
