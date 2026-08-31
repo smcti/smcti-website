@@ -1,5 +1,16 @@
 [
   {
+  "id": "edital-patrocinadores-expositores-inventum-2026",
+  "image": "/assets/images/news/patrocinadores_inventum_2026.png",
+  "title": "Edital de Chamamento Público para patrocinadores e expositores da Inventum 2026",
+  "description": "Empresas e instituições já podem apresentar propostas para expor marcas e soluções na 6ª Feira de Ciência, Tecnologia e Inovação, que acontece de 4 a 8 de novembro.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "31/08/2026",
+  "isNotOpen": false,
+  "link": "/noticias/edital-patrocinadores-expositores-inventum-2026",
+  "category": "Evento"
+  },
+  {
   "id": "lancamento-oficial-inventum-2026",
   "image": "/assets/images/news/convite_inventum_2026.png",
   "title": "Lançamento oficial da Inventum 2026 acontece no dia 1º de setembro",
@@ -8,7 +19,7 @@
   "datePosted": "28/08/2026",
   "isNotOpen": false,
   "link": "/noticias/lancamento-oficial-inventum-2026",
-  "category": "Eventos"
+  "category": "Evento"
   },
   {
   "id": "jornada-inventum-2026-visitas-escolas-regiao",
