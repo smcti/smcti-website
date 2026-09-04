@@ -1,5 +1,60 @@
 [
   {
+  "id": "inscricoes-expositores-artesanato-inventum-2026",
+  "image": "/assets/images/news/inventum_inscricao_artesanato_2026.png",
+  "title": "Abertas as inscrições para expositores de artesanato na Inventum 2026",
+  "description": "Artesãos locais podem se inscrever até 30 de setembro para expor e comercializar produtos na feira que conecta tradição, economia criativa e inovação.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "04/09/2026",
+  "isNotOpen": false,
+  "link": "/noticias/inscricoes-expositores-artesanato-inventum-2026",
+  "category": "Editais"
+  },
+  {
+  "id": "apresentacoes-culturais-lancamento-inventum-2026",
+  "image": "/assets/images/news/inventum_ginastica1_2026.webp",
+  "title": "Apresentações da AGIPB e BatucAção marcam noite de lançamento da Inventum 2026",
+  "description": "Ginástica Rítmica e grupo de percussão abrilhantaram a solenidade oficial de lançamento da 6ª Feira de Ciência, Tecnologia e Inovação no Centro Regional de Eventos.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "04/09/2026",
+  "isNotOpen": false,
+  "link": "/noticias/apresentacoes-culturais-lancamento-inventum-2026",
+  "category": "Evento"
+  },
+  {
+  "id": "inventum-2026-e-oficialmente-lancada-em-pato-branco",
+  "image": "/assets/images/news/lancamento_inventum_2026.webp",
+  "title": "Inventum 2026 é oficialmente lançada em noite de celebração no Centro Regional de Eventos",
+  "description": "Cerimônia reuniu lideranças, parceiros e comunidade para apresentar a programação e a estrutura da 6ª Feira de Ciência, Tecnologia e Inovação, que acontece de 4 a 8 de novembro.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "04/09/2026",
+  "isNotOpen": false,
+  "link": "/noticias/inventum-2026-e-oficialmente-lancada-em-pato-branco",
+  "category": "Evento"
+  },
+  {
+  "id": "prazo-edital-patrocinadores-expositores-inventum-2026",
+  "image": "/assets/images/news/inventum_parceiros.jpeg",
+  "title": "Inscrições abertas até 18 de setembro para patrocinadores e expositores da Inventum 2026",
+  "description": "Empresas e instituições têm até o meio de setembro para submeterem propostas e garantirem espaço na 6ª Feira de Ciência, Tecnologia e Inovação.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "04/09/2026",
+  "isNotOpen": false,
+  "link": "/noticias/prazo-edital-patrocinadores-expositores-inventum-2026",
+  "category": "Edital"
+  },
+  {
+  "id": "visita-colegio-soror-angelica-recorde-inventum-2026",
+  "image": "/assets/images/news/visita_soror2026.png",
+  "title": "Inventum 2026 bate recorde de participantes em visita ao Colégio Soror Angélica",
+  "description": "Maratona de visitas escolares da SMCTI chega a São Lourenço do Oeste com recepção histórica de alunos e professores na mobilização para a feira.",
+  "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+  "datePosted": "04/09/2026",
+  "isNotOpen": false,
+  "link": "/noticias/visita-colegio-soror-angelica-recorde-inventum-2026",
+  "category": "Visita"
+  },
+  {
   "id": "edital-patrocinadores-expositores-inventum-2026",
   "image": "/assets/images/news/patrocinadores_inventum_2026.png",
   "title": "Edital de Chamamento Público para patrocinadores e expositores da Inventum 2026",
@@ -195,7 +250,7 @@
     "datePosted": "31/07/2026",
     "isNotOpen": false,
     "link": "/noticias/itecpb-credenciamento-cati-2026",
-    "category": "Legislação"
+    "category": "Edital"
   },
   {
     "id": "visita-tyler-group-2026",
