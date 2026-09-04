@@ -7,16 +7,16 @@ import NewsCard from "@components/common/NewsCard";
 import { HiOutlineSearch, HiOutlineX } from "react-icons/hi";
 import { SlidersHorizontal } from "lucide-react";
 
-type Category = "Todos" | "Inovação" | "Evento" | "Visita" |  "Legislação" ;
+type Category = "Todos" | "Inovação" | "Evento" | "Visita" |  "Edital" ;
 
-const CATEGORIES: Category[] = ["Todos", "Inovação", "Evento", "Visita", "Legislação"];
+const CATEGORIES: Category[] = ["Todos", "Inovação", "Evento", "Visita", "Edital"];
 
 const filterStyles: Record<Category, { active: string; inactive: string }> = {
   Todos:      { active: "bg-cello text-white border-cello",             inactive: "border-cello text-cello hover:bg-cello/10" },
   Inovação:   { active: "bg-cyan-600 text-white border-cyan-600",       inactive: "border-cyan-600 text-cyan-700 hover:bg-cyan-50" },
   Evento:     { active: "bg-violet-600 text-white border-violet-600",   inactive: "border-violet-600 text-violet-700 hover:bg-violet-50" },
   Visita:     { active: "bg-emerald-600 text-white border-emerald-600", inactive: "border-emerald-600 text-emerald-700 hover:bg-emerald-50" },
-  Legislação: { active: "bg-amber-600 text-white border-amber-600",     inactive: "border-amber-600 text-amber-700 hover:bg-amber-50" },
+  Edital: { active: "bg-amber-600 text-white border-amber-600",     inactive: "border-amber-600 text-amber-700 hover:bg-amber-50" },
 };
 
 const page = () => {
