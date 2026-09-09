@@ -1,5 +1,77 @@
 [
     {
+    "id": "celinauta-noticias-edital-expositores-patrocinadores-inventum-2026",
+    "image": "/assets/images/news/chamamento_patrocinadores_rosi_2026.png",
+    "title": "Parque Tecnológico apresenta edital para expositores e patrocinadores da Inventum 2026",
+    "description": "Reportagem detalha critérios do edital com estandes gratuitos para expositores e oportunidades de patrocínio para a feira que acontece em novembro.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "09 de Setembro de 2026",
+    "content": [
+        "Em cobertura especial realizada pela TV Celinauta durante o lançamento da Inventum 2026, foram destacados os detalhes do Edital de Chamamento Público para expositores e patrocinadores da 6ª Feira de Ciência, Tecnologia e Inovação de Pato Branco.",
+        "O evento será realizado de 4 a 8 de novembro de 2026 no Centro Regional de Eventos Prefeito Astério Rigon, sob o tema 'Conectando você ao futuro'. As inscrições para o edital seguem abertas gratuitamente até o dia 18 de setembro através do site oficial do evento.",
+        "Em entrevista, o Diretor do Parque Tecnológico, Douglas Enrique Batista, explicou que a participação como expositor não possui custo de espaço ou estande, uma vez que o objetivo da administração pública é incentivar o desenvolvimento das empresas. O principal critério de seleção será a interatividade e a experiência prática que o expositor oferecerá aos visitantes.",
+        "Além disso, a reportagem ressaltou as cotas de patrocínio disponíveis para empresas privadas vincularem suas marcas ao ecossistema de inovação, com investimentos variando de R$ 5.000 a R$ 60.000.",
+        "A edição 2026 já conta com atrações confirmadas na programação, incluindo o 6º Summit Robótica de Combate, Astronomis, Feira de Iniciação Científica, TECSUL e a Arena Startups."
+    ],
+    "images": [
+        "",
+        "/assets/images/news/chamamento_patrocinadores_geral_2026.png",
+        "",
+        "/assets/images/news/chamamento_patrocinadores_douglas_2026.png"
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
+    {
+    "id": "smcti-participa-desfile-independencia-7-de-setembro-2026",
+    "image": "/assets/images/news/desfile_independencia_smcti_2026.jpeg",
+    "title": "SMCTI marca presença no tradicional desfile de 7 de Setembro em Pato Branco",
+    "description": "Secretaria levou a inovação e o ecossistema tecnológico para a avenida em ato de cidadania ao lado das demais secretarias municipais.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "09 de Setembro de 2026",
+    "content": [
+        "A Secretaria Municipal de Ciência, Tecnologia e Inovação (SMCTI) marcou presença no tradicional desfile cívico de 7 de Setembro em Pato Branco, desfilando ao lado das demais secretarias e órgãos da administração municipal.",
+        "A participação na marcha celebrou o compromisso da pasta em aplicar a ciência, a tecnologia e a educação como ferramentas de transformação social e desenvolvimento para toda a comunidade pato-branquense.",
+        "Durante a apresentação na avenida, a equipe reforçou o papel do ecossistema local na construção de uma cidade mais inteligente, sustentável e voltada para as futuras gerações.",
+        "A SMCTI agradeceu a presença de todos os munícipes que prestigiaram o desfile e celebraram o momento de união, patriotismo e cidadania."
+    ],
+    "images": [
+        "",
+        "/assets/images/news/desfile_independencia_smcti_lateral_2026.jpeg",
+        "",
+        "/assets/images/news/desfile_independencia_smcti_frente_2026.jpeg"
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
+    {
+    "id": "caca-ao-patinho-independencia-parque-tecnologico-2026",
+    "image": "/assets/images/news/caca_tesouro_independencia_2026.png",
+    "title": "Parque Tecnológico realiza Caça ao Patinho em comemoração ao 7 de Setembro",
+    "description": "Atividade especial de Independência convida famílias para uma divertida caça ao tesouro com brindes espalhados pelo espaço do Parque Tecnológico.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "09 de Setembro de 2026",
+    "content": [
+        "Em comemoração ao Feriado da Independência do Brasil, o Parque Tecnológico de Pato Branco promoveu nesta segunda-feira, 7 de Setembro, a tradicional atividade recreativa 'Caça ao Patinho'.",
+        "A dinâmica convidou famílias, crianças e membros da comunidade para explorarem o espaço em uma grande caça ao tesouro, onde diversos patinhos de brinquedo foram escondidos pelas áreas externas e de convivência.",
+        "A ação teve como objetivo proporcionar um dia de lazer, integração comunitária e diversão ao ar livre, permitindo que os participantes que encontrassem os objetos os levassem para casa como lembrança.",
+        "A Secretaria Municipal de Ciência, Tecnologia e Inovação (SMCTI) destacou a importância de manter o Parque Tecnológico como um ambiente receptivo para a população, unindo inovação, convivência e eventos para todas as idades."
+    ],
+    "images": [
+        "",
+        "",
+        ""
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
+    {
     "id": "inscricoes-expositores-artesanato-inventum-2026",
     "image": "/assets/images/news/inventum_inscricao_artesanato_2026.png",
     "title": "Abertas as inscrições para expositores de artesanato na Inventum 2026",
