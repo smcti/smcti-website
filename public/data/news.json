@@ -405,5 +405,17 @@
     "isNotOpen": false,
     "link": "/noticias/encerramento-patotech-senac-2026",
     "category": "Evento"
+  },
+    {
+    "id": "pregoes-eletronicos-abertos-2026",
+    "image": "/assets/images/news/",
+    "title": "SMCTI informa pregões eletrônicos abertos",
+    "description": "A Secretaria Municipal de Ciência, Tecnologia e Inovação de Pato Branco informa que estão abertas as licitações para aquisição de arenas de robótica e serviços de infraestrutura para a INVENTUM 2026. Empresas interessadas já podem consultar os editais.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "14/09/2026",
+    "isNotOpen": false,
+    "link": "/noticias/pregoes-eletronicos-abertos-2026",
+    "category": "Inovação"
   }
+
 ]
