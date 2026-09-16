@@ -52,7 +52,7 @@ const Page = () => {
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "instant"});
+    window.scrollTo({ top: 0, behavior: "auto"});
   }, [currentPage]);
 
   const filtered = useMemo(() => {
