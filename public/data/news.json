@@ -1,4 +1,15 @@
 [
+   {
+    "id": "curso-python-inicial",
+    "image": "/assets/images/news/aula2.jpg",
+    "title": "Pato Tech e UTFPR iniciam o curso de Python",
+    "description": "A Secretaria Municipal de Ciência, Tecnologia e Inovação de Pato Branco, por meio da PatoTech e em parceria com a UTFPR, deu início ao Curso de Python. A iniciativa visa capacitar novos talentos na linguagem de programação que movimenta o mercado tecnológico.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "16/09/2026",
+    "isNotOpen": false,
+    "link": "/noticias/curso-python-inicial",
+    "category": "Capacitação"
+  },
     {
     "id": "pregoes-eletronicos-abertos-2026",
     "image": "/assets/images/news/pregoes_eletronicosteste.jpg",
