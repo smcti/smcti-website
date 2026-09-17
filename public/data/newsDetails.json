@@ -1,5 +1,41 @@
 [
     {
+    "id": "curso-robotica-inicial",
+    "type": "image",
+    "src": "/assets/images/news/curso_robotica2.jpg",
+    "alt": "curso_robotica_inicial",
+    "style": {
+        "display": "flex",
+        "width": "100%",
+        "height": "auto",
+        "flexShrink": 0,
+        "objectFit": "contain"
+    },
+    "title": "Pato Tech e UTFPR iniciam o curso de Robótica com Arduino",
+    "description": "A Prefeitura de Pato Branco, por meio da PatoTech e em parceria com a UTFPR, deu início às aulas do Curso de Python. A formação busca capacitar a comunidade e formar novos talentos para o mercado de tecnologia da informação e inovação.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "17 de Setembro de 2026",
+    "content": [
+        "A Prefeitura de Pato Branco, por meio da Secretaria Municipal de Ciência, Tecnologia e Inovação (SMCTI / PatoTech), deu início oficial às aulas do Curso de Robótica com Arduino, realizado em parceria com a Universidade Tecnológica Federal do Paraná (UTFPR).",
+        "O primeiro dia de imersão reuniu uma sala cheia de energia, novos talentos e muita determinação para mergulhar no universo da eletrônica, programação e automação prática.",
+        "A formação tem como objetivo capacitar os participantes para os desafios da transformação digital, estimulando a tecnologia para transformar ideias em projetos reais, fortalecendo a qualificação profissional e o ecossistema tecnológico local.",
+        "Para ficar por dentro dos cursos ofertados, e não perder as próximas inscrições de cursos gratuitos, acompanhe os canais oficiais da Prefeitura e da PatoTech."
+    ],
+     "link": {
+        "text": "Conheça os cursos da PatoTech",
+        "url": "https://patobranco.tec.br/patotech#cursos-disponiveis"
+    },
+    "images": [
+        "/assets/images/news/curso_robotica2.jpg",
+        "",
+        "../assets/images/news/Foto_curso_arduino.jpg"
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
+    {
     "id": "curso-python-inicial",
     "type": "image",
     "src": "/assets/images/news/sem_patrocinio.jpg",

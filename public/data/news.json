@@ -1,4 +1,15 @@
 [
+  {
+    "id": "curso-robotica-inicial",
+    "image": "/assets/images/news/curso_robotica1_copia.jpg",
+    "title": "Pato Tech e UTFPR iniciam o curso de Robótica com Arduino",
+    "description": "A Secretaria Municipal de Ciência, Tecnologia e Inovação de Pato Branco, por meio da PatoTech e em parceria com a UTFPR, deu início ao Curso de Robótica com Arduino. A iniciativa leva os alunos a mergulharem no universo da eletrônica, programação e automação, transformando ideias em projetos reais.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "17/09/2026",
+    "isNotOpen": false,
+    "link": "/noticias/curso-robotica-inicial",
+    "category": "Capacitação"
+  },
    {
     "id": "curso-python-inicial",
     "image": "/assets/images/news/aula2.jpg",
