@@ -1,4 +1,35 @@
 [
+        {
+    "id": "visita-minas",
+    "type": "image",
+    "src": "/assets/images/news/.jpg",
+    "alt": "visita-minas",
+    "style": {
+        "display": "flex",
+        "width": "100%",
+        "height": "auto",
+        "flexShrink": 0,
+        "objectFit": "contain"
+    },
+    "title": "Parque Tecnológico recebe comitiva do Sul de Minas para troca de experiências e parcerias em inovação",
+    "description": "O Parque Tecnológico de Pato Branco recebeu a visita de uma comitiva de representantes do Sul de Minas Gerais para uma agenda focada no fortalecimento de ecossistemas de inovação, troca de experiências e prospecção de parcerias estratégicas regionais.",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "17 de Setembro de 2026",
+    "content": [
+        "A comitiva contou com a presença de lideranças e representantes dos municípios de Itajubá, Lavras, Poços de Caldas, Pouso Alegre, Santa Rita do Sapucaí e Varginha. Durante o encontro, foram apresentadas as principais iniciativas, projetos e a estrutura do ecossistema de tecnologia e inovação mantido no município.",
+        "O encontro proporcionou um espaço de diálogo direto sobre o desenvolvimento tecnológico regional, permitindo o compartilhamento de boas práticas e a discussão de estratégias para conectar ecossistemas e impulsionar a inovação além das fronteiras estaduais.",
+        "A equipe da Secretaria Municipal de Ciência, Tecnologia e Inovação (SMCTI) e do Parque Tecnológico reforçou o compromisso de manter as portas abertas para novas conexões e colaborações com ecossistemas de outras regiões do país."
+    ],
+    "images": [
+        "/assets/images/news/Palestra_visita_minas.jpg",
+        "",
+        "../assets/images/news/Mesa_visita_minas.jpg"
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
     {
     "id": "curso-robotica-inicial",
     "type": "image",
