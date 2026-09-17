@@ -1,4 +1,15 @@
 [
+   {
+    "id": "visita-minas",
+    "image": "/assets/images/news/Pessoas_visita_minas.jpg",
+    "title": "Parque Tecnológico recebe comitiva do Sul de Minas para troca de experiências e parcerias em inovação",
+    "description": "O Parque Tecnológico de Pato Branco recebeu a visita de uma comitiva de representantes do Sul de Minas Gerais para uma agenda focada no fortalecimento de ecossistemas de inovação, troca de experiências e prospecção de parcerias estratégicas regionais.",
+    "datePosted": "17/09/2026",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "isNotOpen": false,
+    "link": "/noticias/visita-minas",
+    "category": "Visita"
+  },
   {
     "id": "curso-robotica-inicial",
     "image": "/assets/images/news/curso_robotica1_copia.jpg",
