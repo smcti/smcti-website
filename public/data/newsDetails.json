@@ -1,5 +1,36 @@
 [
-        {
+    {
+    "id": "inventum-2026-prazo",
+    "type": "image",
+    "src": "/assets/images/news/.jpg",
+    "alt": "inventum-2026-prazo",
+    "style": {
+        "display": "flex",
+        "width": "100%",
+        "height": "auto",
+        "flexShrink": 0,
+        "objectFit": "contain"
+    },
+    "title": "Termina nesta sexta-feira (18) o prazo para cadastramento de patrocinadores e expositores",
+    "description": "Termina nesta sexta-feira (18) o prazo para cadastramento de patrocinadores e expositores",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "18 de Setembro de 2026",
+    "content": [
+        "A Secretaria Municipal de Ciência, Tecnologia e Inovação, ressalta que as propostas devem ser enviadas exclusivamente pelo sistema eletrônico de protocolo do Município. O chamamento contempla empresas, instituições, universidades, startups e organizações interessadas em integrar a programação da feira como expositoras e patrocinadoras.",
+        "As propostas de expositores serão avaliadas por comissão técnica com base em critérios como compatibilidade com os objetivos da INVENTUM, contribuição para a programação, inovação, capacidade de execução e histórico de atuação. Já os patrocinadores serão enquadrados em cotas de acordo com o valor e a modalidade do aporte, recebendo contrapartidas institucionais proporcionais à categoria.",
+        "Entre os dias 21 e 25 de setembro, as propostas serão analisadas, e o resultado preliminar será divulgado no dia 28 de setembro. A homologação final ocorrerá após o período de recursos e dará início à formalização dos participantes selecionados.",
+        "A INVENTUM será realizada de 4 a 8 de novembro, no Centro de Eventos Prefeito Astério Rigon, com expectativa de reunir mais de 100 mil visitantes. A feira reunirá experiências interativas, palestras, competições, oficinas e exposição de soluções desenvolvidas por diferentes setores do ecossistema de inovação."
+    ],
+    "images": [
+        "/assets/images/news/noticia18_09.jpg",
+        ""
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
+    {
     "id": "visita-minas",
     "type": "image",
     "src": "/assets/images/news/.jpg",
