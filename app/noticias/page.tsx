@@ -136,7 +136,7 @@ const Page = () => {
           <HiOutlineSearch
             className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-lg pointer-events-none"
           />
-
+          {/* caixa de texto input para pesquisar noticias */}
           <input
             type="text"
             value={query}
@@ -145,6 +145,7 @@ const Page = () => {
             className="w-full pl-10 pr-10 py-3 rounded-xl border border-gray-200 bg-white shadow-sm text-sm text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cello focus:border-transparent transition"
           />
 
+          {/* botão para limpar pesquisa */}
           {query && (
             <button
               onClick={() => handleSearch("")}
@@ -162,6 +163,7 @@ const Page = () => {
           role="group"
           aria-label="Filtrar notícias por categoria"
         >
+        
           {CATEGORIES.map((cat) => {
             const s = filterStyles[cat];
             const isActive = activeCategory === cat;

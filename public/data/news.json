@@ -1,5 +1,16 @@
 [
-   {
+  {
+    "id": "inventum-2026-prazo",
+    "image": "/assets/images/news/noticia18_09.jpg",
+    "title": "Termina nesta sexta-feira (18) o prazo para cadastramento de patrocinadores e expositores",
+    "description": "O prazo para que patrocinadores e expositores façam o cadastramento para participar da INVENTUM 2026 – 6ª Feira de Ciência, Tecnologia e Inovação de Pato Branco, com base no Edital de Chamamento Público nº 01/2026, termina nesta sexta-feira (18).",
+    "datePosted": "18/09/2026",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "isNotOpen": false,
+    "link": "/noticias/inventum-2026-prazo",
+    "category": "Edital"
+  },
+  {
     "id": "visita-minas",
     "image": "/assets/images/news/Pessoas_visita_minas.jpg",
     "title": "Parque Tecnológico recebe comitiva do Sul de Minas para troca de experiências e parcerias em inovação",
