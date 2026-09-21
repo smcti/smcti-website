@@ -1,5 +1,16 @@
 [
   {
+    "id": "mapcom-alagamento",
+    "image": "/assets/images/news/banner_editado.jpg",
+    "title": "Iniciativa MAPCOM convida comunidade para mapear pontos de alagamento em Pato Branco",
+    "description": "Sua ajuda é fundamental para entendermos e mapearmos os pontos de alagamento! O MAPCOM é uma iniciativa colaborativa da UTFPR, PPGOR e Fundação Araucária, e a sua participação faz toda a diferença para identificar as áreas mais afetadas e buscar soluções eficientes para a comunidade.",
+    "datePosted": "21/09/2026",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "isNotOpen": false,
+    "link": "/noticias/mapcom-alagamento",
+    "category": ""
+  },
+  {
     "id": "inventum-2026-prazo",
     "image": "/assets/images/news/noticia18_09.jpg",
     "title": "Termina nesta sexta-feira (18) o prazo para cadastramento de patrocinadores e expositores",
