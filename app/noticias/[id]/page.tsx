@@ -63,8 +63,7 @@ const Page = ({ params }: PageProps) => {
       <div className="mx-auto flex w-full max-w-5xl flex-col gap-4 text-justify leading-8">
         {article.content.map((paragraph: string, index: number) => (
           <div key={index}>
-            <p>{paragraph}</p>
-
+            <p dangerouslySetInnerHTML={{ __html: paragraph }} />
             {article.images && article.images[index] && (
               <img
                 src={article.images[index]}

@@ -1,5 +1,40 @@
 [
     {
+    "id": "mapcom-alagamento",
+    "type": "image",
+    "src": "/assets/images/news/.jpg",
+    "alt": "",
+    "style": {
+        "display": "flex",
+        "width": "100%",
+        "height": "auto",
+        "flexShrink": 0,
+        "objectFit": "contain"
+    },
+    "title": "Iniciativa MAPCOM convida comunidade para mapear pontos de alagamento em Pato Branco",
+    "description": "",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "datePosted": "de Setembro de 2026",
+    "content": [
+        "A Prefeitura de Pato Branco, por meio da Secretaria Municipal de Ciência, Tecnologia e Inovação, convida a comunidade a participar da iniciativa MAPCOM, um projeto colaborativo voltado ao mapeamento dos pontos de alagamento no município.",
+        "O objetivo da ação é identificar as áreas mais afetadas pelas chuvas para, a partir do engajamento dos moradores, buscar soluções públicas mais eficientes e direcionadas para cada região. A participação da população é fundamental para entender a dimensão dos impactos na infraestrutura urbana.",
+        "O MAPCOM é uma realização em parceria com a Universidade Tecnológica Federal do Paraná (UTFPR), o Programa de Pós-Graduação em Organizações e Desenvolvimento (PPGOR) e a Fundação Araucária.",
+        "Os cidadãos podem colaborar registrando as informações diretamente pelo navegador acessando o site oficial do projeto:"
+    ],
+    "link": {
+        "text": "Site oficial MAPCOM",
+        "url":"https://mapcom.patobranco.workers.dev/"
+    },
+    "images": [
+        "/assets/images/news/foto-mapcom-completa.jpg",
+        ""
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
+    {
     "id": "inventum-2026-prazo",
     "type": "image",
     "src": "/assets/images/news/.jpg",
