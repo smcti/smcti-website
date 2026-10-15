@@ -1,5 +1,35 @@
 [
     {
+    "id": "visita_remanso",
+    "type": "image",
+    "src": "/assets/images/news/Visita_remanso.jpg",
+    "alt": "Visita ao Parque Tecnológico",
+    "style": {
+        "display": "flex",
+        "width": "100%",
+        "height": "auto",
+        "flexShrink": 0,
+        "objectFit": "contain"
+    },
+    "title": "Parque Tecnológico recebe crianças do Remanso da Pedreira para dia de aprendizado e inovação",
+    "description": "",
+    "datePosted": "10 de Outubro de 2026",
+    "content": [
+        "O Parque Tecnológico de Pato Branco recebeu a visita das crianças do Remanso da Pedreira para uma agenda voltada ao aprendizado, curiosidade e novos horizontes. Promovida pelo NEJ com apoio da Secretaria, a ação buscou conectar as crianças à inovação e ao empreendedorismo.",
+        "O futuro da nossa cidade é moldado hoje, unindo tecnologia, educação e oportunidades! A iniciativa reuniu estudantes para um dia especial de aprendizado, curiosidade e novos horizontes no ecossistema de inovação local.",
+        "Essa ação transformadora foi promovida pelo NEJ (Núcleo dos Jovens Empreendedores), contando com o apoio essencial da Secretaria Municipal de Ciência, Tecnologia e Inovação. Quando conectamos nossas crianças à inovação e ao empreendedorismo, mostramos que o conhecimento não tem limites e que o futuro pertence a elas.",
+        ""
+    ],
+    "images": [
+        "/assets/images/news/Visita_remanso.jpg",
+        "/assets/images/news/visita2.jpg"
+    ],
+    "gallery": [
+        "",
+        ""
+    ]
+    },
+    {
     "id": "mapcom-alagamento",
     "type": "image",
     "src": "/assets/images/news/.jpg",

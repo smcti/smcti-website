@@ -1,5 +1,16 @@
 [
   {
+    "id": "visita_remanso",
+    "image": "/assets/images/news/Visita_remanso.jpg",
+    "title": "Parque Tecnológico recebe crianças do Remanso da Pedreira para dia de aprendizado e inovação",
+    "description": "O Parque Tecnológico de Pato Branco recebeu a visita das crianças do Remanso da Pedreira para uma agenda voltada ao aprendizado, curiosidade e novos horizontes. Promovida pelo NEJ com apoio da Secretaria, a ação buscou conectar as crianças à inovação e ao empreendedorismo.",
+    "datePosted": "10/10/2026",
+    "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
+    "isNotOpen": false,
+    "link": "/noticias/visita_remanso",
+    "category": "Visita"
+  },
+  {
     "id": "mapcom-alagamento",
     "image": "/assets/images/news/banner_editado.jpg",
     "title": "Iniciativa MAPCOM convida comunidade para mapear pontos de alagamento em Pato Branco",
@@ -8,7 +19,7 @@
     "partner": "Secretaria Municipal de Ciência, Tecnologia e Inovação",
     "isNotOpen": false,
     "link": "/noticias/mapcom-alagamento",
-    "category": ""
+    "category": "Iniciativa"
   },
   {
     "id": "inventum-2026-prazo",
