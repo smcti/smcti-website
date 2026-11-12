@@ -50,6 +50,7 @@ type CourseBase = {
   isNotOpen: boolean;
   link: string;
   workload?: string | null;
+  carga?: string | null;
 };
 
 const courseCategories = [
