@@ -29,6 +29,7 @@ interface CourseCardProps {
   modality?: string;
   status?: "ongoing" | "unavailable";
   statusLabel?: string;
+  carga?: string | null;
   onNotify?: (courseTitle: string) => void;
 }
 
