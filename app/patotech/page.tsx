@@ -369,7 +369,7 @@ const featuredCourses: FeaturedCourse[] = [
     highlight: "Programação",
     passphrase: "",
   },
-  /*{
+  {
     id: "31",
     image: "/assets/images/cursos/banner_senac_java.jpg",
     title: "Programação em Java - Gratuito",
@@ -378,16 +378,15 @@ const featuredCourses: FeaturedCourse[] = [
     partners: "SMCTI e Senac",
     location: "Parque Tecnológico de Pato Branco",
     link: "https://www.pr.senac.br/cursos/?uep=9&tc=202600135",
-    date: "12/11/2026 a 23/02/2027",
+    date: "17/11/2026 a 30/02/2027",
     carga: "36 horas",
     enrollmentDate: "Matrículas abertas",
-    startDate: "12/11/2026",
-    carga: "",
+    startDate: "17/11/2026",
     category: "Programação",
     modality: "Presencial",
     highlight: "Senac",
     passphrase: "",
-  },*/
+  },
   {
     id: "32",
     image: "/assets/images/cursos/informatica_basica_windows_e_pacote_office.jpg",

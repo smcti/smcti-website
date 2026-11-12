@@ -1204,14 +1204,14 @@ export const moreAbout = [
         <br />
         <strong>Carga horária:</strong> 36h
         <br />
-        <strong>Parceiros:</strong> SMCTI
+        <strong>Parceiros:</strong> SMCTI e Senac
         <br />
         <strong>Vagas:</strong> 20 vagas
         <br />
         <br />
         
 
-        <strong>Período:</strong> 12/11/2026 a 10/12/2026
+        <strong>Período:</strong> 17/11/2026 a 30/02/2027
         <br />
         <strong>Horário:</strong> 18:30 às 22:30
         <br />
@@ -1223,6 +1223,18 @@ export const moreAbout = [
         <br />
         R. Lídio Oltramari, 1628 - Fraron, Pato Branco - PR, 85503-381
         <br />
+        <br />
+
+        <p><strong>OBS:</strong> As aulas NÃO ocorrerão todas as semanas, abaixo segue o cronograma de aulas:</p>
+          <li>17 de Novembro de 2026</li>
+          <li>24 de Novembro de 2026</li>
+          <li>1 de Dezembro de 2026</li>
+          <li>8 de Dezembro de 2026</li>
+          <li>15 de Dezembro de 2026</li>
+          <li>2 de Fevereiro de 2027</li>
+          <li>16 de Fevereiro de 2027</li>
+          <li>23 de Fevereiro de 2027</li>
+          <li>30 de Fevereiro de 2027</li>
 
         <br />
         <br />
@@ -1235,6 +1247,8 @@ export const moreAbout = [
           <li>Desenvolvimento de programas utilizando os conceitos da Orientação a Objetos.</li>
           <li>Testes de códigos desenvolvidos em Java e tratamento de erros e exceções.</li>
           <li>Aplicação de boas práticas e padrões de programação adotados pelo mercado.</li>
+          <br />
+          
         </ul>
       </>
     ),
