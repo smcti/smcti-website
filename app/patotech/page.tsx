@@ -457,7 +457,7 @@ const featuredCourses: FeaturedCourse[] = [
     image: "/assets/images/cursos/aplicacao_de_inteligencia_artificial_para_negocios_AdobeStock.jpg",
     title: "Aplicação de Inteligência Artificial para Negócios - Gratuito",
     description:
-      "Curso gratuito para disponibilizar oportunidades aos participantes conhecimentos relacionados a aplicação da inteligência artificial em empresas.",
+      "Curso gratuito para garantir oportunidades aos participantes conhecimentos relacionados a aplicação da inteligência artificial em empresas.",
     partners: "SMCTI e Senac",
     location: "Unidade Móvel de Inovação e Inteligência Artificial",
     link: "https://www.pr.senac.br/cursos/?uep=9&tc=202600187",
